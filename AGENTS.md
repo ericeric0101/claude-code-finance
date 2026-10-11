@@ -16,6 +16,15 @@ State reporting basis, units, period, missing data and assumptions explicitly.
 Run stock-analysis verify_data, valuation, score, challenge and lint_report.
 Never interpret a linter PASS as independent source verification.
 
+Every stock deliverable starts with BUY / ACCUMULATE / WATCH / AVOID, a brief
+reason, price and as-of date, and an assumption-labelled reasonable buy
+observation range (or `not established`). Apply the common rubric and macro /
+geopolitical event screen in `.agents/skills/my-equity-research/SKILL.md` and
+`docs/recommendation-policy.md`. This is a research classification, not a
+personalized trade instruction. Tie events to the company's disclosed
+exposures, primary sources, and explicit scenarios; do not apply generic
+headline premiums or double-count risk in cashflows and WACC.
+
 Use `uv run --project .agents/skills/finance-skill/scripts python ...` for
 finance utilities. Unknown tickers require a verified numeric CIK.
 Credentials are in ignored `.env`; never print, stage or commit its contents.

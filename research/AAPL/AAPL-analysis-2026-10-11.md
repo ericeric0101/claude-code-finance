@@ -9,6 +9,8 @@
 
 **Interpretation：** Apple 的現金創造與生態系優勢仍有證據。完成現金流正常化與 reinvestment-aware valuation 後，中央假設下 DCF 約 $194、earnings-method cross-check 現值約 $242，均低於 $336.64 參考價格；更樂觀營運與折現率組合可得到約 $360，所以結論是 **目前價格需要較強的成長與資本效率，估值吸引力取決於假設**。基本面信心中等，估值信心中低；不是確定 fair value 或 buy/sell 指令，完整 peer-relative rating 仍未核實。[Updated inputs/results](normalized-valuation-output.json)、[cashflow/valuation review](cashflow-valuation-review.md)。
 
+**Research label：WATCH.** 估值模型不確定性偏高，兩種方法的 base value 有明顯分歧；這是研究分類，不是依你的個人情況作出的下單建議。參考股價 $336.64（2026-10-09 close）。**條件式 DCF 買入觀察參考區間：$155–$175/share**，即 DCF base 約 $194 的 80%–90%；假設包含18% operating tax、十年8% growth、stage ROIIC100%、terminal ROIIC20%、9.56% WACC。Earnings cross-check 對應的80%–90%區間約 $193–$218，差異顯示估值方法／假設尚未收斂；因此更審慎的可執行觀察區間目前 **尚未建立**。若新增資料支持 recurring intangible／AI cash investment、normalized margin 或折現率不同，須重算兩區間，不應只盯 DCF 數字。[Range math and scenarios](normalized-valuation-output.json)。
+
 **Calculation：** 標準權重計算分數原為 6.6/10，歷史應收帳款增速 gate 將分數上限限制為 **6.0/10**；這是依上游 `score.py` 的 pipeline demonstration，**不是已驗證的公司評等**。[評分輸入](score-input.json)、[評分輸出](score-output.json)。
 
 最影響結論的事項：產品與服務組合支撐高現金創造；近期一次性關稅退款不可外推；現價隱含的現金流成長需要多年延續。主要風險是零組件成本／供應限制、平台監管與 Google 授權收入、以及管理層交接執行。[FY2025 10-K Items 1/1A/8](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm)、[最新 10-Q MD&A／Part II](https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm)。
@@ -18,6 +20,8 @@
 Most recent reported period incorporated: **Q3 FY2026，2026-06-27**；SEC 發布／提交日 **2026-07-31**。[最新 10-Q](https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm)。
 
 Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告與文件；不是涵蓋所有新聞或法院卷宗的事件保證。[Filing manifest](filing-manifest.json)、[文件覆核記錄](document-review.md)。最新年度資料仍為 FY2025；取得的 filings inventory 未包含 FY2026 10-K，因此未把前三季當作全年。[SEC submissions](https://data.sec.gov/submissions/CIK0000320193.json)。
+
+**Macro／geopolitical event check：** 本次將10Y Treasury 5.24%與60個月beta放入dated WACC試算，並用8.5%–11.5%作折現率敏感度；這不是將Fed policy rate直接等同Apple資金成本。公司最新10-Q／風險披露提到關稅、貿易限制與供應鏈／零件可得性，Q3約2個margin points tariff refund已從normalized EBIT剔除。[10-Q](https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm)、[issuer Q3 release](https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/)、[dated WACC sources](discount-rate-review.md)。Apple供應鏈依賴使衝突、制裁、航運及晶片限制可能透過供應量、運費、交期與毛利傳導；截至研究日，本次未取得足以把某一項近期戰事／油價變動映射為Apple特定現金支出的 primary quantification，故列為供應鏈與投入成本監控情境，沒有另加通用WACC懲罰。不是窮盡全球新聞搜尋。
 
 已知重大事件包含 CEO 交接：公司公告 John Ternus 於 2026-09-01 接任 CEO，Tim Cook 為 Executive Chairman；本次未找到撤回公告，不能沿用舊資料稱 Cook 為現任 CEO。[Apple，2026-04-20 公告](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)。已触發的監控訊號是應收帳款增速與庫存增加；未直接證明正面經營論點失效。
 

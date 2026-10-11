@@ -46,5 +46,7 @@
       "warn": 0,
       "info": 2
     }
-  }
+  },
+  "standard_report_decision_summary": "BUY/ACCUMULATE/WATCH/AVOID plus conditional normalized-value observation range; shared thresholds in docs/recommendation-policy.md; low confidence/method divergence => actionable range not established",
+  "macro_geopolitical_event_check": "Issuer exposure-specific dated event screen, primary sources and model channel required; avoid generic WACC haircut and state scope"
 }
