@@ -21,10 +21,10 @@ data verification, calculations, valuation, scorecard, challenge and report QA.
 Distinguish Fact, Calculation, Assumption and Interpretation.
 Save the report and its reproducible inputs under research/AAPL/.
 State the actual newest reported period and any missing documents.
-First show the consistent BUY / ACCUMULATE / WATCH / AVOID research label,
-one-line reason, dated market price, and reasonable buy observation range.
-Mark the range conditional and explain its valuation basis; if evidence does
-not support a usable range, say so. Check material current macro/geopolitical
+First show BUY / ACCUMULATE / WATCH / HOLD EXISTING / AVOID, one-line reason,
+dated market price and valuation confidence. Do not create an automatic buy
+range from one DCF value. Show valuation methods, reverse-DCF expectations, a
+method-derived valuation map, and earnings catch-up scenarios when supportable. Check material current macro/geopolitical
 events for Apple's actual exposures, with dates and primary sources; quantify
 their effect only when evidence supports it. See docs/recommendation-policy.md.
 ```
@@ -34,9 +34,10 @@ their effect only when evidence supports it. See docs/recommendation-policy.md.
 ```text
 Give me a quick fundamental screen of EXCHANGE:TICKER as of today. Check the
 latest filing and material recent company and macro/geopolitical events. Lead
-with BUY / ACCUMULATE / WATCH / AVOID, one-line reason, price and date, and a
-conditional reasonable buy observation range based on normalized value (or
-say not established). Give the main thesis, three material risks, evidence that
+with BUY / ACCUMULATE / WATCH / HOLD EXISTING / AVOID, one-line reason, dated
+price and valuation confidence. Do not mechanically convert one DCF value into
+a buy or entry price. If supportable, show what today’s price implies and how
+earnings / FCF growth could normalize the multiple without a price decline. Give the main thesis, three material risks, evidence that
 would change the label, data gaps, and next catalyst. Keep this to one page and
 skip exhaustive document diligence and a full peer scorecard. Follow
 docs/recommendation-policy.md. If the screen finds a critical accounting or

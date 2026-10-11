@@ -17,37 +17,37 @@ Use the user's research date and Asia/Taipei timezone; market prices carry
 their own trading date and exchange timezone. Never describe a test or a
 partially sourced report as a completed live research workflow.
 
-Every stock answer and report must begin with a compact decision summary:
-**BUY / ACCUMULATE / WATCH / AVOID**, a one-line reason, the price/date used,
-and a **reasonable buy observation range** (or state explicitly that no
-defensible range can be set). Explain the inputs and conditions for that
-range. It is an analytical watch range, never personalized investment advice,
-an instruction to trade, a guarantee of fair value, or an implied position
-size.
+Every stock answer and report begins with an evidence-based action, a one-line
+reason, dated market price, and valuation confidence. Do not default to a buy
+price or mechanically convert one DCF output to an entry threshold.
 
-Use these consistent research labels:
+Use BUY, ACCUMULATE, WATCH, HOLD EXISTING, or AVOID. Choose the action from
+business quality, balance sheet, valuation dispersion, reverse-DCF expectations,
+earnings / FCF growth, confidence, catalysts / risks, and thesis status. WATCH
+means that current price requires aggressive assumptions or evidence remains
+incomplete; it does not mean “wait for a crash.” HOLD EXISTING is only available
+when the user has disclosed a current holding. Never infer holdings or provide
+personalized position sizing.
 
-- **BUY:** the thesis passes critical checks, data confidence is at least
-  medium, and market price is at or below 80% of normalized base value.
-- **ACCUMULATE:** the thesis passes critical checks, data confidence is at
-  least medium, and price is above 80% but at or below 90% of normalized base
-  value. This describes research valuation, not purchase frequency or size.
-- **WATCH:** the thesis remains viable but price is above 90% of base value,
-  evidence/confidence is insufficient, valuation methods disagree materially,
-  or a material event needs resolution. Prefer WATCH when multiple conditions
-  are uncertain.
-- **AVOID:** a critical thesis-invalidating, solvency, governance, or accounting
-  issue makes valuation unsafe to rely on. Cheapness cannot override it.
+Every valuation section separates: (1) model values and bear/base/bull cases,
+(2) market-implied expectations from reverse DCF, (3) a price map derived from
+available method values, and (4) the investment action. State valuation
+confidence and method dispersion. When methods materially disagree, say:
+“Valuation dispersion is high; confidence in a single fair-value estimate is
+low.” Do not conceal disagreement by averaging unlike methods.
 
-Unless company-specific evidence justifies another method, calculate the
-observation range as **80%–90% of normalized base value per share**, lower to
-upper. Label it conditional on the cited assumptions and share-count date;
-state which operating evidence would invalidate it. If source quality,
-normalized cashflow, peer checks, or valuation disagreement make the base value
-too weak, provide the formula-derived interval only as a conditional model
-reference and mark the actionable observation range `not established`.
-Do not use bear-case liquidation levels or arbitrary entry prices as a buy
-range. Never produce a range for AVOID.
+A margin-of-safety haircut is optional scenario analysis only. If shown, label
+it exactly **“Optional margin-of-safety reference based on one valuation
+method”**, name the method and haircut, and check whether WACC, terminal
+normalization, reinvestment, ROIIC, margins, SBC, cash-flow normalization,
+scenario weighting or multiple normalization already contain conservative
+assumptions. Warn if another haircut may double-count risk. It must never be
+called fair value, a recommended buy price, or a required entry price.
+
+When current price is far from modeled values, quantify the gap, explain
+reverse-DCF expectations, show cross-checks, and add an earnings / FCF catch-up
+scenario when supportable. State that valuation zones are not forecasts and do
+not require staying in cash until reached. Follow `docs/recommendation-policy.md` and the project-owned `docs/research-report-template.md`; preserve the upstream stock-analysis package unchanged.
 
 Before assigning a label, check current-period company filings and recent
 events through the report date. In addition to company catalysts, screen
@@ -90,9 +90,9 @@ Each report should additionally:
    assumptions; label reverse DCF inputs as assumptions.
 10. End with **What must go right**, **What can go wrong**, and
     **What would change my mind**.
-11. Consider current macro/geopolitical event channels that are material to
-    the named business, and show the explicit label and conditional buy
-    observation range before the full report.
+11. Consider current macro/geopolitical event channels material to the business.
+12. Start with the action, current price/date, valuation confidence and the key
+    reverse-DCF conclusion; do not require a fixed buy-range output.
 
 Label material statements as Fact, Calculation, Assumption or Interpretation.
 An unavailable data source is a disclosed gap, not permission to substitute

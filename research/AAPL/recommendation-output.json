@@ -1,0 +1,146 @@
+{
+  "current_price": 336.64,
+  "valuation_methods": {
+    "reinvestment-aware DCF": {
+      "bear": 117,
+      "base": 194,
+      "bull": 295
+    },
+    "earnings-method PV": {
+      "bear": 174,
+      "base": 242,
+      "bull": 318
+    }
+  },
+  "valuation_map": {
+    "scenario_bounds": {
+      "bear": {
+        "low": 117.0,
+        "high": 174.0
+      },
+      "base": {
+        "low": 194.0,
+        "high": 242.0
+      },
+      "bull": {
+        "low": 295.0,
+        "high": 318.0
+      }
+    },
+    "zones": [
+      {
+        "low": null,
+        "high": 117.0,
+        "interpretation": "below all modeled bear values"
+      },
+      {
+        "low": 117.0,
+        "high": 174.0,
+        "interpretation": "within the bear-value spread across methods"
+      },
+      {
+        "low": 174.0,
+        "high": 194.0,
+        "interpretation": "between bear and base estimates"
+      },
+      {
+        "low": 194.0,
+        "high": 242.0,
+        "interpretation": "within the base-value spread across methods"
+      },
+      {
+        "low": 242.0,
+        "high": 295.0,
+        "interpretation": "between base and bull estimates"
+      },
+      {
+        "low": 295.0,
+        "high": 318.0,
+        "interpretation": "within the bull-value spread across methods"
+      },
+      {
+        "low": 318.0,
+        "high": null,
+        "interpretation": "above all modeled bull values"
+      }
+    ],
+    "current_price": 336.64,
+    "current_position": "above all modeled bull values",
+    "base_method_spread_pct_of_low": 24.7
+  },
+  "reverse_dcf": {
+    "implied_growth": 0.1480518006,
+    "base_growth": 0.08,
+    "bull_growth": 0.12,
+    "growth_metric": "normalized NOPAT / revenue proxy",
+    "horizon_years": 10,
+    "terminal_fade_years": 5,
+    "wacc": 0.09557967097,
+    "market_expectation_vs_cases": "above modeled bull growth"
+  },
+  "earnings_catch_up": [
+    {
+      "annual_eps_growth_pct": 10.0,
+      "years": 1,
+      "future_eps": 9.42,
+      "static_price_pe": 35.7,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 10.0,
+      "years": 2,
+      "future_eps": 10.37,
+      "static_price_pe": 32.5,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 10.0,
+      "years": 3,
+      "future_eps": 11.4,
+      "static_price_pe": 29.5,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 15.0,
+      "years": 1,
+      "future_eps": 9.85,
+      "static_price_pe": 34.2,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 15.0,
+      "years": 2,
+      "future_eps": 11.33,
+      "static_price_pe": 29.7,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 15.0,
+      "years": 3,
+      "future_eps": 13.03,
+      "static_price_pe": 25.8,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 20.0,
+      "years": 1,
+      "future_eps": 10.28,
+      "static_price_pe": 32.7,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 20.0,
+      "years": 2,
+      "future_eps": 12.34,
+      "static_price_pe": 27.3,
+      "price_held_flat": 336.64
+    },
+    {
+      "annual_eps_growth_pct": 20.0,
+      "years": 3,
+      "future_eps": 14.8,
+      "static_price_pe": 22.7,
+      "price_held_flat": 336.64
+    }
+  ]
+}

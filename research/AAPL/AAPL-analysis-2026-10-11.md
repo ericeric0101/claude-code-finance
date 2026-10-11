@@ -7,9 +7,9 @@
 
 ## VERDICT AND KEY RISKS
 
-**Interpretation：** Apple 的現金創造與生態系優勢仍有證據。完成現金流正常化與 reinvestment-aware valuation 後，中央假設下 DCF 約 $194、earnings-method cross-check 現值約 $242，均低於 $336.64 參考價格；更樂觀營運與折現率組合可得到約 $360，所以結論是 **目前價格需要較強的成長與資本效率，估值吸引力取決於假設**。基本面信心中等，估值信心中低；不是確定 fair value 或 buy/sell 指令，完整 peer-relative rating 仍未核實。[Updated inputs/results](normalized-valuation-output.json)、[cashflow/valuation review](cashflow-valuation-review.md)。
+**Interpretation：** Apple 的現金創造與生態系優勢仍有證據。完成現金流正常化與 reinvestment-aware valuation 後，中央假設下 DCF 約 $194、earnings-method cross-check 現值約 $242，均低於 $336.64 參考價格；更樂觀營運與折現率組合可得到約 $360，所以結論是 **目前價格需要較強的成長與資本效率，估值吸引力取決於假設**。基本面信心中等，估值信心中低；不是確定 fair value 或 buy/sell 指令，完整 peer-relative rating 仍未核實。以上估值皆為截至 2026-10-11 的模型結果。[Updated inputs/results](normalized-valuation-output.json)、[cashflow/valuation review](cashflow-valuation-review.md)。
 
-**Research label：WATCH.** 估值模型不確定性偏高，兩種方法的 base value 有明顯分歧；這是研究分類，不是依你的個人情況作出的下單建議。參考股價 $336.64（2026-10-09 close）。**條件式 DCF 買入觀察參考區間：$155–$175/share**，即 DCF base 約 $194 的 80%–90%；假設包含18% operating tax、十年8% growth、stage ROIIC100%、terminal ROIIC20%、9.56% WACC。Earnings cross-check 對應的80%–90%區間約 $193–$218，差異顯示估值方法／假設尚未收斂；因此更審慎的可執行觀察區間目前 **尚未建立**。若新增資料支持 recurring intangible／AI cash investment、normalized margin 或折現率不同，須重算兩區間，不應只盯 DCF 數字。[Range math and scenarios](normalized-valuation-output.json)。
+**Action: WATCH.** Apple’s business and balance sheet remain strong, but the current quote requires operating assumptions above the report’s base and bull DCF cases; valuation confidence is **low** because the DCF and earnings-method base values differ materially. Current price: $336.64 (2026-10-09 close). This action combines business quality, cash generation, valuation dispersion and reverse-DCF expectations; it is not derived from one valuation method or a fixed margin-of-safety haircut. WATCH does not imply a required entry price or waiting for a crash. See the valuation map and catch-up scenarios below.
 
 **Calculation：** 標準權重計算分數原為 6.6/10，歷史應收帳款增速 gate 將分數上限限制為 **6.0/10**；這是依上游 `score.py` 的 pipeline demonstration，**不是已驗證的公司評等**。[評分輸入](score-input.json)、[評分輸出](score-output.json)。
 
@@ -66,7 +66,7 @@ Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告�
 
 ## 4. Scorecard
 
-以下均為 **Calculation／Interpretation**；輸入、benchmark basis、各指標與 notes 完整保存在 [score-input.json](score-input.json) 及 [score-output.json](score-output.json)。同業不足，margin 用自身歷史；其餘 numeric bands 為 indicative，judgment 有證據理由。
+以下均為 **Calculation／Interpretation**；scoring sources 是專案 rubric 與本次計算，表內權重不是公司財務數據。輸入、benchmark basis、各指標與 notes 完整保存在 [score-input.json](score-input.json) 及 [score-output.json](score-output.json)。同業不足，margin 用自身歷史；其餘 numeric bands 為 indicative，judgment 有證據理由。
 
 | Category | Score /10 | Weight | Weighted | 理由 |
 |---|---:|---:|---:|---|
@@ -207,6 +207,48 @@ Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告�
 ## 7. Valuation
 
 **Calculation：** Alpha Vantage key 已配置並成功取得 AAPL $336.64、交易日 2026-10-09，與 Yahoo acquisition 一致。Common-share 市值 proxy $4,917,961、financing debt $84,344、cash＋securities $146,517；保留 **assumed** operating cash $10,000 後 surplus liquidity $136,517、operating EV $4,865,788。不是核驗當日 fully diluted market cap。[API check](alpha-vantage-check.json)、[market data](market-data.json)、[SEC share/debt data](financial-data.json)、[valuation bridge](normalized-valuation-input.json)。
+
+### Valuation Summary
+
+Valuation sources and dated model outputs: [normalized valuation output](normalized-valuation-output.json), [valuation bridge](normalized-valuation-input.json), and [cashflow/valuation review](cashflow-valuation-review.md), as of 2026-10-11.
+
+| Measure | Value / interpretation |
+|---|---|
+| Current price | $336.64, 2026-10-09 close |
+| Forward DCF | Bear $117 / base $194 / bull $295 per share; base uses WACC 9.558%, 8% ten-year NOPAT growth, explicit reinvestment and terminal normalization. |
+| Earnings-method PV | Bear $174 / base $242 / bull $318 per share; based on normalized EPS and assumed exit P/E, not peer-calibrated. |
+| Reverse DCF | Matched model implies 14.8% annual growth for ten years then fade, versus 8% base and 12% bull growth assumptions; market-implied growth is above the modeled bull case. |
+| Valuation confidence | **Low** — base methods differ by about 25% from DCF base, peer calibration is incomplete, and the reverse result is sensitive to forecast assumptions. |
+
+### Valuation Map
+
+Zone boundaries below come from the report’s DCF and earnings-method bear/base/bull values; they are valuation comparisons, not forecast trading levels.
+
+| Price zone | Interpretation |
+|---|---|
+| Below $117 | Below both methods’ modeled bear-value floor. |
+| $117–174 | Within the spread of bear estimates. |
+| $174–194 | Between the earnings bear estimate and DCF base estimate. |
+| $194–242 | Within the spread of base estimates; dispersion is high. |
+| $242–295 | Between the earnings base and DCF bull estimates; stronger-than-base delivery is needed. |
+| $295–318 | Within the spread of bull estimates. |
+| Above $318 | Above all modeled bull estimates; the current $336.64 quote is about 6% above the highest model value. |
+
+### Earnings Catch-Up Scenarios
+
+**Scenario analysis, not forecasts:** starting normalized EPS is $8.57; if the share price stayed at $336.64, earnings growth would reduce the static P/E as follows.
+
+| Annual EPS growth | 1 year: EPS / P/E | 2 years: EPS / P/E | 3 years: EPS / P/E |
+|---:|---:|---:|---:|
+| 10% | $9.42 / 35.7x | $10.37 / 32.5x | $11.40 / 29.5x |
+| 15% | $9.85 / 34.2x | $11.33 / 29.7x | $13.03 / 25.8x |
+| 20% | $10.28 / 32.7x | $12.34 / 27.3x | $14.80 / 22.7x |
+
+This illustrates that valuation can normalize through earnings growth even if the share price does not fall. At 15% EPS growth, a flat price would take the normalized static P/E from about 39x to about 30x in two years. Whether that growth is achievable is uncertain; this is not a forecast or a reason to assume the multiple will hold.
+
+### Investment Interpretation
+
+Today’s quote is above the report’s modeled bull values and the matched reverse DCF requires growth beyond the modeled bull case. The quote could become more reasonable through a price decline, EPS / FCF growth, lower required returns, or stronger operating results than the base case. It could become materially overvalued if the recent growth pulse fades while the premium multiple persists. The WATCH action should change only when updated cash-flow evidence and market-implied expectations make the risk/return more balanced, or when thesis evidence deteriorates. This action is not derived from a single valuation method or a fixed margin-of-safety haircut.
 
 **Share／lease consistency：** Forward per-share 與 matched reverse 都用 latest reported quarter **weighted-average diluted** 14,714.676 million shares，反解 target EV = $336.64×同一股數＋financing debt−surplus liquidity；不同於 common-share 市值 proxy。這是透明的最新可用 dilution proxy，並非研究日真正 treasury-stock-method outstanding shares。Operating lease rent 留在 EBIT／cashflow，EV 排除相應 operating lease liabilities；finance-lease debt／principal 最新拆分缺口保留，僅 FY25 finance lease liabilities $1,230 已知，其數量級 stress 約 $0.08/share、不是當期精確修正。[Input](normalized-valuation-input.json)、[SEC annual statements](financial-data.json)。
 

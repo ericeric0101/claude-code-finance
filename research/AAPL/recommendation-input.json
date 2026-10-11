@@ -1,0 +1,27 @@
+{
+  "current_price": 336.64,
+  "price_as_of": "2026-10-09 close",
+  "normalized_eps": 8.5661744234,
+  "earnings_growth_rates": [0.10, 0.15, 0.20],
+  "catch_up_years": [1, 2, 3],
+  "valuation_methods": {
+    "reinvestment-aware DCF": {"bear": 117, "base": 194, "bull": 295},
+    "earnings-method PV": {"bear": 174, "base": 242, "bull": 318}
+  },
+  "reverse_dcf": {
+    "implied_growth": 0.1480518006,
+    "base_growth": 0.08,
+    "bull_growth": 0.12,
+    "growth_metric": "normalized NOPAT / revenue proxy",
+    "horizon_years": 10,
+    "terminal_fade_years": 5,
+    "wacc": 0.09557967097
+  },
+  "sources": {
+    "price": "market-data.json; 2026-10-09 close",
+    "dcf_scenarios": "normalized-valuation-output.json / current present-value scenarios",
+    "earnings_scenarios": "normalized-valuation-output.json / earnings_method",
+    "matched_reverse_dcf": "normalized-valuation-output.json / matched_reverse_growth",
+    "normalized_eps": "normalized-valuation-output.json / normalized_eps_proxy"
+  }
+}

@@ -26,7 +26,7 @@
   },
   "pl": "prepared, not run per user scope",
   "independent_challenge": "Focused independent normalization/valuation review complete; material corrections incorporated; forecastROIIC andcashinvestment remain assumptions",
-  "aapl_report_status": "Cashflow normalization and conditional valuation verified; complete sector-relative rating not claimed",
+  "aapl_report_status": "Cashflow normalization and DCF arithmetic preserved; decision layer revised with valuation map, reverse-DCF comparison, earnings catch-up, and WATCH action; peer-relative rating remains provisional",
   "default_host": "Codex desktop",
   "codex_skill_entries": "AGENTS.md and three relative symlink entries; checked by check_setup.py",
   "codex_automatic_discovery": "Not separately tested in a fresh session; current agent reads installed skills directly",
@@ -47,6 +47,6 @@
       "info": 2
     }
   },
-  "standard_report_decision_summary": "BUY/ACCUMULATE/WATCH/AVOID plus conditional normalized-value observation range; shared thresholds in docs/recommendation-policy.md; low confidence/method divergence => actionable range not established",
+  "standard_report_decision_summary": "Evidence-based BUY/ACCUMULATE/WATCH/HOLD EXISTING/AVOID; separate method valuations, reverse-DCF expectations, data-derived valuation map, catch-up scenarios, valuation confidence, and action; no automatic DCF haircut to entry price",
   "macro_geopolitical_event_check": "Issuer exposure-specific dated event screen, primary sources and model channel required; avoid generic WACC haircut and state scope"
 }

@@ -10,10 +10,7 @@ Codex 入口為 `AGENTS.md` 與 `.agents/skills/`，三個 skill 使用 relative
 指向 `.claude/skills/` 的完整版本化套件，避免重複及上游內容漂移。
 不需要 Claude 帳號、Claude 登入或另裝 Claude CLI。
 
-之後每份股票分析會先提供 BUY／ACCUMULATE／WATCH／AVOID、簡短理由、當日股價，
-及按正常化基本價值計算的條件式「合理買入觀察區間」。低信心或估值方法分歧時，
-會同時說明公式區間僅供參考，或標註尚無可採用區間。完整報告仍保留假設、資料來源
-與風險，標籤不是個人化買賣指令。詳見 `docs/recommendation-policy.md`。
+每份股票分析會先提供 BUY／ACCUMULATE／WATCH／HOLD EXISTING／AVOID、簡短理由、當日股價與估值信心。報告會分開呈現模型估值、市場隱含預期、估值地圖與投資行動；以 reverse DCF 作為主要決策檢查，並在適用時分析獲利追趕情境。不會把單一 DCF 自動折價成必須等待的買入價。完整報告保留假設、來源和風險，標籤不是個人化買賣指令。詳見 `docs/recommendation-policy.md`。
 
 標準研究也會在分析日檢查與公司曝險相關的近期事件：央行利率／公債殖利率、通膨、
 匯率、戰爭／制裁／航運、油氣與其他關鍵成本、關稅與監管變更。會追到官方或公司

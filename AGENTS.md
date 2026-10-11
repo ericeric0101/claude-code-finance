@@ -16,12 +16,13 @@ State reporting basis, units, period, missing data and assumptions explicitly.
 Run stock-analysis verify_data, valuation, score, challenge and lint_report.
 Never interpret a linter PASS as independent source verification.
 
-Every stock deliverable starts with BUY / ACCUMULATE / WATCH / AVOID, a brief
-reason, price and as-of date, and an assumption-labelled reasonable buy
-observation range (or `not established`). Apply the common rubric and macro /
-geopolitical event screen in `.agents/skills/my-equity-research/SKILL.md` and
-`docs/recommendation-policy.md`. This is a research classification, not a
-personalized trade instruction. Tie events to the company's disclosed
+Every stock deliverable starts with an evidence-based BUY / ACCUMULATE / WATCH /
+HOLD EXISTING / AVOID action, brief reason, price/date and valuation confidence.
+Separate method values, reverse-DCF expectations, a model-derived valuation map,
+earnings catch-up scenarios and the investment action. Do not generate a default
+buy range from one DCF. Follow `.agents/skills/my-equity-research/SKILL.md`,
+`docs/recommendation-policy.md` and `docs/research-report-template.md`. This is a
+research classification, not a personalized trade instruction. Tie events to the company's disclosed
 exposures, primary sources, and explicit scenarios; do not apply generic
 headline premiums or double-count risk in cashflows and WACC.
 

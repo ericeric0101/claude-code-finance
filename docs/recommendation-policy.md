@@ -1,57 +1,79 @@
-# Consistent research label and price observation range
+# Equity research decision and valuation reporting policy
 
-Every stock response leads with the same compact result, followed by optional
-detail and the full dated report:
+Every report leads with a compact, evidence-based action, one-line reason,
+market price and date, and valuation confidence. Do not default to a buy price
+or convert one forward DCF output into an entry threshold.
 
-> **Label: WATCH** · **Reason:** … · **Price/date:** … · **Reasonable buy
-> observation range:** … (conditional on …)
+## Separate the four outputs
 
-## Research labels
+1. **Model valuation:** present forward DCF, earnings, peer-relative and bear /
+   base / bull estimates where suitable. Identify assumptions, method limits,
+   and valuation-method dispersion.
+2. **Market-implied expectations:** use reverse DCF as a primary decision tool.
+   State the growth, margin, reinvestment / ROIIC, discount rate and terminal
+   assumptions the current quote requires, then compare these with base and bull
+   cases and observed operating history.
+3. **Valuation map:** where data permit, derive price zones from model values;
+   show which methods and assumptions support each zone. Do not use fixed
+   percentages of one DCF as default zone boundaries.
+4. **Investment action:** choose BUY, ACCUMULATE, WATCH, HOLD EXISTING or AVOID
+   using business quality, balance sheet, valuation dispersion, reverse-DCF
+   expectations, cash-flow growth, confidence, catalyst / risk and thesis
+   status. The action must not be mechanically determined by one DCF or one
+   price threshold. HOLD EXISTING requires that the user has disclosed an
+   existing position; do not infer holdings.
 
-| Label | Rule |
+## Action definitions
+
+| Action | Interpretation |
 |---|---|
-| **BUY** | Critical thesis checks pass, source and valuation confidence are at least medium, and the market price is no more than 80% of normalized base value. |
-| **ACCUMULATE** | Critical thesis checks pass, confidence is at least medium, and market price is above 80% through 90% of normalized base value. The label does not specify buying cadence or position size. |
-| **WATCH** | Price exceeds 90% of base value; evidence or confidence is insufficient; valuation methods disagree materially; or a material event needs resolution. When several conditions apply, state the main reason. |
-| **AVOID** | A critical thesis-invalidating, solvency, governance, or accounting issue means valuation cannot be relied on. A low price does not override it. Do not print a buy range. |
+| **BUY** | Attractive risk / return under conservative-to-base operating assumptions, supported by acceptable evidence and no unresolved critical gate. |
+| **ACCUMULATE** | Valuation is reasonable under base assumptions, evidence supports the thesis, and key risks are monitorable; this is not position sizing or purchase cadence. |
+| **WATCH** | Thesis remains viable, but the price requires aggressive assumptions, valuation dispersion is high, or evidence / catalyst risk needs resolution. WATCH does not mean “wait for a crash” or set a required entry price. |
+| **HOLD EXISTING** | For a user-disclosed holding only: thesis remains intact, while new-money return may be less attractive. Do not infer that the user owns the security. |
+| **AVOID** | Broken thesis or a critical accounting, solvency, governance or other risk makes the security unsuitable for a positive research action. |
 
-Use business and valuation evidence to override a mechanical threshold when
-needed, and explain the reason. Never label BUY or ACCUMULATE with low data
-confidence, an unresolved critical gate, or a thesis already invalidated.
+Actions are analyst judgments. Show the evidence that would move the action and
+observable thesis invalidation conditions. Do not make personalized portfolio
+or position-size instructions.
 
-## Reasonable buy observation range
+## Valuation summary and map
 
-Default range: 80%–90% of normalized base value per share. The lower boundary
-uses a 20% margin of safety; the upper boundary uses 10%. Label the range as a
-conditional model reference, with normalized-value method, core assumptions,
-share-count basis/date, current market price/date, and operating evidence that
-would invalidate the thesis. It is not a guaranteed fair-value interval, a
-trade instruction, or position sizing.
+Include, when available:
 
-If methods disagree materially, source coverage is inadequate, normalized
-cashflow is not defensible, or the per-share basis is stale, state both the
-formula-derived model range and **actionable observation range: not
-established**. Do not fabricate a precise interval. For AVOID, omit a buy range
-and say why valuation is currently unsafe to use.
+- current price and date;
+- forward DCF and earnings-method values;
+- bear / base / bull values and their assumptions;
+- reverse-DCF assumptions implied by the current price;
+- valuation confidence (high / medium / low) and the reason for it;
+- a valuation map generated from the available methods and scenario values;
+- an earnings / cash-flow catch-up scenario when fundamentals can grow into the
+  current quote without a large price decline.
 
-## Macro and geopolitical event check
+If methods disagree materially, say **“Valuation dispersion is high; confidence
+in a single fair-value estimate is low.”** Keep each method visible; do not hide
+dispersion by averaging unlike methods.
 
-Date the search through the research date and start from the latest reported
-period. Check only exposures relevant to the issuer, including:
+A margin-of-safety discount is optional scenario analysis only. It must be
+labeled exactly **“Optional margin-of-safety reference based on one valuation
+method”** with the method and haircut shown. It is not fair value, a recommended
+buy price, or a required entry price. Before showing it, check for conservatism
+already embedded in WACC / cost of equity, terminal normalization, reinvestment,
+ROIIC, margins, SBC, normalized cash flow, scenario weighting and multiple
+normalization. Warn if another haircut may double-count that conservatism.
 
-- central-bank decisions, Treasury/sovereign yields, inflation, growth, FX,
-  and credit spreads;
-- conflict, sanctions, export controls, shipping lanes, insurance and supply
-  continuity;
-- oil, gas, power, and other important input or product prices;
-- tariffs, trade rules, and material regulator or court decisions.
+A valuation zone is not a forecast of where price will trade. If a zone is far
+below the quote, quantify the gap, explain the reverse-DCF expectations, show
+alternative methods, and include a time-based catch-up scenario when supportable.
+Do not imply the reader must stay in cash until a zone is reached. WATCH is not
+equivalent to waiting for a market crash.
 
-Use issuer filings and updates, central banks, government/regulator notices,
-and primary statistical sources for verification. News may identify a lead;
-verify it before using it as a fact. For each material item state the date and
-status, primary-source evidence, business exposure and transmission channel,
-direction, uncertainty, and model treatment. Quantify the effect where both
-exposure and price data are credible. If it cannot be quantified, disclose it
-as a monitored scenario input without changing the point estimate. Do not add
-a generic WACC premium for risks already represented in scenario cashflows.
-Disclose the limits of the search; it cannot establish that no event exists.
+## Recency and events
+
+Before assigning an action, check current-period company filings and recent
+events through the report date. Screen macro and geopolitical events by actual
+issuer exposure: central-bank decisions and yields, inflation / growth / FX,
+conflicts / sanctions / export controls / shipping, oil / energy and other key
+inputs, tariffs and material regulation. Use primary sources for verification,
+quantify effects only where exposure data support it, and avoid double-counting
+risks in both scenario cash flows and discount rates.
