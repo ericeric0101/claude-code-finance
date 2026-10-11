@@ -1,0 +1,840 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "reporting_basis": "consolidated",
+  "currency": "USD",
+  "units": "millions",
+  "fiscal_year_end": "September",
+  "latest_reported_period": {
+    "period": "Q3 FY2026",
+    "published": "2026-07-31"
+  },
+  "datapoints": [
+    {
+      "metric": "cashflow_net_income",
+      "value": 94680,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 11284,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 7906,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": -4921,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": -10125,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": -3903,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": -2642,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -8042,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": 12326,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": 7475,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 104038,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 11085,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 25385,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_net_income",
+      "value": 99803,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 11104,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 9038,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": 1006,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": -1823,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": -7520,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": 1484,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -6499,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": 9448,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": 6110,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 122151,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 10708,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 19573,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_net_income",
+      "value": 96995,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 11519,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 10833,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": -2227,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": -1688,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": 1271,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": -1618,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -5684,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": -1889,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": 3031,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 110543,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 10959,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 18679,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p32 https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_net_income",
+      "value": 93736,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 11445,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 11688,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": -2266,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": -3788,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": -1356,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": -1046,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -11731,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": 6020,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": 15552,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 118254,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 9447,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 26102,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_net_income",
+      "value": 112010,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 11698,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 12863,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": -89,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": -6682,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": -347,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": 1400,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -9197,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": 902,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": -11076,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 111482,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 12715,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 43369,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Consolidated Statements of Cash Flows, p33; Note7 p40-41 https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_net_income",
+      "value": 84544,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 8571,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 9680,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": -1748,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": 5685,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": 13555,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": 1223,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -6116,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": -18479,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": -15161,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 81754,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 9473,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 37332,
+      "period": "9M FY2025 ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_net_income",
+      "value": 101464,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_da",
+      "value": 9973,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_sbc",
+      "value": 10523,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_noncash",
+      "value": -2037,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ar",
+      "value": 8316,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_vendor_ar",
+      "value": 5671,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_inventory",
+      "value": -5461,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_assets",
+      "value": -16266,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_ap",
+      "value": -5203,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_other_liabilities",
+      "value": 10016,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cfo",
+      "value": 116996,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_capex",
+      "value": 6799,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cashflow_cash_tax",
+      "value": 26555,
+      "period": "9M FY2026 ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "Condensed Consolidated Statements of Cash Flows p5; MD&A p17 https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    }
+  ],
+  "not_available": [
+    "Exact TTM PP&E-only depreciation",
+    "Current financing interest and securities-income split",
+    "Disaggregated intangible operating cash investments",
+    "Current fully diluted share count"
+  ]
+}

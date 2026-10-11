@@ -1,13 +1,13 @@
 # Apple Inc. (NASDAQ:AAPL) — Equity Analysis
 
-**Analysis date:** 2026-10-11，Asia/Taipei。**Mode:** Standard pipeline draft，初次測試；資料與工具已驗證，normalized valuation／完整 sector-relative rating 尚未完成驗證。
+**Analysis date:** 2026-10-11，Asia/Taipei。**Mode:** Standard research update；現金流勾稽、正常化估計與條件式估值完成驗證；完整 sector-relative rating 仍為 provisional。
 **Basis:** Consolidated；US GAAP；USD millions（美元百萬）；股數為百萬股，股價為美元。
 **Latest reported period:** Q3 FY2026，截至 2026-06-27，10-Q 於 2026-07-31 提交。
 **Price reference:** $336.64，2026-10-09 美國東部時間收盤，非即時價。[Yahoo price history](https://finance.yahoo.com/quote/AAPL/history/)，[價格交叉檢查](https://stockanalysis.com/stocks/aapl/history/)。
 
 ## VERDICT AND KEY RISKS
 
-**Interpretation：** Apple 的現金創造與生態系優勢仍有證據；本次模型中價格要求可觀的持續成長，但 normalized FCFF／WACC 尚未建立完整實證，因此估值結論為 **provisional**。企業品質與估值吸引力應分開判斷。基本面信心中等，估值信心低；本次是可重現的研究流程測試，尚不能作 definitive valuation verdict。
+**Interpretation：** Apple 的現金創造與生態系優勢仍有證據。完成現金流正常化與 reinvestment-aware valuation 後，中央假設下 DCF 約 $194、earnings-method cross-check 現值約 $242，均低於 $336.64 參考價格；更樂觀營運與折現率組合可得到約 $360，所以結論是 **目前價格需要較強的成長與資本效率，估值吸引力取決於假設**。基本面信心中等，估值信心中低；不是確定 fair value 或 buy/sell 指令，完整 peer-relative rating 仍未核實。[Updated inputs/results](normalized-valuation-output.json)、[cashflow/valuation review](cashflow-valuation-review.md)。
 
 **Calculation：** 標準權重計算分數原為 6.6/10，歷史應收帳款增速 gate 將分數上限限制為 **6.0/10**；這是依上游 `score.py` 的 pipeline demonstration，**不是已驗證的公司評等**。[評分輸入](score-input.json)、[評分輸出](score-output.json)。
 
@@ -34,7 +34,7 @@ Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告�
 | Classification | **Fact**：來源所述；**Calculation**：公式運算；**Assumption [E]**：模型假設；**Interpretation**：分析判斷。 |
 | Calculations | TTM = FY2025 + 9M FY2026 − 9M FY2025；Q4 income = 全年 − 前九月，未把 weighted EPS 當普通金額相減。[Data intake](data-intake.json) |
 | Estimated | 市值用最近財報期末股數；DCF 現金流基期、成長、WACC、terminal growth、情境 EPS／倍數／機率均為假設，不是公司指引或市場共識。[Valuation input](valuation-input.json) |
-| Missing | 完整兩次電話會議 Q&A、較早年度完整風險差異、所有合約條款、獨立 ESG 報告、current fully diluted shares、可比 peers TTM 估值與市場 beta/WACC 實證建構。已列具體文件覆核範圍。[Coverage record](document-review.md) |
+| Missing | 完整兩次電話會議 Q&A、較早年度完整風險差異、所有合約條款、獨立 ESG 報告、current fully diluted shares、可比 peers TTM 估值、bottom-up business beta／當期 Apple bond YTM／current interest split 與 intangible cash-investment breakdown。已列具體文件覆核範圍。[Coverage record](document-review.md) |
 | Verification | intake gate 為 PASS；這只驗 provenance／basis／units，不能替代逐項人工核對，也不能證明數字全部正確。[Verification output](data-verification.txt) |
 
 ## 1. The Business — What It Sells and How It Makes Money
@@ -135,11 +135,35 @@ Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告�
 
 **Calculation：** FY2025 CFO/NI 約 1.00x；FY2023–FY2025 累計約 1.12x，單年回落不等於帳務問題，但要解釋 working capital。TTM CFO $146,724 − capex $10,041 = FCF $136,683；再扣 SBC $13,706 得 owner-cash proxy $122,977。SBC subtraction 是保守經濟成本代理，不能同時再無說明地扣相同回購補稀釋成本。[TTM FY2025+9M26−9M25](financial-data.json)。
 
-**Calculation：** 9M CFO YoY 增加 $35,242，其中 NI 增加 $16,920、noncash adjustments 差額 $1,956、operating assets／liabilities movements 改善 $16,366；後者含 other current／noncurrent liabilities movement 差額 $25,177，與其他負向變化抵銷。Cash tax 下降與這些現金流項目有重疊，不重複加總。還需拆解持續性才能建立 FCFF。[Q3 10-Q cash flows](https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm)、[Challenge arithmetic](challenge-review.md)。
+**Calculation：** 9M CFO YoY 增加 $35,242，其中 NI 增加 $16,920、noncash adjustments 差額 $1,956、operating assets／liabilities movements 改善 $16,366；後者含 other current／noncurrent liabilities movement 差額 $25,177，與其他負向變化抵銷。Cash tax 下降與這些現金流項目有重疊，不重複加總。持續性拆解與正常化假設見下方更新。[Q3 10-Q cash flows](https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm)、[Challenge arithmetic](challenge-review.md)。
 
 **Calculation [E]：** 對 FY2024 加回 $10,246 Ireland charge、FY2025 扣除 $486 benefit 的對稱稅項比較，NI growth 約 7.25%，低於 reported 19.50%；這只是兩項調整，不是完整 adjusted earnings。Reported FCF FY2021→FY2025 四年間 CAGR 約 1.53%，亦不直接代表 normalized 未來能力。[FY2025 10-K tax note](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm)、[Source verification](challenge-review.md)。
 
 **Fact／Calculation [E]：** Q3 reported GM 50.1%、EPS $2.02；公司說 tariff refunds 增加約 2 percentage points 與 $0.11，簡單扣除為 GM 約 48.1%、EPS 約 $1.91；這不是完整 issuer non-GAAP reconciliation，不能由四捨五入的百分點算出精確退款額。[Apple 2026-07-30 results](https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/)。
+
+### Cash-flow normalization update — 2026-10-11
+
+**Fact／Calculation：** TTM = FY2025 + 9M FY2026 − 9M FY2025，ending 2026-06-27。NI $128,930 + total D&A $13,100 + SBC $13,706 − other noncash $378 − trade operating WC cash use $3,388 − other operating asset/liability cash use $5,246 = CFO $146,724，精確相符。FY2021–25 與兩期九個月也全部勾稽。[SEC component review](cashflow-source-review.md)、[source inputs](cashflow-source-inputs.json)、[model input](normalized-valuation-input.json)、[reproducible output](normalized-valuation-output.json)。
+
+**Fact／Interpretation：** Ireland $15.4bn 已於 first nine months FY2025 settled，因此在這個 TTM annual+9M−9M 組合中抵消，不能再加回。9M FY2026 的最後 TCJA deemed-repatriation payment $8.8bn 仍位於 TTM；改用 normalized NOPAT 並移除實際稅款相關資產／負債時點後，不再第二次加回。[SEC component review](cashflow-source-review.md)、[source inputs](cashflow-source-inputs.json)、[model input](normalized-valuation-input.json)、[reproducible output](normalized-valuation-output.json)。
+
+**Assumption／Calculation：** Operating EBIT $154,859 減除約 $2,188 tariff-refund benefit（Q3 revenue×approximately 2 margin points），得到 $152,671；18% normalized operating tax 得 NOPAT $125,190。18% 是近期 ETR 記錄支持的模型假設，不是已披露未來現金稅率。只加回 FY25 rounded PP&E depreciation $8,000 作前瞻假設，減 FY25 full PP&E cash capex $12,715，trade WC neutral，得到 **約 $120.5bn normalized FCFF proxy**。總 D&A $13,100 含其他攤銷，其配對 cash reinvestment 未拆分，故沒有全部加回；精確 TTM PP&E-only depreciation 不可得。[SEC component review](cashflow-source-review.md)、[source inputs](cashflow-source-inputs.json)、[model input](normalized-valuation-input.json)、[reproducible output](normalized-valuation-output.json)。
+
+| Operation | Change, USD millions | Running cashflow | Basis |
+|---|---:|---:|---|
+| Reported TTM CFO | +146,724 | 146,724 | Fact/Calculation |
+| Retain economic SBC cost; reverse CFO addback | -13,706 | 133,018 | Calculation |
+| Reverse other noncash adjustments | +378 | 133,396 | Calculation |
+| Remove actual asset/liability cash timing | +8,634 | 142,030 | Calculation |
+| Replace reported NI with normalized operating NOPAT | -3,740 | 138,290 | Assumption/Calculation |
+| Replace total D&A with PPE-only assumed depreciation | -5,100 | 133,190 | Assumption/Calculation |
+| Subtract normalized full cash PPE capex | -12,715 | 120,475 | Assumption |
+| Insert normalized working-capital cash credit | +0 | 120,475 | Assumption |
+
+
+**Accounting convention：** 從 CFO 路徑只反轉一次 SBC add-back，使它維持經濟成本；从 EBIT 路徑因 SBC 已在費用中，沒有第二次扣除。NI 改為 operating NOPAT 同時排除 financing interest、investment income 與其他 non-operating income 的淨影響，避免假造最新利息拆分；持有 securities 的價值另在 equity bridge 處理。Operating leases 保留 rent operating cost，未單方面資本化。[SEC component review](cashflow-source-review.md)、[source inputs](cashflow-source-inputs.json)、[model input](normalized-valuation-input.json)、[reproducible output](normalized-valuation-output.json)。
+
+**Assumption sensitivity：** tax 16%–20%、PP&E capex $10.041bn–$20bn、trade WC cash credit −$5bn／0／+$5bn，固定 assumed PP&E depreciation $8bn，機械得到約 $105bn–$131bn；此範圍不是信賴區間。Other-assets cash use 包含未完全辨識的 recurring intangible/licensing/content investment；維持攤銷費用可避免當成免費現金，但不能證明所有額外 cash investment 都已辨識。DCF 另用完整 reinvestment budget 與 ROIIC／capex 壓力測試處理。[SEC component review](cashflow-source-review.md)、[source inputs](cashflow-source-inputs.json)、[model input](normalized-valuation-input.json)、[reproducible output](normalized-valuation-output.json)。
 
 ### 5.4 Balance sheet and capital intensity
 
@@ -178,45 +202,68 @@ Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告�
 
 ## 7. Valuation
 
-**Calculation [E]：** 市值估 $4,917,961（$336.64×2026-06-27 期末 14,608.963 million shares）；EV 估 $4,855,788（市值＋$84,344 debt−$146,517 liquidity）。不是核驗的當日 fully diluted market cap。[Market data](market-data.json)、[Valuation input](valuation-input.json)。此 cashflow-consistent financing-debt convention 排除 operating lease liabilities；使用當期 lease 費用後現金流，不能單方面加入 leases 而不重建相應現金流。
+**Calculation：** Alpha Vantage key 已配置並成功取得 AAPL $336.64、交易日 2026-10-09，與 Yahoo acquisition 一致。Common-share 市值 proxy $4,917,961、financing debt $84,344、cash＋securities $146,517；保留 **assumed** operating cash $10,000 後 surplus liquidity $136,517、operating EV $4,865,788。不是核驗當日 fully diluted market cap。[API check](alpha-vantage-check.json)、[market data](market-data.json)、[SEC share/debt data](financial-data.json)、[valuation bridge](normalized-valuation-input.json)。
 
-| Trailing metric | Result | Calculation／source |
+**Share／lease consistency：** Forward per-share 與 matched reverse 都用 latest reported quarter **weighted-average diluted** 14,714.676 million shares，反解 target EV = $336.64×同一股數＋financing debt−surplus liquidity；不同於 common-share 市值 proxy。這是透明的最新可用 dilution proxy，並非研究日真正 treasury-stock-method outstanding shares。Operating lease rent 留在 EBIT／cashflow，EV 排除相應 operating lease liabilities；finance-lease debt／principal 最新拆分缺口保留，僅 FY25 finance lease liabilities $1,230 已知，其數量級 stress 約 $0.08/share、不是當期精確修正。[Input](normalized-valuation-input.json)、[SEC annual statements](financial-data.json)。
+
+| Trailing metric | Result | Convention／source |
 |---|---:|---|
-| P/E | 38.1x | estimated mcap／TTM NI $128,930，[valuation.py](valuation-output.json) |
-| EV/EBIT | 31.4x | EV／TTM EBIT $154,859，[valuation.py](valuation-output.json) |
-| EV/Sales | 10.4x | EV／TTM revenue $466,823，[valuation.py](valuation-output.json) |
-| Reported FCF yield | 2.8% | TTM CFO-capex／estimated mcap，[valuation.py](valuation-output.json) |
-| SBC-adjusted owner-cash proxy yield | ~2.5% [E] | $122,977／estimated mcap；不是严格 FCFF，[inputs](financial-data.json) |
+| P/E | 38.1x | common-share mcap proxy／reported TTM NI，[original trailing tool](valuation-output.json) |
+| EV/EBIT | 31.4x | 未預留 operating cash 的原 EV convention，用於原 trailing comparables，不與新 operating EV 混稱，[original tool](valuation-output.json) |
+| EV/Sales | 10.4x | 同上；period/basis limitation，[original tool](valuation-output.json) |
+| Reported simple FCF yield | 2.8% | CFO−PP&E capex／common-share mcap proxy；不是 FCFF，[source bridge](cashflow-source-review.md) |
+| Normalized operating cashflow / operating EV | 2.48% [E] | 約 $120.5bn normalized FCFF proxy／new operating EV；enterprise cashflow 與 enterprise claim 配對，[new output](normalized-valuation-output.json) |
 
-### Reverse DCF and forward DCF
+### Discount rate
 
-**Assumption [E]：** normalized unlevered owner cash flow 基期 $110,000，WACC 9%、terminal growth 3%；沒有完整 reported-to-FCFF bridge，基期是模型假設，以 FY2025 FCF $98,767、TTM $136,683 與 SBC cost 作 sanity check，不能稱為 audited FCF。[Valuation input](valuation-input.json)。WACC 是 sensitivity input，未用市場 beta／ERP 完整推導；因此這是 expectation test。
+**Fact／sourced estimate／Calculation：** 2026-10-09 US 10Y Treasury 5.24%，2026-10-01 Damodaran implied US ERP 4.20%（作者模型估計）；AAPL/SPY 60 monthly adjusted returns，2021-10 through 2026-09，raw beta 1.0686、Blume 1.0460、R² 0.4588。Ke = 5.24%＋1.0460×4.20% = **9.633%**。用 note fair-value debt weight 約 1.47%、synthetic marginal Kd 5.715%、assumed debt tax shield 21%，得到 conditional **WACC 9.558%**。最新 Apple bond YTM／bottom-up business beta 尚未核實，因此不是客觀已觀測的 WACC。全部回歸 observations 和公式可重算。[Dated discount-rate review](discount-rate-review.md)、[inputs](discount-rate-inputs.json)、[US Treasury](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026)、[NYU Stern](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm)。
 
-**Unresolved normalization：** CFO-capex 仍含融資利息、investment income、tax timing；EV 把 securities 加回 equity 時，operating FCFF 也要排除相應 non-operating income。未完成此 bridge 前，$110bn 只能當 illustrative assumption，$205 不能當已驗證 fundamental fair value。[Independent challenge](challenge-review.md)。
+### Reinvestment-aware DCF and matched reverse
 
-**Calculation [E]：** 上游 reverse solver 為十年單一 growth 後接 terminal，要求 FCF 成長約 **15.4%/year** 才支撐估計 EV。Forward DCF 為十年 growth 8% 再五年 fade，per-share value 約 **$205**、terminal 占 EV 約 **48.7%**；兩者 horizons 不同，不能把數字直接當同一模型的反解。[Tool output](valuation-output.json)。歷史 revenue 四年 CAGR 約 3.3% 不等於 FCF CAGR，但可提醒所要求成長不能僅憑一季 rebound 辯護。[Annual ratios](ratios-output.json)。
+**Assumption [E]：** 不把約 $120.5bn 正常化基期直接當成會無成本成長的現金。模型從 normalized operating NOPAT $125,190 出發，revenue／NOPAT growth 8% 持續十年，再五年 fade 到 3%；EBIT margin 32.70%、operating tax 18% 固定。Stage-one incremental ROIC **100%**、terminal **20%** 是對資本效率的明列假設，未用受 buybacks 扭曲的歷史 financing ROIC 作證據。[Driver inputs](normalized-valuation-input.json)、[cashflow source constraints](cashflow-source-review.md)。
 
-**Calculation [E] — matched model：** 使用完全相同的十年＋五年 fade forward model，binary solve 得 stage-one growth 約 **13.6%**；這才是與 $205 base forward value 對應的 expectations test。[Matched reverse inputs/results](valuation-matched-reverse.json)。所有成長數字皆受基期 FCFF 和折現率影響，不是市場明確承諾的預測。
+**Model convention：** Year investment = max(NOPAT×growth/assumed ROIIC, scaled full-capex−PP&E depreciation−normalized WC cash-credit baseline)。這個 max 避免把同一成長支出重複相加，且讓高 capex／WC 壓力進入主 DCF。FCFF = NOPAT−investment，SBC 不加回；terminal 也扣 g/ROIIC reinvestment。Base growth budget 高於 baseline，所以正常化現金流數字與第一年 forecast FCFF 不相同；單獨改某些 capex 假設可能尚未觸及 growth budget floor，而不影響 base value，不能誤稱每個 capex cell 都直接線性影響估值。[Year-by-year model](normalized-valuation-output.json)、[reproduction script](../../scripts/normalize_aapl.py)。
 
-### Bear / Base / Bull scenarios
+**Calculation [E]：** Mid-year discounted DCF 約 **$194/share**；terminal 占 EV **43.8%**。第十五年 revenue 約 $1.29 trillion，terminal implied EV/EBIT **10.9x**；這些是模型結果，不是已證實的市場占有率或公司指引。End-year timing alternative 約 $185。同一模型、同一 diluted-share proxy 的 reverse 解要求約 **14.8% 年增長十年**，再 fade，才能支持 $336.64；margin／tax／ROIIC 維持本模型設定。這是條件式 expectations test。[Output and matched target](normalized-valuation-output.json)。
 
-**Assumption [E]：** 下表是 FY2027 年末 EPS×exit P/E 的情境價，未折現回研究日、未含 dividends／交易成本；機率是分析者設定，不是客觀 odds。需與現值 DCF 分開看。[Scenario input/output](valuation-output.json)。
+**Independent calculator cross-check [E]：** 另外將 normalized FCFF proxy 輸入上游 `valuation.py` 的簡化兩階段現金流模型，得到約 **$201**。它直接成長 cashflow、沒有本模型逐年 NOPAT／investment budget；只作方法比較，不混用兩者的 reverse。Zero-reinvestment control 與 upstream DCF 加 mid-year adjustment 相符。[Upstream cross-check inputs](normalized-upstream-valuation-input.json)、[output](normalized-upstream-valuation-output.json)。
 
-| Scenario | EPS assumption | Exit P/E assumption | Value | Difference to Oct9 close | Probability |
+### Bear / Base / Bull — current present-value scenarios
+
+**Assumption [E]：** 全部下列 DCF 用相同 WACC 9.558%、相同 share／surplus-cash basis，改變營運假設；沒有另加任意風險溢酬。情境價不是發生機率或交易建議。[Scenario input/output](normalized-valuation-output.json)。
+
+| Scenario | EBIT margin | Ten-year growth | Operating tax | Stage / terminal ROIIC | Present value/share | vs Oct9 close |
+|---|---:|---:|---:|---:|---:|---:|
+| Bear | 29.0% | 4% | 20% | 50% / 15% | $117 | -65.1% |
+| Base | 32.7% | 8% | 18% | 100% / 20% | $194 | -42.5% |
+| Bull | 35.0% | 12% | 17% | 100% / 25% | $295 | -12.4% |
+
+### Earnings-method cross-check
+
+**Assumption／Calculation [E]：** Normalized EBIT 加回 reported TTM net non-operating income $1,047，再套同一 18% 稅率，normalized net income proxy 約 $126,048／EPS約 $8.57。這是 equity earnings 路徑，不能改拿 EV 當 numerator；非報告 diluted EPS。以 2027-09-25 作 FY27 情境觀察日，距研究日約 0.956 年，按 Ke 9.633% 折現，assume current $0.27 quarterly dividend 維持，未含交易成本與個人稅。Growth、exit P/E 均為 analyst assumptions，未完成 comparable-peer valuation calibration；這是第二方法交叉檢查，不能當作 validated sector-relative P/E。[Earnings inputs/results](normalized-valuation-output.json)。
+
+| Earnings scenario | Annual NI/EPS growth assumption | Exit P/E assumption | FY27 EPS | Future price, ex-dividend | Present value incl assumed dividend |
 |---|---:|---:|---:|---:|---:|
-| Bear | $8 | 22x | $176 | −47.7% | 25% [E] |
-| Base | $10 | 28x | $280 | −16.8% | 50% [E] |
-| Bull | $12 | 34x | $408 | +21.2% | 25% [E] |
+| Bear | 0% | 22x | $8.57 | $188 | $174 |
+| Base | 10% | 28x | $9.38 | $263 | $242 |
+| Bull | 20% | 34x | $10.20 | $347 | $318 |
 
-**Assumption [E] — operating consistency：** FY2027 bear/base/bull 營收分別 $500,000／$540,000／$600,000，假設 diluted shares 均為 14,600 million，則上述 EPS 對應淨利率約 23.4%／27.0%／29.2%；FCF/NI 假設 85%／95%／100%。這是情境一致性檢查，不是公司預測；FY2027 與 latest TTM 不同期間，不將總變化稱年度 CAGR。[Scenario assumptions](valuation-input.json)。
+**Interpretation：** 中央 DCF 約 $194 與 earnings-method 約 $242 都低於參考價格，但方法間差距本身代表不確定性，不能取平均假裝更準確。原草稿 $110bn／9%／$205 illustrative DCF 與未折現 FY27 $286 scenario 已由本次模型更新取代；原 JSON 保留作歷史 pipeline 測試，並非本次現值結論。[Current valuation output](normalized-valuation-output.json)。
 
-**Calculation [E]：** 機率加權 scenario price $286，沒有當成精確目標價；base EPS 與倍數不能視為 issuer guidance。[Valuation output](valuation-output.json)。
+### Sensitivity and what flips the conclusion
 
-**Maximum fundamental downside：** 嚴重經營情境另設 EPS $6×18x = $108，對價格差約 −67.9%（Assumption／Calculation [E]，非估計發生機率）；這不是保證最大損失，普通股極端下可全額損失。[Scenario reference inputs](valuation-input.json)。
+**Assumption／Calculation [E]：** WACC×terminal g 固定其他 base inputs，完整矩陣及 EBIT margin×growth、stage／terminal ROIIC、capex／WC 敏感度已保存。[Sensitivity output](normalized-valuation-output.json)。下表呈現部分 matrix，不是統計信賴區間。
 
-**Sensitivity：** base FCFF $90bn／$110bn／$130bn、WACC 8%／9%／10%，forward 其餘參數固定，完整矩陣另存；若看多結論只能靠低折現率或持续高成長成立，信心須降低。[Sensitivity calculations](valuation-sensitivity.json)。
+| WACC | g=2% | g=3% | g=4% |
+|---|---:|---:|---:|
+| 8.50% | $217 | $232 | $254 |
+| 9.56% | $184 | $194 | $206 |
+| 10.50% | $162 | $169 | $177 |
+| 11.50% | $144 | $148 | $153 |
 
-**Calculation [E] — conclusion-flip sensitivity：** 固定 base $110bn、growth 8%、相同 fade 與 net cash，WACC 約 6.8% 可使模型接近現价；若 base $130bn、WACC 8%，stage-one growth 約 9.5% 即接近現價。後者不是已證實的 forecast，但證明「昂貴」判斷不能只靠單一保守 base case。[Independent challenge calculations](challenge-review.md)。
+**Conclusion-flip [E]：** Base terminal ROIIC 降至 WACC（不再永久超額資本回報）時約 **$176**。固定 base 營運假設、僅改 WACC，約 **6.84%** 可接近 $336.64；但 joint bullish assumptions（35% EBIT margin、12%十年 growth、17% tax、terminal ROIIC25%、WACC8.5%）產生約 **$360**，方向可翻轉。這不是已證實的 forecast，卻足以否定「任何合理假設都昂貴」這種過度確定說法。[Flip calculations](normalized-valuation-output.json)、[independent challenge](normalization-challenge.md)。
+
+**Fundamental downside scenario：** Bear DCF 約 $117、與參考價格差約−65%；另保留原極端 EPS $6×18x=$108／約−67.9% stress reference。皆非保證最大損失、非機率估計；普通股極端情況可全額損失。[Current scenario output](normalized-valuation-output.json)、[original stress input](valuation-input.json)。
 
 ## 8. Short-Term and Long-Term Thesis
 
@@ -242,25 +289,23 @@ Events checked through: **2026-10-11**，查閱 SEC submissions、issuer 公告�
 
 截至寫作日，應收與庫存監控訊號已存在，沒有把它們全部列成尚未發生的風險；其餘未完成完整外部 enforcement 搜尋的部分保留 unknown。[Document review](document-review.md)。
 
-**After a decline：** 價格下降只有在基本面假設未損壞時才增加吸引力。先驗證去除 SBC／tax timing／non-operating income 的 cashflow bridge、应收 aging 与 Services economics，再使用多種估值方法重建 margin of safety。此處**撤回未經校準的 $165–$185 fundamental entry anchor**；單一假設 DCF 不足以給出可靠吸引價位。[Challenge disposition](challenge-review.md)。
+**After a decline：** 價格下降只有在基本面假設未損壞時才增加吸引力。先驗證將 SBC 留為成本、去除 tax timing／non-operating income 的 cashflow bridge、应收 aging 与 Services economics，再使用多種估值方法重建 margin of safety。此處**撤回未經校準的 $165–$185 fundamental entry anchor**；單一假設 DCF 不足以給出可靠吸引價位。[Challenge disposition](challenge-review.md)。
 
 ## 10. Challenge Pass
 
-Method：獨立 agent targeted challenge，涵蓋來源／算術／估值方法與 recency；不是重新執行完整 Deep Dive。[Challenge log](challenge-review.md)。
+**Method：** 先前 document／peer targeted independent challenge 記錄保留；本次另由獨立 reviewer 專注於現金流正常化、成長再投資、折現與 reverse 配對，原 author 並未只重跑 linter。[Historical challenge](challenge-review.md)、[Current normalization challenge](normalization-challenge.md)。
 
 | Claim challenged | Disposition | Consequence |
 |---|---|---|
-| 財報後事件的 recency 覆蓋不足 | UPHELD | 加入已生效 EU terms 與 Duo 公告／出貨時間；分開事實與未驗證收入。 |
-| $110bn FCFF 是充分校準的 normalized base | UPHELD objection；base UNRESOLVED | 沒有完整 FCFF bridge，保留 illustrative assumptions，撤回 fundamental entry anchor，降低估值信心。 |
-| Reverse 15.4% 能直接與 forward base 比較 | UPHELD | 加入同模型 matched reverse 13.6%，保留原版輸出及不同 horizons 說明。 |
-| 評分分數足以成為 validated Standard rating | UPHELD | Category coverage 與 metric coverage 不同；保留 cap 和 partial gate disclosure，只作 pipeline demonstration。 |
-| Peer set 足以檢驗 dominant smartphone economics | UPHELD | 加入 Samsung operational context；smartphone valuation 仍不足，不造假中位數。 |
-| 最新應收 divergence 持續惡化 | WEAKENED | 加入 latest same-season 成長比較，歷史 gate 不等於目前持續加速。 |
-| 更換 weights 會反轉結果 | REJECTED | 實際三組 raw score 不同，皆受 cap 限制，不能由此確認品質。 |
+| Total D&A 可全部配 PP&E cash capex | UPHELD objection | 改只用 assumed PPE depreciation $8bn，保留其他 amortization expense；cashflow baseline 從約 $125.6bn 降為約 $120.5bn。[Sources](cashflow-source-review.md) |
+| Ireland cash settlement 要再加回 TTM | REJECTED proposed addback | annual+9M−9M 已抵消；TCJA 時點也只正常化一次。[Source bridge](cashflow-source-inputs.json) |
+| 常數 FCF 成長不需投資 | UPHELD objection | 用 NOPAT／ROIIC reinvestment budget、terminal reinvestment 及 capex/WC floor；假設非實測 ROIC。[Model](normalized-valuation-output.json) |
+| Common-share EV reverse 與 diluted per-share 可以混用 | UPHELD objection | matched reverse target 也用相同 diluted-share proxy，計算可還原 $336.64。[Output](normalized-valuation-output.json) |
+| 任意假設都顯示目前價格昂貴 | REJECTED absolute claim | joint bullish case 約 $360，撤回無條件昂貴結論；中央情境要求偏高成長，仍需驗證。[Sensitivity](normalized-valuation-output.json) |
 
-**Verdict change：** 從「現價要求高成長、估值信心較低」改為「模型顯示成長要求，但當前 normalized cashflow／discount rate 不足以作 definitive valuation verdict」。**Single-input sensitivity** 見同模型成長／WACC 測試；較高 cashflow base 與較低 WACC 可翻轉估值方向。[Challenge review](challenge-review.md)。
+**Verdict change：** 由「FCFF／WACC 尚無完整 bridge、估值不可判斷」更新為「會計 bridge 與模型已核對，基準估值低於市價，但成長／資本效率／折現率的可行性仍決定結論」。不是把 arithmetic PASS 升格為 forecast confirmation。
 
-**Most likely way wrong：** 假設的 normalized FCFF 過低，或高估 EU／AI 成本對未來現金流的壓力；相反，也可能將 working-capital rebound 誤認為持續能力。**What would change my mind：** 完整 FCFF bridge、issuer 新結果與 term-economics 量化，足以支持較寬或較窄估值區間。**Searched but not found：** 已查 primary issuer／SEC records；未找到足夠 cashflow bridge、同步 peers TTM 或無需假設的 WACC 證據，不以缺乏反證當作確認。
+**Single-input sensitivity：** Base WACC 約6.84%使模型接近參考價；另列多項 joint bullish scenario，不能把它當單一輸入測試。**Most likely way wrong：** 對未來 ROIIC／持續 cash investment、terminal excess return 或成長期作錯估計。**What would change my mind：** issuer 新結果與可辨識的 recurring intangible／capex／cash-tax disclosure、更新 market risk inputs，支持不同現金轉換及 growth path。**Searched but not found：** 精確最新 PP&E-only depreciation、current fully diluted count、完整當期利息拆分／bond YTM、拆分 intangible cash investment；未知項未默認為零。[Review](cashflow-source-review.md)、[Discount inputs](discount-rate-review.md)。
 
 ## 11. Disclaimer
 
@@ -276,4 +321,4 @@ This is equity research, not personalised investment advice or licensed financia
 
 ## What would change my mind
 
-最新年報提供可重複、扣 SBC／一次性項目後的 cashflow 改善，應收與庫存疑慮消退，以及較保守成長／折現假設仍能支持市價；或出現相反證據，使 normalized base 下修。結論以可核驗條件更新，不以股價單獨改變。
+最新年報提供可重複、將 SBC 保留為成本並扣除一次性項目後的 cashflow 改善，應收與庫存疑慮消退，以及較保守成長／折現假設仍能支持市價；或出現相反證據，使 normalized base 下修。結論以可核驗條件更新，不以股價單獨改變。

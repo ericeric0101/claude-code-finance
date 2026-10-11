@@ -1,0 +1,80 @@
+{
+  "as_of": "2026-10-11",
+  "currency": "USD",
+  "units": "millions except per-share USD and decimal rates",
+  "reported": {
+    "cogs": 239700.0,
+    "dividends_paid": 15640.0,
+    "ebit": 154859.0,
+    "cfo": 146724.0,
+    "sbc": 13706.0,
+    "net_income": 128930.0,
+    "revenue": 466823.0,
+    "depreciation": 13100.0,
+    "tax": 26976.0,
+    "capex": 10041.0,
+    "buybacks": 82226.0,
+    "pbt": 155906.0,
+    "fcf": 136683.0
+  },
+  "normalized": {
+    "tariff_refund_approximation": 2188.34,
+    "ebit": 152670.66,
+    "ebit_margin": 0.32704185526420076,
+    "nopat": 125189.94120000002,
+    "fcff": 120474.9412,
+    "nopat_minus_reported_net_income": -3740.0587999999843
+  },
+  "assumptions": {
+    "classification": "Assumptions, not issuer guidance or observed sustainable cashflows",
+    "operating_tax_rate": 0.18,
+    "tariff_refund_margin_points": 0.02,
+    "normalized_capex": 12715.0,
+    "normalized_ppe_depreciation": 8000,
+    "normalized_working_capital_cash_credit": 0,
+    "operating_cash_reserve": 10000,
+    "stage1_growth": 0.08,
+    "stage1_years": 10,
+    "fade_years": 5,
+    "terminal_growth": 0.03,
+    "stage1_roiic": 1.0,
+    "terminal_roiic": 0.2,
+    "sbc_policy": "EBIT includes SBC; no SBC add-back, no second subtraction. Future dilution assumed offset by cash-equivalent SBC cost.",
+    "lease_policy": "Operating leases remain rental operating costs; financing-debt EV convention. Finance-lease debt-only FY25-sized stress quantified; latest principal/cashflow gap not quantified.",
+    "share_policy": "Latest reported quarter weighted-average diluted shares, not verified October fully diluted outstanding count.",
+    "capex_policy": "Full FY25 cash PP&E capex anchor; not maintenance-only. FY25 rounded PPE depreciation8000 is forward assumption, not exact TTM. Other amortization remains expensed in EBIT. Growth investment is max(g/ROIIC*NOPAT, scaled baseline netcapex/WC budget), not sum.",
+    "working_capital_policy": "Remove all observed operating asset/liability cash timing; neutral normalized baseline. Future total reinvestment modeled through ROIIC, includes capex net of D&A and operating WC."
+  },
+  "bridge": {
+    "common_shares": 14608.963,
+    "diluted_share_proxy": 14714.676,
+    "price": 336.64,
+    "price_date": "2026-10-09",
+    "share_date": "2026-06-27",
+    "market_cap_estimate": 4917961.30432,
+    "financing_debt": 84344.0,
+    "liquidity": 146517.0,
+    "surplus_liquidity": 136517.0,
+    "market_operating_ev": 4865788.30432,
+    "diluted_basis_target_ev": 4901375.528639999
+  },
+  "discount_rate": {
+    "wacc": 0.09557967097103298,
+    "ke": 0.09633029942999155,
+    "sources": "discount-rate-inputs.json; see discount-rate-review.md"
+  },
+  "sources": {
+    "financials": "financial-data.json; exact SEC tag provenance",
+    "cashflow_components": "cashflow-source-inputs.json",
+    "tariff_refund": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+    "price": "alpha-vantage-check.json; market-data.json cross-check"
+  },
+  "limitations": [
+    "Tariff uplift estimated from rounded approximately 2 margin points, not exact refund cash collection.",
+    "18% tax and neutral WC are normalization assumptions, not statutory or issuer-guided cash tax.",
+    "Future ROIIC is an explicit sensitivity assumption, not financing-distorted historical ROIC.",
+    "PPE depreciation uses rounded FY25 anchor because exact9M split unavailable; intangible amortization is not added back, but unmatched additional intangible cash investment remains a scenario risk.",
+    "No current fully diluted shares or exact October debt fair value; minimum operating cash reserve assumed.",
+    "Cashflow and valuation completion does not complete missing peer-rating/document coverage."
+  ]
+}

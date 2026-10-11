@@ -1,0 +1,9 @@
+{
+  "provider": "Alpha Vantage",
+  "function": "GLOBAL_QUOTE",
+  "symbol": "AAPL",
+  "retrieved_at": "2026-10-11T06:58:15.199635+00:00",
+  "status": "PASS",
+  "price": 336.64,
+  "trading_day": "2026-10-09"
+}

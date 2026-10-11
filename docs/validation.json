@@ -10,15 +10,41 @@
   "stock_analysis_upstream_hash_check": "61/61 files match",
   "custom_skill_validator": "PASS",
   "sec_downloader": "PASS: AAPL FY2025 10-K, 2025-10-31",
-  "alpha_vantage": "not configured or connection-tested",
+  "alpha_vantage": "PASS: configured locally; AAPL GLOBAL_QUOTE 336.64, 2026-10-09, crosscheck Yahoo",
   "stock_analysis_cli_smoke": "ratios, score, valuation, verify_data, lint_report passed",
   "aapl_data_intake": "PASS; exact details in research/AAPL/data-verification.json",
-  "aapl_report_lint": "PASS strict; 0 errors, 0 warnings after challenge revisions",
+  "aapl_report_lint": {
+    "grade": "PASS",
+    "strict": true,
+    "counts": {
+      "error": 0,
+      "warn": 0,
+      "info": 2,
+      "pass": 13,
+      "skip": 0
+    }
+  },
   "pl": "prepared, not run per user scope",
-  "independent_challenge": "Complete targeted pass; source sample and arithmetic verified; normalized FCFF and rating unresolved",
-  "aapl_report_status": "Standard pipeline draft with incomplete valuation/rating validation",
+  "independent_challenge": "Focused independent normalization/valuation review complete; material corrections incorporated; forecastROIIC andcashinvestment remain assumptions",
+  "aapl_report_status": "Cashflow normalization and conditional valuation verified; complete sector-relative rating not claimed",
   "default_host": "Codex desktop",
   "codex_skill_entries": "AGENTS.md and three relative symlink entries; checked by check_setup.py",
   "codex_automatic_discovery": "Not separately tested in a fresh session; current agent reads installed skills directly",
-  "legacy_codex_cli": "0.36.0; login status system-configuration panic; desktop session unaffected"
+  "legacy_codex_cli": "0.36.0; login status system-configuration panic; desktop session unaffected",
+  "cashflow_reconciliation": "FY21-25,9M25,9M26,TTM exact; source components independently reviewed",
+  "cashflow_normalized_fcff": "120474.9412 USD millions; explicitly assumed18%tax,FY25PPEdepreciation8000,FY25fullcapex12715,neutralWC; intangiblegap disclosed",
+  "discount_rate": "Empirical anchors and60monthlybeta; conditionalWACC9.557967%; debtYTM,bottom-upbeta gaps disclosed",
+  "valuation_validation": "Reinvestment-aware driverDCF,upstreamzero-reinvestmentcontrol,matchedreversepriceidentity,CFOsourcechecks andsensitivity; results in normalized-valuation-output.json",
+  "normalization_model_checks": {
+    "count": 35,
+    "pass": true
+  },
+  "normalization_source_gate": {
+    "verdict": "PASS",
+    "counts": {
+      "error": 0,
+      "warn": 0,
+      "info": 2
+    }
+  }
 }

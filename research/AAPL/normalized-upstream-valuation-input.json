@@ -1,0 +1,17 @@
+{
+  "company": "Apple Inc.",
+  "market": {
+    "price": 336.64,
+    "shares_out": 14714.676
+  },
+  "dcf": {
+    "base_fcf": 120474.9412,
+    "stage1_growth": 0.08,
+    "stage1_years": 10,
+    "fade_years": 5,
+    "terminal_growth": 0.03,
+    "wacc": 0.09557967097103298,
+    "net_debt": -52173.0,
+    "shares_out": 14714.676
+  }
+}

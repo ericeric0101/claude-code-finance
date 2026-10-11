@@ -29,10 +29,10 @@ chmod 600 .env
 若 skill 未出現在選單，可重新開啟專案；目前對話可直接讀取完整 SKILL.md。
 官方設定說明：https://learn.chatgpt.com/docs/build-skills
 
-此機 `.env` 已設定使用者提供的 SEC identification；Alpha Vantage key 尚空白。
+此機 `.env` 已設定使用者提供的 SEC identification；Alpha Vantage key 已配置（不記錄其值）。
 使用者可直接編輯 `.env` 的 `ALPHA_VANTAGE_API_KEY`。不要把 key 放進聊天、
 命令列、報告或 Git。`.env` 及 `.env.*` 已排除，唯 `.env.example` 可提交。
-SEC／Yahoo 不需要 Alpha Vantage key，本次 AAPL 使用這兩個來源。
+SEC／Yahoo acquisition 與 Alpha Vantage GLOBAL_QUOTE 均已實測；AAPL 最新 close 的日期／價格一致，結果見 `research/AAPL/alpha-vantage-check.json`。
 
 ```sh
 uv run --project .agents/skills/finance-skill/scripts python \
@@ -60,13 +60,13 @@ extract 不會自動生成新的研究結論。非內建 ticker（例如 PL）�
 | 2 Clone | 完成 | 在使用者空白 workspace clone 原主 repo，Fork 建立後改 origin 指向使用者 Fork；保留完整主 repo 歷史與 upstream。 |
 | 3 finance skill | 完成 | 整包保存在 `.claude/skills/finance-skill`，由 `.agents/skills/finance-skill` 提供 Codex 入口；上游內容未改。 |
 | 4 uv | 完成 | 既有 uv 0.6.14；已建立 Python 3.11 環境並安裝 finance dependencies。 |
-| 5 data sources | 部分完成 | SEC identification 已設定並測試；Alpha Vantage 缺使用者 key；Yahoo price retrieval 成功。 |
+| 5 data sources | 完成配置與連線測試 | SEC identification、Yahoo acquisition、Alpha Vantage AAPL GLOBAL_QUOTE 均成功；key 只在 ignored .env。 |
 | 6 SEC downloader | 完成 | 原版 CLI 成功下載／解析 AAPL FY2025 10-K，filed 2025-10-31。 |
 | 7 second repo | 完成 | 暫存資料夾獨立 sparse clone，未混入主 repo Git 歷史。 |
 | 8 full skill | 完成 | references、scripts、examples、evals 全部匯入，MIT LICENSE 保留。 |
 | 9 project install | 完成 | stock-analysis 已放進 project skill directory；修正原 repo 忽略整個 `.claude/` 的規則。 |
 | 10 Codex skill entry | 已改用 Codex | AGENTS.md 與三個 `.agents/skills/` 入口已配置並驗證；目前 Codex 可直接讀取，選單自動載入未另外實測。不再需要 Claude 登入。 |
-| 11 AAPL Standard | 完成 pipeline 測試／研究草稿 | SEC／Yahoo acquisition、document review、data gate、calculators、challenge、lint 已實測；完整 normalized FCFF、比較估值與 validated rating 尚未完成，不能稱 definitive Standard research。不是 Claude 模型執行的結果。 |
+| 11 AAPL Standard | 完成現金流／估值更新；peer rating 保留限制 | Codex 完成 CFO 勾稽、明列假設正常化 FCFF、實證折現率 anchors、growth reinvestment DCF、matched reverse、earnings cross-check、independent challenge 與 QA。Current interest／intangible spending 拆分與 validated peer-relative rating 缺口仍揭露；不稱 definitive fair value。 |
 | 12 PL Deep Dive | 依最新指示延期 | `docs/research-prompts.md` 已備妥；沒有虛構 PL 報告。 |
 | 13 scripts | 完成 | 五個 scripts help／template／example smoke checks 成功；AAPL real input calculations 成功。 |
 | 14 custom skill | 完成 | `.agents/skills/my-equity-research/SKILL.md`，官方 quick validator 通過，與上游分離。 |
@@ -88,8 +88,27 @@ extract 不會自動生成新的研究結論。非內建 ticker（例如 PL）�
 
 ## 驗證界線
 
-`check_setup.py` 不傳送 API key、未對 Alpha Vantage 作未配置的請求。
+`check_setup.py` 不傳送 API key；另外在使用者配置後已實際測試 Alpha Vantage，保存不含 key 的報價結果。
 技能入口與 CLI help 檢查不同於 app 選單 discovery；目前 Codex 已讀取技能，未另外模擬新工作階段自動載入。
 intake gate／report linter 為機械 QA，不能證明所有假設正確。研究 raw filings
 保留在本機 `research/**/raw/`、不納入 Git；提交來源索引、抽取數據、可重現
 計算輸入／輸出、報告与覆核記錄。未提供持股，因此没有 portfolio correlation。
+
+## AAPL 現金流正常化／估值更新
+
+`research/AAPL/cashflow-valuation-review.md` 為本次聚焦交付；主報告已同步。
+`cashflow-source-inputs.json` 保存 FY21–25／兩期9M／TTM 元件，
+`discount-rate-inputs.json` 保存 dated anchors 及60個monthly return observations。
+
+```sh
+python3 scripts/normalize_aapl.py
+python3 .agents/skills/stock-analysis/scripts/verify_data.py research/AAPL/normalization-data-intake.json
+python3 .agents/skills/stock-analysis/scripts/lint_report.py research/AAPL/AAPL-analysis-2026-10-11.md --strict
+```
+
+`normalized-valuation-input.json`／output 保存本次 assumptions、逐年 reinvestment、
+同模型 reverse 與 sensitivity；上游 `valuation.py` 另作簡化 DCF cross-check。
+原 `valuation-input.json`／output／sensitivity 是初次 pipeline 歷史，現值結論已由
+normalized 模型取代，不能把原$205／未折現FY27情境當作本次結果。
+會計勾稽與模型驗證通過不表示所有前瞻假設會成真；獨立challenge見
+`normalization-challenge.md`。

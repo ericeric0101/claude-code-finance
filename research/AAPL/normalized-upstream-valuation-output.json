@@ -1,0 +1,29 @@
+{
+  "company": "Apple Inc.",
+  "ticker": null,
+  "as_of": null,
+  "currency": null,
+  "units": null,
+  "market_cap": 4953548.528639999,
+  "ev_bridge": null,
+  "multiples": null,
+  "reverse_dcf": null,
+  "dcf": {
+    "enterprise_value": 2908946.629488456,
+    "equity_value": 2961119.629488456,
+    "per_share": 201.23580223502415,
+    "pv_explicit": 1583713.4561210596,
+    "pv_terminal": 1325233.1733673967,
+    "terminal_pct_of_ev": 0.4555714979206894,
+    "base_fcf": 120474.9412,
+    "stage1_growth": 0.08,
+    "stage1_years": 10,
+    "fade_years": 5,
+    "terminal_growth": 0.03,
+    "wacc": 0.09557967097103298,
+    "net_debt": -52173.0,
+    "upside_vs_price": -0.4022225456421573
+  },
+  "scenarios": null,
+  "notes": []
+}

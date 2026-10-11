@@ -1,0 +1,427 @@
+{
+  "as_of": "2026-10-11",
+  "currency": "USD",
+  "classification": "Empirical anchors with explicitly labelled modelling assumptions, not observed WACC",
+  "risk_free": {
+    "value": 0.0524,
+    "type": "Fact",
+    "date": "2026-10-09",
+    "measure": "10-year nominal Treasury par yield",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+  },
+  "erp": {
+    "value": 0.042,
+    "type": "Author model estimate used as sourced anchor",
+    "date": "2026-10-01",
+    "measure": "Damodaran implied US ERP trailing 12 months adjusted payout",
+    "reference_treasury_rate": 0.0529,
+    "us_default_spread": 0.0022,
+    "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm"
+  },
+  "beta": {
+    "n": 60,
+    "start": "2021-10-31 00:00:00",
+    "end": "2026-09-30 00:00:00",
+    "raw_beta": 1.0685962839371548,
+    "blume_beta": 1.0459595102378938,
+    "r_squared": 0.45882995356495565,
+    "monthly_returns": {
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "datetime"
+          },
+          {
+            "name": "AAPL",
+            "type": "number"
+          },
+          {
+            "name": "SPY",
+            "type": "number"
+          }
+        ],
+        "primaryKey": [
+          "Date"
+        ],
+        "pandas_version": "1.4.0"
+      },
+      "data": [
+        {
+          "Date": "2021-10-31T00:00:00.000",
+          "AAPL": 0.0586573464,
+          "SPY": 0.0701636576
+        },
+        {
+          "Date": "2021-11-30T00:00:00.000",
+          "AAPL": 0.1050817466,
+          "SPY": -0.0080349036
+        },
+        {
+          "Date": "2021-12-31T00:00:00.000",
+          "AAPL": 0.0742284003,
+          "SPY": 0.0462476756
+        },
+        {
+          "Date": "2022-01-31T00:00:00.000",
+          "AAPL": -0.0157121616,
+          "SPY": -0.0527413299
+        },
+        {
+          "Date": "2022-02-28T00:00:00.000",
+          "AAPL": -0.054065847,
+          "SPY": -0.0295170026
+        },
+        {
+          "Date": "2022-03-31T00:00:00.000",
+          "AAPL": 0.0574734126,
+          "SPY": 0.037590503
+        },
+        {
+          "Date": "2022-04-30T00:00:00.000",
+          "AAPL": -0.0971307203,
+          "SPY": -0.0877689471
+        },
+        {
+          "Date": "2022-05-31T00:00:00.000",
+          "AAPL": -0.0544965654,
+          "SPY": 0.0022571534
+        },
+        {
+          "Date": "2022-06-30T00:00:00.000",
+          "AAPL": -0.0814294104,
+          "SPY": -0.0824603847
+        },
+        {
+          "Date": "2022-07-31T00:00:00.000",
+          "AAPL": 0.1886337641,
+          "SPY": 0.0920874043
+        },
+        {
+          "Date": "2022-08-31T00:00:00.000",
+          "AAPL": -0.0312080394,
+          "SPY": -0.040802034
+        },
+        {
+          "Date": "2022-09-30T00:00:00.000",
+          "AAPL": -0.1209769052,
+          "SPY": -0.0924458397
+        },
+        {
+          "Date": "2022-10-31T00:00:00.000",
+          "AAPL": 0.1095512676,
+          "SPY": 0.0812755225
+        },
+        {
+          "Date": "2022-11-30T00:00:00.000",
+          "AAPL": -0.0330273422,
+          "SPY": 0.0555916519
+        },
+        {
+          "Date": "2022-12-31T00:00:00.000",
+          "AAPL": -0.1222728561,
+          "SPY": -0.0576284004
+        },
+        {
+          "Date": "2023-01-31T00:00:00.000",
+          "AAPL": 0.1105213,
+          "SPY": 0.0628875274
+        },
+        {
+          "Date": "2023-02-28T00:00:00.000",
+          "AAPL": 0.023183163,
+          "SPY": -0.0251429035
+        },
+        {
+          "Date": "2023-03-31T00:00:00.000",
+          "AAPL": 0.1186483792,
+          "SPY": 0.0370779708
+        },
+        {
+          "Date": "2023-04-30T00:00:00.000",
+          "AAPL": 0.0289872164,
+          "SPY": 0.0159748038
+        },
+        {
+          "Date": "2023-05-31T00:00:00.000",
+          "AAPL": 0.0460585997,
+          "SPY": 0.0046162463
+        },
+        {
+          "Date": "2023-06-30T00:00:00.000",
+          "AAPL": 0.0943297302,
+          "SPY": 0.0647999105
+        },
+        {
+          "Date": "2023-07-31T00:00:00.000",
+          "AAPL": 0.0127854734,
+          "SPY": 0.032733232
+        },
+        {
+          "Date": "2023-08-31T00:00:00.000",
+          "AAPL": -0.0423837752,
+          "SPY": -0.0162520675
+        },
+        {
+          "Date": "2023-09-30T00:00:00.000",
+          "AAPL": -0.0886784555,
+          "SPY": -0.0474343666
+        },
+        {
+          "Date": "2023-10-31T00:00:00.000",
+          "AAPL": -0.0025695793,
+          "SPY": -0.021708679
+        },
+        {
+          "Date": "2023-11-30T00:00:00.000",
+          "AAPL": 0.1137800248,
+          "SPY": 0.091343758
+        },
+        {
+          "Date": "2023-12-31T00:00:00.000",
+          "AAPL": 0.0135825775,
+          "SPY": 0.0456554786
+        },
+        {
+          "Date": "2024-01-31T00:00:00.000",
+          "AAPL": -0.0422272529,
+          "SPY": 0.0159264833
+        },
+        {
+          "Date": "2024-02-29T00:00:00.000",
+          "AAPL": -0.0185429958,
+          "SPY": 0.0521868615
+        },
+        {
+          "Date": "2024-03-31T00:00:00.000",
+          "AAPL": -0.0512864561,
+          "SPY": 0.032701904
+        },
+        {
+          "Date": "2024-04-30T00:00:00.000",
+          "AAPL": -0.0067063539,
+          "SPY": -0.04031968
+        },
+        {
+          "Date": "2024-05-31T00:00:00.000",
+          "AAPL": 0.1302223636,
+          "SPY": 0.0505795218
+        },
+        {
+          "Date": "2024-06-30T00:00:00.000",
+          "AAPL": 0.0955526092,
+          "SPY": 0.0352803717
+        },
+        {
+          "Date": "2024-07-31T00:00:00.000",
+          "AAPL": 0.0544107936,
+          "SPY": 0.0121091456
+        },
+        {
+          "Date": "2024-08-31T00:00:00.000",
+          "AAPL": 0.0323535557,
+          "SPY": 0.0233654217
+        },
+        {
+          "Date": "2024-09-30T00:00:00.000",
+          "AAPL": 0.0174672953,
+          "SPY": 0.0210046015
+        },
+        {
+          "Date": "2024-10-31T00:00:00.000",
+          "AAPL": -0.0304292094,
+          "SPY": -0.0089233883
+        },
+        {
+          "Date": "2024-11-30T00:00:00.000",
+          "AAPL": 0.0517068818,
+          "SPY": 0.059633363
+        },
+        {
+          "Date": "2024-12-31T00:00:00.000",
+          "AAPL": 0.0551552336,
+          "SPY": -0.0240599144
+        },
+        {
+          "Date": "2025-01-31T00:00:00.000",
+          "AAPL": -0.0575831735,
+          "SPY": 0.0268562378
+        },
+        {
+          "Date": "2025-02-28T00:00:00.000",
+          "AAPL": 0.0258723099,
+          "SPY": -0.0126949253
+        },
+        {
+          "Date": "2025-03-31T00:00:00.000",
+          "AAPL": -0.0815000391,
+          "SPY": -0.0557192113
+        },
+        {
+          "Date": "2025-04-30T00:00:00.000",
+          "AAPL": -0.0433529483,
+          "SPY": -0.0086701782
+        },
+        {
+          "Date": "2025-05-31T00:00:00.000",
+          "AAPL": -0.0535841842,
+          "SPY": 0.0628450204
+        },
+        {
+          "Date": "2025-06-30T00:00:00.000",
+          "AAPL": 0.0215085292,
+          "SPY": 0.0513862404
+        },
+        {
+          "Date": "2025-07-31T00:00:00.000",
+          "AAPL": 0.011697776,
+          "SPY": 0.0230313644
+        },
+        {
+          "Date": "2025-08-31T00:00:00.000",
+          "AAPL": 0.1196388297,
+          "SPY": 0.0205195448
+        },
+        {
+          "Date": "2025-09-30T00:00:00.000",
+          "AAPL": 0.0968812541,
+          "SPY": 0.0356204614
+        },
+        {
+          "Date": "2025-10-31T00:00:00.000",
+          "AAPL": 0.0618150494,
+          "SPY": 0.0238373173
+        },
+        {
+          "Date": "2025-11-30T00:00:00.000",
+          "AAPL": 0.0323643345,
+          "SPY": 0.0019500533
+        },
+        {
+          "Date": "2025-12-31T00:00:00.000",
+          "AAPL": -0.025067289,
+          "SPY": 0.0007974973
+        },
+        {
+          "Date": "2026-01-31T00:00:00.000",
+          "AAPL": -0.0455379629,
+          "SPY": 0.0147377933
+        },
+        {
+          "Date": "2026-02-28T00:00:00.000",
+          "AAPL": 0.0190656096,
+          "SPY": -0.0086419943
+        },
+        {
+          "Date": "2026-03-31T00:00:00.000",
+          "AAPL": -0.0393292436,
+          "SPY": -0.049379519
+        },
+        {
+          "Date": "2026-04-30T00:00:00.000",
+          "AAPL": 0.0691911799,
+          "SPY": 0.1050526408
+        },
+        {
+          "Date": "2026-05-31T00:00:00.000",
+          "AAPL": 0.1510871522,
+          "SPY": 0.0526257476
+        },
+        {
+          "Date": "2026-06-30T00:00:00.000",
+          "AAPL": -0.0727424545,
+          "SPY": -0.010292581
+        },
+        {
+          "Date": "2026-07-31T00:00:00.000",
+          "AAPL": 0.067562963,
+          "SPY": 0.0003482244
+        },
+        {
+          "Date": "2026-08-31T00:00:00.000",
+          "AAPL": 0.026587853,
+          "SPY": 0.0267993598
+        },
+        {
+          "Date": "2026-09-30T00:00:00.000",
+          "AAPL": 0.0510335572,
+          "SPY": -0.0032934178
+        }
+      ]
+    },
+    "classification": "Calculation from Yahoo adjusted prices; historical return-regression estimate",
+    "frequency": "monthly",
+    "benchmark": "SPY ETF adjusted total-return proxy",
+    "formula": "Cov(AAPL monthly returns, SPY monthly returns)/Var(SPY monthly returns)",
+    "blume_formula": "0.67 * raw_beta + 0.33",
+    "raw_standard_error_ols": 0.15238445182363347,
+    "raw_95pct_approx_interval": [
+      0.7699227583628332,
+      1.3672698095114764
+    ],
+    "urls": [
+      "https://finance.yahoo.com/quote/AAPL/history/",
+      "https://finance.yahoo.com/quote/SPY/history/"
+    ],
+    "retrieval": "2026-10-11; yfinance auto_adjust=True, 2021-09-01 through 2026-10-09; latest incomplete October month excluded"
+  },
+  "capital_weights": {
+    "type": "Calculation with stale share-count/debt date limitation",
+    "equity_usd_millions": 4917961.30432,
+    "debt_usd_millions": 73200,
+    "debt_weight": 0.014665925530525972,
+    "equity_price_usd": 336.64,
+    "price_date": "2026-10-09",
+    "shares_millions": 14608.963,
+    "share_date": "2026-06-27",
+    "term_debt_fair_value_usd_millions": 71200,
+    "commercial_paper_approx_usd_millions": 2000,
+    "debt_date": "2026-06-27",
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+  },
+  "cost_of_debt": {
+    "type": "Assumption / synthetic high-grade spread proxy; not Apple observed YTM",
+    "spread_range": [
+      0.004,
+      0.0055
+    ],
+    "selected_spread": 0.00475,
+    "selected_kd": 0.05715,
+    "spread_table_date": "2026-01",
+    "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ratings.html",
+    "limitations": "AAA/AA table brackets; actual Apple issuer rating and Oct 9 bond YTM not independently verified. Do not call this a rating-based observed yield."
+  },
+  "marginal_tax": {
+    "type": "Assumption",
+    "value": 0.21,
+    "note": "21% US federal illustrative deductible debt tax shield; no claim this equals actual marginal global rate."
+  },
+  "central": {
+    "ke_blume": 0.09633029942999155,
+    "wacc_blume": 0.09557967097103298,
+    "wacc_raw": 0.09651647191843431
+  },
+  "sensitivity_grid": {
+    "type": "Assumption; rounded valuation stress grid, not a statistical confidence interval",
+    "wacc_rates": [
+      0.085,
+      0.095,
+      0.1,
+      0.105,
+      0.115
+    ],
+    "terminal_growth_rates": [
+      0.02,
+      0.025,
+      0.03,
+      0.035
+    ],
+    "note": "Keep cashflow assumptions constant when isolating discount-rate effect. Additional cashflow risks belong in scenarios, not duplicated rate surcharges."
+  },
+  "gaps": [
+    "Bottom-up business-mix beta not established",
+    "Contemporaneous Apple bond YTM / issuer rating not independently sourced",
+    "Market debt fair value and shares dated June 27 rather than October 9",
+    "ERP October 1 anchor is not recalculated for October 9"
+  ]
+}
