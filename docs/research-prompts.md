@@ -1,12 +1,13 @@
 # Research prompts
 
-Run from the repository root using `./scripts/claude` after authentication.
-These prompts may also be followed by a research agent that can read the skills.
+Use these prompts directly in the Codex desktop project. Read `AGENTS.md`
+and the full skills under `.agents/skills/`. No Claude login is needed.
 
 ## Skill discovery (step 10)
 
 ```text
-What finance-skill and stock-analysis skills are available in this project?
+Read AGENTS.md and the SKILL.md files under .agents/skills/.
+What finance-skill, stock-analysis and my-equity-research skills are available?
 Briefly describe when you would use each. Do not perform stock analysis yet.
 ```
 

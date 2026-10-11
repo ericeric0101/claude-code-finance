@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / '.claude/skills/finance-skill/scripts'))
+sys.path.insert(0, str(ROOT / '.agents/skills/finance-skill/scripts'))
 import sec_edgar
 
 

@@ -5,7 +5,7 @@
   "python": "3.11.15",
   "claude": "2.1.296",
   "claude_authenticated": false,
-  "claude_skill_discovery": "blocked: Not logged in; Please run /login",
+  "claude_skill_discovery": "legacy only; no longer required",
   "finance_upstream_hash_check": "20/20 files match",
   "stock_analysis_upstream_hash_check": "61/61 files match",
   "custom_skill_validator": "PASS",
@@ -16,5 +16,9 @@
   "aapl_report_lint": "PASS strict; 0 errors, 0 warnings after challenge revisions",
   "pl": "prepared, not run per user scope",
   "independent_challenge": "Complete targeted pass; source sample and arithmetic verified; normalized FCFF and rating unresolved",
-  "aapl_report_status": "Standard pipeline draft with incomplete valuation/rating validation"
+  "aapl_report_status": "Standard pipeline draft with incomplete valuation/rating validation",
+  "default_host": "Codex desktop",
+  "codex_skill_entries": "AGENTS.md and three relative symlink entries; checked by check_setup.py",
+  "codex_automatic_discovery": "Not separately tested in a fresh session; current agent reads installed skills directly",
+  "legacy_codex_cli": "0.36.0; login status system-configuration panic; desktop session unaffected"
 }
