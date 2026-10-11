@@ -1,0 +1,54 @@
+========================================================================
+VALUATION  --  Apple Inc. [AAPL]
+========================================================================
+As of : 2026-10-11   Amounts in: USD millions   (multiples/rates are unitless)
+Outputs are estimates -- only as sound as the assumptions below.
+
+------------------------------------------------------------------------
+EV BRIDGE (USD millions)
+------------------------------------------------------------------------
+  Market cap                          4,917,961.3
+  + Total debt                             84,344
+  - Cash & equivalents                   -146,517
+  = Enterprise value                  4,855,788.3
+  (net debt)                              -62,173
+
+------------------------------------------------------------------------
+TRAILING MULTIPLES
+------------------------------------------------------------------------
+  P/E            38.1x    EV/EBITDA      28.9x    EV/EBIT        31.4x
+  EV/Sales       10.4x    P/B            45.7x    P/FCF          36.0x
+  FCF yield      2.8%     Earnings yield 2.6%     Dividend yield 0.3%
+
+------------------------------------------------------------------------
+REVERSE DCF -- what growth is priced in?
+------------------------------------------------------------------------
+  Anchor EV        : 4,855,788.3 USD millions
+  Base FCF         : 110,000 USD millions
+  WACC / terminal g: 9.0% / 3.0%
+  Stage-1 horizon  : 10 years
+  => IMPLIED stage-1 FCF growth: 15.4% per year
+     i.e. today's price already assumes ~15.4% FCF growth for 10 years, fading to 3.0%.
+
+------------------------------------------------------------------------
+FORWARD DCF (your assumptions)
+------------------------------------------------------------------------
+  Base FCF 110,000 | g1 8.0% for 10y | fade 5y | term g 3.0% | WACC 9.0%
+  Enterprise value : 2,931,477.0 USD millions
+  Equity value     : 2,993,650.0 USD millions
+  Value per share  : 204.9
+  Terminal % of EV : 48.7%
+  Upside vs price  : -39.1%
+
+------------------------------------------------------------------------
+SCENARIOS
+------------------------------------------------------------------------
+  Scenario         Prob      Value/share     vs price
+  Bear FY2027 (assumption)  25.0%              176       -47.7%
+  Base FY2027 (assumption)  50.0%              280       -16.8%
+  Bull FY2027 (assumption)  25.0%              408        21.2%
+  Prob-weighted  100.0%              286       -15.0%
+
+------------------------------------------------------------------------
+WARNINGS -- 1
+  [warn]  Market implies ~15.4% FCF growth for 10 years -- demanding; check it against what this company (and its industry) has actually delivered.

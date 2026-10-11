@@ -1,0 +1,146 @@
+============================================================================================================
+SECTOR-RELATIVE SCORECARD  |  Apple Inc.  (AAPL)
+Sector: Generic (non-financial operating company) [generic]  |  Basis: consolidated  |  Currency: USD  |  As of: 2026-10-11
+Weights: default preset  |  Scale 0-10 (2.5 poor / 5.0 average / 7.5 good / 10 excellent)
+Benchmarks: /Users/cheng-kaihuang/stock-deep-research/.claude/skills/stock-analysis/scripts/benchmarks.json
+============================================================================================================
+
+SECTOR NOTE: Fallback metric set. Applies to any operating company where EBIT, invested capital and free
+cash flow are meaningful. It is NOT valid for banks, NBFCs, insurers or REITs — those have their own
+standalone sets because the standard ratios there are undefined or inverted.
+
+------------------------------------------------------------------------------------------------------------
+PROFITABILITY   score  6.11   weight 20% -> 20%   coverage 23%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Operating margin (%)                           31.97  own history (med 30. 25.55 / 30.06 / 34.5   6.1  1.0
+      note: FY25 EBIT/revenue
+  Gross margin (%)                               46.91  own history (med 43. 37.16 / 43.72 / 50.2   6.2  0.5
+      note: FY25 gross profit/revenue
+  ROCE (%)                                          --  not supplied
+  ROIC - WACC spread (pp)                           --  not supplied
+  ROE (%)                                           --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+BUSINESS QUALITY   score  7.57   weight 15% -> 15%   coverage 64%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Moat width and direction                           8  analyst judgement    0-10 direct            8.0  2.0
+      note: Integrated devices and services; FY21-25 sustained operating margins, latest 10-K Item1;
+      judgement
+  Pricing power                                      7  analyst judgement    0-10 direct            7.0  1.5
+      note: FY25 margin expansion; FY26 Q3 refund-adjusted margin still below reported margin; no unit ASP
+      disclosed; judgement
+  Market share change, 3y (bps)                     --  not supplied
+  Top-5 customer concentration (% of revenue        --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+EARNINGS QUALITY   score  6.47   weight 15% -> 15%   coverage 50%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Cumulative CFO / PAT, 3y (x)                    1.12  sector band          0.5 / 0.8 / 1 / 1.2    9.1  2.0
+      note: FY23-25 aggregate CFO/NI; tax timing makes endpoint comparisons imperfect
+  FCF margin (%)                                 23.73  own history (med 26. 22.87 / 26.9 / 30.94   3.0  1.5
+      note: FY25 CFO-capex/revenue
+  Accruals ratio (%)                                --  not supplied
+  Effective tax rate (%)                            --  not supplied
+  Receivable-days growth minus sales growth         --  not supplied
+  Other income as % of PBT                          --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+BALANCE SHEET   score  9.07   weight 12% -> 12%   coverage 31%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Liquidity / next-12m debt maturities (x)         4.8  sector band          0.5 / 1 / 1.5 / 2.5   10.0  1.5
+      note: Q3FY26 cash+current securities divided by term-debt maturities+commercial paper; no forecast FCF
+      counted
+  Current ratio (x)                                  1  sector band          [0.6, 5] / [0.9, 3.5   6.3  0.5
+      note: Q3FY26 balance-sheet point-in-time; band indicative
+  Net debt / EBITDA (x)                             --  not supplied
+  Interest coverage (EBIT / interest, x)            --  not supplied
+  Cash conversion cycle (days)                      --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+GROWTH   score  6.00   weight 12% -> 12%   coverage 23%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Reinvestment runway                                6  analyst judgement    0-10 direct            6.0  1.5
+      note: Installed ecosystem and services growth but physical-product maturity, AI costs; judgement
+  Return on incremental invested capital (%)        --  not supplied
+  EPS CAGR, 5y (%)                                  --  not supplied
+  Organic share of growth (%)                       --  not supplied
+  Revenue CAGR, 5y (%)                              --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+GOVERNANCE   score  7.00   weight 10% -> 10%   coverage 39%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Capital allocation record                          7  analyst judgement    0-10 direct            7.0  2.0
+      note: FY25 $90.7bn repurchases; liquid balance sheet; premium-priced repurchases can destroy value;
+      judgement
+  Disclosure quality                                 7  analyst judgement    0-10 direct            7.0  1.5
+      note: SEC audited statements and segment mix; not all operational unit KPIs disclosed; judgement
+  [India] Promoter shares pledged (% of prom        --  not supplied
+  Related-party transactions / revenue (%)          --  not supplied
+  Promoter / insider holding (%)                    --  not supplied
+  Share count change, 5y (%)                        --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+VALUATION   score  4.24   weight 10% -> 10%   coverage 36%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  FCF yield (%)                                   2.78  sector band          1 / 3 / 5.5 / 9        4.7  1.5
+      note: TTM CFO-capex / estimated market cap; SBC cost separate
+  P/E (x)                                        38.14  sector band          45 / 28 / 18 / 12      3.5  1.0
+      note: Price Oct9 * period-end Jun27 shares / TTM net income; mixed-date estimate
+  Price-implied growth minus defensible grow        --  not supplied
+  Current multiple vs own 10y median (%)            --  not supplied
+  EV / EBITDA (x)                                   --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+RISK   score  5.67   weight 6% -> 6%   coverage 90%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Resilience through a downturn                      7  analyst judgement    0-10 direct            7.0  1.5
+      note: FY21-25 consistently positive cash flow, recurring services supports hardware cycle; judgement
+  Input cost / FX exposure (10 = low risk)           5  analyst judgement    0-10 direct            5.0  1.0
+      note: Memory and advanced-semiconductor cost constraints and trade exposure; 10Q risk factors;
+      judgement
+  Key-person dependence (10 = low risk)              6  analyst judgement    0-10 direct            6.0  1.0
+      note: Announced September CEO succession creates execution uncertainty; judgement
+  Regulatory / policy exposure (10 = low ris         4  analyst judgement    0-10 direct            4.0  1.0
+      note: DMA, Epic, Google licensing antitrust; latest 10-Q litigation, judgement
+  Environmental / social / litigation exposu        --  not supplied
+
+============================================================================================================
+COMPOSITE 6.00 / 10   (Average)
+  Pre-gate composite was 6.60; capped to 6.00 by the binding gate below.
+Coverage: categories 100% (floor 70%), metric weight 42%
+============================================================================================================
+
+GATES RAISED - these cap or void the composite rather than being averaged into it
+------------------------------------------------------------------------------------------------------------
+  [CAP 6.0] Receivables or unbilled revenue growing far faster than sales for 2+ years
+      why: Revenue that has not been collected is a hypothesis. Sustained divergence usually resolves as a
+      write-off, not a collection.
+      evidence: FY24 trade AR growth13.2% vs revenue2.0%, FY25 AR growth19.1% vs revenue6.4%; investigate
+      payment terms/seasonality, not an accusation
+
+NOTES AND WARNINGS
+------------------------------------------------------------------------------------------------------------
+  - categories resting on a single metric (fragile, easy to dispute): growth
+
+BENCHMARK CAVEAT: INDICATIVE DEFAULTS, MEANT TO BE EDITED. Every threshold in this file is a starting
+reference, not a fact. Benchmark levels move with market, cycle, accounting regime, interest rates and
+period. Where you have a real peer set with comparable accounting and aligned fiscal periods, PERCENTILE
+COMPARISON AGAINST THAT PEER SET OVERRIDES THESE ABSOLUTE BANDS — pass peer_values or peer_percentile in the
+input and score.py will use it in preference to the band below. Where a company has a long, stable,
+comparable own history, own-history scoring (basis: own_history) overrides the band too. Treat an unedited
+run as a first draft of a scorecard, and say so in the report.

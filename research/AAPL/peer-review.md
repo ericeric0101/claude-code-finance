@@ -1,0 +1,19 @@
+# AAPL contextual peer review
+
+Research date: 2026-10-11 (Asia/Taipei). Financial information cutoff: 2026-10-09. All figures below are **USD millions**, GAAP, consolidated, unaudited latest reported **three-month** periods. Ratios are calculated from the displayed amounts. Quarterly results are not annualized or treated as TTM valuation denominators.
+
+| Company / role | Latest period end / fiscal label | Revenue | Gross profit / margin | Operating income / margin | Operating cash flow | Cash investment line used | OCF less investment line |
+|---|---|---:|---:|---:|---:|---:|---:|
+| DELL / partial hardware comparable | 2026-07-31 / Q2 FY2027 | 46,971 | 9,830 / 20.93% | 5,385 / 11.46% | 2,225 | 1,239 | 986 |
+| HPQ / partial hardware comparable | 2026-07-31 / Q3 FY2026 | 15,677 | 2,945 / 18.79% | 892 / 5.69% | 1,735 | 187 | 1,548 |
+| MSFT / platform contextual benchmark | 2026-06-30 / Q4 FY2026 | 90,007 | 60,482 / 67.20% | 40,603 / 45.11% | 55,441 | 35,802 | 19,639 |
+
+DELL cash investment includes capitalized software development costs. Its published adjusted FCF (8,149) adds financing-receivable and lease adjustments and must not replace the 986 cash residual for comparison. Dell CSG revenue of about 15,000 and segment operating income of about 1,100 are closer to Mac competition; ISG revenue of about 31,800 makes consolidated Dell substantially an enterprise/server benchmark. [Dell Q2 FY2027 release, published 2026-09-01](https://investors.delltechnologies.com/news-events/press-releases/detail/1653/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results).
+
+HPQ investment is **net** property, plant, equipment and purchased intangibles. HP's published FCF headline is 1.57 billion; the disclosed reconciliation calculates to 1,568 (=1,735+20−187), versus simple residual 1,548, because it adds back 20 of net investment in financing leases. Personal Systems revenue 11,767 and segment operating margin 4.6% provide PC context; Printing contributes a different economics mix. The release identifies an $0.11 EPS benefit from tariff refunds, so the quarter's profitability should not be assumed recurring. [HP Q3 FY2026 release, published 2026-08-26](https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Third-Quarter-Results/default.aspx).
+
+MSFT investment is cash additions to property and equipment; this is not total capex including finance leases. FY2026 full-year revenue was 331,839, operating income 155,237, OCF 182,935 and cash PP&E additions 115,948. Its software/cloud mix explains why consolidated margin is not a hardware target for Apple. [Microsoft Q4 FY2026 release, published 2026-07-29](https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast).
+
+Comparability judgment: use DELL and HPQ to test the hardware-cycle and supply-chain narrative; use MSFT to contextualize platform/services profitability and AI investment. None alone replicates Apple's smartphone concentration, integrated operating system, retail economics and services mix. Different quarter ends and capex definitions remain visible. There are only **two partial hardware comparables**, so no sector median, peer percentile, blended peer multiple or statistically meaningful peer ranking is produced.
+
+Market-data gate: **2026-10-09 closing prices, market capitalizations, enterprise values and peer valuation multiples remain unverified from primary exchange/issuer data** in this artifact. [Nasdaq DELL historical page](https://www.nasdaq.com/market-activity/stocks/dell/historical) returned “Data is currently not available”; [Microsoft stock lookup](https://www.microsoft.com/en-us/investor/stock-lookup) exposed no dated closing table. Do not substitute older prices or extrapolate share prices from EPS. Obtain synchronized dated market data plus TTM or consistently forward fundamentals before making a relative-valuation claim.

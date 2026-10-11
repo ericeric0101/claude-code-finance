@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "AAPL",
+    "close": 336.6400146484375,
+    "date": "2026-10-09 00:00:00-04:00",
+    "source": "https://finance.yahoo.com/quote/AAPL/history/",
+    "retrieved_at_utc": "2026-10-11T06:33:26.983640+00:00"
+  },
+  {
+    "ticker": "DELL",
+    "close": 586.0599975585938,
+    "date": "2026-10-09 00:00:00-04:00",
+    "source": "https://finance.yahoo.com/quote/DELL/history/",
+    "retrieved_at_utc": "2026-10-11T06:33:27.763598+00:00"
+  },
+  {
+    "ticker": "HPQ",
+    "close": 30.200000762939453,
+    "date": "2026-10-09 00:00:00-04:00",
+    "source": "https://finance.yahoo.com/quote/HPQ/history/",
+    "retrieved_at_utc": "2026-10-11T06:33:28.631308+00:00"
+  },
+  {
+    "ticker": "MSFT",
+    "close": 535.0700073242188,
+    "date": "2026-10-09 00:00:00-04:00",
+    "source": "https://finance.yahoo.com/quote/MSFT/history/",
+    "retrieved_at_utc": "2026-10-11T06:33:29.484474+00:00"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "matched_model": {
+    "model": "same as forward DCF: 10 years stage1 + 5 year linear fade; other inputs unchanged",
+    "target_enterprise_value": 4855788.30432,
+    "implied_stage1_growth": 0.13634516051278822,
+    "original_reverse_model_implied_growth": 0.1537019938230515
+  },
+  "break_even_base_fcf_millions": 182207.3673934288,
+  "break_even_wacc": 0.06779197817966487,
+  "alternate_base_fcf": 130000,
+  "alternate_wacc": 0.08,
+  "alternate_break_even_stage1_growth": 0.09481706274230206
+}

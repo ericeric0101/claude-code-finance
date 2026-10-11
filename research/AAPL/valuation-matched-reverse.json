@@ -1,0 +1,6 @@
+{
+  "model": "same as forward DCF: 10 years stage1 + 5 year linear fade; other inputs unchanged",
+  "target_enterprise_value": 4855788.30432,
+  "implied_stage1_growth": 0.13634516051278822,
+  "original_reverse_model_implied_growth": 0.1537019938230515
+}

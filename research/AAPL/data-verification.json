@@ -1,0 +1,18 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "verdict": "PASS",
+  "counts": {
+    "error": 0,
+    "warn": 0,
+    "info": 1
+  },
+  "findings": [
+    {
+      "rule_id": "SOURCE_TIER_COVERAGE",
+      "severity": "info",
+      "message": "Provenance: 406 of 406 figures (100%) trace to a primary source (Tier 1-3); 0 aggregator-only, 0 unconfirmed. Headline metrics should be 100% primary."
+    }
+  ]
+}

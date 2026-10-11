@@ -1,0 +1,89 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "currency": "USD",
+  "units": "millions",
+  "market": {
+    "price": 336.64,
+    "shares_out": 14608.963,
+    "market_cap": 4917961.30432,
+    "as_of": "2026-10-09"
+  },
+  "ev_bridge": {
+    "market_cap": 4917961.30432,
+    "total_debt": 84344.0,
+    "cash": 146517.0
+  },
+  "financials": {
+    "ebitda": 167959.0,
+    "ebit": 154859.0,
+    "pat": 128930.0,
+    "sales": 466823.0,
+    "book_value_equity": 107520.0,
+    "fcf": 136683.0,
+    "dividends": 15640.0
+  },
+  "reverse_dcf": {
+    "base_fcf": 110000,
+    "wacc": 0.09,
+    "stage1_years": 10,
+    "terminal_growth": 0.03
+  },
+  "dcf": {
+    "base_fcf": 110000,
+    "stage1_growth": 0.08,
+    "stage1_years": 10,
+    "fade_years": 5,
+    "terminal_growth": 0.03,
+    "wacc": 0.09,
+    "net_debt": -62173.0,
+    "shares_out": 14608.963
+  },
+  "scenarios": [
+    {
+      "label": "Bear FY2027 (assumption)",
+      "prob": 0.25,
+      "eps": 8,
+      "exit_pe": 22,
+      "revenue_millions": 500000,
+      "assumed_diluted_shares_millions": 14600,
+      "implied_net_margin": 0.2336,
+      "assumed_fcf_to_net_income": 0.85
+    },
+    {
+      "label": "Base FY2027 (assumption)",
+      "prob": 0.5,
+      "eps": 10,
+      "exit_pe": 28,
+      "revenue_millions": 540000,
+      "assumed_diluted_shares_millions": 14600,
+      "implied_net_margin": 0.27037037037037037,
+      "assumed_fcf_to_net_income": 0.95
+    },
+    {
+      "label": "Bull FY2027 (assumption)",
+      "prob": 0.25,
+      "eps": 12,
+      "exit_pe": 34,
+      "revenue_millions": 600000,
+      "assumed_diluted_shares_millions": 14600,
+      "implied_net_margin": 0.292,
+      "assumed_fcf_to_net_income": 1.0
+    }
+  ],
+  "analyst_notes": [
+    "Market cap estimate uses June 27 period-end shares, not a verified current share count.",
+    "Net cash includes noncurrent marketable securities; lease liabilities excluded from cashflow-consistent financing-debt EV.",
+    "Reverse/forward DCF use assumed normalized unlevered owner cash flow of $110bn; it is not reported CFO-capex.",
+    "DCF base calibrated against FY25 FCF 98.8bn and TTM FCF 136.7bn before SBC; full cashflow bridge not estimated.",
+    "CFO-capex FCF and EBITDA are labelled simple historical proxies, not FCFF or issuer adjusted EBITDA."
+  ],
+  "severe_scenario_assumption": {
+    "eps": 6,
+    "exit_pe": 18,
+    "price": 108,
+    "difference_to_reference_price": -0.6791825095057034,
+    "note": "stress scenario, not maximum possible loss or probability estimate"
+  }
+}

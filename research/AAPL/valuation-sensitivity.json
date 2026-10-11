@@ -1,0 +1,263 @@
+[
+  {
+    "base_fcf_millions": 90000,
+    "wacc": 0.08,
+    "dcf": {
+      "enterprise_value": 2931523.062414266,
+      "equity_value": 2993696.062414266,
+      "per_share": 204.92187312776863,
+      "pv_explicit": 1321839.688283836,
+      "pv_terminal": 1609683.3741304304,
+      "terminal_pct_of_ev": 0.5490945627440399,
+      "base_fcf": 90000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.08,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.3912729529236911
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 90000.0,
+      "wacc": 0.08,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.15240047276020052,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 90000,
+    "wacc": 0.09,
+    "dcf": {
+      "enterprise_value": 2398481.2120421473,
+      "equity_value": 2460654.2120421473,
+      "per_share": 168.43455706213695,
+      "pv_explicit": 1230278.862049899,
+      "pv_terminal": 1168202.3499922485,
+      "terminal_pct_of_ev": 0.48705920401919756,
+      "base_fcf": 90000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.09,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.49965970454450764
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 90000.0,
+      "wacc": 0.09,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.18030967712402346,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 90000,
+    "wacc": 0.1,
+    "dcf": {
+      "enterprise_value": 2020691.0328152068,
+      "equity_value": 2082864.0328152068,
+      "per_share": 142.57439305002052,
+      "pv_explicit": 1147561.9029662574,
+      "pv_terminal": 873129.1298489494,
+      "terminal_pct_of_ev": 0.4320943259853608,
+      "base_fcf": 90000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.1,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.5764781575272679
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 90000.0,
+      "wacc": 0.1,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.20564450025558473,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 110000,
+    "wacc": 0.08,
+    "dcf": {
+      "enterprise_value": 3582972.6318396586,
+      "equity_value": 3645145.6318396586,
+      "per_share": 249.51433115681508,
+      "pv_explicit": 1615581.8412357995,
+      "pv_terminal": 1967390.7906038591,
+      "terminal_pct_of_ev": 0.5490945627440399,
+      "base_fcf": 110000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.08,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.2588096151472936
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 110000.0,
+      "wacc": 0.08,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.12661815285682682,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 110000,
+    "wacc": 0.09,
+    "dcf": {
+      "enterprise_value": 2931477.0369404024,
+      "equity_value": 2993650.0369404024,
+      "per_share": 204.91872263215413,
+      "pv_explicit": 1503674.1647276548,
+      "pv_terminal": 1427802.8722127478,
+      "terminal_pct_of_ev": 0.48705920401919744,
+      "base_fcf": 110000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.09,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.3912823115727361
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 110000.0,
+      "wacc": 0.09,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.1537019938230515,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 110000,
+    "wacc": 0.1,
+    "dcf": {
+      "enterprise_value": 2469733.4845519196,
+      "equity_value": 2531906.4845519196,
+      "per_share": 173.31185550623405,
+      "pv_explicit": 1402575.6591809813,
+      "pv_terminal": 1067157.825370938,
+      "terminal_pct_of_ev": 0.43209432598536074,
+      "base_fcf": 110000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.1,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.4851715318849986
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 110000.0,
+      "wacc": 0.1,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.1782821387052536,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 130000,
+    "wacc": 0.08,
+    "dcf": {
+      "enterprise_value": 4234422.201265051,
+      "equity_value": 4296595.201265051,
+      "per_share": 294.10678918586154,
+      "pv_explicit": 1909323.9941877627,
+      "pv_terminal": 2325098.207077288,
+      "terminal_pct_of_ev": 0.5490945627440399,
+      "base_fcf": 130000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.08,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.12634627737089604
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 130000.0,
+      "wacc": 0.08,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.10530429482460027,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 130000,
+    "wacc": 0.09,
+    "dcf": {
+      "enterprise_value": 3464472.861838657,
+      "equity_value": 3526645.861838657,
+      "per_share": 241.4028882021713,
+      "pv_explicit": 1777069.4674054096,
+      "pv_terminal": 1687403.3944332474,
+      "terminal_pct_of_ev": 0.4870592040191975,
+      "base_fcf": 130000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.09,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.28290491860096445
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 130000.0,
+      "wacc": 0.09,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.13169623017311102,
+      "status": "ok"
+    }
+  },
+  {
+    "base_fcf_millions": 130000,
+    "wacc": 0.1,
+    "dcf": {
+      "enterprise_value": 2918775.9362886315,
+      "equity_value": 2980948.9362886315,
+      "per_share": 204.04931796244753,
+      "pv_explicit": 1657589.4153957048,
+      "pv_terminal": 1261186.5208929267,
+      "terminal_pct_of_ev": 0.43209432598536085,
+      "base_fcf": 130000.0,
+      "stage1_growth": 0.08,
+      "stage1_years": 10,
+      "fade_years": 5,
+      "terminal_growth": 0.03,
+      "wacc": 0.1,
+      "net_debt": -62173.0,
+      "upside_vs_price": -0.3938649062427295
+    },
+    "reverse_dcf": {
+      "target_ev": 4855788.30432,
+      "base_fcf": 130000.0,
+      "wacc": 0.1,
+      "stage1_years": 10,
+      "terminal_growth": 0.03,
+      "implied_growth": 0.1556437253952027,
+      "status": "ok"
+    }
+  }
+]

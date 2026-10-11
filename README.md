@@ -1,3 +1,6 @@
+> This fork adds project-level finance-skill, stock-analysis and my-equity-research.
+> See [local setup and 15-step status](docs/SETUP.md), [research prompts](docs/research-prompts.md), and [the AAPL test report](research/AAPL/AAPL-analysis-2026-10-11.md).
+
 # Claude Code Finance
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

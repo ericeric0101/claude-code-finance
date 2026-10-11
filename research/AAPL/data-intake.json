@@ -1,0 +1,3670 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "reporting_basis": "consolidated",
+  "currency": "USD",
+  "units": "millions",
+  "fiscal_year_end": "September",
+  "latest_reported_period": {
+    "period": "Q3 FY2026",
+    "published": "2026-07-31"
+  },
+  "datapoints": [
+    {
+      "metric": "revenue",
+      "value": 365817.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 212981.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 108949.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 94680.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 14527.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 109207.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 104038.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 11085.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 7906.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 11284.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 5.61,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 16864.919,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 85971.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 14467.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 63090.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 351002.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 134836.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 125481.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6580.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 26278.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 34940.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 27699.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 127877.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 9613.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 109106.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 6000.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 16426.786,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_leases",
+      "value": 10955.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP OperatingLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "finance_leases",
+      "value": 848.0,
+      "period": "FY2021",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP FinanceLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 394328.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 223546.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 119437.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 99803.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 19300.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 119103.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 122151.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 10708.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 9038.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 11104.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 6.11,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 16325.819,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 89402.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 14841.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 50672.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 352755.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 135405.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 153982.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 4946.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 28184.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 23646.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 24658.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 120805.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 11128.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 98959.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 9982.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15943.425,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_leases",
+      "value": 11470.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP OperatingLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "finance_leases",
+      "value": 941.0,
+      "period": "FY2022",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP FinanceLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 383285.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 214137.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 114301.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 96995.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 16741.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 113736.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 110543.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 10959.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 10833.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 11519.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 6.13,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15812.547,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 77550.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 15025.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 62146.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 352583.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 143566.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 145308.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6331.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 29508.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 29965.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 31590.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 100544.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 9822.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 95281.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 5985.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15550.061,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_leases",
+      "value": 11818.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "finance_leases",
+      "value": 1024.0,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP FinanceLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 391035.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 210352.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 123216.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 93736.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 29749.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 123485.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 118254.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 9447.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 11688.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 11445.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 6.08,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15408.095,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 94949.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 15234.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 56950.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 364980.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 152987.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 176392.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 7286.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 33410.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 29943.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 35228.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 91479.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 10912.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 85750.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 9967.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15116.786,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_leases",
+      "value": 11534.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "finance_leases",
+      "value": 896.0,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP FinanceLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 416161.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 220960.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 133050.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 112010.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 20719.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 132729.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 111482.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 12715.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 12863.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 11698.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 7.46,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15004.697,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 90711.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 15421.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 73733.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 359241.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 147957.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 165631.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 5718.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 39777.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 35934.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 18763.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 77723.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 12350.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 78328.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 7979.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14773.26,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_leases",
+      "value": 12490.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "finance_leases",
+      "value": 1230.0,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP FinanceLeaseLiability https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 90753.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 48482.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 27900.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 23636.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 4422.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 28058.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 1.53,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15464.709,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 74194.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 337411.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 128416.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 123822.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6232.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 21837.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 32695.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 34455.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 95187.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 10762.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 91831.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 1997.0,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15337.686,
+      "period": "Quarter ended 2024-03-30",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 85777.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 46099.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 25352.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 21448.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 4046.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 25494.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 1.4,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15348.175,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 66708.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 331612.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 125435.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 131624.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6165.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 22795.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 25565.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 36236.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 91240.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 12114.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 86196.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 2994.0,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15222.259,
+      "period": "Quarter ended 2024-06-29",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 124300.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 66025.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 42832.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 36330.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 6254.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 42584.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 29935.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 2940.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 3286.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 3080.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 2.4,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15150.865,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 23606.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 3856.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 66758.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 344085.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 133240.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 144365.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6911.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 29639.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 30299.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 23476.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 87593.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 10848.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 83956.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 1995.0,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15040.731,
+      "period": "Quarter ended 2024-12-28",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 95359.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 50492.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 29589.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 24780.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 4530.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 29310.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 1.65,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15056.133,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 66796.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 331233.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 118674.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 144571.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6269.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 26136.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 28162.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 20336.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 84424.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 13638.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 78566.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 5982.0,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14939.315,
+      "period": "Quarter ended 2025-03-29",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 94036.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 50318.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 28202.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 23434.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 4597.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 28031.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 1.57,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 14948.179,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 65830.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 331495.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 122491.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 141120.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 5925.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 27557.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 36269.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 19103.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 77614.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 9345.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 82430.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 9923.0,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14856.722,
+      "period": "Quarter ended 2025-06-28",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 143756.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 74525.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 50852.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 42097.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 8905.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 51002.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 53925.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 2373.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 3594.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 3214.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 2.84,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 14810.356,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 24701.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 3921.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 88190.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 379297.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 158104.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 162367.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 5875.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 39921.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 45317.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 21590.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 77888.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 11827.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 76685.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 1997.0,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14702.703,
+      "period": "Quarter ended 2025-12-27",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 111184.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 56403.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 35885.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 29578.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 6255.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 35833.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 2.01,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 14725.873,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 106491.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 371082.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 144114.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 134641.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6747.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 30339.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 45572.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 22935.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 78088.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 8310.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 74404.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 1997.0,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14667.688,
+      "period": "Quarter ended 2026-03-28",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 109417.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 54647.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 35695.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 29789.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 6478.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 36267.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 2.02,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 14714.676,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 107520.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 383266.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 149818.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 149326.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 11092.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 31398.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 39544.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 22855.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 84118.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 11007.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 71340.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 1997.0,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14608.963,
+      "period": "Quarter ended 2026-06-27",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 364357.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 185575.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 122432.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 101464.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 21638.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 123102.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 116996.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 6799.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 10523.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 9973.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 6.88,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 14750.302,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 62094.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 11778.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 107520.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 383266.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 149818.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 149326.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 11092.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 31398.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 39544.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 22855.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 84118.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 11007.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 71340.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 1997.0,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14608.963,
+      "period": "9M FY2026",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 313695.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 166835.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 100623.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 84544.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 15381.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 99925.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 81754.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 9473.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 9680.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 8571.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 5.62,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15051.726,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 70579.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 11559.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 65830.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 331495.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 122491.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 141120.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 5925.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 27557.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 36269.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 19103.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 77614.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 9345.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 82430.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 9923.0,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 14856.722,
+      "period": "9M FY2025",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 296105.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cogs",
+      "value": 159301.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CostOfGoodsAndServicesSold https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "ebit",
+      "value": 93625.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP OperatingIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": 79000.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP NetIncomeLoss https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "tax",
+      "value": 14875.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeTaxExpenseBenefit https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "pbt",
+      "value": 93875.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": 91443.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP NetCashProvidedByUsedInOperatingActivities https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "capex",
+      "value": 6539.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP PaymentsToAcquirePropertyPlantAndEquipment https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "sbc",
+      "value": 8830.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP ShareBasedCompensation https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "depreciation",
+      "value": 8534.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP DepreciationDepletionAndAmortization https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "eps",
+      "value": 5.11,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD/share",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP EarningsPerShareDiluted https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 15463.175,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "buybacks",
+      "value": 69866.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP PaymentsForRepurchaseOfCommonStock https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "dividends_paid",
+      "value": 11430.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP PaymentsOfDividends https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "equity",
+      "value": 66708.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "total_assets",
+      "value": 331612.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP Assets https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_assets",
+      "value": 125435.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AssetsCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_liabilities",
+      "value": 131624.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LiabilitiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "inventory",
+      "value": 6165.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP InventoryNet https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "receivables",
+      "value": 22795.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AccountsReceivableNetCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "cash",
+      "value": 25565.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CashAndCashEquivalentsAtCarryingValue https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_investments",
+      "value": 36236.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "noncurrent_investments",
+      "value": 91240.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "current_term_debt",
+      "value": 12114.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtCurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "long_term_debt",
+      "value": 86196.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtNoncurrent https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "commercial_paper",
+      "value": 2994.0,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommercialPaper https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    },
+    {
+      "metric": "shares_outstanding",
+      "value": 15222.259,
+      "period": "9M FY2024",
+      "basis": "consolidated",
+      "unit": "million shares",
+      "source": "SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommonStockSharesOutstanding https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "source_tier": 1
+    }
+  ],
+  "not_available": []
+}

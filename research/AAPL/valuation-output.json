@@ -1,0 +1,99 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "currency": "USD",
+  "units": "millions",
+  "market_cap": 4917961.30432,
+  "ev_bridge": {
+    "market_cap": 4917961.30432,
+    "enterprise_value": 4855788.30432,
+    "net_debt": -62173.0,
+    "rows": [
+      [
+        "Market cap",
+        4917961.30432
+      ],
+      [
+        "+ Total debt",
+        84344.0
+      ],
+      [
+        "- Cash & equivalents",
+        -146517.0
+      ],
+      [
+        "= Enterprise value",
+        4855788.30432
+      ]
+    ]
+  },
+  "multiples": {
+    "pe": 38.14442956891337,
+    "ev_ebitda": 28.910557364118624,
+    "ev_ebit": 31.356190497936833,
+    "ev_sales": 10.401776057135146,
+    "pb": 45.73996748809524,
+    "p_fcf": 35.980782572229174,
+    "fcf_yield": 0.027792613959759283,
+    "earnings_yield": 0.02621614771282284,
+    "dividend_yield": 0.003180179556569838
+  },
+  "reverse_dcf": {
+    "target_ev": 4855788.30432,
+    "base_fcf": 110000.0,
+    "wacc": 0.09,
+    "stage1_years": 10,
+    "terminal_growth": 0.03,
+    "implied_growth": 0.1537019938230515,
+    "status": "ok"
+  },
+  "dcf": {
+    "enterprise_value": 2931477.0369404024,
+    "equity_value": 2993650.0369404024,
+    "per_share": 204.91872263215413,
+    "pv_explicit": 1503674.1647276548,
+    "pv_terminal": 1427802.8722127478,
+    "terminal_pct_of_ev": 0.48705920401919744,
+    "base_fcf": 110000.0,
+    "stage1_growth": 0.08,
+    "stage1_years": 10,
+    "fade_years": 5,
+    "terminal_growth": 0.03,
+    "wacc": 0.09,
+    "net_debt": -62173.0,
+    "upside_vs_price": -0.3912823115727361
+  },
+  "scenarios": {
+    "rows": [
+      {
+        "label": "Bear FY2027 (assumption)",
+        "prob": 0.25,
+        "value_per_share": 176.0,
+        "upside_vs_price": -0.4771863117870722
+      },
+      {
+        "label": "Base FY2027 (assumption)",
+        "prob": 0.5,
+        "value_per_share": 280.0,
+        "upside_vs_price": -0.16825095057034217
+      },
+      {
+        "label": "Bull FY2027 (assumption)",
+        "prob": 0.25,
+        "value_per_share": 408.0,
+        "upside_vs_price": 0.2119771863117871
+      }
+    ],
+    "prob_sum": 1.0,
+    "weighted_value": 286.0,
+    "weighted_upside": -0.15042775665399236,
+    "price": 336.64
+  },
+  "notes": [
+    {
+      "severity": "warn",
+      "message": "Market implies ~15.4% FCF growth for 10 years -- demanding; check it against what this company (and its industry) has actually delivered."
+    }
+  ]
+}

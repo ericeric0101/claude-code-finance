@@ -1,8 +1,15 @@
 .env
-.claude/
 .vscode/
 __pycache__/
 .cache/
 .venv/
 uv.lock
 *.pyc
+
+# Local credentials, runtimes and downloaded financial data
+.env.*
+!.env.example
+.tools/
+research/**/raw/
+.claude/settings.local.json
+.DS_Store

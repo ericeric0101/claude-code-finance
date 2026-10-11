@@ -1,0 +1,132 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "basis": "consolidated",
+  "currency": "USD",
+  "sector": "generic",
+  "metrics": {
+    "moat_width_score": {
+      "value": 8,
+      "note": "Integrated devices and services; FY21-25 sustained operating margins, latest 10-K Item1; judgement"
+    },
+    "pricing_power_score": {
+      "value": 7,
+      "note": "FY25 margin expansion; FY26 Q3 refund-adjusted margin still below reported margin; no unit ASP disclosed; judgement"
+    },
+    "opm_pct": {
+      "value": 31.970799762591884,
+      "note": "FY25 EBIT/revenue",
+      "own_history": [
+        29.782377527561593,
+        30.288744395528592,
+        29.821412265024723,
+        31.510222870075566
+      ],
+      "basis": "own_history"
+    },
+    "gross_margin_pct": {
+      "value": 46.90516410716045,
+      "note": "FY25 gross profit/revenue",
+      "own_history": [
+        41.77935962516778,
+        43.30963056136009,
+        44.13112957720756,
+        46.20634981523393
+      ],
+      "basis": "own_history"
+    },
+    "cfo_to_pat_3y": {
+      "value": 1.1239937768587671,
+      "note": "FY23-25 aggregate CFO/NI; tax timing makes endpoint comparisons imperfect"
+    },
+    "fcf_margin_pct": {
+      "value": 23.732882225869314,
+      "note": "FY25 CFO-capex/revenue",
+      "own_history": [
+        25.40969938521173,
+        28.261498042238948,
+        25.981710737440807,
+        27.825386474356517
+      ],
+      "basis": "own_history"
+    },
+    "current_ratio": {
+      "value": 1.0032948046555858,
+      "note": "Q3FY26 balance-sheet point-in-time; band indicative"
+    },
+    "near_term_maturity_cover_x": {
+      "value": 4.798446631805598,
+      "note": "Q3FY26 cash+current securities divided by term-debt maturities+commercial paper; no forecast FCF counted"
+    },
+    "reinvestment_runway_score": {
+      "value": 6,
+      "note": "Installed ecosystem and services growth but physical-product maturity, AI costs; judgement"
+    },
+    "capital_allocation_score": {
+      "value": 7,
+      "note": "FY25 $90.7bn repurchases; liquid balance sheet; premium-priced repurchases can destroy value; judgement"
+    },
+    "disclosure_quality_score": {
+      "value": 7,
+      "note": "SEC audited statements and segment mix; not all operational unit KPIs disclosed; judgement"
+    },
+    "pe_x": {
+      "value": 38.14442956891337,
+      "note": "Price Oct9 * period-end Jun27 shares / TTM net income; mixed-date estimate"
+    },
+    "fcf_yield_pct": {
+      "value": 2.7792613959759285,
+      "note": "TTM CFO-capex / estimated market cap; SBC cost separate"
+    },
+    "regulatory_risk_score": {
+      "value": 4,
+      "note": "DMA, Epic, Google licensing antitrust; latest 10-Q litigation, judgement"
+    },
+    "input_fx_exposure_score": {
+      "value": 5,
+      "note": "Memory and advanced-semiconductor cost constraints and trade exposure; 10Q risk factors; judgement"
+    },
+    "key_person_dependence_score": {
+      "value": 6,
+      "note": "Announced September CEO succession creates execution uncertainty; judgement"
+    },
+    "cyclicality_resilience_score": {
+      "value": 7,
+      "note": "FY21-25 consistently positive cash flow, recurring services supports hardware cycle; judgement"
+    }
+  },
+  "flags": {
+    "auditor_qualification": {
+      "present": false,
+      "note": "FY2025 EY audit unqualified"
+    },
+    "going_concern_doubt": {
+      "present": false,
+      "note": "FY2025 audit has no material going-concern uncertainty"
+    },
+    "adverse_or_disclaimer_opinion": {
+      "present": false,
+      "note": "FY2025 audit unqualified"
+    },
+    "cashflow_profit_divergence": {
+      "present": false,
+      "note": "FY23-25 cumulative CFO/NI 1.12"
+    },
+    "receivables_blowout": {
+      "present": true,
+      "note": "FY24 trade AR growth13.2% vs revenue2.0%, FY25 AR growth19.1% vs revenue6.4%; investigate payment terms/seasonality, not an accusation"
+    },
+    "serial_dilution": {
+      "present": false,
+      "note": "Period end common shares declined FY21-25"
+    },
+    "outside_circle_of_competence": {
+      "present": false,
+      "note": "Device/service revenue model explainable; operational unit disclosures limited"
+    }
+  },
+  "overrides": {
+    "note": "Consumer-device ecosystem fallback. Own-history anchors for margins; other generic bands explicitly indicative. Missing flags do not mean diligence checked."
+  }
+}
