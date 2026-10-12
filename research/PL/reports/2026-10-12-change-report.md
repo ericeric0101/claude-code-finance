@@ -1,6 +1,6 @@
 # What Changed Since Last Review — PL
 
-> Price-only update on 2026-10-12. SEC submissions for CIK 0001836833 since the stored 2026-09-03 10-Q/8-K contain only ownership filings (Forms 4 and 144); no new 10-Q, 10-K or 8-K. Thesis component statuses, valuation inputs and action are unchanged.
+> Price-only update on 2026-10-12. SEC submissions for CIK 0001836833 since the stored 2026-09-03 10-Q/8-K contain only ownership filings (Forms 4 and 144); no new 10-Q, 10-K or 8-K. Thesis component statuses, valuation inputs and action are unchanged; an illustrative reverse DCF now quantifies the expectation gap (see below).
 
 ## Positive
 - none
@@ -31,7 +31,7 @@
 - five-year scenario DCF: 3/12/25 (unchanged)
 
 ## Expectation gap
-- Not quantified. Qualitatively the quote sits between the modeled base and bull values (about 43% above base), so market expectations appear above the internal base case. Direction: unchanged vs 2026-10-11 (latest completed close 2026-10-09 $17.18 is the same close; no new fundamental inputs).
+- Calculation: at the 2026-10-09 close the price implies about 36% five-year revenue CAGR if mature FCF margin is 20% at 25x, vs 25% internal base and 35% bull. Market expectations sit at or slightly above the bull growth case unless margins/multiples are also bull-level (then ~24.5%, near base). Direction: first quantified 2026-10-12; the prior state was qualitative only (about 43% above base value). This is not a change in fundamentals.
 
 ## Action
 - WATCH (unchanged)
@@ -60,3 +60,13 @@ Price movement alone is not treated as evidence that fundamentals changed.
 
 ## Monitoring rules
 - No new financial data, so the rule evaluation is unchanged. rpo_vs_fiscal_year_end is still triggered (reassess, not trade). backlog_yoy, dilution_yoy and fy27_revenue are still missing data until the Q3 FY2027 10-Q.
+
+## Reverse DCF (new, illustrative)
+- Calculation from Assumptions: holding the base-case structure (FY27 start $435.5m guidance midpoint, FCF margin −6% → 20% by year 5, 25x terminal EV/FCF, 10.5% discount rate, $375m net liquid assets, 410m diluted shares), the $17.18 close implies about 36.1% five-year revenue CAGR (34.8% at the $16.45 intraday quote). With bull-case margin (25%), multiple (30x) and discount rate (9.5%), the implied CAGR is about 24.5%.
+- Check: the same simplified model reproduces the stored scenario values within about $0.6 (2.4 / 11.6 / 25.2 vs 3 / 12 / 25).
+- Interpretation: the price needs bull-level growth at base margins, or base-level growth with bull-level margins and multiples. The solution is not unique, so valuation confidence stays low. Inputs are in valuation/latest.json → reverse_dcf.
+
+## Other context checked (not used as evidence)
+- An aggregator headline describing a "2026-10-01 8-K" with weaker guidance did not match EDGAR (no 8-K after 2026-09-03), so it was not used.
+- Barclays Equal Weight/Hold and Goldman Hold were reported 2026-10-08/09 (MarketBeat/CNN; dates differ by source). Aggregator price targets were not adopted.
+- The Oct 8 close (−3.2% on 19.1m shares) coincided with a sector-wide aerospace/defense selloff, not company news. The Oct 1 launch and the Berlin factory were already in the baseline.

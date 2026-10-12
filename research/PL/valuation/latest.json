@@ -36,9 +36,25 @@
     "reason": "GAAP earnings negative; P/E unusable; EV/EBITDA excludes SBC, satellite depreciation and replacement capex."
   },
   "reverse_dcf": {
-    "status": "not established",
-    "reason": "Inputs lack a supported forecast of mature owner-cash margins and diluted shares to solve a unique implied growth rate.",
-    "qualitative": "~13.5x FY2027 EV/sales requires sustained high growth plus successful conversion to cash after constellation investment."
+    "status": "illustrative (low confidence)",
+    "classification": "Calculation from Assumptions",
+    "implied_growth": 0.361,
+    "base_growth": 0.25,
+    "bull_growth": 0.35,
+    "solved_for": "5-year revenue CAGR from FY2027 midpoint guidance $435.5m",
+    "price_used": "17.18 (2026-10-09 NYSE close); 34.8% at 16.45 intraday 2026-10-12",
+    "held_at_base_case": {
+      "fcf_margin_y5": 0.2,
+      "fcf_margin_fy2027_start": -0.06,
+      "terminal_ev_fcf": 25,
+      "discount_rate": 0.105,
+      "net_liquid_assets_m": 375,
+      "diluted_shares_m": 410
+    },
+    "sensitivity": "With bull-case margin (25%), multiple (30x) and discount rate (9.5%), implied CAGR is about 24.5%.",
+    "replication_check": "Same simplified model gives bear 2.4 / base 11.6 / bull 25.2 vs stored 3 / 12 / 25.",
+    "caveat": "Not a unique solution: mature FCF margin, terminal multiple and dilution are unproven, so implied growth moves materially with them. Excludes future ATM/SBC dilution beyond 410m shares.",
+    "market_expectation_vs_cases": "above modeled bull growth (at base-case margin/multiple)"
   },
   "valuation_map": {
     "current_position": "between base and bull estimates",
@@ -68,7 +84,9 @@
     "note": "Zones are model comparisons, not forecasts or entry prices."
   },
   "expectations": {
-    "market_implied": {},
+    "market_implied": {
+      "revenue_cagr_5y": 0.361
+    },
     "internal_base": {
       "revenue_cagr_5y": 0.25,
       "fcf_margin_y5": 0.2
@@ -77,11 +95,11 @@
       "revenue_cagr_5y": 0.35,
       "fcf_margin_y5": 0.25
     },
-    "reason": "Market-implied assumptions not solved (reverse DCF not established)."
+    "reason": "Market-implied revenue CAGR solved holding base-case margin, multiple, discount rate and shares (illustrative reverse DCF)."
   },
   "expectation_gap": {
-    "interpretation": "Not quantified. Qualitatively the quote sits between the modeled base and bull values (about 43% above base), so market expectations appear above the internal base case.",
-    "direction": "unchanged vs 2026-10-11 (latest completed close 2026-10-09 $17.18 is the same close; no new fundamental inputs)"
+    "interpretation": "Calculation: at the 2026-10-09 close the price implies about 36% five-year revenue CAGR if mature FCF margin is 20% at 25x, vs 25% internal base and 35% bull. Market expectations sit at or slightly above the bull growth case unless margins/multiples are also bull-level (then ~24.5%, near base).",
+    "direction": "first quantified 2026-10-12; prior state was qualitative only (about 43% above base value) — not a change in fundamentals"
   },
   "catch_up": {
     "ev": 5900,
@@ -107,7 +125,7 @@
   "latest_quote": {
     "price": 16.45,
     "status": "intraday, session not closed",
-    "as_of_et": "2026-10-12T11:53-04:00",
+    "as_of_et": "2026-10-12T11:52-04:00",
     "classification": "Fact (dated market source, intraday); not used for valuation state"
   }
 }

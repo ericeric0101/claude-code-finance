@@ -56,6 +56,7 @@ components:
     evidence:
       - "Fact: $1.5bn ATM authorization; $120.8m net Q2 ATM proceeds; $107.8m H1 warrant proceeds (SEC 10-Q)."
       - "Fact: H1 SBC $33.5m (16% of revenue); about 38.6m potential shares excluded from diluted EPS (SEC 10-Q)."
+      - "Fact: Sep 15-Oct 1 Form 4s: shares withheld for taxes on RSU vesting at $16.02 (CEO 134.6k, CFO 87.9k, CSO 54.1k); 10b5-1 sales by CFO 55.7k and CSO 52.2k at ~$16.96 and director 11.5k at $16.30; CEO gift 80k (SEC Form 4). Interpretation: routine compensation-related activity, not thesis evidence; status unchanged."
     last_updated: '2026-10-11'
     next_check: Each 10-Q / 10-K share count and ATM usage
     invalidation_condition: Fully diluted shares rise more than 5% year over year without commensurate FCF/share progress.

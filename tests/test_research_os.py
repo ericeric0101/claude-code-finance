@@ -98,7 +98,8 @@ class MigrationRegressionTests(unittest.TestCase):
         self.assertIn("Speculative", thesis["research_role"])
         self.assertEqual(latest["valuation_confidence"], "low")
         self.assertEqual(latest["valuation_map"]["current_position"], "between base and bull estimates")
-        self.assertEqual(latest["reverse_dcf"]["status"], "not established")
+        self.assertTrue(latest["reverse_dcf"]["status"].startswith("illustrative"))
+        self.assertLess(latest["reverse_dcf"]["base_growth"], latest["reverse_dcf"]["implied_growth"])
         rev = rs.catch_up(latest)["revenue"]
         self.assertEqual([r for r in rev if r["annual_revenue_growth_pct"] == 25.0 and r["years"] == 3][0]["static_ev_sales"], 6.9)
         self.assertIn("dilution_caveat", rs.catch_up(latest))
