@@ -1,0 +1,19 @@
+{
+  "current_price": 209.05,
+  "valuation_methods": {
+    "five-year owner-cash-flow DCF after SBC": {"bear": 38, "base": 77, "bull": 193}
+  },
+  "current_ev": 493000,
+  "current_revenue": 8154,
+  "revenue_growth_rates": [0.20, 0.30, 0.45],
+  "reverse_dcf": {
+    "implied_growth": 0.49,
+    "base_growth": 0.30,
+    "bull_growth": 0.45,
+    "growth_metric": "revenue CAGR needed to support current EV in five years under stated terminal owner-cash assumptions",
+    "horizon_years": 5,
+    "terminal_fade_years": 0,
+    "discount_rate": 0.10
+  },
+  "catch_up_years": [1, 2, 3]
+}

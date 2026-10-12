@@ -1,0 +1,74 @@
+[
+  {
+    "period": "Q2 FY2027",
+    "topic": "guidance",
+    "statement": "FY2027 revenue $430-441m; non-GAAP gross margin 55-57%; adjusted EBITDA $3-10m; capex $100-115m.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "date": "2026-09-03",
+    "guidance": "FY2027",
+    "classification": "Fact",
+    "interpretation": "Adjusted EBITDA guidance is small relative to capex guidance; heavy reinvestment continues.",
+    "evidence_strength": "primary filing (paraphrase; exact call wording not captured)"
+  },
+  {
+    "period": "Q2 FY2027",
+    "topic": "guidance",
+    "statement": "Q3 FY2027 revenue $101-105m; adjusted EBITDA loss $1-6m; capex $30-37m.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "date": "2026-09-03",
+    "guidance": "Q3 FY2027",
+    "classification": "Fact",
+    "interpretation": "",
+    "evidence_strength": "primary filing (paraphrase; exact call wording not captured)"
+  },
+  {
+    "period": "Q2 FY2027",
+    "topic": "backlog / RPO",
+    "statement": "RPO $753.1m and backlog $814.9m at 2026-07-31, down from $852.4m / $900.4m at 2026-01-31; 46% of RPO expected within 12 months.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+    "date": "2026-09-03",
+    "guidance": "",
+    "classification": "Fact",
+    "interpretation": "Visibility weakened since fiscal year-end; not by itself a demand reversal.",
+    "evidence_strength": "primary filing (paraphrase; exact call wording not captured)"
+  },
+  {
+    "period": "Q2 FY2027",
+    "topic": "customer ordering",
+    "statement": "Recurring ACV 98% by company definition, excluding satellite-services contracts and certain self-service users.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "date": "2026-09-03",
+    "guidance": "",
+    "classification": "Fact",
+    "interpretation": "High recurring share does not remove delivery-timing or renewal risk.",
+    "evidence_strength": "primary filing (paraphrase; exact call wording not captured)"
+  },
+  {
+    "period": "Q2 FY2027",
+    "topic": "capex",
+    "statement": "Capex guidance $100-115m for FY2027 to support constellation investment.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "date": "2026-09-03",
+    "guidance": "FY2027",
+    "classification": "Fact",
+    "interpretation": "",
+    "evidence_strength": "primary filing (paraphrase; exact call wording not captured)"
+  },
+  {
+    "period": "Q2 FY2027",
+    "topic": "dilution",
+    "statement": "June 2026 ATM program permits up to $1.5bn of aggregate sales; $120.8m net proceeds in Q2.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+    "date": "2026-09-03",
+    "guidance": "",
+    "classification": "Fact",
+    "interpretation": "Available capacity, not necessarily planned issuance; dilution is a valuation variable.",
+    "evidence_strength": "primary filing (paraphrase; exact call wording not captured)"
+  }
+]

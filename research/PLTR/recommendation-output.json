@@ -1,0 +1,126 @@
+{
+  "current_price": 209.05,
+  "valuation_methods": {
+    "five-year owner-cash-flow DCF after SBC": {
+      "bear": 38,
+      "base": 77,
+      "bull": 193
+    }
+  },
+  "valuation_map": {
+    "scenario_bounds": {
+      "bear": {
+        "low": 38.0,
+        "high": 38.0
+      },
+      "base": {
+        "low": 77.0,
+        "high": 77.0
+      },
+      "bull": {
+        "low": 193.0,
+        "high": 193.0
+      }
+    },
+    "zones": [
+      {
+        "low": null,
+        "high": 38.0,
+        "interpretation": "below all modeled bear values"
+      },
+      {
+        "low": 38.0,
+        "high": 77.0,
+        "interpretation": "between bear and base estimates"
+      },
+      {
+        "low": 77.0,
+        "high": 193.0,
+        "interpretation": "between base and bull estimates"
+      },
+      {
+        "low": 193.0,
+        "high": null,
+        "interpretation": "above all modeled bull values"
+      }
+    ],
+    "current_price": 209.05,
+    "current_position": "above all modeled bull values",
+    "base_method_spread_pct_of_low": null
+  },
+  "reverse_dcf": {
+    "implied_growth": 0.49,
+    "base_growth": 0.3,
+    "bull_growth": 0.45,
+    "growth_metric": "revenue CAGR needed to support current EV in five years under stated terminal owner-cash assumptions",
+    "horizon_years": 5,
+    "terminal_fade_years": 0,
+    "discount_rate": 0.1,
+    "market_expectation_vs_cases": "above modeled bull growth"
+  },
+  "revenue_catch_up": [
+    {
+      "annual_revenue_growth_pct": 20.0,
+      "years": 1,
+      "future_revenue": 9784.8,
+      "static_ev_sales": 50.4,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 20.0,
+      "years": 2,
+      "future_revenue": 11741.76,
+      "static_ev_sales": 42.0,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 20.0,
+      "years": 3,
+      "future_revenue": 14090.11,
+      "static_ev_sales": 35.0,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 30.0,
+      "years": 1,
+      "future_revenue": 10600.2,
+      "static_ev_sales": 46.5,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 30.0,
+      "years": 2,
+      "future_revenue": 13780.26,
+      "static_ev_sales": 35.8,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 30.0,
+      "years": 3,
+      "future_revenue": 17914.34,
+      "static_ev_sales": 27.5,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 45.0,
+      "years": 1,
+      "future_revenue": 11823.3,
+      "static_ev_sales": 41.7,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 45.0,
+      "years": 2,
+      "future_revenue": 17143.78,
+      "static_ev_sales": 28.8,
+      "enterprise_value_held_flat": 493000.0
+    },
+    {
+      "annual_revenue_growth_pct": 45.0,
+      "years": 3,
+      "future_revenue": 24858.49,
+      "static_ev_sales": 19.8,
+      "enterprise_value_held_flat": 493000.0
+    }
+  ]
+}

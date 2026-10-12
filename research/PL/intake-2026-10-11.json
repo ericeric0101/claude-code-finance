@@ -1,0 +1,21 @@
+{
+  "company":"Planet Labs PBC",
+  "ticker":"PL",
+  "as_of":"2026-10-11",
+  "reporting_basis":"consolidated",
+  "currency":"USD",
+  "units":"millions",
+  "fiscal_year_end":"January 31",
+  "latest_reported_period":{"period":"Q2 FY2027 ended 2026-07-31","published":"2026-09-03"},
+  "datapoints":[
+    {"metric":"revenue","value":210.202,"period":"H1 FY2027","basis":"consolidated","unit":"USD millions","source":"SEC Q2 FY2027 10-Q, Statements of Operations, filed 2026-09-03","source_tier":1},
+    {"metric":"net_loss","value":-148.225,"period":"H1 FY2027","basis":"consolidated","unit":"USD millions","source":"SEC Q2 FY2027 10-Q, Statements of Operations, filed 2026-09-03","source_tier":1},
+    {"metric":"cash_from_operations","value":68.388,"period":"H1 FY2027","basis":"consolidated","unit":"USD millions","source":"SEC Q2 FY2027 10-Q, Statements of Cash Flows, filed 2026-09-03","source_tier":1},
+    {"metric":"capital_expenditures","value":47.091,"period":"H1 FY2027","basis":"consolidated","unit":"USD millions","source":"SEC Q2 FY2027 10-Q, Statements of Cash Flows, filed 2026-09-03","source_tier":1},
+    {"metric":"cash_and_short_term_investments","value":865.418,"period":"2026-07-31","basis":"consolidated","unit":"USD millions","source":"SEC Q2 FY2027 10-Q, Balance Sheets, filed 2026-09-03","source_tier":1},
+    {"metric":"convertible_notes","value":448.255,"period":"2026-07-31","basis":"consolidated","unit":"USD millions","source":"SEC Q2 FY2027 10-Q, Balance Sheets, filed 2026-09-03","source_tier":1},
+    {"metric":"shares_outstanding","value":363.848,"period":"2026-08-27","basis":"Class A and Class B","unit":"million shares","source":"SEC Q2 FY2027 10-Q cover page, filed 2026-09-03","source_tier":1},
+    {"metric":"share_price","value":17.18,"period":"2026-10-09","basis":"NYSE close","unit":"USD/share","source":"FT Markets historical price table for NYSE:PL, 2026-10-09","source_tier":4}
+  ],
+  "not_available":["Reliable segment-level capital employed","Satellite replacement cost by generation","Quantified oil or launch-cost sensitivity","Complete forecast fully diluted share count"]
+}

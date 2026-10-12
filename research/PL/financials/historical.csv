@@ -1,0 +1,43 @@
+period,period_end,metric,value,unit,basis,classification,source
+H1 FY2027,2026-07-31,revenue,210.202,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,revenue_yoy_pct,50.5,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,q2_revenue,116.052,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,q2_revenue_yoy_pct,58.1,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,yoy_revenue_increase,70.551,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,defense_intelligence_revenue,142.38,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,defense_intelligence_share_pct,67.7,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,civil_government_revenue,33.668,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,civil_government_share_pct,16.0,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,commercial_revenue,34.154,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,commercial_share_pct,16.3,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,yoy_growth_driven_by_defense_intelligence_increase,63.8,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,gross_profit,116.033,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,gross_margin_pct,55.2,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,net_loss,-148.225,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,noncash_warrant_fair_value_loss,106.474,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,stock_based_compensation,33.521,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,depreciation_amortization,21.977,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,cash_from_operations,68.388,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,deferred_revenue_inflow,47.083,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,accounts_receivable_release_inflow,23.946,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,ppe_purchases,44.656,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,capitalized_software,2.435,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,total_capex,47.091,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,company_reported_free_cash_flow,21.297,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,company_adjusted_free_cash_flow,28.8,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,normalized_cfo_ex_deferred_revenue_inflow,21.305,USD millions,consolidated US GAAP,Calculation,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,normalized_fcf_ex_deferred_revenue_inflow,-25.786,USD millions,consolidated US GAAP,Calculation,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,normalized_cfo_ex_deferred_revenue_and_ar_release,-2.641,USD millions,consolidated US GAAP,Calculation,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,normalized_fcf_ex_deferred_revenue_and_ar_release,-49.732,USD millions,consolidated US GAAP,Calculation,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,yoy_comparison_2025_cfo,85.12,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,yoy_comparison_2025_sbc,25.998,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,rpo,753.117,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,rpo_at_fy_end,852.435,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,backlog,814.863,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,backlog_at_fy_end,900.427,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,cancellable_backlog_component,61.746,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,rpo_expected_within_12_months_pct,46,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,rpo_expected_within_24_months_pct,68,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,backlog_expected_within_12_months_pct,50,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,backlog_expected_within_24_months_pct,70,%,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json
+H1 FY2027,2026-07-31,recurring_acv_pct_company_defined,98,USD millions,consolidated US GAAP,Fact,SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json

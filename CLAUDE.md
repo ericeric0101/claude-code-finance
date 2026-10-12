@@ -1,23 +1,33 @@
-# Stock Deep Research
+# Stock Deep Research — US Equity Continuous Research OS
 
-Project-level skills are under `.claude/skills/`:
+This repo maintains persistent, versioned research state for US equities in
+`research/<TICKER>/` and answers "what changed since the last review?" rather
+than rewriting reports. Architecture: `docs/us-equity-research-os.md`.
 
-- `finance-skill`: SEC EDGAR, Alpha Vantage and yfinance acquisition.
-- `stock-analysis`: primary-document fundamental research and Python QA tools.
-- `my-equity-research`: the project's thesis, scenarios and downside layer.
+Skills (`.claude/skills/`, shared with Codex via `.agents/skills/` symlinks):
+- `equity-research-orchestrator`: entry point for init / update / deep / watch /
+  monthly workflows (`/init-stock`, `/update-stock`, `/deep-stock`, `/watch-stock`,
+  `/monthly-research`).
+- `finance-skill` (data), `stock-analysis` (framework + QA scripts),
+  `my-equity-research` (decision layer). Upstream packages stay unmodified;
+  custom requirements go in project-owned skills and docs.
+- `management-change`, `thesis-monitor`, `valuation-monitor`, `market-reaction`,
+  `research-monitor`, `research-review`.
 
-Read the selected skill and relevant references before using it. Preserve
-upstream source folders; custom requirements belong in my-equity-research.
-The user's current initial test is AAPL. PL is prepared, not scheduled or run.
-
-Keep dated reports and reproducible inputs in `research/<TICKER>/`.
-Use primary filings for financial facts and dated market sources for prices.
-State reporting basis, units, period, missing data and assumptions explicitly.
-Run stock-analysis verify_data, valuation, score, challenge and lint_report.
-Never interpret a linter PASS as independent source verification.
-
-Use `uv run --project .claude/skills/finance-skill/scripts python ...` for
-finance utilities. Unknown tickers require a verified numeric CIK.
-Credentials are in ignored `.env`; never print, stage or commit its contents.
-Raw filings, cache, virtualenvs and local CLI installations are ignored.
-See `docs/SETUP.md` for setup and the step-by-step completion record.
+Rules:
+- Primary sources first (`docs/data-source-policy.md`); aggregators never
+  silently override filings. State basis, units, period, missing data.
+- Label material statements Fact / Calculation / Assumption / Interpretation.
+- Update prior state (`scripts/research_state.py`), don't rewrite blindly;
+  keep dated reports; git history is research history.
+- Prefer reverse DCF, expectation gap and the valuation map over target prices;
+  never generate a mechanical DCF-haircut buy range (`docs/recommendation-policy.md`).
+- Thesis changes require evidence; price action alone does not prove
+  fundamentals changed. Alerts mean "reassess", never an order.
+- Never fabricate consensus estimates or remembered numbers.
+- Run stock-analysis verify_data, valuation, score, challenge and lint_report
+  for full reports; a linter PASS is not source verification.
+- Finance utilities: `uv run --project .claude/skills/finance-skill/scripts python ...`.
+  Unknown tickers need a verified numeric CIK.
+- Credentials live in ignored `.env`; never print, stage or commit them.
+- Tests: `python3 -m unittest discover -s tests`.

@@ -1,0 +1,10 @@
+{
+  "current_price": 17.18,
+  "valuation_methods": {
+    "five-year scenario DCF": {"bear": 3, "base": 12, "bull": 25}
+  },
+  "current_ev": 5900,
+  "current_revenue": 435.5,
+  "revenue_growth_rates": [0.10, 0.25, 0.35],
+  "catch_up_years": [1, 2, 3]
+}

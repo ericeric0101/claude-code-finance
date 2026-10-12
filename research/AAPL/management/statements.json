@@ -1,0 +1,38 @@
+[
+  {
+    "period": "Q3 FY2026",
+    "topic": "constraints",
+    "statement": "MD&A cites advanced semiconductor, NAND/DRAM and AI compute constraints.",
+    "verbatim": false,
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+    "date": "2026-07-31",
+    "guidance": "",
+    "classification": "Fact",
+    "interpretation": "Supply/input-cost risk to margins; magnitude not disclosed.",
+    "evidence_strength": "primary filing (paraphrase)"
+  },
+  {
+    "period": "Q3 FY2026",
+    "topic": "gross margin",
+    "statement": "Q3 results included roughly 2 margin points from a one-time tariff refund.",
+    "verbatim": false,
+    "source": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+    "date": "2026-07-30",
+    "guidance": "",
+    "classification": "Fact",
+    "interpretation": "Not extrapolated; removed from normalized EBIT.",
+    "evidence_strength": "issuer release (paraphrase)"
+  },
+  {
+    "period": "Q3 FY2026",
+    "topic": "strategic priorities",
+    "statement": "CEO succession: John Ternus to become CEO and Tim Cook Executive Chairman, effective 2026-09-01.",
+    "verbatim": false,
+    "source": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+    "date": "2026-04-20",
+    "guidance": "",
+    "classification": "Fact",
+    "interpretation": "Execution under new CEO to be observed.",
+    "evidence_strength": "issuer announcement"
+  }
+]

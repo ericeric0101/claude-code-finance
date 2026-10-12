@@ -1,0 +1,29 @@
+# Observable invalidation conditions carried from AAPL-analysis-2026-10-11.md
+# section 9. state: not_triggered | triggered | missing_data | watch.
+ticker: AAPL
+as_of: '2026-10-11'
+rules:
+  - id: services_stall
+    condition: Services growth clearly stalls for consecutive quarters, not explained by FX or accounting base effects
+    thesis_component: services_monetization
+    state: missing_data
+    note: Quarterly Services revenue not captured in local state.
+  - id: margin_and_cash_conversion
+    condition: Margin and cash conversion deteriorate together after removing one-off items
+    thesis_component: normalized_margin_ex_one_offs
+    state: not_triggered
+  - id: receivables_inventory_build
+    condition: Receivables growth gap / inventory build continues with collection or impairment problems
+    metric: receivables_growth_minus_revenue_growth_pp
+    thesis_component: earnings_quality_working_capital
+    state: triggered
+    note: Growth gap already present (FY2024, FY2025); collection or impairment problems not yet evidenced, so not an earnings-quality finding.
+  - id: eu_or_google_structural
+    condition: EU terms effect on Services profit, or a verifiable structural adverse Google revenue-sharing ruling
+    thesis_component: services_monetization
+    state: watch
+    note: EU terms changed 2026-10-01; financial effect not yet disclosed.
+  - id: controls_or_audit
+    condition: Material controls weakness, audit qualification or unusual use of funds
+    thesis_component: balance_sheet_and_controls
+    state: not_triggered

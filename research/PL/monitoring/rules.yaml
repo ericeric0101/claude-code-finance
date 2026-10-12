@@ -1,0 +1,48 @@
+# Machine-readable monitoring rules. A triggered rule means "reassess the
+# thesis and valuation"; it is never a buy/sell order. Thresholds marked
+# assumption are analyst choices, not company targets.
+ticker: PL
+as_of: '2026-10-11'
+monitoring:
+  fundamental:
+    revenue_growth:
+      metric: revenue_growth_yoy_pct
+      warning: "<20%"
+      basis: assumption; below the 25% DCF base-case CAGR
+    gross_margin:
+      metric: gaap_gross_margin_pct
+      warning: "<52%"
+      basis: report invalidation table (two consecutive quarters)
+    rpo_vs_fiscal_year_end:
+      metric: rpo_change_vs_fy_end_pct
+      warning: "<0%"
+      basis: report monitor item (RPO decline since January)
+    backlog_yoy:
+      metric: rpo_yoy_pct
+      warning: "<0%"
+      basis: report invalidation table
+    rpo_12m_conversion:
+      metric: rpo_12m_conversion_pct
+      warning: "<40%"
+      basis: report invalidation table
+    capex_intensity:
+      metric: capex_pct_revenue
+      warning: ">25%"
+      basis: report invalidation table (joint with negative FCF ex deferred revenue)
+    dilution_yoy:
+      metric: diluted_shares_yoy_pct
+      warning: ">5%"
+      basis: report invalidation table
+    fy27_revenue:
+      metric: fy2027_revenue_reported
+      warning: "<430"
+      basis: low end of FY2027 guidance (earnings 8-K 2026-09-03)
+  market:
+    reassess_price: [3, 12, 25]
+    basis: valuation-map boundaries from the five-year scenario DCF (bear / base / bull), 2026-10-11
+    meaning: reassess thesis and valuation; not an entry price, exit price or order
+  tradingview:
+    optional: true
+    alerts:
+      - "PL crosses 12.00 — reassess vs DCF base value (research note, not an order)"
+      - "PL crosses 25.00 — reassess vs DCF bull value (research note, not an order)"

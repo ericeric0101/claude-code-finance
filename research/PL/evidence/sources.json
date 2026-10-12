@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sec-0001193125-26-382016",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2026-07-31",
+    "filed": "2026-09-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm"
+  },
+  {
+    "id": "sec-0001193125-26-381874",
+    "tier": 1,
+    "type": "8-K (earnings, Item 2.02)",
+    "filed": "2026-09-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "id": "sec-fy2026-10k",
+    "tier": 1,
+    "type": "10-K",
+    "period_end": "2026-01-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm"
+  },
+  {
+    "id": "event-2026-08",
+    "tier": 1,
+    "type": "issuer announcement",
+    "date": "2026-08",
+    "description": "NGA OTA award",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "id": "event-2026-09-15",
+    "tier": 1,
+    "type": "issuer announcement",
+    "date": "2026-09-15",
+    "description": "German BMI/BKG satellite services tender award",
+    "url": "https://investors.planet.com/news/news-details/2026/Planet-Awarded-Landmark-German-Federal-Contract-for-Exclusive-Access-to-Dedicated-Satellite-Constellation/default.aspx"
+  },
+  {
+    "id": "event-2026-10-01",
+    "tier": 1,
+    "type": "issuer announcement",
+    "date": "2026-10-01",
+    "description": "Successful launch of 20 satellites",
+    "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Suncatcher-Tanager-2-and-18-SuperDove-Satellites/default.aspx"
+  }
+]

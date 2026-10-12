@@ -5,6 +5,11 @@ Project-level skills are under `.agents/skills/`:
 - `finance-skill`: SEC EDGAR, Alpha Vantage and yfinance acquisition.
 - `stock-analysis`: primary-document fundamental research and Python QA tools.
 - `my-equity-research`: the project's thesis, scenarios and downside layer.
+- `equity-research-orchestrator`: persistent-state workflows (init, update,
+  deep dive, watch, monthly review) over `research/<TICKER>/`; it routes to
+  `management-change`, `thesis-monitor`, `valuation-monitor`,
+  `market-reaction`, `research-monitor` and `research-review`.
+  See `docs/us-equity-research-os.md` and `docs/dual-codex-claude-usage.md`.
 
 Read the selected skill and relevant references before using it. Preserve
 upstream source folders; custom requirements belong in my-equity-research.
@@ -36,7 +41,7 @@ See `docs/SETUP.md` for setup and the step-by-step completion record.
 
 Codex is the project's default research host. Read
 `.agents/skills/my-equity-research/SKILL.md` for stock research requests.
-The three Codex skill directories are relative symlinks to the complete,
+All Codex skill directories are relative symlinks to the complete,
 versioned packages in `.claude/skills/`; do not duplicate or edit upstream files.
 Claude-specific tool names in imported instructions describe operations:
 use Codex shell tools for Bash, file tools for Read/Write/Glob/Grep,

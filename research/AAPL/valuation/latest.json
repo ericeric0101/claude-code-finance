@@ -1,0 +1,118 @@
+{
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "source_report": "../AAPL-analysis-2026-10-11.md",
+  "authoritative_inputs": [
+    "../recommendation-input.json",
+    "../recommendation-output.json",
+    "../normalized-valuation-output.json"
+  ],
+  "price": 336.64,
+  "price_date": "2026-10-09 close",
+  "action": "WATCH",
+  "valuation_confidence": "low",
+  "confidence_reason": "Base values differ ~25% between DCF and earnings method; peer calibration incomplete; reverse result sensitive to forecast assumptions.",
+  "classification": {
+    "methods": "Calculation from Assumptions",
+    "price": "Fact (dated market source)"
+  },
+  "methods": {
+    "reinvestment-aware DCF": {
+      "bear": 117,
+      "base": 194,
+      "bull": 295
+    },
+    "earnings-method PV": {
+      "bear": 174,
+      "base": 242,
+      "bull": 318
+    }
+  },
+  "earnings_based_valuation": {
+    "method": "earnings-method PV",
+    "normalized_eps": 8.5661744234,
+    "classification": "Calculation"
+  },
+  "reverse_dcf": {
+    "implied_growth": 0.1480518006,
+    "base_growth": 0.08,
+    "bull_growth": 0.12,
+    "growth_metric": "normalized NOPAT / revenue proxy",
+    "horizon_years": 10,
+    "terminal_fade_years": 5,
+    "wacc": 0.09557967097,
+    "status": "quantified"
+  },
+  "valuation_map": {
+    "current_position": "above all modeled bull values",
+    "zones": [
+      {
+        "low": null,
+        "high": 117.0,
+        "interpretation": "below all modeled bear values"
+      },
+      {
+        "low": 117.0,
+        "high": 174.0,
+        "interpretation": "within the bear-value spread across methods"
+      },
+      {
+        "low": 174.0,
+        "high": 194.0,
+        "interpretation": "between bear and base estimates"
+      },
+      {
+        "low": 194.0,
+        "high": 242.0,
+        "interpretation": "within the base-value spread across methods"
+      },
+      {
+        "low": 242.0,
+        "high": 295.0,
+        "interpretation": "between base and bull estimates"
+      },
+      {
+        "low": 295.0,
+        "high": 318.0,
+        "interpretation": "within the bull-value spread across methods"
+      },
+      {
+        "low": 318.0,
+        "high": null,
+        "interpretation": "above all modeled bull values"
+      }
+    ],
+    "base_method_spread_pct_of_low": 24.7,
+    "note": "Zones are model comparisons, not forecasts or entry prices."
+  },
+  "expectations": {
+    "market_implied": {
+      "nopat_growth_10y": 0.1480518006
+    },
+    "internal_base": {
+      "nopat_growth_10y": 0.08
+    },
+    "bull": {
+      "nopat_growth_10y": 0.12
+    }
+  },
+  "expectation_gap": {
+    "interpretation": "Market-implied 10-year growth (~14.8%) is above both the internal base (8%) and bull (12%) cases.",
+    "direction": "no prior state"
+  },
+  "catch_up": {
+    "eps": 8.5661744234,
+    "eps_growth_rates": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "years": [
+      1,
+      2,
+      3
+    ],
+    "label": "Price held flat; scenarios, not forecasts"
+  },
+  "withdrawn_anchor": "An uncalibrated $165-185 fundamental entry anchor was withdrawn in the report's challenge pass; it is not part of current state."
+}

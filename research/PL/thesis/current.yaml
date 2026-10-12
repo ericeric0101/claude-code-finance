@@ -1,0 +1,90 @@
+# Authoritative current thesis for PL. Evidence must cite primary sources;
+# price movement alone never changes a component status.
+ticker: PL
+company: Planet Labs PBC
+as_of: '2026-10-11'
+source_report: ../PL-analysis-2026-10-11.md
+action: WATCH
+valuation_confidence: low
+research_role: Growth / Speculative
+summary: >-
+  Growth and sovereign-data demand are real, but government concentration,
+  declining RPO/backlog, satellite reinvestment, negative normalized cash flow
+  and dilution make the current price difficult to underwrite.
+components:
+  sovereign_defense_demand:
+    importance: high
+    status: supported
+    evidence:
+      - "Fact: Defense & Intelligence revenue $142.4m, 67.7% of H1 FY2027; $63.8m of $70.6m growth (SEC 10-Q 2026-07-31, Note 3)."
+      - "Fact: post-quarter $8m NGA award; German tender maximum EUR 25m over five years including options (earnings 8-K; issuer release)."
+    last_updated: '2026-10-11'
+    next_check: Q3 FY2027 10-Q / earnings 8-K
+    invalidation_condition: Defense & Intelligence revenue declines year over year or a major program is not renewed.
+  revenue_growth_durability:
+    importance: high
+    status: supported
+    evidence:
+      - "Fact: H1 FY2027 revenue +51% to $210.2m; Q2 +58% (SEC 10-Q)."
+      - "Fact: FY2027 revenue guidance $430-441m (earnings 8-K, 2026-09-03)."
+    last_updated: '2026-10-11'
+    next_check: Q3 FY2027 results vs $101-105m guidance
+    invalidation_condition: FY2027 revenue below $430m, excluding a clearly timing-only shift.
+  backlog_visibility:
+    importance: high
+    status: weakening
+    evidence:
+      - "Fact: RPO $753.1m vs $852.4m at 2026-01-31; backlog $814.9m vs $900.4m (SEC 10-Q)."
+      - "Fact: 46% of RPO expected within 12 months; $61.7m cancellable backlog (SEC 10-Q)."
+    last_updated: '2026-10-11'
+    next_check: Next two 10-Qs (RPO year over year, 12-month conversion share)
+    invalidation_condition: RPO declines again year over year or next-12-month conversion share falls below 40%.
+  margin_and_cash_conversion:
+    importance: high
+    status: uncertain
+    evidence:
+      - "Fact: Q2 GAAP gross margin 56.6% vs 57.6% prior-year Q2 (SEC 10-Q)."
+      - "Calculation: H1 FCF excluding the $47.1m deferred-revenue inflow is about -$25.8m (filings-data.json)."
+      - "Fact: FY2027 adjusted EBITDA guidance $3-10m vs capex guidance $100-115m (earnings 8-K)."
+    last_updated: '2026-10-11'
+    next_check: Q3 FY2027 gross margin, capex and CFO bridge
+    invalidation_condition: GAAP gross margin below 52% for two consecutive quarters, or annual capex above 25% of revenue while FCF excluding deferred-revenue inflows stays negative.
+  per_share_value_vs_dilution:
+    importance: high
+    status: weakening
+    evidence:
+      - "Fact: $1.5bn ATM authorization; $120.8m net Q2 ATM proceeds; $107.8m H1 warrant proceeds (SEC 10-Q)."
+      - "Fact: H1 SBC $33.5m (16% of revenue); about 38.6m potential shares excluded from diluted EPS (SEC 10-Q)."
+    last_updated: '2026-10-11'
+    next_check: Each 10-Q / 10-K share count and ATM usage
+    invalidation_condition: Fully diluted shares rise more than 5% year over year without commensurate FCF/share progress.
+  commercial_diversification:
+    importance: medium
+    status: uncertain
+    evidence:
+      - "Fact: Commercial revenue 16.3% of H1; three customers were 13%, 12% and 11% of H1 revenue (SEC 10-Q)."
+    last_updated: '2026-10-11'
+    next_check: Q3 FY2027 customer-mix note
+    invalidation_condition: Commercial share keeps falling while top-customer concentration rises.
+  constellation_execution:
+    importance: medium
+    status: uncertain
+    evidence:
+      - "Fact: 2026-10-01 launch of 20 satellites (Suncatcher demo, Tanager-2, 18 SuperDoves); commissioning underway (issuer release)."
+      - "Interpretation: a demonstration launch does not establish commercial revenue."
+    last_updated: '2026-10-11'
+    next_check: Commissioning updates and Q3 capex
+    invalidation_condition: Launch or commissioning failure, or replacement cost overruns visible in capex.
+  liquidity:
+    importance: medium
+    status: supported
+    evidence:
+      - "Fact: cash and short-term investments $865.4m vs $460m 0.50% convertible notes due 2030 (SEC 10-Q)."
+    last_updated: '2026-10-11'
+    next_check: Q3 FY2027 balance sheet; conversion window ending 2026-10-31
+    invalidation_condition: Liquidity falls below convertible principal without new FCF, or funding depends on repeated ATM issuance.
+next_catalysts:
+  - "Q3 FY2027 results: guidance revenue $101-105m, adjusted EBITDA -$6m to -$1m, capex $30-37m (earnings 8-K 2026-09-03)."
+  - "Convertible note conversion window 2026-08-01 to 2026-10-31 (SEC 10-Q)."
+  - "Commissioning of satellites launched 2026-10-01 (issuer release)."
+  - "ATM usage and share count in the next 10-Q."

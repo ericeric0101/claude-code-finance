@@ -8,6 +8,8 @@ description: Coordinate this project's finance-skill and stock-analysis for equi
 Read `../finance-skill/SKILL.md` for data acquisition and
 `../stock-analysis/SKILL.md` for the document-first research framework.
 Keep upstream skills unchanged; put personal research requirements here.
+For persistent company state, updates and change reports, the
+`equity-research-orchestrator` skill calls this skill as its decision layer.
 
 Default to Standard analysis unless the user chooses another depth. Prioritize
 SEC filings and issuer materials, preserve source dates, units and periods,

@@ -1,0 +1,30 @@
+{
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "source_report": "../AAPL-analysis-2026-10-11.md",
+  "classification": "Assumption (analyst, not company guidance or consensus)",
+  "authoritative_inputs": [
+    "../normalized-valuation-input.json",
+    "../discount-rate-inputs.json",
+    "../cashflow-source-inputs.json"
+  ],
+  "methods": {
+    "reinvestment-aware DCF": {
+      "wacc": 0.09557967097,
+      "stage1_years": 10,
+      "terminal_fade_years": 5,
+      "base_nopat_growth": 0.08,
+      "bull_nopat_growth": 0.12,
+      "share_basis": "latest-quarter weighted diluted 14,714.676m",
+      "notes": "explicit reinvestment and terminal normalization; SBC kept as a cost"
+    },
+    "earnings-method PV": {
+      "normalized_eps": 8.5661744234,
+      "notes": "assumed exit P/E, not peer-calibrated"
+    }
+  },
+  "discount_rate_sensitivity": [
+    0.085,
+    0.115
+  ]
+}

@@ -41,18 +41,21 @@ def valuation_map(methods: Dict[str, Dict[str, float]], current_price: float) ->
     bear, base, bull = (bounds[k] for k in SCENARIOS)
     zones: List[Dict[str, Any]] = [
         {"low": None, "high": round(bear["low"], 2), "interpretation": "below all modeled bear values"},
-        _between(bear["low"], bear["high"], "within the bear-value spread across methods"),
     ]
+    if bear["low"] < bear["high"]:
+        zones.append(_between(bear["low"], bear["high"], "within the bear-value spread across methods"))
     if bear["high"] < base["low"]:
         zones.append(_between(bear["high"], base["low"], "between bear and base estimates"))
     elif bear["high"] > base["low"]:
         zones.append(_between(base["low"], bear["high"], "bear/base estimates overlap"))
-    zones.append(_between(base["low"], base["high"], "within the base-value spread across methods"))
+    if base["low"] < base["high"]:
+        zones.append(_between(base["low"], base["high"], "within the base-value spread across methods"))
     if base["high"] < bull["low"]:
         zones.append(_between(base["high"], bull["low"], "between base and bull estimates"))
     elif base["high"] > bull["low"]:
         zones.append(_between(bull["low"], base["high"], "base/bull estimates overlap"))
-    zones.append(_between(bull["low"], bull["high"], "within the bull-value spread across methods"))
+    if bull["low"] < bull["high"]:
+        zones.append(_between(bull["low"], bull["high"], "within the bull-value spread across methods"))
     zones.append({"low": round(bull["high"], 2), "high": None,
                   "interpretation": "above all modeled bull values"})
 
@@ -72,7 +75,7 @@ def valuation_map(methods: Dict[str, Dict[str, float]], current_price: float) ->
         position = "above all modeled bull values"
 
     base_spread = None
-    if base["low"] > 0:
+    if base["low"] > 0 and len(methods) > 1:
         base_spread = (base["high"] - base["low"]) / base["low"]
     return {
         "scenario_bounds": bounds,
@@ -117,6 +120,30 @@ def earnings_catch_up(current_price: float, current_eps: float,
     return rows
 
 
+def revenue_catch_up(current_ev: float, current_revenue: float,
+                     growth_rates: Iterable[float],
+                     years: Iterable[int] = (1, 2, 3)) -> List[Dict[str, Any]]:
+    """Illustrate EV/sales compression if EV is held flat as revenue grows."""
+    if current_ev <= 0 or current_revenue <= 0:
+        raise ValueError("enterprise value and revenue must be positive")
+    rows: List[Dict[str, Any]] = []
+    for growth in growth_rates:
+        if growth <= -1:
+            raise ValueError("revenue growth must be greater than -100%")
+        for horizon in years:
+            if horizon <= 0:
+                raise ValueError("years must be positive")
+            future_revenue = current_revenue * (1 + growth) ** horizon
+            rows.append({
+                "annual_revenue_growth_pct": round(growth * 100, 1),
+                "years": int(horizon),
+                "future_revenue": round(future_revenue, 2),
+                "static_ev_sales": round(current_ev / future_revenue, 1),
+                "enterprise_value_held_flat": round(current_ev, 2),
+            })
+    return rows
+
+
 def build_summary(doc: Dict[str, Any]) -> Dict[str, Any]:
     price = float(doc["current_price"])
     methods = doc["valuation_methods"]
@@ -137,6 +164,11 @@ def build_summary(doc: Dict[str, Any]) -> Dict[str, Any]:
     if eps is not None:
         summary["earnings_catch_up"] = earnings_catch_up(
             price, float(eps), doc.get("earnings_growth_rates", (0.10, 0.15, 0.20)),
+            doc.get("catch_up_years", (1, 2, 3)))
+    if "current_ev" in doc and "current_revenue" in doc:
+        summary["revenue_catch_up"] = revenue_catch_up(
+            float(doc["current_ev"]), float(doc["current_revenue"]),
+            doc.get("revenue_growth_rates", (0.10, 0.20, 0.30)),
             doc.get("catch_up_years", (1, 2, 3)))
     return summary
 

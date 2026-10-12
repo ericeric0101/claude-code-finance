@@ -1,0 +1,28 @@
+[
+  {
+    "promise_id": "AAPL-2026-04-20-ceo-transition",
+    "topic": "strategic priorities",
+    "statement_date": "2026-04-20",
+    "management_claim": "John Ternus to become CEO effective 2026-09-01",
+    "target_date": "2026-09-01",
+    "expected_result": "Ternus serving as CEO",
+    "status": "delivered",
+    "source": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+    "evidence": [
+      "2026-09-09 iPhone Duo announcement names Ternus as CEO (https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/)"
+    ],
+    "last_checked": "2026-10-11"
+  },
+  {
+    "promise_id": "AAPL-2026-09-09-iphone-duo",
+    "topic": "product launches",
+    "statement_date": "2026-09-09",
+    "management_claim": "iPhone Duo preorders 2026-10-16, availability 2026-10-23",
+    "target_date": "2026-10-23",
+    "expected_result": "Product available on announced date",
+    "status": "pending",
+    "source": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  }
+]

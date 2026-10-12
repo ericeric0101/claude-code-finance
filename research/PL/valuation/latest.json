@@ -1,0 +1,107 @@
+{
+  "ticker": "PL",
+  "as_of": "2026-10-11",
+  "source_report": "../PL-analysis-2026-10-11.md",
+  "authoritative_inputs": [
+    "../recommendation-input.json",
+    "../recommendation-output.json"
+  ],
+  "price": 17.18,
+  "price_date": "2026-10-09 NYSE close",
+  "action": "WATCH",
+  "valuation_confidence": "low",
+  "confidence_reason": "Single scenario DCF; normalized owner cash flow, satellite replacement investment, dilution and terminal margins are unproven.",
+  "classification": {
+    "methods": "Calculation from Assumptions",
+    "price": "Fact (dated market source)"
+  },
+  "methods": {
+    "five-year scenario DCF": {
+      "bear": 3,
+      "base": 12,
+      "bull": 25
+    }
+  },
+  "probability_weighted": {
+    "value": 12,
+    "weights": {
+      "bear": 0.3,
+      "base": 0.5,
+      "bull": 0.2
+    },
+    "classification": "Calculation"
+  },
+  "earnings_based_valuation": {
+    "status": "not suitable",
+    "reason": "GAAP earnings negative; P/E unusable; EV/EBITDA excludes SBC, satellite depreciation and replacement capex."
+  },
+  "reverse_dcf": {
+    "status": "not established",
+    "reason": "Inputs lack a supported forecast of mature owner-cash margins and diluted shares to solve a unique implied growth rate.",
+    "qualitative": "~13.5x FY2027 EV/sales requires sustained high growth plus successful conversion to cash after constellation investment."
+  },
+  "valuation_map": {
+    "current_position": "between base and bull estimates",
+    "zones": [
+      {
+        "low": null,
+        "high": 3.0,
+        "interpretation": "below all modeled bear values"
+      },
+      {
+        "low": 3.0,
+        "high": 12.0,
+        "interpretation": "between bear and base estimates"
+      },
+      {
+        "low": 12.0,
+        "high": 25.0,
+        "interpretation": "between base and bull estimates"
+      },
+      {
+        "low": 25.0,
+        "high": null,
+        "interpretation": "above all modeled bull values"
+      }
+    ],
+    "base_method_spread_pct_of_low": null,
+    "note": "Zones are model comparisons, not forecasts or entry prices."
+  },
+  "expectations": {
+    "market_implied": {},
+    "internal_base": {
+      "revenue_cagr_5y": 0.25,
+      "fcf_margin_y5": 0.2
+    },
+    "bull": {
+      "revenue_cagr_5y": 0.35,
+      "fcf_margin_y5": 0.25
+    },
+    "reason": "Market-implied assumptions not solved (reverse DCF not established)."
+  },
+  "expectation_gap": {
+    "interpretation": "Not quantified. Qualitatively the quote sits between the modeled base and bull values (about 43% above base), so market expectations appear above the internal base case.",
+    "direction": "no prior state"
+  },
+  "catch_up": {
+    "ev": 5900,
+    "revenue": 435.5,
+    "revenue_growth_rates": [
+      0.1,
+      0.25,
+      0.35
+    ],
+    "years": [
+      1,
+      2,
+      3
+    ],
+    "label": "EV held flat; scenarios, not forecasts; excludes dilution"
+  },
+  "current_ev": {
+    "value": 5900,
+    "unit": "USD millions",
+    "classification": "Calculation",
+    "basis": "basic shares 363.8m x $17.18 + notes $448.3m + leases $50.4m - cash/investments $865.4m"
+  }
+}

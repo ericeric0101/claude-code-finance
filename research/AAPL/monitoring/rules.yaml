@@ -1,0 +1,32 @@
+# Machine-readable monitoring rules. A triggered rule means "reassess the
+# thesis and valuation"; it is never a buy/sell order. Thresholds marked
+# assumption are analyst choices, not company targets.
+ticker: AAPL
+as_of: '2026-10-11'
+monitoring:
+  fundamental:
+    revenue_growth:
+      metric: quarterly_revenue_growth_yoy_pct
+      warning: "<0%"
+      basis: assumption; base case requires continued growth
+    gross_margin:
+      metric: quarterly_gross_margin_pct
+      warning: "<45%"
+      basis: assumption; below FY2024-FY2025 annual range (46.2-46.9%)
+    receivables_gap:
+      metric: receivables_growth_minus_revenue_growth_pp
+      warning: ">10"
+      basis: report earnings-quality gate (score.py receivables_blowout)
+    share_count:
+      metric: diluted_shares_yoy_pct
+      warning: ">0%"
+      basis: assumption; buyback-driven per-share growth is part of owner economics
+  market:
+    reassess_price: [117, 174, 194, 242, 295, 318]
+    basis: valuation-map boundaries from DCF and earnings-method bear / base / bull values, 2026-10-11
+    meaning: reassess thesis and valuation; not an entry price, exit price or order. WATCH does not mean waiting for any of these levels.
+  tradingview:
+    optional: true
+    alerts:
+      - "AAPL crosses 318.00 — quote back within modeled bull values; reassess (research note, not an order)"
+      - "AAPL crosses 242.00 — quote within base-value spread; reassess (research note, not an order)"

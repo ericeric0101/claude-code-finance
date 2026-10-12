@@ -44,6 +44,12 @@ class RecommendationToolsTests(unittest.TestCase):
         self.assertEqual(row["static_price_pe"], 29.7)
         self.assertEqual(row["price_held_flat"], 336.64)
 
+    def test_revenue_catch_up_scenario(self):
+        rows = recommendation.revenue_catch_up(5900, 435.5, [0.25], [3])
+        self.assertEqual(rows[0]["future_revenue"], 850.59)
+        self.assertEqual(rows[0]["static_ev_sales"], 6.9)
+        self.assertEqual(rows[0]["enterprise_value_held_flat"], 5900)
+
     def test_watch_does_not_require_entry_price(self):
         rendered = recommendation.render_action("WATCH", "Current price requires growth above the modeled bull case.")
         self.assertIn("does not set a required entry price", rendered)
@@ -55,6 +61,12 @@ class RecommendationToolsTests(unittest.TestCase):
         vm = self.summary["valuation_map"]
         self.assertEqual(vm["current_position"], "above all modeled bull values")
         self.assertEqual(vm["scenario_bounds"]["bull"], {"low": 295.0, "high": 318.0})
+
+    def test_single_method_map_does_not_report_false_zero_dispersion(self):
+        vm = recommendation.valuation_map({"one DCF": {"bear": 3, "base": 12, "bull": 25}}, 17.18)
+        self.assertIsNone(vm["base_method_spread_pct_of_low"])
+        self.assertEqual(vm["current_position"], "between base and bull estimates")
+        self.assertEqual(len(vm["zones"]), 4)
 
 
 if __name__ == "__main__":

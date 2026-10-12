@@ -1,0 +1,21 @@
+{
+  "company": "Palantir Technologies Inc.",
+  "ticker": "NASDAQ:PLTR",
+  "as_of": "2026-10-11",
+  "reporting_basis": "consolidated",
+  "currency": "USD",
+  "units": "millions",
+  "fiscal_year_end": "December 31",
+  "latest_reported_period": {"period": "Q2 2026 ended 2026-06-30", "published": "2026-08-03"},
+  "datapoints": [
+    {"metric":"revenue", "value":3568.047, "period":"H1 2026", "basis":"consolidated", "unit":"USD millions", "source":"SEC Q2 2026 10-Q, statements of operations, filed 2026-08-03", "source_tier":1},
+    {"metric":"revenue_growth", "value":89, "period":"H1 2026 YoY", "basis":"consolidated", "unit":"percent", "source":"SEC Q2 2026 10-Q, MD&A, filed 2026-08-03", "source_tier":1},
+    {"metric":"operating_income", "value":1666.002, "period":"H1 2026", "basis":"consolidated", "unit":"USD millions", "source":"SEC Q2 2026 10-Q, statements of operations, filed 2026-08-03", "source_tier":1},
+    {"metric":"cash_from_operations", "value":2115, "period":"H1 2026", "basis":"consolidated", "unit":"USD millions", "source":"SEC Q2 2026 10-Q, cash flow discussion, filed 2026-08-03", "source_tier":1},
+    {"metric":"stock_based_compensation", "value":466.801, "period":"H1 2026", "basis":"consolidated", "unit":"USD millions", "source":"SEC Q2 2026 10-Q, SBC note, filed 2026-08-03", "source_tier":1},
+    {"metric":"FY_revenue_guidance_low", "value":8150, "period":"FY2026 guidance", "basis":"consolidated", "unit":"USD millions", "source":"SEC Q2 2026 earnings release, filed 2026-08-03", "source_tier":1},
+    {"metric":"FY_revenue_guidance_high", "value":8158, "period":"FY2026 guidance", "basis":"consolidated", "unit":"USD millions", "source":"SEC Q2 2026 earnings release, filed 2026-08-03", "source_tier":1},
+    {"metric":"share_count", "value":2402.9, "period":"2026-06-30", "basis":"consolidated", "unit":"million shares", "source":"SEC Q2 2026 10-Q, cover page", "source_tier":1},
+    {"metric":"share_price", "value":209.05, "period":"2026-10-09 close", "basis":"market", "unit":"USD/share", "source":"StockAnalysis historical price table", "source_tier":2}
+  ]
+}

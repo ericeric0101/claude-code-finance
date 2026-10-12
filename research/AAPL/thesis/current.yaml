@@ -1,0 +1,82 @@
+# Authoritative current thesis for AAPL. Evidence must cite primary sources;
+# price movement alone never changes a component status.
+ticker: AAPL
+company: Apple Inc.
+as_of: '2026-10-11'
+source_report: ../AAPL-analysis-2026-10-11.md
+action: WATCH
+valuation_confidence: low
+research_role: Core candidate
+summary: >-
+  Cash generation and the ecosystem remain evidenced, but the quote requires
+  growth above the modeled bull case and the two valuation methods disagree
+  materially. WATCH is not a required entry price; the earlier uncalibrated
+  $165-185 anchor was withdrawn in the report's challenge pass.
+components:
+  ecosystem_cash_generation:
+    importance: high
+    status: supported
+    evidence:
+      - "Calculation: TTM CFO $146.7bn and reported FCF (CFO - PP&E capex) $136.7bn to Q3 FY2026 (financial-data.json, SEC XBRL)."
+      - "Assumption: normalized FCFF proxy about $120.5bn after removing one-offs (normalized-valuation-output.json)."
+    last_updated: '2026-10-11'
+    next_check: FY2026 10-K cash-flow statement
+    invalidation_condition: Margin and cash conversion deteriorate together after removing one-off items.
+  services_monetization:
+    importance: high
+    status: uncertain
+    evidence:
+      - "Fact: Services were $109.2bn, about 26.2% of FY2025 revenue (FY2025 10-K)."
+      - "Fact: EU terms effective 2026-10-01 replace the per-install CTF with a 5% Core Technology Commission on certain off-store digital sales; revenue effect undisclosed (Apple developer terms)."
+    last_updated: '2026-10-11'
+    next_check: FY2026 10-K Services growth and any EU / Google disclosures
+    invalidation_condition: Services growth stalls for consecutive quarters (not FX or an explainable base effect), or a verifiable structural adverse ruling on Google revenue sharing.
+  earnings_quality_working_capital:
+    importance: high
+    status: weakening
+    evidence:
+      - "Calculation: trade receivables +13.2% vs sales +2.0% in FY2024 and +19.1% vs +6.4% in FY2025; score.py receivables gate raised (score-output.json)."
+      - "Fact: inventory increased; monitoring signal already triggered per report."
+    last_updated: '2026-10-11'
+    next_check: FY2026 10-K receivables aging, inventory and impairments
+    invalidation_condition: Receivables / inventory build persists with collection or impairment problems.
+  normalized_margin_ex_one_offs:
+    importance: medium
+    status: uncertain
+    evidence:
+      - "Fact: Q3 FY2026 included about 2 margin points of one-time tariff refund, removed from normalized EBIT (issuer Q3 release)."
+      - "Fact: 10-Q MD&A cites advanced semiconductor, NAND/DRAM and AI compute constraints."
+    last_updated: '2026-10-11'
+    next_check: Q4 FY2026 gross margin excluding refunds
+    invalidation_condition: Gross margin falls below the FY2024-FY2025 range after removing one-offs, with weaker cash conversion.
+  management_transition:
+    importance: medium
+    status: uncertain
+    evidence:
+      - "Fact: John Ternus became CEO on 2026-09-01; Tim Cook is Executive Chairman (Apple, 2026-04-20 announcement)."
+    last_updated: '2026-10-11'
+    next_check: First full quarter under the new CEO
+    invalidation_condition: Execution failures or capital-allocation changes that weaken owner economics.
+  product_cycle_iphone_duo:
+    importance: low
+    status: uncertain
+    evidence:
+      - "Fact: iPhone Duo announced 2026-09-09; preorders 2026-10-16, availability 2026-10-23 (Apple announcement)."
+      - "Interpretation: no sales data yet; incremental vs cannibalizing demand is unknown."
+    last_updated: '2026-10-11'
+    next_check: Q1 FY2027 product revenue disclosures
+    invalidation_condition: Disclosures show cannibalization without incremental iPhone revenue.
+  balance_sheet_and_controls:
+    importance: medium
+    status: supported
+    evidence:
+      - "Calculation: balance-sheet score 9.07/10 in score-output.json; cash and securities exceed financing debt."
+      - "Fact: no material weakness or audit qualification identified in reviewed filings (document-review.md)."
+    last_updated: '2026-10-11'
+    next_check: FY2026 10-K auditor report and controls
+    invalidation_condition: Material controls weakness, audit qualification or unusual use of funds.
+next_catalysts:
+  - "Q4 FY2026 results and FY2026 10-K (not yet filed as of 2026-10-11)."
+  - "iPhone Duo preorders 2026-10-16 and availability 2026-10-23 (Apple announcement)."
+  - "Disclosures on the EU Core Technology Commission effect on Services."
+  - "Receivables and inventory in the FY2026 10-K."

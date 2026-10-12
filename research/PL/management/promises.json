@@ -1,0 +1,74 @@
+[
+  {
+    "promise_id": "PL-2026-09-03-q3-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "Q3 FY2027 revenue guidance $101-105m",
+    "target_date": "2026-10-31 (quarter end; reported later)",
+    "expected_result": "Q3 revenue within or above $101-105m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  },
+  {
+    "promise_id": "PL-2026-09-03-q3-ebitda",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "Q3 FY2027 adjusted EBITDA loss of $1-6m",
+    "target_date": "2026-10-31",
+    "expected_result": "Adjusted EBITDA between -$6m and -$1m or better",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 revenue guidance $430-441m",
+    "target_date": "2027-01-31",
+    "expected_result": "FY2027 revenue within or above $430-441m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-gm",
+    "topic": "gross margin",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 non-GAAP gross margin 55-57%",
+    "target_date": "2027-01-31",
+    "expected_result": "Non-GAAP gross margin within 55-57%",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-ebitda",
+    "topic": "operating margin",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 adjusted EBITDA $3-10m",
+    "target_date": "2027-01-31",
+    "expected_result": "Positive adjusted EBITDA within $3-10m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-capex",
+    "topic": "capex",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 capex $100-115m",
+    "target_date": "2027-01-31",
+    "expected_result": "Capex within $100-115m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-11"
+  }
+]

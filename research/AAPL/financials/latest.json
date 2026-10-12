@@ -1,0 +1,73 @@
+{
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "reporting_basis": "consolidated US GAAP",
+  "latest_reported_period": "Q3 FY2026 (ended 2026-06-27; 10-Q filed 2026-07-31)",
+  "authoritative_source": "../financial-data.json (SEC XBRL with provenance)",
+  "metrics": {
+    "quarterly_revenue_growth_yoy_pct": {
+      "value": 16.36,
+      "period": "Q3 FY2026 vs Q3 FY2025",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financial-data.json quarters (SEC 10-Q XBRL; per-field accession in provenance)"
+    },
+    "quarterly_gross_margin_pct": {
+      "value": 50.06,
+      "period": "Q3 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financial-data.json quarters (SEC 10-Q XBRL; per-field accession in provenance)",
+      "note": "Reported GAAP; report notes ~2 margin points from a one-time tariff refund."
+    },
+    "annual_gross_margin_pct": {
+      "FY2021": 41.78,
+      "FY2022": 43.31,
+      "FY2023": 44.13,
+      "FY2024": 46.21,
+      "FY2025": 46.91
+    },
+    "diluted_shares_yoy_pct": {
+      "value": -1.56,
+      "period": "Q3 FY2026 vs Q3 FY2025 weighted diluted",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financial-data.json quarters (SEC 10-Q XBRL; per-field accession in provenance)"
+    },
+    "quarterly_receivables_growth_yoy_pct": {
+      "value": 13.94,
+      "period": "2026-06-27 vs 2025-06-28 balance",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financial-data.json quarters (SEC 10-Q XBRL; per-field accession in provenance)"
+    },
+    "receivables_growth_minus_revenue_growth_pp": {
+      "value": 12.7,
+      "period": "FY2025 (trade AR +19.1% vs sales +6.4%)",
+      "unit": "pp",
+      "classification": "Calculation",
+      "source": "AAPL-analysis-2026-10-11.md scorecard gate; FY2025/FY2024 10-K balance sheets"
+    },
+    "ttm_revenue": {
+      "value": 466823.0,
+      "period": "TTM to Q3 FY2026",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financial-data.json ttm; FY2025 + 9M FY2026 - 9M FY2025; EPS not summed"
+    },
+    "ttm_reported_fcf": {
+      "value": 136683.0,
+      "period": "TTM to Q3 FY2026",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financial-data.json ttm (CFO - PP&E capex; not FCFF)"
+    },
+    "normalized_fcff_proxy": {
+      "value": 120500,
+      "period": "2026-10-11 normalization",
+      "unit": "USD millions",
+      "classification": "Assumption",
+      "source": "normalized-valuation-output.json; cashflow-valuation-review.md"
+    }
+  }
+}
