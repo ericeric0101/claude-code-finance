@@ -80,5 +80,46 @@
     },
     "source_report": "../PL-analysis-2026-10-11.md",
     "note": "Price-only update: no new 10-Q/8-K since 2026-09-03; only Forms 4/144 (insider sales, tax withholding, gift). No status changes. Illustrative reverse DCF added (implied ~36% 5y revenue CAGR at $17.18)."
+  },
+  {
+    "as_of": "2026-10-13",
+    "action": "WATCH",
+    "valuation_confidence": "low",
+    "components": {
+      "sovereign_defense_demand": {
+        "status": "supported",
+        "importance": "high"
+      },
+      "revenue_growth_durability": {
+        "status": "supported",
+        "importance": "high"
+      },
+      "backlog_visibility": {
+        "status": "weakening",
+        "importance": "high"
+      },
+      "margin_and_cash_conversion": {
+        "status": "uncertain",
+        "importance": "high"
+      },
+      "per_share_value_vs_dilution": {
+        "status": "weakening",
+        "importance": "high"
+      },
+      "commercial_diversification": {
+        "status": "uncertain",
+        "importance": "medium"
+      },
+      "constellation_execution": {
+        "status": "uncertain",
+        "importance": "medium"
+      },
+      "liquidity": {
+        "status": "supported",
+        "importance": "medium"
+      }
+    },
+    "source_report": "../PL-analysis-2026-10-11.md",
+    "note": "UPDATE pipeline (Level 3 engine first run)"
   }
 ]

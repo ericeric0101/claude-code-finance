@@ -138,3 +138,80 @@ python3 scripts/research_state.py expectation-gap AAPL
 python3 scripts/price_reaction.py analyze PL research/PL/market/events.csv --write
 python3 -m unittest discover -s tests
 ```
+
+## 15. Level 3 implementation (2026-10-13)
+
+The engine below turns the state containers into a continuously accumulating
+research record. Every script is local-first; network calls are limited to SEC
+(finance-skill client, `.env` user agent) and price refreshes.
+
+| Capability | Script | Output (`research/<TICKER>/…`) |
+|---|---|---|
+| Baseline builder | `build_fundamental_history.py` | `financials/history.json`, `coverage.json`, merged `historical.csv` |
+| Assumption vs history | `assumption_history_check.py` | `valuation/assumption-check.{json,md}` |
+| Management history | `build_management_history.py` | `management/statements.json`, `guidance.json`, `reported-kpis.json`, `changes.md`, `market/events.csv` |
+| Promise lifecycle | `build_management_history.py` | `management/promises.json` |
+| State snapshots + diff | `state_diff.py`, `research_state.py snapshot-state / change-report` | `snapshots/<date>.json`, `reports/<date>-change-report.md` |
+| Valuation history | `build_valuation_history.py` | `valuation/historical-multiples.csv`, `historical-percentiles.json`, `market/fundamental-price-timeline.csv` |
+| Expectation-gap history | `research_state.py record-gap` | `valuation/expectation-gap-history.csv` |
+| Benchmark-adjusted reactions | `price_reaction.py analyze` / `fetch-benchmark` | `market/event-reactions.csv`, `research/benchmarks/SPY/prices.csv` |
+| INIT / UPDATE | `research_pipeline.py init|update` | everything above + baseline / change report |
+| Monthly review | `monthly_research_review.py` | `research/reviews/YYYY-MM-monthly-review.md` |
+| Past state without hindsight | `backfill_state_snapshots.py` | `snapshots/<date>.json` (`retrospective: true` or from git) |
+
+**Baseline builder.** A mapping layer lists candidate us-gaap tags per metric
+(e.g. revenue: `RevenueFromContractWithCustomerExcludingAssessedTax`, `Revenues`,
+`SalesRevenueNet`); the tag used is stored per period and a fallback is flagged.
+Only 10-K / 10-Q (and amendments) count; duplicates resolve to the latest filed
+fact (amendments and restated comparatives win); an `as_of` cutoff hides later
+filings. Durations are classified by length so YTD values are never stored as
+quarters; a standalone quarter is derived (YTD minus prior YTD, or cumulative
+minus contiguous standalone quarters, same fiscal-year start) only when valid,
+with the derivation recorded. Missing values stay null; nothing is zero-filled
+or interpolated. Company KPIs (backlog, ARR, bookings, units, subscribers) are
+filled only from a configured extension tag (`financials/tag-overrides.json`).
+On AAPL it reproduces all values of the AAPL-specific `extract_aapl.py`
+(kept, not deleted).
+
+**Management history.** EX-99.1 earnings releases (8-K Item 2.02) are quoted
+verbatim by topic (demand, customers, backlog/RPO, guidance, capex, margins,
+product launch, customer qualification, constraints, cash flow, dilution); the
+Outlook section is parsed into guidance ranges; `changes.md` compares guidance
+raised / maintained / lowered and wording per topic over up to eight quarters.
+Wording changes are labelled low-confidence heuristics, never fundamentals.
+
+**Promise lifecycle.** Each guided metric becomes a promise (`pending`); once the
+period is reported it is resolved against SEC actuals (revenue, capex, GAAP
+margin) or company-reported non-GAAP figures (`delivered`,
+`partially_delivered`, `missed`; capex is judged as a spending plan, under or
+over), or `superseded` by later guidance. Counts carry a caveat; no credibility
+score.
+
+**State diff.** A snapshot freezes financials (latest quarter, TTM), management
+(guidance, tone, promises), thesis (status + evidence fingerprint), valuation
+(price, scenarios, zone, historical percentiles), expectation gap, rule states,
+action / confidence and catalysts. `change-report` diffs the last two snapshots
+across Financials, Management, Promises, Thesis, Valuation, Expectation gap and
+Monitoring; thesis transitions use an explicit mapping (e.g. supported →
+improving is neutral). Monitoring evaluates fundamental, market (price crossed a
+reassessment level since the last reviewed price) and thesis-invalidation rules;
+a trigger only means REASSESS.
+
+**Valuation history.** Month-end and pre/post-earnings price × cover-page shares,
+EV = market cap + debt − cash/investments, TTM revenue / EBIT / net income /
+FCF from facts filed on or before each date (no look-ahead). EV/Sales,
+EV/EBIT, P/E, P/FCF (null when not meaningful) and 1Y / 3Y / since-listing
+percentiles, flagged when data is thin. The fundamental-price timeline aligns
+each earnings release with price before / after, SPY-adjusted moves and the
+quarter's fundamentals.
+
+**Monthly review.** Compares each company's latest snapshot with its last one
+before the month: thesis moves, gap widening / narrowing, promises, newly
+triggered rules; High / Medium / Low priority by transparent rules; five tasks.
+
+**Level assessment (2026-10-13): LEVEL 3** — generic baseline works (PL, AAPL,
+RKLB), PL has multi-period state (2 retrospective + 3 recorded snapshots), UPDATE
+produces a multi-domain diff, valuation / expectation-gap / thesis / promise
+histories persist, and tests pass. Not LEVEL 4: thesis judgment and long-form
+reports still need an analyst, management extraction is heuristic, transcripts
+and company KPIs outside XBRL are not automated.

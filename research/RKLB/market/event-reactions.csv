@@ -1,0 +1,1 @@
+event_date,event_type,description,source,t0,gap_pct,day_return_pct,volume_ratio_20d,return_m1_p1_pct,drift_p2_p20_pct,max_drawdown_20d_pct,benchmark,return_5d_pct,return_20d_pct,abnormal_1d_pct,abnormal_5d_pct,abnormal_20d_pct,abnormal_sector_1d_pct,abnormal_sector_5d_pct,abnormal_sector_20d_pct,observation,interpretation

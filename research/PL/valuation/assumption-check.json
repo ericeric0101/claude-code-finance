@@ -1,0 +1,174 @@
+{
+  "as_of": null,
+  "history_stats": {
+    "revenue_growth": {
+      "cagr_3y_pct": 17.18,
+      "cagr_5y_pct": 22.15,
+      "latest_fy_growth_pct": 25.94,
+      "latest_8q_yoy_range_pct": [
+        4.59,
+        58.14
+      ],
+      "latest_4q_ttm_growth_pct": 44.12,
+      "median_quarterly_yoy_pct": 26.37,
+      "basis": "annual revenue FY2021..FY2026; quarters Q3 FY2025..Q2 FY2027"
+    },
+    "gross_margin_pct": {
+      "by_year": {
+        "FY2021": 22.78,
+        "FY2022": 36.75,
+        "FY2023": 49.15,
+        "FY2024": 51.18,
+        "FY2025": 57.18,
+        "FY2026": 56.05
+      },
+      "latest_fy_pct": 56.05,
+      "ttm_pct": 55.42,
+      "avg_3y_pct": 54.8,
+      "best_pct": 57.18,
+      "worst_pct": 22.78
+    },
+    "operating_margin_pct": {
+      "by_year": {
+        "FY2021": -77.27,
+        "FY2022": -97.59,
+        "FY2023": -91.85,
+        "FY2024": -76.91,
+        "FY2025": -47.52,
+        "FY2026": -30.9
+      },
+      "latest_fy_pct": -30.9,
+      "ttm_pct": -27.16,
+      "avg_3y_pct": -51.78,
+      "best_pct": -30.9,
+      "worst_pct": -97.59
+    },
+    "fcf_margin_pct": {
+      "by_year": {
+        "FY2021": -30.18,
+        "FY2022": -43.55,
+        "FY2023": -45.33,
+        "FY2024": -42.19,
+        "FY2025": -26.19,
+        "FY2026": 17.18
+      },
+      "latest_fy_pct": 17.18,
+      "ttm_pct": 5.25,
+      "avg_3y_pct": -17.07,
+      "best_pct": 17.18,
+      "worst_pct": -45.33
+    },
+    "sbc_pct_revenue": {
+      "by_year": {
+        "FY2021": 12.38,
+        "FY2022": 31.98,
+        "FY2023": 39.5,
+        "FY2024": 25.89,
+        "FY2025": 19.84,
+        "FY2026": 17.87
+      },
+      "latest_fy_pct": 17.87,
+      "ttm_pct": 16.53,
+      "avg_3y_pct": 21.2,
+      "best_pct": 39.5,
+      "worst_pct": 12.38
+    },
+    "capex_pct_revenue": {
+      "by_year": {
+        "FY2021": 26.62,
+        "FY2022": 11.38,
+        "FY2023": 6.67,
+        "FY2024": 19.22,
+        "FY2025": 20.31,
+        "FY2026": 26.48
+      },
+      "latest_fy_pct": 26.48,
+      "ttm_pct": 25.84,
+      "avg_3y_pct": 22.0,
+      "best_pct": 26.62,
+      "worst_pct": 6.67
+    },
+    "diluted_share_growth": {
+      "cagr_3y_pct": 4.84,
+      "latest_fy_yoy_pct": 5.37,
+      "latest_quarter_yoy_pct": 18.24
+    }
+  },
+  "checks": [
+    {
+      "scenario": "base",
+      "assumption": "revenue_cagr_5y",
+      "value_pct": 25.0,
+      "history_refs_pct": {
+        "long_run": {
+          "cagr_5y": 22.15,
+          "cagr_3y": 17.18
+        },
+        "recent": {
+          "ttm_growth": 44.12,
+          "median_8q_yoy": 26.37
+        }
+      },
+      "classification": "Near historical",
+      "reading": "reasonable",
+      "interpretation": "base revenue_cagr_5y 25.0% is in line with long-run history (long-run: cagr_5y 22.1%, cagr_3y 17.2%; recent: ttm_growth 44.1%, median_8q_yoy 26.4%) -> Near historical / reasonable.",
+      "label": "Calculation (history) + Interpretation"
+    },
+    {
+      "scenario": "base",
+      "assumption": "fcf_margin_y5",
+      "value_pct": 20.0,
+      "history_refs_pct": {
+        "long_run": {
+          "avg_3y": -17.07
+        },
+        "recent": {
+          "ttm": 5.25,
+          "latest_fy": 17.18
+        }
+      },
+      "classification": "Above historical",
+      "reading": "aggressive",
+      "interpretation": "base fcf_margin_y5 20.0% is above long-run history but within recent trajectory (long-run: avg_3y -17.1%; recent: ttm 5.2%, latest_fy 17.2%) -> Above historical / aggressive.",
+      "label": "Calculation (history) + Interpretation"
+    },
+    {
+      "scenario": "bull",
+      "assumption": "revenue_cagr_5y",
+      "value_pct": 35.0,
+      "history_refs_pct": {
+        "long_run": {
+          "cagr_5y": 22.15,
+          "cagr_3y": 17.18
+        },
+        "recent": {
+          "ttm_growth": 44.12,
+          "median_8q_yoy": 26.37
+        }
+      },
+      "classification": "Above historical",
+      "reading": "aggressive",
+      "interpretation": "bull revenue_cagr_5y 35.0% is above long-run history but within recent trajectory (long-run: cagr_5y 22.1%, cagr_3y 17.2%; recent: ttm_growth 44.1%, median_8q_yoy 26.4%) -> Above historical / aggressive.",
+      "label": "Calculation (history) + Interpretation"
+    },
+    {
+      "scenario": "bull",
+      "assumption": "fcf_margin_y5",
+      "value_pct": 25.0,
+      "history_refs_pct": {
+        "long_run": {
+          "avg_3y": -17.07
+        },
+        "recent": {
+          "ttm": 5.25,
+          "latest_fy": 17.18
+        }
+      },
+      "classification": "Materially above historical",
+      "reading": "very aggressive",
+      "interpretation": "bull fcf_margin_y5 25.0% is materially beyond both long-run history and recent trajectory (long-run: avg_3y -17.1%; recent: ttm 5.2%, latest_fy 17.2%) -> Materially above historical / very aggressive.",
+      "label": "Calculation (history) + Interpretation"
+    }
+  ],
+  "caveat": "History is evidence, not a ceiling: a forward 5-year assumption can exceed history if new evidence supports it. FCF history may include working-capital timing (e.g. customer prepayments)."
+}

@@ -5,7 +5,18 @@ description: Track how a US company's management commentary and promises change 
 
 # Management Change and Promise Tracker
 
-Files: `research/<TICKER>/management/statements.json`, `promises.json`, `changes.md`.
+Files: `research/<TICKER>/management/statements.json`, `promises.json`, `changes.md`,
+`guidance.json`, `reported-kpis.json`.
+
+Automated layer: `python3 scripts/build_management_history.py TICKER --cik CIK`
+quotes 8-K Item 2.02 release sentences by topic (verbatim, Tier 1), parses the
+Outlook section into guidance ranges, compares guidance raised / maintained /
+lowered across issues, resolves promises against reported actuals
+(`delivered` / `partially_delivered` / `missed` / `superseded`, with
+`actual_result`, `evidence`, `resolved_date`) and regenerates `changes.md`.
+Existing curated statements and promises are merged, never dropped. Tone is a
+keyword heuristic (low confidence) and never evidence of deterioration by itself.
+Add analyst interpretation and Tier 2 transcript quotes on top.
 Sources in priority order: SEC 8-K Item 2.02 exhibits, 10-Q/10-K MD&A, issuer
 earnings materials and transcripts published by the issuer. Use `finance-skill`
 (`sec_edgar.py`) to list filings; never quote from memory.

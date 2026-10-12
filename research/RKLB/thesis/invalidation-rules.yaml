@@ -1,0 +1,29 @@
+ticker: RKLB
+as_of: '2026-10-13'
+rules:
+- id: revenue_decline_two_quarters
+  condition: Revenue YoY negative for two consecutive quarters
+  thesis_component: revenue_growth_durability
+  checks:
+  - metric: revenue_growth_yoy_pct
+    warning: <0%
+    consecutive_quarters: 2
+- id: dilution_above_5pct
+  condition: Diluted shares up more than 5% YoY
+  thesis_component: per_share_dilution
+  checks:
+  - metric: diluted_shares_yoy_pct
+    warning: '>5%'
+- id: gross_margin_below_8q_low
+  condition: Gross margin below the 8-quarter low for two consecutive quarters
+  thesis_component: margin_trajectory
+  checks:
+  - metric: gaap_gross_margin_pct
+    warning: <26.7%
+    consecutive_quarters: 2
+- id: rpo_decline_yoy
+  condition: RPO declines year over year
+  thesis_component: backlog_visibility
+  checks:
+  - metric: rpo_yoy_pct
+    warning: <0%

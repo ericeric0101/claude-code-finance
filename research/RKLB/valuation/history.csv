@@ -1,0 +1,2 @@
+as_of,price,price_date,method,bear,base,bull,reverse_dcf_implied_growth,valuation_confidence,action,map_position,source
+2026-10-13,68.21,2026-10-09 close,five-year scenario DCF (auto-draft),4.43,11.37,33.38,1.0891,low,WATCH,above all modeled bull values,

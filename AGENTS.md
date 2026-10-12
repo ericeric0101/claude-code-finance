@@ -13,7 +13,7 @@ Project-level skills are under `.agents/skills/`:
 
 Read the selected skill and relevant references before using it. Preserve
 upstream source folders; custom requirements belong in my-equity-research.
-The user's current initial test is AAPL. PL is prepared, not scheduled or run.
+AAPL and PL are the regression cases; PL has multi-period state (retrospective and recorded snapshots). RKLB was initialized with the Level 3 pipeline.
 
 Keep dated reports and reproducible inputs in `research/<TICKER>/`.
 Report language: write all report prose (change reports, deep / full reports, monthly reviews, replies) in Traditional Chinese (繁體中文). Tickers, field names, YAML/JSON keys, section identifiers and code identifiers may stay English. Do not translate existing dated reports.

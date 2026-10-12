@@ -35,5 +35,42 @@
     },
     "source_report": "../AAPL-analysis-2026-10-11.md",
     "note": "Migrated baseline from AAPL-analysis-2026-10-11.md"
+  },
+  {
+    "as_of": "2026-10-13",
+    "action": "WATCH",
+    "valuation_confidence": "low",
+    "components": {
+      "ecosystem_cash_generation": {
+        "status": "supported",
+        "importance": "high"
+      },
+      "services_monetization": {
+        "status": "uncertain",
+        "importance": "high"
+      },
+      "earnings_quality_working_capital": {
+        "status": "weakening",
+        "importance": "high"
+      },
+      "normalized_margin_ex_one_offs": {
+        "status": "uncertain",
+        "importance": "medium"
+      },
+      "management_transition": {
+        "status": "uncertain",
+        "importance": "medium"
+      },
+      "product_cycle_iphone_duo": {
+        "status": "uncertain",
+        "importance": "low"
+      },
+      "balance_sheet_and_controls": {
+        "status": "supported",
+        "importance": "medium"
+      }
+    },
+    "source_report": "../AAPL-analysis-2026-10-11.md",
+    "note": "UPDATE pipeline"
   }
 ]

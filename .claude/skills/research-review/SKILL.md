@@ -11,7 +11,9 @@ description: Run the monthly review across every company with research state in 
    UPDATE via `equity-research-orchestrator` first only for companies with new
    filings since their `as_of` (check SEC submissions dates; skip API calls when
    nothing new was filed).
-3. Write `research/reviews/<YYYY-MM>-monthly-review.md`.
+3. `python3 scripts/monthly_research_review.py [--month YYYY-MM]` writes
+   `research/reviews/<YYYY-MM>-monthly-review.md` from state snapshots (rule-based
+   High / Medium / Low priority; no price-outcome grading). Add commentary on top.
 
 ## Required sections
 

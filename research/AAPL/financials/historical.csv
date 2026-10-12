@@ -1,333 +1,730 @@
 period,period_end,metric,value,unit,basis,classification,source
-FY2021,2021-09-25,revenue,365817.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-FY2021,2021-09-25,cogs,212981.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CostOfGoodsAndServicesSold"
-FY2021,2021-09-25,ebit,108949.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingIncomeLoss"
-FY2021,2021-09-25,net_income,94680.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP NetIncomeLoss"
-FY2021,2021-09-25,tax,14527.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP IncomeTaxExpenseBenefit"
-FY2021,2021-09-25,pbt,109207.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-FY2021,2021-09-25,cfo,104038.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP NetCashProvidedByUsedInOperatingActivities"
-FY2021,2021-09-25,capex,11085.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-FY2021,2021-09-25,sbc,7906.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP ShareBasedCompensation"
-FY2021,2021-09-25,depreciation,11284.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP DepreciationDepletionAndAmortization"
-FY2021,2021-09-25,eps,5.61,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP EarningsPerShareDiluted"
-FY2021,2021-09-25,diluted_shares,16864.919,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2020,2020-09-26,basic_shares,17352.119,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+FY2020,2020-09-26,capex,7309.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+FY2020,2020-09-26,capex_pct_revenue,2.662514,USD millions,consolidated US GAAP,Calculation,capex / revenue
+FY2020,2020-09-26,capex_ppe,7309.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
+FY2020,2020-09-26,cash,38016.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP CashAndCashEquivalentsAtCarryingValue"
+FY2020,2020-09-26,cash_and_investments,90943.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+FY2020,2020-09-26,cfo,80674.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP NetCashProvidedByUsedInOperatingActivities"
+FY2020,2020-09-26,commercial_paper,4996.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP CommercialPaper"
+FY2020,2020-09-26,cost_of_revenue,169559.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CostOfGoodsAndServicesSold"
+FY2020,2020-09-26,debt,106078.0,USD millions,consolidated US GAAP,Calculation,debt_total
+FY2020,2020-09-26,debt_current,8773.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP LongTermDebtCurrent"
+FY2020,2020-09-26,debt_noncurrent,98667.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP LongTermDebtNoncurrent"
+FY2020,2020-09-26,debt_total,106078.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP DebtInstrumentCarryingAmount"
+FY2020,2020-09-26,deferred_revenue,10200.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP ContractWithCustomerLiability"
+FY2020,2020-09-26,depreciation_amortization,11056.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP DepreciationDepletionAndAmortization"
+FY2020,2020-09-26,diluted_shares,17528.214,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2020,2020-09-26,diluted_shares_yoy_pct,-5.740251,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+FY2020,2020-09-26,eps_diluted,3.28,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP EarningsPerShareDiluted"
+FY2020,2020-09-26,equity,65339.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP StockholdersEquity"
+FY2020,2020-09-26,fcf,73365.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+FY2020,2020-09-26,fcf_margin_pct,26.725316,%,consolidated US GAAP,Calculation,fcf / revenue
+FY2020,2020-09-26,gross_margin_pct,38.233248,%,consolidated US GAAP,Calculation,gross_profit / revenue
+FY2020,2020-09-26,gross_profit,104956.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP GrossProfit"
+FY2020,2020-09-26,gross_profit_yoy_pct,6.671274,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+FY2020,2020-09-26,net_income,57411.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP NetIncomeLoss"
+FY2020,2020-09-26,net_margin_pct,20.913611,%,consolidated US GAAP,Calculation,net_income / revenue
+FY2020,2020-09-26,operating_income,66288.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP OperatingIncomeLoss"
+FY2020,2020-09-26,operating_lease_liability,9181.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2020-10-30, accession 0000320193-20-000096, US GAAP OperatingLeaseLiability"
+FY2020,2020-09-26,operating_margin_pct,24.147314,%,consolidated US GAAP,Calculation,operating_income / revenue
+FY2020,2020-09-26,revenue,274515.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+FY2020,2020-09-26,revenue_yoy_pct,5.51208,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+FY2020,2020-09-26,sbc,6829.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP ShareBasedCompensation"
+FY2020,2020-09-26,sbc_pct_revenue,2.48766,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+FY2020,2020-09-26,shares_outstanding,16976.763,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP CommonStockSharesOutstanding"
+FY2020,2020-09-26,short_term_investments,52927.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP MarketableSecuritiesCurrent"
+FY2021,2021-09-25,basic_shares,16701.272,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
 FY2021,2021-09-25,buybacks,85971.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsForRepurchaseOfCommonStock"
-FY2021,2021-09-25,dividends_paid,14467.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsOfDividends"
-FY2021,2021-09-25,equity,63090.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP StockholdersEquity"
-FY2021,2021-09-25,total_assets,351002.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP Assets"
-FY2021,2021-09-25,current_assets,134836.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP AssetsCurrent"
-FY2021,2021-09-25,current_liabilities,125481.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LiabilitiesCurrent"
-FY2021,2021-09-25,inventory,6580.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP InventoryNet"
-FY2021,2021-09-25,receivables,26278.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP AccountsReceivableNetCurrent"
+FY2021,2021-09-25,capex,11085.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+FY2021,2021-09-25,capex_pct_revenue,3.030204,USD millions,consolidated US GAAP,Calculation,capex / revenue
+FY2021,2021-09-25,capex_ppe,11085.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
 FY2021,2021-09-25,cash,34940.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CashAndCashEquivalentsAtCarryingValue"
-FY2021,2021-09-25,current_investments,27699.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesCurrent"
-FY2021,2021-09-25,noncurrent_investments,127877.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesNoncurrent"
-FY2021,2021-09-25,current_term_debt,9613.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtCurrent"
-FY2021,2021-09-25,long_term_debt,109106.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtNoncurrent"
+FY2021,2021-09-25,cash_and_investments,62639.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+FY2021,2021-09-25,cfo,104038.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP NetCashProvidedByUsedInOperatingActivities"
+FY2021,2021-09-25,cogs,212981.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CostOfGoodsAndServicesSold"
 FY2021,2021-09-25,commercial_paper,6000.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CommercialPaper"
-FY2021,2021-09-25,shares_outstanding,16426.786,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CommonStockSharesOutstanding"
-FY2021,2021-09-25,operating_leases,10955.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP OperatingLeaseLiability"
+FY2021,2021-09-25,cost_of_revenue,212981.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CostOfGoodsAndServicesSold"
+FY2021,2021-09-25,current_assets,134836.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP AssetsCurrent"
+FY2021,2021-09-25,current_investments,27699.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesCurrent"
+FY2021,2021-09-25,current_liabilities,125481.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LiabilitiesCurrent"
+FY2021,2021-09-25,current_term_debt,9613.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtCurrent"
+FY2021,2021-09-25,debt,118700.0,USD millions,consolidated US GAAP,Calculation,debt_total
+FY2021,2021-09-25,debt_current,9613.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtCurrent"
+FY2021,2021-09-25,debt_noncurrent,109106.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtNoncurrent"
+FY2021,2021-09-25,debt_total,118700.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2022-07-29, accession 0000320193-22-000070, US GAAP LongTermDebt"
+FY2021,2021-09-25,deferred_revenue,11900.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP ContractWithCustomerLiability"
+FY2021,2021-09-25,depreciation,11284.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP DepreciationDepletionAndAmortization"
+FY2021,2021-09-25,depreciation_amortization,11284.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP DepreciationDepletionAndAmortization"
+FY2021,2021-09-25,diluted_shares,16864.919,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2021,2021-09-25,diluted_shares_yoy_pct,-3.784156,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+FY2021,2021-09-25,dividends_paid,14467.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP PaymentsOfDividends"
+FY2021,2021-09-25,ebit,108949.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingIncomeLoss"
+FY2021,2021-09-25,eps,5.61,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP EarningsPerShareDiluted"
+FY2021,2021-09-25,eps_diluted,5.61,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP EarningsPerShareDiluted"
+FY2021,2021-09-25,equity,63090.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP StockholdersEquity"
+FY2021,2021-09-25,fcf,92953.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+FY2021,2021-09-25,fcf_margin_pct,25.409699,%,consolidated US GAAP,Calculation,fcf / revenue
 FY2021,2021-09-25,finance_leases,848.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP FinanceLeaseLiability"
-FY2021,2021-09-25,fcf,92953.0,USD millions,consolidated US GAAP,Fact,financial-data.json annual FY2021
-FY2022,2022-09-24,revenue,394328.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-FY2022,2022-09-24,cogs,223546.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CostOfGoodsAndServicesSold"
-FY2022,2022-09-24,ebit,119437.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingIncomeLoss"
-FY2022,2022-09-24,net_income,99803.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP NetIncomeLoss"
-FY2022,2022-09-24,tax,19300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP IncomeTaxExpenseBenefit"
-FY2022,2022-09-24,pbt,119103.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-FY2022,2022-09-24,cfo,122151.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP NetCashProvidedByUsedInOperatingActivities"
-FY2022,2022-09-24,capex,10708.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-FY2022,2022-09-24,sbc,9038.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP ShareBasedCompensation"
-FY2022,2022-09-24,depreciation,11104.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP DepreciationDepletionAndAmortization"
-FY2022,2022-09-24,eps,6.11,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP EarningsPerShareDiluted"
-FY2022,2022-09-24,diluted_shares,16325.819,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2021,2021-09-25,gross_margin_pct,41.77936,%,consolidated US GAAP,Calculation,gross_profit / revenue
+FY2021,2021-09-25,gross_profit,152836.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP GrossProfit"
+FY2021,2021-09-25,gross_profit_yoy_pct,45.619117,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+FY2021,2021-09-25,inventory,6580.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP InventoryNet"
+FY2021,2021-09-25,long_term_debt,109106.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP LongTermDebtNoncurrent"
+FY2021,2021-09-25,net_income,94680.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP NetIncomeLoss"
+FY2021,2021-09-25,net_margin_pct,25.881793,%,consolidated US GAAP,Calculation,net_income / revenue
+FY2021,2021-09-25,noncurrent_investments,127877.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesNoncurrent"
+FY2021,2021-09-25,operating_income,108949.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingIncomeLoss"
+FY2021,2021-09-25,operating_lease_liability,10955.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP OperatingLeaseLiability"
+FY2021,2021-09-25,operating_leases,10955.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2021-10-29, accession 0000320193-21-000105, US GAAP OperatingLeaseLiability"
+FY2021,2021-09-25,operating_margin_pct,29.782378,%,consolidated US GAAP,Calculation,operating_income / revenue
+FY2021,2021-09-25,pbt,109207.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+FY2021,2021-09-25,receivables,26278.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP AccountsReceivableNetCurrent"
+FY2021,2021-09-25,revenue,365817.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+FY2021,2021-09-25,revenue_yoy_pct,33.259385,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+FY2021,2021-09-25,sbc,7906.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP ShareBasedCompensation"
+FY2021,2021-09-25,sbc_pct_revenue,2.16119,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+FY2021,2021-09-25,shares_outstanding,16426.786,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP CommonStockSharesOutstanding"
+FY2021,2021-09-25,short_term_investments,27699.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP MarketableSecuritiesCurrent"
+FY2021,2021-09-25,tax,14527.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP IncomeTaxExpenseBenefit"
+FY2021,2021-09-25,total_assets,351002.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP Assets"
+FY2022,2022-09-24,basic_shares,16215.963,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
 FY2022,2022-09-24,buybacks,89402.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsForRepurchaseOfCommonStock"
-FY2022,2022-09-24,dividends_paid,14841.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsOfDividends"
-FY2022,2022-09-24,equity,50672.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP StockholdersEquity"
-FY2022,2022-09-24,total_assets,352755.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP Assets"
-FY2022,2022-09-24,current_assets,135405.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP AssetsCurrent"
-FY2022,2022-09-24,current_liabilities,153982.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LiabilitiesCurrent"
-FY2022,2022-09-24,inventory,4946.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP InventoryNet"
-FY2022,2022-09-24,receivables,28184.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP AccountsReceivableNetCurrent"
+FY2022,2022-09-24,capex,10708.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+FY2022,2022-09-24,capex_pct_revenue,2.715506,USD millions,consolidated US GAAP,Calculation,capex / revenue
+FY2022,2022-09-24,capex_ppe,10708.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
 FY2022,2022-09-24,cash,23646.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CashAndCashEquivalentsAtCarryingValue"
-FY2022,2022-09-24,current_investments,24658.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesCurrent"
-FY2022,2022-09-24,noncurrent_investments,120805.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesNoncurrent"
-FY2022,2022-09-24,current_term_debt,11128.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtCurrent"
-FY2022,2022-09-24,long_term_debt,98959.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtNoncurrent"
+FY2022,2022-09-24,cash_and_investments,48304.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+FY2022,2022-09-24,cfo,122151.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP NetCashProvidedByUsedInOperatingActivities"
+FY2022,2022-09-24,cogs,223546.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CostOfGoodsAndServicesSold"
 FY2022,2022-09-24,commercial_paper,9982.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CommercialPaper"
-FY2022,2022-09-24,shares_outstanding,15943.425,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CommonStockSharesOutstanding"
-FY2022,2022-09-24,operating_leases,11470.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP OperatingLeaseLiability"
+FY2022,2022-09-24,cost_of_revenue,223546.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CostOfGoodsAndServicesSold"
+FY2022,2022-09-24,current_assets,135405.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP AssetsCurrent"
+FY2022,2022-09-24,current_investments,24658.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesCurrent"
+FY2022,2022-09-24,current_liabilities,153982.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LiabilitiesCurrent"
+FY2022,2022-09-24,current_term_debt,11128.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtCurrent"
+FY2022,2022-09-24,debt,110087.0,USD millions,consolidated US GAAP,Calculation,debt_total
+FY2022,2022-09-24,debt_current,11128.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtCurrent"
+FY2022,2022-09-24,debt_noncurrent,98959.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtNoncurrent"
+FY2022,2022-09-24,debt_total,110087.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebt"
+FY2022,2022-09-24,deferred_revenue,12400.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP ContractWithCustomerLiability"
+FY2022,2022-09-24,depreciation,11104.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP DepreciationDepletionAndAmortization"
+FY2022,2022-09-24,depreciation_amortization,11104.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP DepreciationDepletionAndAmortization"
+FY2022,2022-09-24,diluted_shares,16325.819,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2022,2022-09-24,diluted_shares_yoy_pct,-3.196576,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+FY2022,2022-09-24,dividends_paid,14841.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP PaymentsOfDividends"
+FY2022,2022-09-24,ebit,119437.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingIncomeLoss"
+FY2022,2022-09-24,eps,6.11,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP EarningsPerShareDiluted"
+FY2022,2022-09-24,eps_diluted,6.11,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP EarningsPerShareDiluted"
+FY2022,2022-09-24,equity,50672.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP StockholdersEquity"
+FY2022,2022-09-24,fcf,111443.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+FY2022,2022-09-24,fcf_margin_pct,28.261498,%,consolidated US GAAP,Calculation,fcf / revenue
 FY2022,2022-09-24,finance_leases,941.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP FinanceLeaseLiability"
-FY2022,2022-09-24,fcf,111443.0,USD millions,consolidated US GAAP,Fact,financial-data.json annual FY2022
-FY2023,2023-09-30,revenue,383285.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-FY2023,2023-09-30,cogs,214137.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold"
-FY2023,2023-09-30,ebit,114301.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss"
-FY2023,2023-09-30,net_income,96995.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss"
-FY2023,2023-09-30,tax,16741.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit"
-FY2023,2023-09-30,pbt,113736.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-FY2023,2023-09-30,cfo,110543.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities"
-FY2023,2023-09-30,capex,10959.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-FY2023,2023-09-30,sbc,10833.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation"
-FY2023,2023-09-30,depreciation,11519.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization"
-FY2023,2023-09-30,eps,6.13,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
-FY2023,2023-09-30,diluted_shares,15812.547,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2022,2022-09-24,gross_margin_pct,43.309631,%,consolidated US GAAP,Calculation,gross_profit / revenue
+FY2022,2022-09-24,gross_profit,170782.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP GrossProfit"
+FY2022,2022-09-24,gross_profit_yoy_pct,11.741998,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+FY2022,2022-09-24,inventory,4946.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP InventoryNet"
+FY2022,2022-09-24,long_term_debt,98959.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP LongTermDebtNoncurrent"
+FY2022,2022-09-24,net_income,99803.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP NetIncomeLoss"
+FY2022,2022-09-24,net_margin_pct,25.309641,%,consolidated US GAAP,Calculation,net_income / revenue
+FY2022,2022-09-24,noncurrent_investments,120805.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesNoncurrent"
+FY2022,2022-09-24,operating_income,119437.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingIncomeLoss"
+FY2022,2022-09-24,operating_lease_liability,11470.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP OperatingLeaseLiability"
+FY2022,2022-09-24,operating_leases,11470.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2022-10-28, accession 0000320193-22-000108, US GAAP OperatingLeaseLiability"
+FY2022,2022-09-24,operating_margin_pct,30.288744,%,consolidated US GAAP,Calculation,operating_income / revenue
+FY2022,2022-09-24,pbt,119103.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+FY2022,2022-09-24,receivables,28184.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP AccountsReceivableNetCurrent"
+FY2022,2022-09-24,revenue,394328.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+FY2022,2022-09-24,revenue_yoy_pct,7.793788,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+FY2022,2022-09-24,sbc,9038.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP ShareBasedCompensation"
+FY2022,2022-09-24,sbc_pct_revenue,2.292001,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+FY2022,2022-09-24,shares_outstanding,15943.425,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP CommonStockSharesOutstanding"
+FY2022,2022-09-24,short_term_investments,24658.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP MarketableSecuritiesCurrent"
+FY2022,2022-09-24,tax,19300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP IncomeTaxExpenseBenefit"
+FY2022,2022-09-24,total_assets,352755.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP Assets"
+FY2023,2023-09-30,basic_shares,15744.231,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
 FY2023,2023-09-30,buybacks,77550.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock"
-FY2023,2023-09-30,dividends_paid,15025.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends"
-FY2023,2023-09-30,equity,62146.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP StockholdersEquity"
-FY2023,2023-09-30,total_assets,352583.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP Assets"
+Q4 FY2023,2023-09-30,capex,2163.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q4 FY2023,2023-09-30,capex_pct_revenue,2.416814,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q4 FY2023,2023-09-30,capex_ppe,2163.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+Q4 FY2023,2023-09-30,cash,29965.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q4 FY2023,2023-09-30,cash_and_investments,61555.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q4 FY2023,2023-09-30,cfo,21598.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+FY2023,2023-09-30,cogs,214137.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold"
+Q4 FY2023,2023-09-30,commercial_paper,5985.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CommercialPaper"
+Q4 FY2023,2023-09-30,cost_of_revenue,49071.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold (standalone quarter derived: CostOfGoodsAndServicesSold 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
 FY2023,2023-09-30,current_assets,143566.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP AssetsCurrent"
-FY2023,2023-09-30,current_liabilities,145308.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LiabilitiesCurrent"
-FY2023,2023-09-30,inventory,6331.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP InventoryNet"
-FY2023,2023-09-30,receivables,29508.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP AccountsReceivableNetCurrent"
-FY2023,2023-09-30,cash,29965.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CashAndCashEquivalentsAtCarryingValue"
 FY2023,2023-09-30,current_investments,31590.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP MarketableSecuritiesCurrent"
-FY2023,2023-09-30,noncurrent_investments,100544.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP MarketableSecuritiesNoncurrent"
+FY2023,2023-09-30,current_liabilities,145308.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LiabilitiesCurrent"
 FY2023,2023-09-30,current_term_debt,9822.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtCurrent"
-FY2023,2023-09-30,long_term_debt,95281.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtNoncurrent"
-FY2023,2023-09-30,commercial_paper,5985.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CommercialPaper"
-FY2023,2023-09-30,shares_outstanding,15550.061,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CommonStockSharesOutstanding"
-FY2023,2023-09-30,operating_leases,11818.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingLeaseLiability"
+Q4 FY2023,2023-09-30,debt,105103.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q4 FY2023,2023-09-30,debt_current,9822.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtCurrent"
+Q4 FY2023,2023-09-30,debt_noncurrent,95281.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtNoncurrent"
+Q4 FY2023,2023-09-30,debt_total,105103.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebt"
+Q4 FY2023,2023-09-30,deferred_revenue,12100.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP ContractWithCustomerLiability"
+FY2023,2023-09-30,depreciation,11519.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization"
+Q4 FY2023,2023-09-30,depreciation_amortization,2653.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+FY2023,2023-09-30,diluted_shares,15812.547,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2023,2023-09-30,diluted_shares_yoy_pct,-3.143928,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+FY2023,2023-09-30,dividends_paid,15025.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends"
+FY2023,2023-09-30,ebit,114301.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss"
+FY2023,2023-09-30,eps,6.13,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
+FY2023,2023-09-30,eps_diluted,6.13,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
+Q4 FY2023,2023-09-30,equity,62146.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP StockholdersEquity"
+Q4 FY2023,2023-09-30,fcf,19435.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q4 FY2023,2023-09-30,fcf_margin_pct,21.715569,%,consolidated US GAAP,Calculation,fcf / revenue
 FY2023,2023-09-30,finance_leases,1024.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP FinanceLeaseLiability"
-FY2023,2023-09-30,fcf,99584.0,USD millions,consolidated US GAAP,Fact,financial-data.json annual FY2023
-FY2024,2024-09-28,revenue,391035.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-FY2024,2024-09-28,cogs,210352.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold"
-FY2024,2024-09-28,ebit,123216.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss"
-FY2024,2024-09-28,net_income,93736.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss"
-FY2024,2024-09-28,tax,29749.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit"
-FY2024,2024-09-28,pbt,123485.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-FY2024,2024-09-28,cfo,118254.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities"
-FY2024,2024-09-28,capex,9447.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-FY2024,2024-09-28,sbc,11688.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation"
-FY2024,2024-09-28,depreciation,11445.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization"
-FY2024,2024-09-28,eps,6.08,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
-FY2024,2024-09-28,diluted_shares,15408.095,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-FY2024,2024-09-28,buybacks,94949.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock"
-FY2024,2024-09-28,dividends_paid,15234.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends"
-FY2024,2024-09-28,equity,56950.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
-FY2024,2024-09-28,total_assets,364980.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP Assets"
-FY2024,2024-09-28,current_assets,152987.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP AssetsCurrent"
-FY2024,2024-09-28,current_liabilities,176392.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LiabilitiesCurrent"
-FY2024,2024-09-28,inventory,7286.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP InventoryNet"
-FY2024,2024-09-28,receivables,33410.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP AccountsReceivableNetCurrent"
-FY2024,2024-09-28,cash,29943.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CashAndCashEquivalentsAtCarryingValue"
-FY2024,2024-09-28,current_investments,35228.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesCurrent"
-FY2024,2024-09-28,noncurrent_investments,91479.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesNoncurrent"
-FY2024,2024-09-28,current_term_debt,10912.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtCurrent"
-FY2024,2024-09-28,long_term_debt,85750.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtNoncurrent"
-FY2024,2024-09-28,commercial_paper,9967.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CommercialPaper"
-FY2024,2024-09-28,shares_outstanding,15116.786,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CommonStockSharesOutstanding"
-FY2024,2024-09-28,operating_leases,11534.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingLeaseLiability"
-FY2024,2024-09-28,finance_leases,896.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP FinanceLeaseLiability"
-FY2024,2024-09-28,fcf,108807.0,USD millions,consolidated US GAAP,Fact,financial-data.json annual FY2024
-FY2025,2025-09-27,revenue,416161.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-FY2025,2025-09-27,cogs,220960.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold"
-FY2025,2025-09-27,ebit,133050.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss"
-FY2025,2025-09-27,net_income,112010.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss"
-FY2025,2025-09-27,tax,20719.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit"
-FY2025,2025-09-27,pbt,132729.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-FY2025,2025-09-27,cfo,111482.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities"
-FY2025,2025-09-27,capex,12715.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-FY2025,2025-09-27,sbc,12863.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation"
-FY2025,2025-09-27,depreciation,11698.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization"
-FY2025,2025-09-27,eps,7.46,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
-FY2025,2025-09-27,diluted_shares,15004.697,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-FY2025,2025-09-27,buybacks,90711.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock"
-FY2025,2025-09-27,dividends_paid,15421.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends"
-FY2025,2025-09-27,equity,73733.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
-FY2025,2025-09-27,total_assets,359241.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets"
-FY2025,2025-09-27,current_assets,147957.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AssetsCurrent"
-FY2025,2025-09-27,current_liabilities,165631.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent"
-FY2025,2025-09-27,inventory,5718.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet"
-FY2025,2025-09-27,receivables,39777.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent"
-FY2025,2025-09-27,cash,35934.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue"
-FY2025,2025-09-27,current_investments,18763.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent"
-FY2025,2025-09-27,noncurrent_investments,77723.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent"
-FY2025,2025-09-27,current_term_debt,12350.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent"
-FY2025,2025-09-27,long_term_debt,78328.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent"
-FY2025,2025-09-27,commercial_paper,7979.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper"
-FY2025,2025-09-27,shares_outstanding,14773.26,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding"
-FY2025,2025-09-27,operating_leases,12490.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingLeaseLiability"
-FY2025,2025-09-27,finance_leases,1230.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP FinanceLeaseLiability"
-FY2025,2025-09-27,fcf,98767.0,USD millions,consolidated US GAAP,Fact,financial-data.json annual FY2025
-Quarter ended 2024-03-30,2024-03-30,revenue,90753.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q4 FY2023,2023-09-30,gross_margin_pct,45.170842,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q4 FY2023,2023-09-30,gross_profit,40427.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP GrossProfit (standalone quarter derived: GrossProfit 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+Q4 FY2023,2023-09-30,gross_profit_yoy_pct,6.121538,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+FY2023,2023-09-30,inventory,6331.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP InventoryNet"
+FY2023,2023-09-30,long_term_debt,95281.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP LongTermDebtNoncurrent"
+Q4 FY2023,2023-09-30,net_income,22956.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss (standalone quarter derived: NetIncomeLoss 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+Q4 FY2023,2023-09-30,net_margin_pct,25.649735,%,consolidated US GAAP,Calculation,net_income / revenue
+FY2023,2023-09-30,noncurrent_investments,100544.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP MarketableSecuritiesNoncurrent"
+Q4 FY2023,2023-09-30,operating_income,26969.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss (standalone quarter derived: OperatingIncomeLoss 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+Q4 FY2023,2023-09-30,operating_lease_liability,11818.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingLeaseLiability"
+FY2023,2023-09-30,operating_leases,11818.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2023-11-03, accession 0000320193-23-000106, US GAAP OperatingLeaseLiability"
+Q4 FY2023,2023-09-30,operating_margin_pct,30.133634,%,consolidated US GAAP,Calculation,operating_income / revenue
+FY2023,2023-09-30,pbt,113736.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+FY2023,2023-09-30,receivables,29508.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP AccountsReceivableNetCurrent"
+Q4 FY2023,2023-09-30,revenue,89498.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax (standalone quarter derived: RevenueFromContractWithCustomerExcludingAssessedTax 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+Q4 FY2023,2023-09-30,revenue_yoy_pct,-0.718834,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q4 FY2023,2023-09-30,sbc,2625.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation (standalone quarter derived: ShareBasedCompensation 2022-09-25..2023-09-30 minus 2022-09-25..2023-07-01)"
+Q4 FY2023,2023-09-30,sbc_pct_revenue,2.933026,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q4 FY2023,2023-09-30,shares_outstanding,15550.061,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP CommonStockSharesOutstanding"
+Q4 FY2023,2023-09-30,short_term_investments,31590.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP MarketableSecuritiesCurrent"
+FY2023,2023-09-30,tax,16741.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit"
+FY2023,2023-09-30,total_assets,352583.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP Assets"
+Q1 FY2024,2023-12-30,basic_shares,15509.763,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q1 FY2024,2023-12-30,capex,2392.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q1 FY2024,2023-12-30,capex_pct_revenue,2.000418,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q1 FY2024,2023-12-30,capex_ppe,2392.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
+Q1 FY2024,2023-12-30,cash,40760.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q1 FY2024,2023-12-30,cash_and_investments,73100.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q1 FY2024,2023-12-30,cfo,39895.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP NetCashProvidedByUsedInOperatingActivities"
+Q1 FY2024,2023-12-30,commercial_paper,1998.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP CommercialPaper"
+Q1 FY2024,2023-12-30,cost_of_revenue,64720.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CostOfGoodsAndServicesSold"
+Q1 FY2024,2023-12-30,debt,106000.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q1 FY2024,2023-12-30,debt_current,10954.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP LongTermDebtCurrent"
+Q1 FY2024,2023-12-30,debt_noncurrent,95088.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP LongTermDebtNoncurrent"
+Q1 FY2024,2023-12-30,debt_total,106000.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP LongTermDebt"
+Q1 FY2024,2023-12-30,deferred_revenue,12500.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP ContractWithCustomerLiability"
+Q1 FY2024,2023-12-30,depreciation_amortization,2848.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP DepreciationDepletionAndAmortization"
+Q1 FY2024,2023-12-30,diluted_shares,15576.641,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q1 FY2024,2023-12-30,diluted_shares_yoy_pct,-2.375807,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Q1 FY2024,2023-12-30,eps_diluted,2.18,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP EarningsPerShareDiluted"
+Q1 FY2024,2023-12-30,equity,74100.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP StockholdersEquity"
+Q1 FY2024,2023-12-30,fcf,37503.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q1 FY2024,2023-12-30,fcf_margin_pct,31.363579,%,consolidated US GAAP,Calculation,fcf / revenue
+Q1 FY2024,2023-12-30,gross_margin_pct,45.874974,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q1 FY2024,2023-12-30,gross_profit,54855.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP GrossProfit"
+Q1 FY2024,2023-12-30,gross_profit_yoy_pct,8.986331,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Q1 FY2024,2023-12-30,net_income,33916.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP NetIncomeLoss"
+Q1 FY2024,2023-12-30,net_margin_pct,28.363788,%,consolidated US GAAP,Calculation,net_income / revenue
+Q1 FY2024,2023-12-30,operating_income,40373.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP OperatingIncomeLoss"
+Q1 FY2024,2023-12-30,operating_margin_pct,33.763747,%,consolidated US GAAP,Calculation,operating_income / revenue
+Q1 FY2024,2023-12-30,revenue,119575.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q1 FY2024,2023-12-30,revenue_yoy_pct,2.066511,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q1 FY2024,2023-12-30,sbc,2997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP ShareBasedCompensation"
+Q1 FY2024,2023-12-30,sbc_pct_revenue,2.506377,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q1 FY2024,2023-12-30,shares_outstanding,15460.223,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP CommonStockSharesOutstanding"
+Q1 FY2024,2023-12-30,short_term_investments,32340.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-02-02, accession 0000320193-24-000006, US GAAP MarketableSecuritiesCurrent"
+Q2 FY2024,2024-03-30,basic_shares,15405.856,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q2 FY2024,2024-03-30,capex,1996.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q2 FY2024,2024-03-30,capex_pct_revenue,2.199376,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q2 FY2024,2024-03-30,capex_ppe,1996.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2023-10-01..2024-03-30 minus 2023-10-01..2023-12-30)"
+Q2 FY2024,2024-03-30,cash,32695.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q2 FY2024,2024-03-30,cash_and_investments,67150.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q2 FY2024,2024-03-30,cfo,22690.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2023-10-01..2024-03-30 minus 2023-10-01..2023-12-30)"
 Quarter ended 2024-03-30,2024-03-30,cogs,48482.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2024-03-30,2024-03-30,ebit,27900.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP OperatingIncomeLoss"
-Quarter ended 2024-03-30,2024-03-30,net_income,23636.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP NetIncomeLoss"
-Quarter ended 2024-03-30,2024-03-30,tax,4422.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2024-03-30,2024-03-30,pbt,28058.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2024-03-30,2024-03-30,eps,1.53,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP EarningsPerShareDiluted"
-Quarter ended 2024-03-30,2024-03-30,diluted_shares,15464.709,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-Quarter ended 2024-03-30,2024-03-30,equity,74194.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity"
-Quarter ended 2024-03-30,2024-03-30,total_assets,337411.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP Assets"
+Q2 FY2024,2024-03-30,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CommercialPaper"
+Q2 FY2024,2024-03-30,cost_of_revenue,48482.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2024-03-30,2024-03-30,current_assets,128416.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP AssetsCurrent"
-Quarter ended 2024-03-30,2024-03-30,current_liabilities,123822.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LiabilitiesCurrent"
-Quarter ended 2024-03-30,2024-03-30,inventory,6232.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP InventoryNet"
-Quarter ended 2024-03-30,2024-03-30,receivables,21837.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2024-03-30,2024-03-30,cash,32695.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2024-03-30,2024-03-30,current_investments,34455.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2024-03-30,2024-03-30,noncurrent_investments,95187.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2024-03-30,2024-03-30,current_liabilities,123822.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LiabilitiesCurrent"
 Quarter ended 2024-03-30,2024-03-30,current_term_debt,10762.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebtCurrent"
+Q2 FY2024,2024-03-30,debt,102600.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q2 FY2024,2024-03-30,debt_current,10762.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebtCurrent"
+Q2 FY2024,2024-03-30,debt_noncurrent,91831.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebtNoncurrent"
+Q2 FY2024,2024-03-30,debt_total,102600.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebt"
+Q2 FY2024,2024-03-30,deferred_revenue,12600.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP ContractWithCustomerLiability"
+Q2 FY2024,2024-03-30,depreciation_amortization,2836.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2023-10-01..2024-03-30 minus 2023-10-01..2023-12-30)"
+Q2 FY2024,2024-03-30,diluted_shares,15464.709,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q2 FY2024,2024-03-30,diluted_shares_yoy_pct,-2.412695,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2024-03-30,2024-03-30,ebit,27900.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP OperatingIncomeLoss"
+Quarter ended 2024-03-30,2024-03-30,eps,1.53,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP EarningsPerShareDiluted"
+Q2 FY2024,2024-03-30,eps_diluted,1.53,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP EarningsPerShareDiluted"
+Q2 FY2024,2024-03-30,equity,74194.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity"
+Q2 FY2024,2024-03-30,fcf,20694.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q2 FY2024,2024-03-30,fcf_margin_pct,22.802552,%,consolidated US GAAP,Calculation,fcf / revenue
+Q2 FY2024,2024-03-30,gross_margin_pct,46.578075,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q2 FY2024,2024-03-30,gross_profit,42271.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP GrossProfit"
+Q2 FY2024,2024-03-30,gross_profit_yoy_pct,0.702783,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2024-03-30,2024-03-30,inventory,6232.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP InventoryNet"
 Quarter ended 2024-03-30,2024-03-30,long_term_debt,91831.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2024-03-30,2024-03-30,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CommercialPaper"
-Quarter ended 2024-03-30,2024-03-30,shares_outstanding,15337.686,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2024-06-29,2024-06-29,revenue,85777.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q2 FY2024,2024-03-30,net_income,23636.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP NetIncomeLoss"
+Q2 FY2024,2024-03-30,net_margin_pct,26.044318,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2024-03-30,2024-03-30,noncurrent_investments,95187.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP MarketableSecuritiesNoncurrent"
+Q2 FY2024,2024-03-30,operating_income,27900.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP OperatingIncomeLoss"
+Q2 FY2024,2024-03-30,operating_margin_pct,30.742785,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2024-03-30,2024-03-30,pbt,28058.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2024-03-30,2024-03-30,receivables,21837.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP AccountsReceivableNetCurrent"
+Q2 FY2024,2024-03-30,revenue,90753.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q2 FY2024,2024-03-30,revenue_yoy_pct,-4.305327,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q2 FY2024,2024-03-30,sbc,2964.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP AllocatedShareBasedCompensationExpense"
+Q2 FY2024,2024-03-30,sbc_pct_revenue,3.266008,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q2 FY2024,2024-03-30,shares_outstanding,15337.686,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP CommonStockSharesOutstanding"
+Q2 FY2024,2024-03-30,short_term_investments,34455.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2024-03-30,2024-03-30,tax,4422.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2024-03-30,2024-03-30,total_assets,337411.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-05-03, accession 0000320193-24-000069, US GAAP Assets"
+Q3 FY2024,2024-06-29,basic_shares,15287.521,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q3 FY2024,2024-06-29,capex,2151.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q3 FY2024,2024-06-29,capex_pct_revenue,2.507665,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q3 FY2024,2024-06-29,capex_ppe,2151.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2023-10-01..2024-06-29 minus 2023-10-01..2024-03-30)"
+Q3 FY2024,2024-06-29,cash,25565.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q3 FY2024,2024-06-29,cash_and_investments,61801.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q3 FY2024,2024-06-29,cfo,28858.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2023-10-01..2024-06-29 minus 2023-10-01..2024-03-30)"
 Quarter ended 2024-06-29,2024-06-29,cogs,46099.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2024-06-29,2024-06-29,ebit,25352.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP OperatingIncomeLoss"
-Quarter ended 2024-06-29,2024-06-29,net_income,21448.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP NetIncomeLoss"
-Quarter ended 2024-06-29,2024-06-29,tax,4046.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2024-06-29,2024-06-29,pbt,25494.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2024-06-29,2024-06-29,eps,1.4,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP EarningsPerShareDiluted"
-Quarter ended 2024-06-29,2024-06-29,diluted_shares,15348.175,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-Quarter ended 2024-06-29,2024-06-29,equity,66708.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity"
-Quarter ended 2024-06-29,2024-06-29,total_assets,331612.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP Assets"
+Q3 FY2024,2024-06-29,commercial_paper,2994.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommercialPaper"
+Q3 FY2024,2024-06-29,cost_of_revenue,46099.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2024-06-29,2024-06-29,current_assets,125435.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AssetsCurrent"
-Quarter ended 2024-06-29,2024-06-29,current_liabilities,131624.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LiabilitiesCurrent"
-Quarter ended 2024-06-29,2024-06-29,inventory,6165.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP InventoryNet"
-Quarter ended 2024-06-29,2024-06-29,receivables,22795.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2024-06-29,2024-06-29,cash,25565.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2024-06-29,2024-06-29,current_investments,36236.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2024-06-29,2024-06-29,noncurrent_investments,91240.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2024-06-29,2024-06-29,current_liabilities,131624.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LiabilitiesCurrent"
 Quarter ended 2024-06-29,2024-06-29,current_term_debt,12114.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtCurrent"
+Q3 FY2024,2024-06-29,debt,98300.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q3 FY2024,2024-06-29,debt_current,12114.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtCurrent"
+Q3 FY2024,2024-06-29,debt_noncurrent,86196.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtNoncurrent"
+Q3 FY2024,2024-06-29,debt_total,98300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebt"
+Q3 FY2024,2024-06-29,deferred_revenue,12500.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP ContractWithCustomerLiability"
+Q3 FY2024,2024-06-29,depreciation_amortization,2850.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2023-10-01..2024-06-29 minus 2023-10-01..2024-03-30)"
+Q3 FY2024,2024-06-29,diluted_shares,15348.175,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q3 FY2024,2024-06-29,diluted_shares_yoy_pct,-2.705835,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2024-06-29,2024-06-29,ebit,25352.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP OperatingIncomeLoss"
+Quarter ended 2024-06-29,2024-06-29,eps,1.4,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP EarningsPerShareDiluted"
+Q3 FY2024,2024-06-29,eps_diluted,1.4,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP EarningsPerShareDiluted"
+Q3 FY2024,2024-06-29,equity,66708.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP StockholdersEquity"
+Q3 FY2024,2024-06-29,fcf,26707.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q3 FY2024,2024-06-29,fcf_margin_pct,31.135386,%,consolidated US GAAP,Calculation,fcf / revenue
+Q3 FY2024,2024-06-29,gross_margin_pct,46.257155,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q3 FY2024,2024-06-29,gross_profit,39678.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP GrossProfit"
+Q3 FY2024,2024-06-29,gross_profit_yoy_pct,8.966578,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2024-06-29,2024-06-29,inventory,6165.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP InventoryNet"
 Quarter ended 2024-06-29,2024-06-29,long_term_debt,86196.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2024-06-29,2024-06-29,commercial_paper,2994.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommercialPaper"
-Quarter ended 2024-06-29,2024-06-29,shares_outstanding,15222.259,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2024-12-28,2024-12-28,revenue,124300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-Quarter ended 2024-12-28,2024-12-28,cogs,66025.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2024-12-28,2024-12-28,ebit,42832.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss"
-Quarter ended 2024-12-28,2024-12-28,net_income,36330.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetIncomeLoss"
-Quarter ended 2024-12-28,2024-12-28,tax,6254.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2024-12-28,2024-12-28,pbt,42584.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2024-12-28,2024-12-28,cfo,29935.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetCashProvidedByUsedInOperatingActivities"
-Quarter ended 2024-12-28,2024-12-28,capex,2940.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-Quarter ended 2024-12-28,2024-12-28,sbc,3286.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ShareBasedCompensation"
-Quarter ended 2024-12-28,2024-12-28,depreciation,3080.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization"
-Quarter ended 2024-12-28,2024-12-28,eps,2.4,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted"
-Quarter ended 2024-12-28,2024-12-28,diluted_shares,15150.865,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q3 FY2024,2024-06-29,net_income,21448.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP NetIncomeLoss"
+Q3 FY2024,2024-06-29,net_margin_pct,25.004372,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2024-06-29,2024-06-29,noncurrent_investments,91240.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesNoncurrent"
+Q3 FY2024,2024-06-29,operating_income,25352.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP OperatingIncomeLoss"
+Q3 FY2024,2024-06-29,operating_margin_pct,29.555708,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2024-06-29,2024-06-29,pbt,25494.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2024-06-29,2024-06-29,receivables,22795.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP AccountsReceivableNetCurrent"
+Q3 FY2024,2024-06-29,revenue,85777.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q3 FY2024,2024-06-29,revenue_yoy_pct,4.865704,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q3 FY2024,2024-06-29,sbc,2869.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AllocatedShareBasedCompensationExpense"
+Q3 FY2024,2024-06-29,sbc_pct_revenue,3.344719,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q3 FY2024,2024-06-29,shares_outstanding,15222.259,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP CommonStockSharesOutstanding"
+Q3 FY2024,2024-06-29,short_term_investments,36236.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2024-06-29,2024-06-29,tax,4046.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2024-06-29,2024-06-29,total_assets,331612.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2024-08-02, accession 0000320193-24-000081, US GAAP Assets"
+FY2024,2024-09-28,basic_shares,15343.783,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+FY2024,2024-09-28,buybacks,94949.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock"
+Q4 FY2024,2024-09-28,capex,2908.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q4 FY2024,2024-09-28,capex_pct_revenue,3.06331,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q4 FY2024,2024-09-28,capex_ppe,2908.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+Q4 FY2024,2024-09-28,cash,29943.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q4 FY2024,2024-09-28,cash_and_investments,65171.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q4 FY2024,2024-09-28,cfo,26811.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+FY2024,2024-09-28,cogs,210352.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold"
+Q4 FY2024,2024-09-28,commercial_paper,9967.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CommercialPaper"
+Q4 FY2024,2024-09-28,cost_of_revenue,51051.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold (standalone quarter derived: CostOfGoodsAndServicesSold 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+FY2024,2024-09-28,current_assets,152987.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP AssetsCurrent"
+FY2024,2024-09-28,current_investments,35228.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesCurrent"
+FY2024,2024-09-28,current_liabilities,176392.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LiabilitiesCurrent"
+FY2024,2024-09-28,current_term_debt,10912.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtCurrent"
+Q4 FY2024,2024-09-28,debt,96662.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q4 FY2024,2024-09-28,debt_current,10912.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtCurrent"
+Q4 FY2024,2024-09-28,debt_noncurrent,85750.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtNoncurrent"
+Q4 FY2024,2024-09-28,debt_total,96662.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebt"
+Q4 FY2024,2024-09-28,deferred_revenue,12800.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ContractWithCustomerLiability"
+FY2024,2024-09-28,depreciation,11445.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization"
+Q4 FY2024,2024-09-28,depreciation_amortization,2911.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+FY2024,2024-09-28,diluted_shares,15408.095,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2024,2024-09-28,diluted_shares_yoy_pct,-2.557792,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+FY2024,2024-09-28,dividends_paid,15234.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends"
+FY2024,2024-09-28,ebit,123216.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss"
+FY2024,2024-09-28,eps,6.08,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
+FY2024,2024-09-28,eps_diluted,6.08,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
+Q4 FY2024,2024-09-28,equity,56950.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
+Q4 FY2024,2024-09-28,fcf,23903.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q4 FY2024,2024-09-28,fcf_margin_pct,25.179606,%,consolidated US GAAP,Calculation,fcf / revenue
+FY2024,2024-09-28,finance_leases,896.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP FinanceLeaseLiability"
+Q4 FY2024,2024-09-28,gross_margin_pct,46.22248,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q4 FY2024,2024-09-28,gross_profit,43879.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP GrossProfit (standalone quarter derived: GrossProfit 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+Q4 FY2024,2024-09-28,gross_profit_yoy_pct,8.538848,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+FY2024,2024-09-28,inventory,7286.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP InventoryNet"
+FY2024,2024-09-28,long_term_debt,85750.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP LongTermDebtNoncurrent"
+Q4 FY2024,2024-09-28,net_income,14736.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss (standalone quarter derived: NetIncomeLoss 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+Q4 FY2024,2024-09-28,net_margin_pct,15.523017,%,consolidated US GAAP,Calculation,net_income / revenue
+FY2024,2024-09-28,noncurrent_investments,91479.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesNoncurrent"
+Q4 FY2024,2024-09-28,operating_income,29591.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss (standalone quarter derived: OperatingIncomeLoss 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+Q4 FY2024,2024-09-28,operating_lease_liability,11534.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingLeaseLiability"
+FY2024,2024-09-28,operating_leases,11534.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2024-11-01, accession 0000320193-24-000123, US GAAP OperatingLeaseLiability"
+Q4 FY2024,2024-09-28,operating_margin_pct,31.171389,%,consolidated US GAAP,Calculation,operating_income / revenue
+FY2024,2024-09-28,pbt,123485.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+FY2024,2024-09-28,receivables,33410.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP AccountsReceivableNetCurrent"
+Q4 FY2024,2024-09-28,revenue,94930.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax (standalone quarter derived: RevenueFromContractWithCustomerExcludingAssessedTax 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+Q4 FY2024,2024-09-28,revenue_yoy_pct,6.069409,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q4 FY2024,2024-09-28,sbc,2858.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation (standalone quarter derived: ShareBasedCompensation 2023-10-01..2024-09-28 minus 2023-10-01..2024-06-29)"
+Q4 FY2024,2024-09-28,sbc_pct_revenue,3.010639,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q4 FY2024,2024-09-28,shares_outstanding,15116.786,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CommonStockSharesOutstanding"
+Q4 FY2024,2024-09-28,short_term_investments,35228.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP MarketableSecuritiesCurrent"
+FY2024,2024-09-28,tax,29749.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit"
+FY2024,2024-09-28,total_assets,364980.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP Assets"
+Q1 FY2025,2024-12-28,basic_shares,15081.724,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
 Quarter ended 2024-12-28,2024-12-28,buybacks,23606.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsForRepurchaseOfCommonStock"
-Quarter ended 2024-12-28,2024-12-28,dividends_paid,3856.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsOfDividends"
-Quarter ended 2024-12-28,2024-12-28,equity,66758.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP StockholdersEquity"
-Quarter ended 2024-12-28,2024-12-28,total_assets,344085.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP Assets"
+Q1 FY2025,2024-12-28,capex,2940.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q1 FY2025,2024-12-28,capex_pct_revenue,2.365245,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q1 FY2025,2024-12-28,capex_ppe,2940.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
+Q1 FY2025,2024-12-28,cash,30299.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q1 FY2025,2024-12-28,cash_and_investments,53775.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q1 FY2025,2024-12-28,cfo,29935.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetCashProvidedByUsedInOperatingActivities"
+Quarter ended 2024-12-28,2024-12-28,cogs,66025.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold"
+Q1 FY2025,2024-12-28,commercial_paper,1995.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CommercialPaper"
+Q1 FY2025,2024-12-28,cost_of_revenue,66025.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2024-12-28,2024-12-28,current_assets,133240.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP AssetsCurrent"
-Quarter ended 2024-12-28,2024-12-28,current_liabilities,144365.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LiabilitiesCurrent"
-Quarter ended 2024-12-28,2024-12-28,inventory,6911.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP InventoryNet"
-Quarter ended 2024-12-28,2024-12-28,receivables,29639.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2024-12-28,2024-12-28,cash,30299.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2024-12-28,2024-12-28,current_investments,23476.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2024-12-28,2024-12-28,noncurrent_investments,87593.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2024-12-28,2024-12-28,current_liabilities,144365.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LiabilitiesCurrent"
 Quarter ended 2024-12-28,2024-12-28,current_term_debt,10848.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebtCurrent"
+Q1 FY2025,2024-12-28,debt,94800.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q1 FY2025,2024-12-28,debt_current,10848.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebtCurrent"
+Q1 FY2025,2024-12-28,debt_noncurrent,83956.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebtNoncurrent"
+Q1 FY2025,2024-12-28,debt_total,94800.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebt"
+Q1 FY2025,2024-12-28,deferred_revenue,13200.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP ContractWithCustomerLiability"
+Quarter ended 2024-12-28,2024-12-28,depreciation,3080.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization"
+Q1 FY2025,2024-12-28,depreciation_amortization,3080.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization"
+Q1 FY2025,2024-12-28,diluted_shares,15150.865,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q1 FY2025,2024-12-28,diluted_shares_yoy_pct,-2.733426,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2024-12-28,2024-12-28,dividends_paid,3856.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsOfDividends"
+Quarter ended 2024-12-28,2024-12-28,ebit,42832.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss"
+Quarter ended 2024-12-28,2024-12-28,eps,2.4,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted"
+Q1 FY2025,2024-12-28,eps_diluted,2.4,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted"
+Q1 FY2025,2024-12-28,equity,66758.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP StockholdersEquity"
+Q1 FY2025,2024-12-28,fcf,26995.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q1 FY2025,2024-12-28,fcf_margin_pct,21.717619,%,consolidated US GAAP,Calculation,fcf / revenue
+Q1 FY2025,2024-12-28,gross_margin_pct,46.882542,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q1 FY2025,2024-12-28,gross_profit,58275.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP GrossProfit"
+Q1 FY2025,2024-12-28,gross_profit_yoy_pct,6.234619,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2024-12-28,2024-12-28,inventory,6911.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP InventoryNet"
 Quarter ended 2024-12-28,2024-12-28,long_term_debt,83956.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2024-12-28,2024-12-28,commercial_paper,1995.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CommercialPaper"
-Quarter ended 2024-12-28,2024-12-28,shares_outstanding,15040.731,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2024-12-28,2024-12-28,fcf,26995.0,USD millions,consolidated US GAAP,Fact,financial-data.json quarter Quarter ended 2024-12-28
-Quarter ended 2025-03-29,2025-03-29,revenue,95359.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q1 FY2025,2024-12-28,net_income,36330.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetIncomeLoss"
+Q1 FY2025,2024-12-28,net_margin_pct,29.227675,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2024-12-28,2024-12-28,noncurrent_investments,87593.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP MarketableSecuritiesNoncurrent"
+Q1 FY2025,2024-12-28,operating_income,42832.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss"
+Q1 FY2025,2024-12-28,operating_margin_pct,34.458568,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2024-12-28,2024-12-28,pbt,42584.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2024-12-28,2024-12-28,receivables,29639.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP AccountsReceivableNetCurrent"
+Q1 FY2025,2024-12-28,revenue,124300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q1 FY2025,2024-12-28,revenue_yoy_pct,3.951495,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q1 FY2025,2024-12-28,sbc,3286.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ShareBasedCompensation"
+Q1 FY2025,2024-12-28,sbc_pct_revenue,2.643604,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q1 FY2025,2024-12-28,shares_outstanding,15040.731,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP CommonStockSharesOutstanding"
+Q1 FY2025,2024-12-28,short_term_investments,23476.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2024-12-28,2024-12-28,tax,6254.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2024-12-28,2024-12-28,total_assets,344085.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-01-31, accession 0000320193-25-000008, US GAAP Assets"
+Q2 FY2025,2025-03-29,basic_shares,14994.082,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q2 FY2025,2025-03-29,capex,3071.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q2 FY2025,2025-03-29,capex_pct_revenue,3.220462,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q2 FY2025,2025-03-29,capex_ppe,3071.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2024-09-29..2025-03-29 minus 2024-09-29..2024-12-28)"
+Q2 FY2025,2025-03-29,cash,28162.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q2 FY2025,2025-03-29,cash_and_investments,48498.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q2 FY2025,2025-03-29,cfo,23952.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2024-09-29..2025-03-29 minus 2024-09-29..2024-12-28)"
 Quarter ended 2025-03-29,2025-03-29,cogs,50492.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2025-03-29,2025-03-29,ebit,29589.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss"
-Quarter ended 2025-03-29,2025-03-29,net_income,24780.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetIncomeLoss"
-Quarter ended 2025-03-29,2025-03-29,tax,4530.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2025-03-29,2025-03-29,pbt,29310.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2025-03-29,2025-03-29,eps,1.65,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted"
-Quarter ended 2025-03-29,2025-03-29,diluted_shares,15056.133,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-Quarter ended 2025-03-29,2025-03-29,equity,66796.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
-Quarter ended 2025-03-29,2025-03-29,total_assets,331233.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP Assets"
+Q2 FY2025,2025-03-29,commercial_paper,5982.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CommercialPaper"
+Q2 FY2025,2025-03-29,cost_of_revenue,50492.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2025-03-29,2025-03-29,current_assets,118674.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP AssetsCurrent"
-Quarter ended 2025-03-29,2025-03-29,current_liabilities,144571.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LiabilitiesCurrent"
-Quarter ended 2025-03-29,2025-03-29,inventory,6269.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP InventoryNet"
-Quarter ended 2025-03-29,2025-03-29,receivables,26136.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2025-03-29,2025-03-29,cash,28162.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2025-03-29,2025-03-29,current_investments,20336.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2025-03-29,2025-03-29,noncurrent_investments,84424.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2025-03-29,2025-03-29,current_liabilities,144571.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LiabilitiesCurrent"
 Quarter ended 2025-03-29,2025-03-29,current_term_debt,13638.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebtCurrent"
+Q2 FY2025,2025-03-29,debt,92200.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q2 FY2025,2025-03-29,debt_current,13638.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebtCurrent"
+Q2 FY2025,2025-03-29,debt_noncurrent,78566.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebtNoncurrent"
+Q2 FY2025,2025-03-29,debt_total,92200.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebt"
+Q2 FY2025,2025-03-29,deferred_revenue,13600.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP ContractWithCustomerLiability"
+Q2 FY2025,2025-03-29,depreciation_amortization,2661.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2024-09-29..2025-03-29 minus 2024-09-29..2024-12-28)"
+Q2 FY2025,2025-03-29,diluted_shares,15056.133,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q2 FY2025,2025-03-29,diluted_shares_yoy_pct,-2.64199,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2025-03-29,2025-03-29,ebit,29589.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss"
+Quarter ended 2025-03-29,2025-03-29,eps,1.65,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted"
+Q2 FY2025,2025-03-29,eps_diluted,1.65,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted"
+Q2 FY2025,2025-03-29,equity,66796.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
+Q2 FY2025,2025-03-29,fcf,20881.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q2 FY2025,2025-03-29,fcf_margin_pct,21.897251,%,consolidated US GAAP,Calculation,fcf / revenue
+Q2 FY2025,2025-03-29,gross_margin_pct,47.050619,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q2 FY2025,2025-03-29,gross_profit,44867.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP GrossProfit"
+Q2 FY2025,2025-03-29,gross_profit_yoy_pct,6.141326,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2025-03-29,2025-03-29,inventory,6269.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP InventoryNet"
 Quarter ended 2025-03-29,2025-03-29,long_term_debt,78566.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2025-03-29,2025-03-29,commercial_paper,5982.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CommercialPaper"
-Quarter ended 2025-03-29,2025-03-29,shares_outstanding,14939.315,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2025-06-28,2025-06-28,revenue,94036.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q2 FY2025,2025-03-29,net_income,24780.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetIncomeLoss"
+Q2 FY2025,2025-03-29,net_margin_pct,25.986011,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2025-03-29,2025-03-29,noncurrent_investments,84424.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP MarketableSecuritiesNoncurrent"
+Q2 FY2025,2025-03-29,operating_income,29589.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss"
+Q2 FY2025,2025-03-29,operating_margin_pct,31.029059,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2025-03-29,2025-03-29,pbt,29310.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2025-03-29,2025-03-29,receivables,26136.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP AccountsReceivableNetCurrent"
+Q2 FY2025,2025-03-29,revenue,95359.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q2 FY2025,2025-03-29,revenue_yoy_pct,5.075314,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q2 FY2025,2025-03-29,sbc,3226.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AllocatedShareBasedCompensationExpense"
+Q2 FY2025,2025-03-29,sbc_pct_revenue,3.383005,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q2 FY2025,2025-03-29,shares_outstanding,14939.315,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP CommonStockSharesOutstanding"
+Q2 FY2025,2025-03-29,short_term_investments,20336.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2025-03-29,2025-03-29,tax,4530.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2025-03-29,2025-03-29,total_assets,331233.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-05-02, accession 0000320193-25-000057, US GAAP Assets"
+Q3 FY2025,2025-06-28,basic_shares,14902.886,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q3 FY2025,2025-06-28,capex,3462.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q3 FY2025,2025-06-28,capex_pct_revenue,3.681569,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q3 FY2025,2025-06-28,capex_ppe,3462.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2024-09-29..2025-06-28 minus 2024-09-29..2025-03-29)"
+Q3 FY2025,2025-06-28,cash,36269.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q3 FY2025,2025-06-28,cash_and_investments,55372.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q3 FY2025,2025-06-28,cfo,27867.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2024-09-29..2025-06-28 minus 2024-09-29..2025-03-29)"
 Quarter ended 2025-06-28,2025-06-28,cogs,50318.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2025-06-28,2025-06-28,ebit,28202.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss"
-Quarter ended 2025-06-28,2025-06-28,net_income,23434.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss"
-Quarter ended 2025-06-28,2025-06-28,tax,4597.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2025-06-28,2025-06-28,pbt,28031.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2025-06-28,2025-06-28,eps,1.57,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted"
-Quarter ended 2025-06-28,2025-06-28,diluted_shares,14948.179,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-Quarter ended 2025-06-28,2025-06-28,equity,65830.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
-Quarter ended 2025-06-28,2025-06-28,total_assets,331495.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP Assets"
+Q3 FY2025,2025-06-28,commercial_paper,9923.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommercialPaper"
+Q3 FY2025,2025-06-28,cost_of_revenue,50318.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2025-06-28,2025-06-28,current_assets,122491.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AssetsCurrent"
-Quarter ended 2025-06-28,2025-06-28,current_liabilities,141120.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LiabilitiesCurrent"
-Quarter ended 2025-06-28,2025-06-28,inventory,5925.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP InventoryNet"
-Quarter ended 2025-06-28,2025-06-28,receivables,27557.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2025-06-28,2025-06-28,cash,36269.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2025-06-28,2025-06-28,current_investments,19103.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2025-06-28,2025-06-28,noncurrent_investments,77614.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2025-06-28,2025-06-28,current_liabilities,141120.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LiabilitiesCurrent"
 Quarter ended 2025-06-28,2025-06-28,current_term_debt,9345.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtCurrent"
+Q3 FY2025,2025-06-28,debt,91800.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q3 FY2025,2025-06-28,debt_current,9345.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtCurrent"
+Q3 FY2025,2025-06-28,debt_noncurrent,82430.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtNoncurrent"
+Q3 FY2025,2025-06-28,debt_total,91800.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebt"
+Q3 FY2025,2025-06-28,deferred_revenue,13600.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP ContractWithCustomerLiability"
+Q3 FY2025,2025-06-28,depreciation_amortization,2830.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2024-09-29..2025-06-28 minus 2024-09-29..2025-03-29)"
+Q3 FY2025,2025-06-28,diluted_shares,14948.179,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q3 FY2025,2025-06-28,diluted_shares_yoy_pct,-2.606147,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2025-06-28,2025-06-28,ebit,28202.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss"
+Quarter ended 2025-06-28,2025-06-28,eps,1.57,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted"
+Q3 FY2025,2025-06-28,eps_diluted,1.57,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted"
+Q3 FY2025,2025-06-28,equity,65830.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
+Q3 FY2025,2025-06-28,fcf,24405.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q3 FY2025,2025-06-28,fcf_margin_pct,25.952827,%,consolidated US GAAP,Calculation,fcf / revenue
+Q3 FY2025,2025-06-28,gross_margin_pct,46.490706,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q3 FY2025,2025-06-28,gross_profit,43718.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP GrossProfit"
+Q3 FY2025,2025-06-28,gross_profit_yoy_pct,10.181965,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2025-06-28,2025-06-28,inventory,5925.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP InventoryNet"
 Quarter ended 2025-06-28,2025-06-28,long_term_debt,82430.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2025-06-28,2025-06-28,commercial_paper,9923.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommercialPaper"
-Quarter ended 2025-06-28,2025-06-28,shares_outstanding,14856.722,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2025-12-27,2025-12-27,revenue,143756.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
-Quarter ended 2025-12-27,2025-12-27,cogs,74525.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2025-12-27,2025-12-27,ebit,50852.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss"
-Quarter ended 2025-12-27,2025-12-27,net_income,42097.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetIncomeLoss"
-Quarter ended 2025-12-27,2025-12-27,tax,8905.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2025-12-27,2025-12-27,pbt,51002.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2025-12-27,2025-12-27,cfo,53925.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetCashProvidedByUsedInOperatingActivities"
-Quarter ended 2025-12-27,2025-12-27,capex,2373.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
-Quarter ended 2025-12-27,2025-12-27,sbc,3594.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ShareBasedCompensation"
-Quarter ended 2025-12-27,2025-12-27,depreciation,3214.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization"
-Quarter ended 2025-12-27,2025-12-27,eps,2.84,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted"
-Quarter ended 2025-12-27,2025-12-27,diluted_shares,14810.356,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q3 FY2025,2025-06-28,net_income,23434.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss"
+Q3 FY2025,2025-06-28,net_margin_pct,24.920243,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2025-06-28,2025-06-28,noncurrent_investments,77614.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesNoncurrent"
+Q3 FY2025,2025-06-28,operating_income,28202.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss"
+Q3 FY2025,2025-06-28,operating_margin_pct,29.990642,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2025-06-28,2025-06-28,pbt,28031.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2025-06-28,2025-06-28,receivables,27557.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP AccountsReceivableNetCurrent"
+Q3 FY2025,2025-06-28,revenue,94036.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q3 FY2025,2025-06-28,revenue_yoy_pct,9.628455,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q3 FY2025,2025-06-28,sbc,3168.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AllocatedShareBasedCompensationExpense"
+Q3 FY2025,2025-06-28,sbc_pct_revenue,3.368923,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q3 FY2025,2025-06-28,shares_outstanding,14856.722,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP CommonStockSharesOutstanding"
+Q3 FY2025,2025-06-28,short_term_investments,19103.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2025-06-28,2025-06-28,tax,4597.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2025-06-28,2025-06-28,total_assets,331495.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2025-08-01, accession 0000320193-25-000073, US GAAP Assets"
+FY2025,2025-09-27,basic_shares,14948.5,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+FY2025,2025-09-27,buybacks,90711.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsForRepurchaseOfCommonStock"
+Q4 FY2025,2025-09-27,capex,3242.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q4 FY2025,2025-09-27,capex_pct_revenue,3.163976,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q4 FY2025,2025-09-27,capex_ppe,3242.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+Q4 FY2025,2025-09-27,cash,35934.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q4 FY2025,2025-09-27,cash_and_investments,54697.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q4 FY2025,2025-09-27,cfo,29728.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+FY2025,2025-09-27,cogs,220960.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold"
+Q4 FY2025,2025-09-27,commercial_paper,7979.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper"
+Q4 FY2025,2025-09-27,cost_of_revenue,54125.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP CostOfGoodsAndServicesSold (standalone quarter derived: CostOfGoodsAndServicesSold 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+FY2025,2025-09-27,current_assets,147957.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AssetsCurrent"
+FY2025,2025-09-27,current_investments,18763.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent"
+FY2025,2025-09-27,current_liabilities,165631.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent"
+FY2025,2025-09-27,current_term_debt,12350.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent"
+Q4 FY2025,2025-09-27,debt,90700.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q4 FY2025,2025-09-27,debt_current,12350.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent"
+Q4 FY2025,2025-09-27,debt_noncurrent,78328.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent"
+Q4 FY2025,2025-09-27,debt_total,90700.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebt"
+Q4 FY2025,2025-09-27,deferred_revenue,13700.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP ContractWithCustomerLiability"
+FY2025,2025-09-27,depreciation,11698.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization"
+Q4 FY2025,2025-09-27,depreciation_amortization,3127.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+FY2025,2025-09-27,diluted_shares,15004.697,shares millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+FY2025,2025-09-27,diluted_shares_yoy_pct,-2.618091,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+FY2025,2025-09-27,dividends_paid,15421.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP PaymentsOfDividends"
+FY2025,2025-09-27,ebit,133050.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss"
+FY2025,2025-09-27,eps,7.46,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
+FY2025,2025-09-27,eps_diluted,7.46,USD,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP EarningsPerShareDiluted"
+Q4 FY2025,2025-09-27,equity,73733.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
+Q4 FY2025,2025-09-27,fcf,26486.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q4 FY2025,2025-09-27,fcf_margin_pct,25.848574,%,consolidated US GAAP,Calculation,fcf / revenue
+FY2025,2025-09-27,finance_leases,1230.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP FinanceLeaseLiability"
+Q4 FY2025,2025-09-27,gross_margin_pct,47.1776,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q4 FY2025,2025-09-27,gross_profit,48341.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP GrossProfit (standalone quarter derived: GrossProfit 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+Q4 FY2025,2025-09-27,gross_profit_yoy_pct,10.168873,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+FY2025,2025-09-27,inventory,5718.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet"
+FY2025,2025-09-27,long_term_debt,78328.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent"
+Q4 FY2025,2025-09-27,net_income,27466.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP NetIncomeLoss (standalone quarter derived: NetIncomeLoss 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+Q4 FY2025,2025-09-27,net_margin_pct,26.804989,%,consolidated US GAAP,Calculation,net_income / revenue
+FY2025,2025-09-27,noncurrent_investments,77723.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent"
+Q4 FY2025,2025-09-27,operating_income,32427.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingIncomeLoss (standalone quarter derived: OperatingIncomeLoss 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+Q4 FY2025,2025-09-27,operating_lease_liability,12490.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingLeaseLiability"
+FY2025,2025-09-27,operating_leases,12490.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP OperatingLeaseLiability"
+Q4 FY2025,2025-09-27,operating_margin_pct,31.646595,%,consolidated US GAAP,Calculation,operating_income / revenue
+FY2025,2025-09-27,pbt,132729.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+FY2025,2025-09-27,receivables,39777.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent"
+Q4 FY2025,2025-09-27,revenue,102466.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax (standalone quarter derived: RevenueFromContractWithCustomerExcludingAssessedTax 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+Q4 FY2025,2025-09-27,revenue_yoy_pct,7.938481,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q4 FY2025,2025-09-27,sbc,3183.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP ShareBasedCompensation (standalone quarter derived: ShareBasedCompensation 2024-09-29..2025-09-27 minus 2024-09-29..2025-06-28)"
+Q4 FY2025,2025-09-27,sbc_pct_revenue,3.106396,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q4 FY2025,2025-09-27,shares_outstanding,14773.26,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding"
+Q4 FY2025,2025-09-27,short_term_investments,18763.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent"
+FY2025,2025-09-27,tax,20719.0,USD millions,consolidated US GAAP,Fact,"SEC 10-K filed 2025-10-31, accession 0000320193-25-000079, US GAAP IncomeTaxExpenseBenefit"
+FY2025,2025-09-27,total_assets,359241.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets"
+Q1 FY2026,2025-12-27,basic_shares,14748.158,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
 Quarter ended 2025-12-27,2025-12-27,buybacks,24701.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsForRepurchaseOfCommonStock"
-Quarter ended 2025-12-27,2025-12-27,dividends_paid,3921.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsOfDividends"
-Quarter ended 2025-12-27,2025-12-27,equity,88190.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP StockholdersEquity"
-Quarter ended 2025-12-27,2025-12-27,total_assets,379297.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP Assets"
+Q1 FY2026,2025-12-27,capex,2373.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q1 FY2026,2025-12-27,capex_pct_revenue,1.650714,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q1 FY2026,2025-12-27,capex_ppe,2373.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsToAcquirePropertyPlantAndEquipment"
+Q1 FY2026,2025-12-27,cash,45317.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q1 FY2026,2025-12-27,cash_and_investments,66907.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q1 FY2026,2025-12-27,cfo,53925.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetCashProvidedByUsedInOperatingActivities"
+Quarter ended 2025-12-27,2025-12-27,cogs,74525.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold"
+Q1 FY2026,2025-12-27,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CommercialPaper"
+Q1 FY2026,2025-12-27,cost_of_revenue,74525.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2025-12-27,2025-12-27,current_assets,158104.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP AssetsCurrent"
-Quarter ended 2025-12-27,2025-12-27,current_liabilities,162367.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LiabilitiesCurrent"
-Quarter ended 2025-12-27,2025-12-27,inventory,5875.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP InventoryNet"
-Quarter ended 2025-12-27,2025-12-27,receivables,39921.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2025-12-27,2025-12-27,cash,45317.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2025-12-27,2025-12-27,current_investments,21590.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2025-12-27,2025-12-27,noncurrent_investments,77888.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2025-12-27,2025-12-27,current_liabilities,162367.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LiabilitiesCurrent"
 Quarter ended 2025-12-27,2025-12-27,current_term_debt,11827.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebtCurrent"
+Q1 FY2026,2025-12-27,debt,88500.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q1 FY2026,2025-12-27,debt_current,11827.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebtCurrent"
+Q1 FY2026,2025-12-27,debt_noncurrent,76685.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebtNoncurrent"
+Q1 FY2026,2025-12-27,debt_total,88500.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebt"
+Q1 FY2026,2025-12-27,deferred_revenue,14300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ContractWithCustomerLiability"
+Quarter ended 2025-12-27,2025-12-27,depreciation,3214.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization"
+Q1 FY2026,2025-12-27,depreciation_amortization,3214.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP DepreciationDepletionAndAmortization"
+Q1 FY2026,2025-12-27,diluted_shares,14810.356,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q1 FY2026,2025-12-27,diluted_shares_yoy_pct,-2.247456,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2025-12-27,2025-12-27,dividends_paid,3921.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP PaymentsOfDividends"
+Quarter ended 2025-12-27,2025-12-27,ebit,50852.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss"
+Quarter ended 2025-12-27,2025-12-27,eps,2.84,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted"
+Q1 FY2026,2025-12-27,eps_diluted,2.84,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP EarningsPerShareDiluted"
+Q1 FY2026,2025-12-27,equity,88190.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP StockholdersEquity"
+Q1 FY2026,2025-12-27,fcf,51552.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q1 FY2026,2025-12-27,fcf_margin_pct,35.860764,%,consolidated US GAAP,Calculation,fcf / revenue
+Q1 FY2026,2025-12-27,gross_margin_pct,48.158686,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q1 FY2026,2025-12-27,gross_profit,69231.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP GrossProfit"
+Q1 FY2026,2025-12-27,gross_profit_yoy_pct,18.800515,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2025-12-27,2025-12-27,inventory,5875.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP InventoryNet"
 Quarter ended 2025-12-27,2025-12-27,long_term_debt,76685.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2025-12-27,2025-12-27,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CommercialPaper"
-Quarter ended 2025-12-27,2025-12-27,shares_outstanding,14702.703,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2025-12-27,2025-12-27,fcf,51552.0,USD millions,consolidated US GAAP,Fact,financial-data.json quarter Quarter ended 2025-12-27
-Quarter ended 2026-03-28,2026-03-28,revenue,111184.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q1 FY2026,2025-12-27,net_income,42097.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP NetIncomeLoss"
+Q1 FY2026,2025-12-27,net_margin_pct,29.283647,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2025-12-27,2025-12-27,noncurrent_investments,77888.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP MarketableSecuritiesNoncurrent"
+Q1 FY2026,2025-12-27,operating_income,50852.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP OperatingIncomeLoss"
+Q1 FY2026,2025-12-27,operating_margin_pct,35.373828,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2025-12-27,2025-12-27,pbt,51002.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2025-12-27,2025-12-27,receivables,39921.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP AccountsReceivableNetCurrent"
+Q1 FY2026,2025-12-27,revenue,143756.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q1 FY2026,2025-12-27,revenue_yoy_pct,15.652454,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q1 FY2026,2025-12-27,sbc,3594.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP ShareBasedCompensation"
+Q1 FY2026,2025-12-27,sbc_pct_revenue,2.50007,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q1 FY2026,2025-12-27,shares_outstanding,14702.703,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP CommonStockSharesOutstanding"
+Q1 FY2026,2025-12-27,short_term_investments,21590.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2025-12-27,2025-12-27,tax,8905.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2025-12-27,2025-12-27,total_assets,379297.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-01-30, accession 0000320193-26-000006, US GAAP Assets"
+Q2 FY2026,2026-03-28,basic_shares,14673.278,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q2 FY2026,2026-03-28,capex,1971.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q2 FY2026,2026-03-28,capex_pct_revenue,1.772737,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q2 FY2026,2026-03-28,capex_ppe,1971.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2025-09-28..2026-03-28 minus 2025-09-28..2025-12-27)"
+Q2 FY2026,2026-03-28,cash,45572.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q2 FY2026,2026-03-28,cash_and_investments,68507.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q2 FY2026,2026-03-28,cfo,28702.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2025-09-28..2026-03-28 minus 2025-09-28..2025-12-27)"
 Quarter ended 2026-03-28,2026-03-28,cogs,56403.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2026-03-28,2026-03-28,ebit,35885.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss"
-Quarter ended 2026-03-28,2026-03-28,net_income,29578.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetIncomeLoss"
-Quarter ended 2026-03-28,2026-03-28,tax,6255.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2026-03-28,2026-03-28,pbt,35833.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2026-03-28,2026-03-28,eps,2.01,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted"
-Quarter ended 2026-03-28,2026-03-28,diluted_shares,14725.873,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-Quarter ended 2026-03-28,2026-03-28,equity,106491.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
-Quarter ended 2026-03-28,2026-03-28,total_assets,371082.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP Assets"
+Q2 FY2026,2026-03-28,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CommercialPaper"
+Q2 FY2026,2026-03-28,cost_of_revenue,56403.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2026-03-28,2026-03-28,current_assets,144114.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AssetsCurrent"
-Quarter ended 2026-03-28,2026-03-28,current_liabilities,134641.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LiabilitiesCurrent"
-Quarter ended 2026-03-28,2026-03-28,inventory,6747.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP InventoryNet"
-Quarter ended 2026-03-28,2026-03-28,receivables,30339.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2026-03-28,2026-03-28,cash,45572.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2026-03-28,2026-03-28,current_investments,22935.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2026-03-28,2026-03-28,noncurrent_investments,78088.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2026-03-28,2026-03-28,current_liabilities,134641.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LiabilitiesCurrent"
 Quarter ended 2026-03-28,2026-03-28,current_term_debt,8310.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebtCurrent"
+Q2 FY2026,2026-03-28,debt,82700.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q2 FY2026,2026-03-28,debt_current,8310.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebtCurrent"
+Q2 FY2026,2026-03-28,debt_noncurrent,74404.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebtNoncurrent"
+Q2 FY2026,2026-03-28,debt_total,82700.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebt"
+Q2 FY2026,2026-03-28,deferred_revenue,14700.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP ContractWithCustomerLiability"
+Q2 FY2026,2026-03-28,depreciation_amortization,3439.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2025-09-28..2026-03-28 minus 2025-09-28..2025-12-27)"
+Q2 FY2026,2026-03-28,diluted_shares,14725.873,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q2 FY2026,2026-03-28,diluted_shares_yoy_pct,-2.193525,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2026-03-28,2026-03-28,ebit,35885.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss"
+Quarter ended 2026-03-28,2026-03-28,eps,2.01,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted"
+Q2 FY2026,2026-03-28,eps_diluted,2.01,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP EarningsPerShareDiluted"
+Q2 FY2026,2026-03-28,equity,106491.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
+Q2 FY2026,2026-03-28,fcf,26731.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q2 FY2026,2026-03-28,fcf_margin_pct,24.042128,%,consolidated US GAAP,Calculation,fcf / revenue
+Q2 FY2026,2026-03-28,gross_margin_pct,49.270579,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q2 FY2026,2026-03-28,gross_profit,54781.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP GrossProfit"
+Q2 FY2026,2026-03-28,gross_profit_yoy_pct,22.096418,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2026-03-28,2026-03-28,inventory,6747.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP InventoryNet"
 Quarter ended 2026-03-28,2026-03-28,long_term_debt,74404.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2026-03-28,2026-03-28,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CommercialPaper"
-Quarter ended 2026-03-28,2026-03-28,shares_outstanding,14667.688,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CommonStockSharesOutstanding"
-Quarter ended 2026-06-27,2026-06-27,revenue,109417.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q2 FY2026,2026-03-28,net_income,29578.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP NetIncomeLoss"
+Q2 FY2026,2026-03-28,net_margin_pct,26.602749,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2026-03-28,2026-03-28,noncurrent_investments,78088.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP MarketableSecuritiesNoncurrent"
+Q2 FY2026,2026-03-28,operating_income,35885.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP OperatingIncomeLoss"
+Q2 FY2026,2026-03-28,operating_margin_pct,32.275327,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2026-03-28,2026-03-28,pbt,35833.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2026-03-28,2026-03-28,receivables,30339.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AccountsReceivableNetCurrent"
+Q2 FY2026,2026-03-28,revenue,111184.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q2 FY2026,2026-03-28,revenue_yoy_pct,16.595182,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q2 FY2026,2026-03-28,sbc,3528.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP AllocatedShareBasedCompensationExpense"
+Q2 FY2026,2026-03-28,sbc_pct_revenue,3.173118,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q2 FY2026,2026-03-28,shares_outstanding,14667.688,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP CommonStockSharesOutstanding"
+Q2 FY2026,2026-03-28,short_term_investments,22935.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2026-03-28,2026-03-28,tax,6255.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2026-03-28,2026-03-28,total_assets,371082.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-05-01, accession 0000320193-26-000013, US GAAP Assets"
+Q3 FY2026,2026-06-27,basic_shares,14656.11,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfSharesOutstandingBasic"
+Q3 FY2026,2026-06-27,capex,2455.0,USD millions,consolidated US GAAP,Calculation,capex_ppe
+Q3 FY2026,2026-06-27,capex_pct_revenue,2.24371,USD millions,consolidated US GAAP,Calculation,capex / revenue
+Q3 FY2026,2026-06-27,capex_ppe,2455.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP PaymentsToAcquirePropertyPlantAndEquipment (standalone quarter derived: PaymentsToAcquirePropertyPlantAndEquipment 2025-09-28..2026-06-27 minus 2025-09-28..2026-03-28)"
+Q3 FY2026,2026-06-27,cash,39544.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue"
+Q3 FY2026,2026-06-27,cash_and_investments,62399.0,USD millions,consolidated US GAAP,Calculation,cash + short_term_investments
+Q3 FY2026,2026-06-27,cfo,34369.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetCashProvidedByUsedInOperatingActivities (standalone quarter derived: NetCashProvidedByUsedInOperatingActivities 2025-09-28..2026-06-27 minus 2025-09-28..2026-03-28)"
 Quarter ended 2026-06-27,2026-06-27,cogs,54647.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold"
-Quarter ended 2026-06-27,2026-06-27,ebit,35695.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss"
-Quarter ended 2026-06-27,2026-06-27,net_income,29789.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss"
-Quarter ended 2026-06-27,2026-06-27,tax,6478.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit"
-Quarter ended 2026-06-27,2026-06-27,pbt,36267.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
-Quarter ended 2026-06-27,2026-06-27,eps,2.02,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted"
-Quarter ended 2026-06-27,2026-06-27,diluted_shares,14714.676,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
-Quarter ended 2026-06-27,2026-06-27,equity,107520.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
-Quarter ended 2026-06-27,2026-06-27,total_assets,383266.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets"
+Q3 FY2026,2026-06-27,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper"
+Q3 FY2026,2026-06-27,cost_of_revenue,54647.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CostOfGoodsAndServicesSold"
 Quarter ended 2026-06-27,2026-06-27,current_assets,149818.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AssetsCurrent"
-Quarter ended 2026-06-27,2026-06-27,current_liabilities,149326.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent"
-Quarter ended 2026-06-27,2026-06-27,inventory,11092.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet"
-Quarter ended 2026-06-27,2026-06-27,receivables,31398.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent"
-Quarter ended 2026-06-27,2026-06-27,cash,39544.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CashAndCashEquivalentsAtCarryingValue"
 Quarter ended 2026-06-27,2026-06-27,current_investments,22855.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent"
-Quarter ended 2026-06-27,2026-06-27,noncurrent_investments,84118.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent"
+Quarter ended 2026-06-27,2026-06-27,current_liabilities,149326.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LiabilitiesCurrent"
 Quarter ended 2026-06-27,2026-06-27,current_term_debt,11007.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent"
+Q3 FY2026,2026-06-27,debt,82300.0,USD millions,consolidated US GAAP,Calculation,debt_total
+Q3 FY2026,2026-06-27,debt_current,11007.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtCurrent"
+Q3 FY2026,2026-06-27,debt_noncurrent,71340.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent"
+Q3 FY2026,2026-06-27,debt_total,82300.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebt"
+Q3 FY2026,2026-06-27,deferred_revenue,14900.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP ContractWithCustomerLiability"
+Q3 FY2026,2026-06-27,depreciation_amortization,3320.0,USD millions,consolidated US GAAP,Calculation,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP DepreciationDepletionAndAmortization (standalone quarter derived: DepreciationDepletionAndAmortization 2025-09-28..2026-06-27 minus 2025-09-28..2026-03-28)"
+Q3 FY2026,2026-06-27,diluted_shares,14714.676,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP WeightedAverageNumberOfDilutedSharesOutstanding"
+Q3 FY2026,2026-06-27,diluted_shares_yoy_pct,-1.562083,%,consolidated US GAAP,Calculation,diluted_shares vs same period prior year
+Quarter ended 2026-06-27,2026-06-27,ebit,35695.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss"
+Quarter ended 2026-06-27,2026-06-27,eps,2.02,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted"
+Q3 FY2026,2026-06-27,eps_diluted,2.02,USD,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP EarningsPerShareDiluted"
+Q3 FY2026,2026-06-27,equity,107520.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP StockholdersEquity"
+Q3 FY2026,2026-06-27,fcf,31914.0,USD millions,consolidated US GAAP,Calculation,cfo - capex
+Q3 FY2026,2026-06-27,fcf_margin_pct,29.167314,%,consolidated US GAAP,Calculation,fcf / revenue
+Q3 FY2026,2026-06-27,gross_margin_pct,50.056207,%,consolidated US GAAP,Calculation,gross_profit / revenue
+Q3 FY2026,2026-06-27,gross_profit,54770.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP GrossProfit"
+Q3 FY2026,2026-06-27,gross_profit_yoy_pct,25.280205,%,consolidated US GAAP,Calculation,gross_profit vs same period prior year
+Quarter ended 2026-06-27,2026-06-27,inventory,11092.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP InventoryNet"
 Quarter ended 2026-06-27,2026-06-27,long_term_debt,71340.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP LongTermDebtNoncurrent"
-Quarter ended 2026-06-27,2026-06-27,commercial_paper,1997.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommercialPaper"
-Quarter ended 2026-06-27,2026-06-27,shares_outstanding,14608.963,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding"
+Q3 FY2026,2026-06-27,net_income,29789.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP NetIncomeLoss"
+Q3 FY2026,2026-06-27,net_margin_pct,27.225203,%,consolidated US GAAP,Calculation,net_income / revenue
+Quarter ended 2026-06-27,2026-06-27,noncurrent_investments,84118.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesNoncurrent"
+Q3 FY2026,2026-06-27,operating_income,35695.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP OperatingIncomeLoss"
+Q3 FY2026,2026-06-27,operating_margin_pct,32.622901,%,consolidated US GAAP,Calculation,operating_income / revenue
+Quarter ended 2026-06-27,2026-06-27,pbt,36267.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+Quarter ended 2026-06-27,2026-06-27,receivables,31398.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AccountsReceivableNetCurrent"
+Q3 FY2026,2026-06-27,revenue,109417.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP RevenueFromContractWithCustomerExcludingAssessedTax"
+Q3 FY2026,2026-06-27,revenue_yoy_pct,16.356502,%,consolidated US GAAP,Calculation,revenue vs same period prior year
+Q3 FY2026,2026-06-27,sbc,3401.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP AllocatedShareBasedCompensationExpense"
+Q3 FY2026,2026-06-27,sbc_pct_revenue,3.108292,USD millions,consolidated US GAAP,Calculation,sbc / revenue
+Q3 FY2026,2026-06-27,shares_outstanding,14608.963,shares millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP CommonStockSharesOutstanding"
+Q3 FY2026,2026-06-27,short_term_investments,22855.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP MarketableSecuritiesCurrent"
+Quarter ended 2026-06-27,2026-06-27,tax,6478.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP IncomeTaxExpenseBenefit"
+Quarter ended 2026-06-27,2026-06-27,total_assets,383266.0,USD millions,consolidated US GAAP,Fact,"SEC 10-Q filed 2026-07-31, accession 0000320193-26-000020, US GAAP Assets"

@@ -1,0 +1,9 @@
+{
+  "ticker": "SPY",
+  "session_date": "2026-10-12",
+  "price": 777.53,
+  "status": "intraday, session not closed",
+  "as_of_et": "2026-10-12T14:15-04:00",
+  "source": "yfinance history auto_adjust=False (tier 4, backfill / cross-check)",
+  "classification": "Fact (dated market source, intraday)"
+}

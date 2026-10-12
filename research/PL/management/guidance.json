@@ -1,0 +1,682 @@
+[
+  {
+    "issued": "2024-06-06",
+    "period": "Q2 FY2025",
+    "metric": "adjusted_ebitda",
+    "low": -10.0,
+    "high": -7.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($10) million and ($7) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm"
+  },
+  {
+    "issued": "2024-06-06",
+    "period": "Q2 FY2025",
+    "metric": "capex",
+    "low": 14.0,
+    "high": 17.0,
+    "unit": "USD millions",
+    "statement": "Capital Expenditures are expected to be in the range of approximately $14 million and $17 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm"
+  },
+  {
+    "issued": "2024-06-06",
+    "period": "Q2 FY2025",
+    "metric": "non_gaap_gross_margin",
+    "low": 51.0,
+    "high": 53.0,
+    "unit": "%",
+    "statement": "Non-GAAP Gross Margin is expected to be in the range of approximately 51% to 53%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm"
+  },
+  {
+    "issued": "2024-06-06",
+    "period": "Q2 FY2025",
+    "metric": "revenue",
+    "low": 59.0,
+    "high": 63.0,
+    "unit": "USD millions",
+    "statement": "For the second quarter of fiscal year 2025, ending July 31, 2024, Planet expects revenue to be in the range of approximately $59 million to $63 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm"
+  },
+  {
+    "issued": "2024-09-05",
+    "period": "Q3 FY2025",
+    "metric": "adjusted_ebitda",
+    "low": -5.0,
+    "high": -2.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($5) \n million and ($2) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm"
+  },
+  {
+    "issued": "2024-09-05",
+    "period": "Q3 FY2025",
+    "metric": "capex",
+    "low": 13.0,
+    "high": 16.0,
+    "unit": "USD millions",
+    "statement": "Capital Expenditures are expected to be in the range of approximately $13 million and $16 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm"
+  },
+  {
+    "issued": "2024-09-05",
+    "period": "Q3 FY2025",
+    "metric": "non_gaap_gross_margin",
+    "low": 59.0,
+    "high": 61.0,
+    "unit": "%",
+    "statement": "Non-GAAP Gross Margin is expected to be in the range of approximately 59% to 61%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm"
+  },
+  {
+    "issued": "2024-09-05",
+    "period": "Q3 FY2025",
+    "metric": "revenue",
+    "low": 61.0,
+    "high": 64.0,
+    "unit": "USD millions",
+    "statement": "For the third quarter of fiscal year 2025, ending October 31, 2024, Planet expects revenue to be in the range of approximately $61 million to $64 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm"
+  },
+  {
+    "issued": "2024-12-09",
+    "period": "Q4 FY2025",
+    "metric": "adjusted_ebitda",
+    "low": 0.0,
+    "high": 2.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA is expected to be in the range of approximately $0 to $2 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+  },
+  {
+    "issued": "2024-12-09",
+    "period": "Q4 FY2025",
+    "metric": "capex",
+    "low": 8.0,
+    "high": 11.0,
+    "unit": "USD millions",
+    "statement": "Capital Expenditures are expected to be in the range of approximately $8 million and $11 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+  },
+  {
+    "issued": "2024-12-09",
+    "period": "Q4 FY2025",
+    "metric": "non_gaap_gross_margin",
+    "low": 63.0,
+    "high": 65.0,
+    "unit": "%",
+    "statement": "Non-GAAP Gross Margin is expected to be in the range of approximately 63% to 65%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+  },
+  {
+    "issued": "2024-12-09",
+    "period": "Q4 FY2025",
+    "metric": "revenue",
+    "low": 61.0,
+    "high": 63.0,
+    "unit": "USD millions",
+    "statement": "For the fourth quarter of fiscal year 2025, ending January 31, 2025, Planet expects revenue to be in the range of approximately $61 million to $63 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -13.0,
+    "high": -7.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be between approximately ($13) million and ($7) million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "FY2026",
+    "metric": "capex",
+    "low": 50.0,
+    "high": 65.0,
+    "unit": "USD millions",
+    "statement": "Capital Expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 55.0,
+    "high": 57.0,
+    "unit": "%",
+    "statement": "Non-GAAP Gross Margin is expected to be between approximately 55% to 57%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "FY2026",
+    "metric": "revenue",
+    "low": 260.0,
+    "high": 280.0,
+    "unit": "USD millions",
+    "statement": "For fiscal year 2026, ending January 31, 2026, Planet expects revenue to be in the range of approximately $260 million to $280 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "Q1 FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -3.0,
+    "high": -2.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($3) to ($2) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "Q1 FY2026",
+    "metric": "capex",
+    "low": 11.0,
+    "high": 16.0,
+    "unit": "USD millions",
+    "statement": "Capital Expenditures are expected to be in the range of approximately $11 million and $16 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "Q1 FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 58.0,
+    "high": 60.0,
+    "unit": "%",
+    "statement": "Non-GAAP Gross Margin is expected to be in the range of approximately 58% to 60%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-03-20",
+    "period": "Q1 FY2026",
+    "metric": "revenue",
+    "low": 61.0,
+    "high": 63.0,
+    "unit": "USD millions",
+    "statement": "For the first quarter of fiscal year 2026, ending April 30, 2025, Planet expects revenue to be in the range of approximately $61 million to $63 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -12.0,
+    "high": -7.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($12) million and ($7) million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "FY2026",
+    "metric": "capex",
+    "low": 50.0,
+    "high": 65.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 55.0,
+    "high": 57.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "FY2026",
+    "metric": "revenue",
+    "low": 265.0,
+    "high": 280.0,
+    "unit": "USD millions",
+    "statement": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $265 million to $280 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "Q2 FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -4.0,
+    "high": -2.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($4) million to ($2) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "Q2 FY2026",
+    "metric": "capex",
+    "low": 17.0,
+    "high": 22.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $17 million and $22 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "Q2 FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 56.0,
+    "high": 57.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 56% to 57%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-06-04",
+    "period": "Q2 FY2026",
+    "metric": "revenue",
+    "low": 65.0,
+    "high": 67.0,
+    "unit": "USD millions",
+    "statement": "For the second quarter of fiscal year 2026, ending July 31, 2025, Planet expects revenue to be in the range of approximately $65 million to $67 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -7.0,
+    "high": 0.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($7) million and $0.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "FY2026",
+    "metric": "capex",
+    "low": 65.0,
+    "high": 75.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $65 million and $75 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 55.0,
+    "high": 57.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "FY2026",
+    "metric": "revenue",
+    "low": 281.0,
+    "high": 289.0,
+    "unit": "USD millions",
+    "statement": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $281 million to $289 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "Q3 FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -4.0,
+    "high": 0.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($4) million to $0 for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "Q3 FY2026",
+    "metric": "capex",
+    "low": 18.0,
+    "high": 24.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $18 million and $24 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "Q3 FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 55.0,
+    "high": 56.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 56%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-09-08",
+    "period": "Q3 FY2026",
+    "metric": "revenue",
+    "low": 71.0,
+    "high": 74.0,
+    "unit": "USD millions",
+    "statement": "For the third quarter of fiscal year 2026, ending October 31, 2025, Planet expects revenue to be in the range of approximately $71 million to $74 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "FY2026",
+    "metric": "adjusted_ebitda",
+    "low": 6.0,
+    "high": 8.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA profit is expected to be in the range of approximately $6 million and $8 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "FY2026",
+    "metric": "capex",
+    "low": 81.0,
+    "high": 85.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $81 million and $85 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 57.0,
+    "high": 58.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 57% to 58%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "FY2026",
+    "metric": "revenue",
+    "low": 297.0,
+    "high": 301.0,
+    "unit": "USD millions",
+    "statement": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $297 million to $301 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "Q4 FY2026",
+    "metric": "adjusted_ebitda",
+    "low": -7.0,
+    "high": -5.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($7) million to ($5) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "Q4 FY2026",
+    "metric": "capex",
+    "low": 22.0,
+    "high": 26.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $22 million and $26 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "Q4 FY2026",
+    "metric": "non_gaap_gross_margin",
+    "low": 50.0,
+    "high": 52.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2025-12-10",
+    "period": "Q4 FY2026",
+    "metric": "revenue",
+    "low": 76.0,
+    "high": 80.0,
+    "unit": "USD millions",
+    "statement": "For the fourth quarter of fiscal year 2026, ending January 31, 2026, Planet expects revenue to be in the range of approximately $76 million to $80 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "FY2027",
+    "metric": "adjusted_ebitda",
+    "low": 0.0,
+    "high": 10.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "FY2027",
+    "metric": "capex",
+    "low": 80.0,
+    "high": 95.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "FY2027",
+    "metric": "non_gaap_gross_margin",
+    "low": 50.0,
+    "high": 52.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "FY2027",
+    "metric": "revenue",
+    "low": 415.0,
+    "high": 440.0,
+    "unit": "USD millions",
+    "statement": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $415 million to $440 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "Q1 FY2027",
+    "metric": "adjusted_ebitda",
+    "low": -6.0,
+    "high": -3.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($6) million to ($3) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "Q1 FY2027",
+    "metric": "capex",
+    "low": 17.0,
+    "high": 23.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $17 million and $23 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "Q1 FY2027",
+    "metric": "non_gaap_gross_margin",
+    "low": 49.0,
+    "high": 51.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 49% to 51%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-03-19",
+    "period": "Q1 FY2027",
+    "metric": "revenue",
+    "low": 87.0,
+    "high": 91.0,
+    "unit": "USD millions",
+    "statement": "For the first quarter of fiscal year 2027, ending April 30, 2026, Planet expects revenue to be in the range of approximately $87 million to $91 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "FY2027",
+    "metric": "adjusted_ebitda",
+    "low": 0.0,
+    "high": 10.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "FY2027",
+    "metric": "capex",
+    "low": 80.0,
+    "high": 95.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "FY2027",
+    "metric": "non_gaap_gross_margin",
+    "low": 52.0,
+    "high": 54.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 54%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "FY2027",
+    "metric": "revenue",
+    "low": 425.0,
+    "high": 441.0,
+    "unit": "USD millions",
+    "statement": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $425 million to $441 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "Q2 FY2027",
+    "metric": "adjusted_ebitda",
+    "low": 0.0,
+    "high": 5.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA profit is expected to be in the range of approximately $0 to $5 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "Q2 FY2027",
+    "metric": "capex",
+    "low": 21.0,
+    "high": 27.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $21 million and $27 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "Q2 FY2027",
+    "metric": "non_gaap_gross_margin",
+    "low": 52.0,
+    "high": 55.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 55%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-06-04",
+    "period": "Q2 FY2027",
+    "metric": "revenue",
+    "low": 102.0,
+    "high": 107.0,
+    "unit": "USD millions",
+    "statement": "For the second quarter of fiscal year 2027, ending July 31, 2026, Planet expects revenue to be in the range of approximately $102 million to $107 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "FY2027",
+    "metric": "adjusted_ebitda",
+    "low": 3.0,
+    "high": 10.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA profit is expected to be in the range of approximately $3 and $10 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "FY2027",
+    "metric": "capex",
+    "low": 100.0,
+    "high": 115.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $100 million and $115 million for the year.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "FY2027",
+    "metric": "non_gaap_gross_margin",
+    "low": 55.0,
+    "high": 57.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "FY2027",
+    "metric": "revenue",
+    "low": 430.0,
+    "high": 441.0,
+    "unit": "USD millions",
+    "statement": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $430 million to $441 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "Q3 FY2027",
+    "metric": "adjusted_ebitda",
+    "low": -6.0,
+    "high": -1.0,
+    "unit": "USD millions",
+    "statement": "Adjusted EBITDA loss is expected to be in the range of approximately ($6) to ($1) million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "Q3 FY2027",
+    "metric": "capex",
+    "low": 30.0,
+    "high": 37.0,
+    "unit": "USD millions",
+    "statement": "Capital expenditures are expected to be in the range of approximately $30 million and $37 million for the quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "Q3 FY2027",
+    "metric": "non_gaap_gross_margin",
+    "low": 56.0,
+    "high": 58.0,
+    "unit": "%",
+    "statement": "Non-GAAP gross margin is expected to be in the range of approximately 56% to 58%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  },
+  {
+    "issued": "2026-09-03",
+    "period": "Q3 FY2027",
+    "metric": "revenue",
+    "low": 101.0,
+    "high": 105.0,
+    "unit": "USD millions",
+    "statement": "For the third quarter of fiscal year 2027, ending October 31, 2026, Planet expects revenue to be in the range of approximately $101 million to $105 million.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+  }
+]

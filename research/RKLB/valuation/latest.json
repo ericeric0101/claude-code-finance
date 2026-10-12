@@ -1,0 +1,98 @@
+{
+  "ticker": "RKLB",
+  "as_of": "2026-10-13",
+  "draft_auto": true,
+  "price": 68.21,
+  "price_date": "2026-10-09 close",
+  "action": "WATCH",
+  "valuation_confidence": "low",
+  "confidence_reason": "Auto-drafted from reported history; assumptions not yet reviewed by an analyst.",
+  "classification": "Assumption (auto-draft from reported history; analyst review required)",
+  "methods": {
+    "five-year scenario DCF (auto-draft)": {
+      "bear": 4.43,
+      "base": 11.37,
+      "bull": 33.38
+    }
+  },
+  "reverse_dcf": {
+    "status": "auto-draft (low confidence)",
+    "classification": "Calculation from Assumptions",
+    "implied_growth": 1.0891,
+    "base_growth": 0.4,
+    "bull_growth": 0.56,
+    "solved_for": "5-year revenue CAGR from TTM revenue",
+    "held_at_base_case": {
+      "revenue_cagr_5y": 0.4,
+      "fcf_margin_y5": 0.1,
+      "terminal_ev_fcf": 22,
+      "discount_rate": 0.105
+    },
+    "caveat": "Not a unique solution; implied growth moves with margin, multiple and dilution.",
+    "market_expectation_vs_cases": "above modeled bull growth"
+  },
+  "valuation_map": {
+    "current_position": "above all modeled bull values",
+    "zones": [
+      {
+        "low": null,
+        "high": 4.43,
+        "interpretation": "below all modeled bear values"
+      },
+      {
+        "low": 4.43,
+        "high": 11.37,
+        "interpretation": "between bear and base estimates"
+      },
+      {
+        "low": 11.37,
+        "high": 33.38,
+        "interpretation": "between base and bull estimates"
+      },
+      {
+        "low": 33.38,
+        "high": null,
+        "interpretation": "above all modeled bull values"
+      }
+    ],
+    "note": "Zones are model comparisons, not forecasts or entry prices."
+  },
+  "expectations": {
+    "market_implied": {
+      "revenue_cagr_5y": 1.0891
+    },
+    "internal_base": {
+      "revenue_cagr_5y": 0.4,
+      "fcf_margin_y5": 0.1
+    },
+    "bear": {
+      "revenue_cagr_5y": 0.2,
+      "fcf_margin_y5": 0.06
+    },
+    "bull": {
+      "revenue_cagr_5y": 0.56,
+      "fcf_margin_y5": 0.15
+    },
+    "reason": "Market-implied CAGR solved holding base-case margin, multiple and discount rate."
+  },
+  "catch_up": {
+    "ev": 40661.5,
+    "revenue": 769.146,
+    "revenue_growth_rates": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "years": [
+      1,
+      2,
+      3
+    ]
+  },
+  "inputs": {
+    "revenue_ttm": 769.146,
+    "net_cash": 2289.056,
+    "diluted_shares": 629.681803,
+    "source": "financials/history.json (SEC companyfacts)"
+  }
+}

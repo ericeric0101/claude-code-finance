@@ -1,0 +1,4449 @@
+{
+  "company": "Rocket Lab Corp",
+  "basis": "consolidated US GAAP",
+  "currency": "USD millions",
+  "sector": "generic",
+  "source": "financials/history.json (SEC companyfacts)",
+  "periods": [
+    "FY2020",
+    "FY2021",
+    "FY2022",
+    "FY2023",
+    "FY2024",
+    "FY2025"
+  ],
+  "sector_gate_warning": null,
+  "input_integrity": {
+    "derivations": [
+      "FY2020: cogs = revenue - gross profit",
+      "FY2020: ebitda = EBIT + depreciation & amortisation",
+      "FY2020: gross_debt = sum of supplied debt components (short-term + long-term + current maturities)",
+      "FY2020: fcf = CFO - capex",
+      "FY2021: cogs = revenue - gross profit",
+      "FY2021: ebitda = EBIT + depreciation & amortisation",
+      "FY2021: gross_debt = sum of supplied debt components (short-term + long-term + current maturities)",
+      "FY2021: fcf = CFO - capex",
+      "FY2022: cogs = revenue - gross profit",
+      "FY2022: ebitda = EBIT + depreciation & amortisation",
+      "FY2022: gross_debt = sum of supplied debt components (short-term + long-term + current maturities)",
+      "FY2022: fcf = CFO - capex",
+      "FY2023: cogs = revenue - gross profit",
+      "FY2023: ebitda = EBIT + depreciation & amortisation",
+      "FY2023: gross_debt = sum of supplied debt components (short-term + long-term + current maturities)",
+      "FY2023: fcf = CFO - capex",
+      "FY2024: cogs = revenue - gross profit",
+      "FY2024: ebitda = EBIT + depreciation & amortisation",
+      "FY2024: gross_debt = sum of supplied debt components (short-term + long-term + current maturities)",
+      "FY2024: fcf = CFO - capex",
+      "FY2025: cogs = revenue - gross profit",
+      "FY2025: ebitda = EBIT + depreciation & amortisation",
+      "FY2025: gross_debt = sum of supplied debt components (short-term + long-term + current maturities)",
+      "FY2025: fcf = CFO - capex"
+    ],
+    "cautions": [
+      "normalised tax rate could not be derived, so NOPAT, ROIC, return on tangible capital and ROIIC are unavailable; supply tax and PBT, or pass --tax-rate"
+    ],
+    "normalised_tax_rate_pct": null,
+    "normalised_tax_rate_basis": "not derivable (tax and positive PBT not both available)"
+  },
+  "sections": [
+    {
+      "title": "GROWTH",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": null,
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Revenue YoY",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "no prior period"
+            },
+            {
+              "period": "FY2021",
+              "value": 77.01080773606373,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 239.0201969889294,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 15.922576731312432,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 78.34352717995681,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 37.95957947246076,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Gross profit YoY",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "no prior period"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "prior-period gross profit is negative (-11.8) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "prior-period gross profit is negative (-1.9) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": 170.7161664033702,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 125.93125717286857,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 78.37519048807997,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "EBITDA YoY",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "no prior period"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "prior-period ebitda is negative (-45.6) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "prior-period ebitda is negative (-91.2) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "prior-period ebitda is negative (-105.3) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "prior-period ebitda is negative (-148.2) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "prior-period ebitda is negative (-156.1) - growth rate is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "EBIT YoY",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "no prior period"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "prior-period ebit is negative (-55.0) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "prior-period ebit is negative (-102.1) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "prior-period ebit is negative (-135.2) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "prior-period ebit is negative (-177.9) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "prior-period ebit is negative (-189.8) - growth rate is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "PAT YoY",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "no prior period"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "prior-period pat is negative (-55.0) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "prior-period pat is negative (-117.3) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "prior-period pat is negative (-135.9) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "prior-period pat is negative (-182.6) - growth rate is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "prior-period pat is negative (-190.2) - growth rate is not meaningful"
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "Revenue CAGR (FY2020 -> FY2025, 5.0y)",
+          "unit": "%",
+          "value": 76.47391444309734,
+          "unavailable_because": null
+        },
+        {
+          "name": "EBITDA CAGR (FY2020 -> FY2025, 5.0y)",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "ebitda starts at -45.6 - CAGR from a non-positive base is undefined"
+        },
+        {
+          "name": "PAT CAGR (FY2020 -> FY2025, 5.0y)",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "pat starts at -55.0 - CAGR from a non-positive base is undefined"
+        },
+        {
+          "name": "Gross profit CAGR (FY2020 -> FY2025, 5.0y)",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "gross profit starts at -11.8 - CAGR from a non-positive base is undefined"
+        },
+        {
+          "name": "Revenue CAGR (last 3.0y)",
+          "unit": "%",
+          "value": 41.81616811787951,
+          "unavailable_because": null
+        },
+        {
+          "name": "EBITDA CAGR (last 3.0y)",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "ebitda starts at -105.3 - CAGR from a non-positive base is undefined"
+        },
+        {
+          "name": "PAT CAGR (last 3.0y)",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "pat starts at -135.9 - CAGR from a non-positive base is undefined"
+        }
+      ]
+    },
+    {
+      "title": "MARGIN LADDER",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "'OPM' in Indian screeners is the EBITDA margin; the EBIT margin is a different number. Both are labelled explicitly here so they are never mixed.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Revenue",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 35.16,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 62.237,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 210.996,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 244.592,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 436.214,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 601.799,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Gross margin",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -33.609215017064855,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -3.041599048797339,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 9.000170619348232,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 21.018267155099103,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 26.626609874969624,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 34.426943215259584,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "EBITDA margin (OPM)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -129.7298065984073,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -146.5398396452271,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -49.88577982520996,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -60.580068031660886,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -35.79573328687295,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -30.72504274683075,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "EBIT margin",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -156.29124004550627,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -163.9748059835789,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -64.0789398851163,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -72.74072741545103,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -43.5109831413022,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -38.02565308350462,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "PBT margin",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            }
+          ]
+        },
+        {
+          "name": "Net (PAT) margin",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -156.44197952218434,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -188.5052300078731,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -64.42965743426416,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -74.64307908680577,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -43.59672087553357,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -32.93607998683946,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Depreciation % of sales",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 26.56143344709898,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 17.434966338351785,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 14.193160059906349,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 12.160659383790149,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 7.715249854429248,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 7.3006103366738735,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Interest % of sales",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "interest not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "interest not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "interest not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "interest not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "interest not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "interest not available"
+            }
+          ]
+        },
+        {
+          "name": "Effective tax rate",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "tax charge not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "tax charge not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "tax charge not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "tax charge not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "tax charge not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "tax charge not available"
+            }
+          ]
+        },
+        {
+          "name": "Cash tax rate",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "cash taxes paid not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "cash taxes paid not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "cash taxes paid not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "cash taxes paid not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "cash taxes paid not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "cash taxes paid not available"
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "RETURNS ON CAPITAL",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Return on capital, not margin, is what compounds. Invested capital is computed by both routes and reconciled; a material gap means something is misclassified. ROIC excluding goodwill measures the operations, ROIC including it measures capital allocation - both are shown.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "NOPAT",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            }
+          ]
+        },
+        {
+          "name": "Invested capital (financing route)",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -219.5,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 107.61300000000006,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 304.364,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 309.77099999999996,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 308.855,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 857.672,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Invested capital (operating route)",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            }
+          ]
+        },
+        {
+          "name": "  reconciliation gap (fin - op)",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            }
+          ]
+        },
+        {
+          "name": "Capital employed",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -166.708,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 798.572,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 776.155,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 554.544,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 727.845,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 1874.249,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "ROE",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average shareholders' equity is negative (-166.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": -44.126828901342755,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -19.821908440466764,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -29.740745265729995,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -40.59244586695582,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -18.838410935286536,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "ROCE (EBIT / avg capital employed)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average capital employed is negative (-166.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": -32.30220427180532,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -17.171738339407405,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -26.740532607298874,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -29.601158462837713,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -17.588757362339717,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "ROIC (NOPAT / avg invested capital)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            }
+          ]
+        },
+        {
+          "name": "ROIC ex-goodwill (tangible capital)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            }
+          ]
+        },
+        {
+          "name": "Return on tangible equity",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average tangible equity is negative (-166.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": -44.126828901342755,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -19.821908440466764,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -29.740745265729995,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -40.59244586695582,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -18.838410935286536,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "ROA (PAT / avg total assets)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "NOPAT margin",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "NOPAT not available"
+            }
+          ]
+        },
+        {
+          "name": "Capital turnover (sales / avg IC)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average invested capital is negative (-219.5) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average invested capital is negative (-55.9) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": 1.024309609517036,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 0.7965414770368079,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 1.4102672697235488,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 1.0317789472511136,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Fixed-asset turnover (sales / avg net PP&E)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average net PP&E not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average net PP&E not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average net PP&E not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average net PP&E not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average net PP&E not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average net PP&E not available"
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "DUPONT - 3 STEP  (ROE = net margin x asset turnover x equity multiplier)",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Answers 'what kind of business is this'. Average balances are used, so the product reconciles exactly to ROE.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Net margin (PAT / sales)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -156.44197952218434,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -188.5052300078731,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -64.42965743426416,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -74.64307908680577,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -43.59672087553357,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -32.93607998683946,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Asset turnover (sales / avg assets)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "Equity multiplier (avg assets / avg equity)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "= ROE (product of the three)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "ROE (direct: PAT / avg equity)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average equity is negative (-166.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": -44.126828901342755,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -19.821908440466764,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -29.740745265729995,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -40.59244586695582,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -18.838410935286536,
+              "unavailable_because": null
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Separates operations-driven ROE (margin x turnover) from financing-driven ROE (tax burden, interest burden, leverage). Two firms with the same ROE and different decompositions are not comparable investments. Note that the interest burden can exceed 1.0 where other income is large, since PBT then sits above EBIT.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Tax burden (PAT / PBT)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            }
+          ]
+        },
+        {
+          "name": "Interest burden (PBT / EBIT)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            }
+          ]
+        },
+        {
+          "name": "EBIT margin (EBIT / sales)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -156.29124004550627,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -163.9748059835789,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -64.0789398851163,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -72.74072741545103,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -43.5109831413022,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -38.02565308350462,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Asset turnover (sales / avg assets)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "Equity multiplier (avg assets / avg equity)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "average total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "= ROE (product of the five)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "PBT not available"
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "ROE driver over the full period",
+          "unit": "text",
+          "value": null,
+          "unavailable_because": "not enough positive terms in both endpoint periods"
+        }
+      ]
+    },
+    {
+      "title": "INCREMENTAL RETURNS",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Average ROIC is history; ROIIC is the forecast. The capital denominator is lagged one year because capital takes time to earn. Blended ROIC drifts toward ROIIC as new capital dominates the base - which is why a company can report record profits for years while every new rupee destroys value.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Reinvestment rate (% of NOPAT)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))"
+            }
+          ]
+        },
+        {
+          "name": "Capex / depreciation",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 2.6899025591605095,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 2.3683531471753754,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 1.416235349116773,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 1.8392616998386229,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 1.9935522210667063,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 3.5571867531580743,
+              "unavailable_because": null
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "ROIIC basis",
+          "unit": "text",
+          "value": "3-year, capital lagged one year (FY2022..FY2025 vs capital FY2021..FY2024)",
+          "unavailable_because": null
+        },
+        {
+          "name": "ROIIC",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "NOPAT not available at both ends of the window"
+        },
+        {
+          "name": "  change in NOPAT",
+          "unit": "abs",
+          "value": null,
+          "unavailable_because": "NOPAT not available for both endpoints"
+        },
+        {
+          "name": "  change in invested capital",
+          "unit": "abs",
+          "value": 201.24199999999996,
+          "unavailable_because": null
+        },
+        {
+          "name": "ROIC at start of window",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "opening NOPAT not available"
+        },
+        {
+          "name": "ROIC at end of window",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "closing NOPAT not available"
+        },
+        {
+          "name": "Implied intrinsic growth (reinvestment x ROIIC)",
+          "unit": "%",
+          "value": null,
+          "unavailable_because": "needs both ROIIC and the latest reinvestment rate (NOPAT not available at both ends of the window)"
+        }
+      ]
+    },
+    {
+      "title": "LEVERAGE AND COVERAGE",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Debt includes capitalised lease liabilities throughout. Net debt deducts cash and current investments (Indian filings park surplus treasury in current investments, not in cash). Every band is sector-dependent: 3x net debt/EBITDA is prudent for a contracted utility and reckless for a mid-cap with a 200-day cash cycle.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Gross debt (incl. leases)",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 0.0,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 100.124,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 102.949,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 0.0,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 345.392,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 152.395,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Net debt",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -52.792,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -590.8349999999999,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -368.842,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -244.773,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -73.59800000000001,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -864.182,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Debt / equity",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "shareholders' equity is negative (-166.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": 0.14335211783840743,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 0.1529234736469966,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 0.0,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 0.9030965896463096,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 0.08850634258189138,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Net debt / equity",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "shareholders' equity is negative (-166.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": -0.8459255377637275,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -0.5478887591613859,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -0.44139509218384837,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -0.19243671771433357,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -0.5018904041806099,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Net debt / EBITDA",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-45.6) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-91.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-105.3) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-148.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-156.1) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-184.9) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "Gross debt / EBITDA",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-45.6) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-91.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-105.3) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-148.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-156.1) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-184.9) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "Net debt / (EBITDA - capex)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "EBITDA less capex is negative (-70.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "EBITDA less capex is negative (-116.9) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "EBITDA less capex is negative (-147.7) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "EBITDA less capex is negative (-202.9) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "EBITDA less capex is negative (-223.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "EBITDA less capex is negative (-341.2) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "Interest coverage (EBIT / interest)",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            }
+          ]
+        },
+        {
+          "name": "EBITDA interest coverage",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            }
+          ]
+        },
+        {
+          "name": "Cash interest coverage",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "interest paid (cash) not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "interest paid (cash) not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "interest paid (cash) not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "interest paid (cash) not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "interest paid (cash) not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "interest paid (cash) not available"
+            }
+          ]
+        },
+        {
+          "name": "Fixed-charge coverage",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "interest expense not available"
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "LIQUIDITY",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": null,
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Current ratio",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            }
+          ]
+        },
+        {
+          "name": "Quick ratio",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "current assets not available"
+            }
+          ]
+        },
+        {
+          "name": "Cash ratio",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "current liabilities not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "current liabilities not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "current liabilities not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "current liabilities not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "current liabilities not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "current liabilities not available"
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "WORKING CAPITAL",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Days are computed on average balances. A CCC that improves because DPO jumped is supplier financing, and a CCC that improves because receivables were factored is a balance-sheet transaction - neither is an operating gain, and both reverse.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "DSO (receivable days)",
+          "unit": "days",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "receivables not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "receivables not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "receivables not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "receivables not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "receivables not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "receivables not available"
+            }
+          ]
+        },
+        {
+          "name": "DIO (inventory days)",
+          "unit": "days",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "inventory not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "inventory not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "inventory not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "inventory not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "inventory not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "inventory not available"
+            }
+          ]
+        },
+        {
+          "name": "DPO (payable days)",
+          "unit": "days",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "payables not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "payables not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "payables not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "payables not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "payables not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "payables not available"
+            }
+          ]
+        },
+        {
+          "name": "Cash conversion cycle (DSO + DIO - DPO)",
+          "unit": "days",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "inventory not available; payables not available; receivables not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "inventory not available; payables not available; receivables not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "inventory not available; payables not available; receivables not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "inventory not available; payables not available; receivables not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "inventory not available; payables not available; receivables not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "inventory not available; payables not available; receivables not available"
+            }
+          ]
+        },
+        {
+          "name": "Net working capital",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "current assets / current liabilities not available"
+            }
+          ]
+        },
+        {
+          "name": "Net working capital / sales",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "net working capital not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "net working capital not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "net working capital not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "net working capital not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "net working capital not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "net working capital not available"
+            }
+          ]
+        },
+        {
+          "name": "Change in NWC / change in revenue",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "no prior period"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "net working capital not available for both periods"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "net working capital not available for both periods"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "net working capital not available for both periods"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "net working capital not available for both periods"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "net working capital not available for both periods"
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "CASH FLOW QUALITY",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "The Sloan accrual ratio -- (net income - CFO) / average total assets -- is one of the most robust anomalies in the literature: above roughly 10% is a red flag for earnings reversal.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "CFO",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -27.757,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -71.791,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -106.538,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -98.867,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -48.89,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -165.521,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Capex",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 25.121,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 25.699,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 42.412,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 54.707,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 67.093,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 156.285,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Free cash flow (CFO - capex)",
+          "unit": "abs",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -52.878,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -97.49,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -148.95,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -153.574,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -115.983,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -321.806,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "OCF / EBITDA",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-45.6) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-91.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-105.3) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-148.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-156.1) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-184.9) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "OCF / net profit",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "PAT is negative (-55.0) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "PAT is negative (-117.3) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "PAT is negative (-135.9) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "PAT is negative (-182.6) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "PAT is negative (-190.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "PAT is negative (-198.2) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "FCF / net profit",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "PAT is negative (-55.0) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "PAT is negative (-117.3) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "PAT is negative (-135.9) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "PAT is negative (-182.6) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "PAT is negative (-190.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "PAT is negative (-198.2) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "FCF margin",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -150.3924914675768,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -156.64315439368863,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -70.59375533185462,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -62.78782625760451,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -26.588555158706505,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -53.47400045530152,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "FCF / EBITDA (cash conversion)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-45.6) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-91.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-105.3) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-148.2) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-156.1) - ratio is not meaningful"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "EBITDA is negative (-184.9) - ratio is not meaningful"
+            }
+          ]
+        },
+        {
+          "name": "Accrual ratio (Sloan)",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "total assets not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "total assets not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "total assets not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "total assets not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "total assets not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "total assets not available"
+            }
+          ]
+        },
+        {
+          "name": "Capex / sales",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 71.4476678043231,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 41.292157398332186,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 20.100854992511703,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 22.366635049388368,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 15.380753483382012,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 25.96963437958521,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Capex / depreciation",
+          "unit": "x",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 2.6899025591605095,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 2.3683531471753754,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 1.416235349116773,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 1.8392616998386229,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 1.9935522210667063,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 3.5571867531580743,
+              "unavailable_because": null
+            }
+          ]
+        }
+      ],
+      "scalars": [
+        {
+          "name": "Cumulative CFO / cumulative PAT",
+          "unit": "x",
+          "value": null,
+          "unavailable_because": "cumulative PAT is negative (-879.2) - ratio is not meaningful"
+        }
+      ]
+    },
+    {
+      "title": "PER SHARE",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ],
+      "note": "Computed on the diluted count where supplied (basic count otherwise). A count lifted from the cover of a filing understates the claim on the business wherever options, RSUs, warrants, CCPS or convertibles exist.",
+      "suppressed": null,
+      "metrics": [
+        {
+          "name": "Diluted shares",
+          "unit": "count",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 75.414888,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 209.895135,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 466.214095,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 481.76806,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 495.929861,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 530.664781,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "EPS (diluted)",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -0.7293652680356696,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -0.5589457802344966,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -0.291591355683916,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -0.3789603652844898,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -0.3834715651453785,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -0.37351074934064643,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Book value per share",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -2.210544952344158,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 3.3276045202286366,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 1.4439846568774375,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 1.1510601180161257,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 0.7711836492943102,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 3.244711278474688,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Tangible book value per share",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -2.210544952344158,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 3.3276045202286366,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 1.4439846568774375,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 1.1510601180161257,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 0.7711836492943102,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 3.244711278474688,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Revenue per share",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": 0.46622094035331585,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": 0.2965147334167607,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": 0.4525731895772049,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": 0.5076965874408528,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": 0.8795880915910405,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": 1.1340473714233543,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "CFO per share",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -0.36805729924308844,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -0.3420327012343568,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -0.2285173295758036,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -0.2052170083670553,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -0.0985824888652954,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -0.3119125405083176,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "FCF per share",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": -0.7011612879409169,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2021",
+              "value": -0.4644700316660507,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2022",
+              "value": -0.31948841014770263,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2023",
+              "value": -0.31877165123814977,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2024",
+              "value": -0.2338697649020977,
+              "unavailable_because": null
+            },
+            {
+              "period": "FY2025",
+              "value": -0.6064204965582595,
+              "unavailable_because": null
+            }
+          ]
+        },
+        {
+          "name": "Dividend per share",
+          "unit": "ps",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            }
+          ]
+        },
+        {
+          "name": "Dividend payout ratio",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY2020",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2021",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2022",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2023",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2024",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            },
+            {
+              "period": "FY2025",
+              "value": null,
+              "unavailable_because": "dividends paid not available"
+            }
+          ]
+        }
+      ],
+      "scalars": []
+    },
+    {
+      "title": "VALUATION (on FY2025)",
+      "periods": [
+        "FY2025"
+      ],
+      "note": "Multiples are computed on the latest supplied period only. A multiple without an as-of date and a stated earnings basis is not usable.",
+      "suppressed": "no market capitalisation: supply market.market_cap, or market.price with a diluted share count",
+      "metrics": [],
+      "scalars": []
+    }
+  ],
+  "enterprise_value_bridge": {
+    "as_of": null,
+    "period": "FY2025",
+    "components": [],
+    "not_supplied": [],
+    "assumptions": [],
+    "enterprise_value": null,
+    "market_cap": null,
+    "reason": "no market capitalisation: supply market.market_cap, or market.price with a diluted share count"
+  },
+  "quality_warnings": [],
+  "not_computed": [
+    {
+      "section": "GROWTH",
+      "metric": "Gross profit YoY",
+      "reason": "prior-period gross profit is negative (-11.8) - growth rate is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "Gross profit YoY",
+      "reason": "prior-period gross profit is negative (-1.9) - growth rate is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA YoY",
+      "reason": "prior-period ebitda is negative (-45.6) - growth rate is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA YoY",
+      "reason": "prior-period ebitda is negative (-91.2) - growth rate is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA YoY",
+      "reason": "prior-period ebitda is negative (-105.3) - growth rate is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA YoY",
+      "reason": "prior-period ebitda is negative (-148.2) - growth rate is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA YoY",
+      "reason": "prior-period ebitda is negative (-156.1) - growth rate is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBIT YoY",
+      "reason": "prior-period ebit is negative (-55.0) - growth rate is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBIT YoY",
+      "reason": "prior-period ebit is negative (-102.1) - growth rate is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBIT YoY",
+      "reason": "prior-period ebit is negative (-135.2) - growth rate is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBIT YoY",
+      "reason": "prior-period ebit is negative (-177.9) - growth rate is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBIT YoY",
+      "reason": "prior-period ebit is negative (-189.8) - growth rate is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT YoY",
+      "reason": "prior-period pat is negative (-55.0) - growth rate is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT YoY",
+      "reason": "prior-period pat is negative (-117.3) - growth rate is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT YoY",
+      "reason": "prior-period pat is negative (-135.9) - growth rate is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT YoY",
+      "reason": "prior-period pat is negative (-182.6) - growth rate is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT YoY",
+      "reason": "prior-period pat is negative (-190.2) - growth rate is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA CAGR (FY2020 -> FY2025, 5.0y)",
+      "reason": "ebitda starts at -45.6 - CAGR from a non-positive base is undefined",
+      "periods": []
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT CAGR (FY2020 -> FY2025, 5.0y)",
+      "reason": "pat starts at -55.0 - CAGR from a non-positive base is undefined",
+      "periods": []
+    },
+    {
+      "section": "GROWTH",
+      "metric": "Gross profit CAGR (FY2020 -> FY2025, 5.0y)",
+      "reason": "gross profit starts at -11.8 - CAGR from a non-positive base is undefined",
+      "periods": []
+    },
+    {
+      "section": "GROWTH",
+      "metric": "EBITDA CAGR (last 3.0y)",
+      "reason": "ebitda starts at -105.3 - CAGR from a non-positive base is undefined",
+      "periods": []
+    },
+    {
+      "section": "GROWTH",
+      "metric": "PAT CAGR (last 3.0y)",
+      "reason": "pat starts at -135.9 - CAGR from a non-positive base is undefined",
+      "periods": []
+    },
+    {
+      "section": "MARGIN LADDER",
+      "metric": "PBT margin",
+      "reason": "PBT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "MARGIN LADDER",
+      "metric": "Interest % of sales",
+      "reason": "interest not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "MARGIN LADDER",
+      "metric": "Effective tax rate",
+      "reason": "tax charge not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "MARGIN LADDER",
+      "metric": "Cash tax rate",
+      "reason": "cash taxes paid not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "NOPAT",
+      "reason": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "Invested capital (operating route)",
+      "reason": "current assets / current liabilities not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "  reconciliation gap (fin - op)",
+      "reason": "current assets / current liabilities not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "ROE",
+      "reason": "average shareholders' equity is negative (-166.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "ROCE (EBIT / avg capital employed)",
+      "reason": "average capital employed is negative (-166.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "ROIC (NOPAT / avg invested capital)",
+      "reason": "NOPAT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "ROIC ex-goodwill (tangible capital)",
+      "reason": "NOPAT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "Return on tangible equity",
+      "reason": "average tangible equity is negative (-166.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "ROA (PAT / avg total assets)",
+      "reason": "average total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "NOPAT margin",
+      "reason": "NOPAT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "Capital turnover (sales / avg IC)",
+      "reason": "average invested capital is negative (-219.5) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "Capital turnover (sales / avg IC)",
+      "reason": "average invested capital is negative (-55.9) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "RETURNS ON CAPITAL",
+      "metric": "Fixed-asset turnover (sales / avg net PP&E)",
+      "reason": "average net PP&E not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 3 STEP  (ROE = net margin x asset turnover x equity multiplier)",
+      "metric": "Asset turnover (sales / avg assets)",
+      "reason": "average total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 3 STEP  (ROE = net margin x asset turnover x equity multiplier)",
+      "metric": "Equity multiplier (avg assets / avg equity)",
+      "reason": "average total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 3 STEP  (ROE = net margin x asset turnover x equity multiplier)",
+      "metric": "= ROE (product of the three)",
+      "reason": "average total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 3 STEP  (ROE = net margin x asset turnover x equity multiplier)",
+      "metric": "ROE (direct: PAT / avg equity)",
+      "reason": "average equity is negative (-166.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "metric": "Tax burden (PAT / PBT)",
+      "reason": "PBT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "metric": "Interest burden (PBT / EBIT)",
+      "reason": "PBT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "metric": "Asset turnover (sales / avg assets)",
+      "reason": "average total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "metric": "Equity multiplier (avg assets / avg equity)",
+      "reason": "average total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "metric": "= ROE (product of the five)",
+      "reason": "PBT not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "DUPONT - 5 STEP  (ROE = tax burden x interest burden x EBIT margin x asset turnover x leverage)",
+      "metric": "ROE driver over the full period",
+      "reason": "not enough positive terms in both endpoint periods",
+      "periods": []
+    },
+    {
+      "section": "INCREMENTAL RETURNS",
+      "metric": "Reinvestment rate (% of NOPAT)",
+      "reason": "normalised tax rate not derivable (not derivable (tax and positive PBT not both available))",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "INCREMENTAL RETURNS",
+      "metric": "ROIIC",
+      "reason": "NOPAT not available at both ends of the window",
+      "periods": []
+    },
+    {
+      "section": "INCREMENTAL RETURNS",
+      "metric": "  change in NOPAT",
+      "reason": "NOPAT not available for both endpoints",
+      "periods": []
+    },
+    {
+      "section": "INCREMENTAL RETURNS",
+      "metric": "ROIC at start of window",
+      "reason": "opening NOPAT not available",
+      "periods": []
+    },
+    {
+      "section": "INCREMENTAL RETURNS",
+      "metric": "ROIC at end of window",
+      "reason": "closing NOPAT not available",
+      "periods": []
+    },
+    {
+      "section": "INCREMENTAL RETURNS",
+      "metric": "Implied intrinsic growth (reinvestment x ROIIC)",
+      "reason": "needs both ROIIC and the latest reinvestment rate (NOPAT not available at both ends of the window)",
+      "periods": []
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Debt / equity",
+      "reason": "shareholders' equity is negative (-166.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / equity",
+      "reason": "shareholders' equity is negative (-166.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / EBITDA",
+      "reason": "EBITDA is negative (-45.6) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / EBITDA",
+      "reason": "EBITDA is negative (-91.2) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / EBITDA",
+      "reason": "EBITDA is negative (-105.3) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / EBITDA",
+      "reason": "EBITDA is negative (-148.2) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / EBITDA",
+      "reason": "EBITDA is negative (-156.1) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / EBITDA",
+      "reason": "EBITDA is negative (-184.9) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Gross debt / EBITDA",
+      "reason": "EBITDA is negative (-45.6) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Gross debt / EBITDA",
+      "reason": "EBITDA is negative (-91.2) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Gross debt / EBITDA",
+      "reason": "EBITDA is negative (-105.3) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Gross debt / EBITDA",
+      "reason": "EBITDA is negative (-148.2) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Gross debt / EBITDA",
+      "reason": "EBITDA is negative (-156.1) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Gross debt / EBITDA",
+      "reason": "EBITDA is negative (-184.9) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / (EBITDA - capex)",
+      "reason": "EBITDA less capex is negative (-70.7) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / (EBITDA - capex)",
+      "reason": "EBITDA less capex is negative (-116.9) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / (EBITDA - capex)",
+      "reason": "EBITDA less capex is negative (-147.7) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / (EBITDA - capex)",
+      "reason": "EBITDA less capex is negative (-202.9) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / (EBITDA - capex)",
+      "reason": "EBITDA less capex is negative (-223.2) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Net debt / (EBITDA - capex)",
+      "reason": "EBITDA less capex is negative (-341.2) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Interest coverage (EBIT / interest)",
+      "reason": "interest expense not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "EBITDA interest coverage",
+      "reason": "interest expense not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Cash interest coverage",
+      "reason": "interest paid (cash) not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LEVERAGE AND COVERAGE",
+      "metric": "Fixed-charge coverage",
+      "reason": "interest expense not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LIQUIDITY",
+      "metric": "Current ratio",
+      "reason": "current assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LIQUIDITY",
+      "metric": "Quick ratio",
+      "reason": "current assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "LIQUIDITY",
+      "metric": "Cash ratio",
+      "reason": "current liabilities not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "DSO (receivable days)",
+      "reason": "receivables not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "DIO (inventory days)",
+      "reason": "inventory not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "DPO (payable days)",
+      "reason": "payables not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "Cash conversion cycle (DSO + DIO - DPO)",
+      "reason": "inventory not available; payables not available; receivables not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "Net working capital",
+      "reason": "current assets / current liabilities not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "Net working capital / sales",
+      "reason": "net working capital not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "WORKING CAPITAL",
+      "metric": "Change in NWC / change in revenue",
+      "reason": "net working capital not available for both periods",
+      "periods": [
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / EBITDA",
+      "reason": "EBITDA is negative (-45.6) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / EBITDA",
+      "reason": "EBITDA is negative (-91.2) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / EBITDA",
+      "reason": "EBITDA is negative (-105.3) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / EBITDA",
+      "reason": "EBITDA is negative (-148.2) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / EBITDA",
+      "reason": "EBITDA is negative (-156.1) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / EBITDA",
+      "reason": "EBITDA is negative (-184.9) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / net profit",
+      "reason": "PAT is negative (-55.0) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / net profit",
+      "reason": "PAT is negative (-117.3) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / net profit",
+      "reason": "PAT is negative (-135.9) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / net profit",
+      "reason": "PAT is negative (-182.6) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / net profit",
+      "reason": "PAT is negative (-190.2) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "OCF / net profit",
+      "reason": "PAT is negative (-198.2) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / net profit",
+      "reason": "PAT is negative (-55.0) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / net profit",
+      "reason": "PAT is negative (-117.3) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / net profit",
+      "reason": "PAT is negative (-135.9) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / net profit",
+      "reason": "PAT is negative (-182.6) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / net profit",
+      "reason": "PAT is negative (-190.2) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / net profit",
+      "reason": "PAT is negative (-198.2) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / EBITDA (cash conversion)",
+      "reason": "EBITDA is negative (-45.6) - ratio is not meaningful",
+      "periods": [
+        "FY2020"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / EBITDA (cash conversion)",
+      "reason": "EBITDA is negative (-91.2) - ratio is not meaningful",
+      "periods": [
+        "FY2021"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / EBITDA (cash conversion)",
+      "reason": "EBITDA is negative (-105.3) - ratio is not meaningful",
+      "periods": [
+        "FY2022"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / EBITDA (cash conversion)",
+      "reason": "EBITDA is negative (-148.2) - ratio is not meaningful",
+      "periods": [
+        "FY2023"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / EBITDA (cash conversion)",
+      "reason": "EBITDA is negative (-156.1) - ratio is not meaningful",
+      "periods": [
+        "FY2024"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "FCF / EBITDA (cash conversion)",
+      "reason": "EBITDA is negative (-184.9) - ratio is not meaningful",
+      "periods": [
+        "FY2025"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "Accrual ratio (Sloan)",
+      "reason": "total assets not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "CASH FLOW QUALITY",
+      "metric": "Cumulative CFO / cumulative PAT",
+      "reason": "cumulative PAT is negative (-879.2) - ratio is not meaningful",
+      "periods": []
+    },
+    {
+      "section": "PER SHARE",
+      "metric": "Dividend per share",
+      "reason": "dividends paid not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "PER SHARE",
+      "metric": "Dividend payout ratio",
+      "reason": "dividends paid not available",
+      "periods": [
+        "FY2020",
+        "FY2021",
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025"
+      ]
+    },
+    {
+      "section": "VALUATION (on FY2025)",
+      "metric": "(whole section)",
+      "reason": "no market capitalisation: supply market.market_cap, or market.price with a diluted share count",
+      "periods": []
+    }
+  ],
+  "method_notes": [
+    "Balance-sheet denominators use the average of opening and closing balances wherever a prior period exists; the earliest period necessarily uses closing balances.",
+    "Periods are assumed to be 1.00 year(s) apart (change with --period-years)."
+  ]
+}

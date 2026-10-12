@@ -1,0 +1,268 @@
+{
+  "company": "Rocket Lab Corp",
+  "ticker": "RKLB",
+  "as_of": "2026-10-13",
+  "reporting_basis": "consolidated",
+  "currency": "USD",
+  "units": "millions",
+  "fiscal_year_end": "December",
+  "latest_reported_period": {
+    "period": "Q2 FY2026",
+    "published": "2026-08-10"
+  },
+  "datapoints": [
+    {
+      "metric": "revenue",
+      "value": 244.592,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -177.918,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -182.571,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -98.867,
+      "period": "FY2023",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 436.214,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -189.801,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -190.175,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -48.89,
+      "period": "FY2024",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 601.799,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -228.838,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -198.209,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -165.521,
+      "period": "FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 155.08,
+      "period": "Q3 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-11-10 accession 0001819994-25-000021",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -58.969,
+      "period": "Q3 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-11-10 accession 0001819994-25-000021",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -18.257,
+      "period": "Q3 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-11-10 accession 0001819994-25-000021",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -23.523,
+      "period": "Q3 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2025-11-10 accession 0001819994-25-000021",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 179.652,
+      "period": "Q4 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -51.042,
+      "period": "Q4 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -52.922,
+      "period": "Q4 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -64.531,
+      "period": "Q4 FY2025",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-K filed 2026-02-26 accession 0001819994-26-000013",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 200.348,
+      "period": "Q1 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-07 accession 0001819994-26-000028",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -55.969,
+      "period": "Q1 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-07 accession 0001819994-26-000028",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -45.022,
+      "period": "Q1 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-08-10 accession 0001819994-26-000062",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -50.332,
+      "period": "Q1 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-05-07 accession 0001819994-26-000028",
+      "source_tier": 1
+    },
+    {
+      "metric": "revenue",
+      "value": 234.066,
+      "period": "Q2 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-08-10 accession 0001819994-26-000062",
+      "source_tier": 1
+    },
+    {
+      "metric": "operating_income",
+      "value": -57.514,
+      "period": "Q2 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-08-10 accession 0001819994-26-000062",
+      "source_tier": 1
+    },
+    {
+      "metric": "net_income",
+      "value": -49.258,
+      "period": "Q2 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-08-10 accession 0001819994-26-000062",
+      "source_tier": 1
+    },
+    {
+      "metric": "cfo",
+      "value": -84.075,
+      "period": "Q2 FY2026",
+      "basis": "consolidated",
+      "unit": "USD millions",
+      "source": "SEC 10-Q filed 2026-08-10 accession 0001819994-26-000062",
+      "source_tier": 1
+    }
+  ],
+  "not_available": []
+}

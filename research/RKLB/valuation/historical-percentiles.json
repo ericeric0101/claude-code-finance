@@ -1,0 +1,59 @@
+{
+  "ticker": "RKLB",
+  "listing_date_used": "2021-05-24",
+  "method": "percentile rank of the current multiple within month-end values (no look-ahead fundamentals); EV excludes leases",
+  "percentiles": {
+    "ev_sales": {
+      "current": 50.09,
+      "as_of": "2026-10-09",
+      "1y": 23.1,
+      "1y_range": [
+        39.46,
+        120.21
+      ],
+      "1y_n": 13,
+      "3y": 73.0,
+      "3y_range": [
+        6.12,
+        120.21
+      ],
+      "3y_n": 37,
+      "since_listing": 80.4,
+      "since_listing_range": [
+        6.12,
+        120.21
+      ],
+      "since_listing_n": 51
+    },
+    "ev_ebit": {
+      "current": null,
+      "as_of": "2026-10-09",
+      "1y": null,
+      "1y_note": "current multiple not meaningful (denominator <= 0)",
+      "3y": null,
+      "3y_note": "current multiple not meaningful (denominator <= 0)",
+      "since_listing": null,
+      "since_listing_note": "current multiple not meaningful (denominator <= 0)"
+    },
+    "pe": {
+      "current": null,
+      "as_of": "2026-10-09",
+      "1y": null,
+      "1y_note": "current multiple not meaningful (denominator <= 0)",
+      "3y": null,
+      "3y_note": "current multiple not meaningful (denominator <= 0)",
+      "since_listing": null,
+      "since_listing_note": "current multiple not meaningful (denominator <= 0)"
+    },
+    "p_fcf": {
+      "current": null,
+      "as_of": "2026-10-09",
+      "1y": null,
+      "1y_note": "current multiple not meaningful (denominator <= 0)",
+      "3y": null,
+      "3y_note": "current multiple not meaningful (denominator <= 0)",
+      "since_listing": null,
+      "since_listing_note": "current multiple not meaningful (denominator <= 0)"
+    }
+  }
+}

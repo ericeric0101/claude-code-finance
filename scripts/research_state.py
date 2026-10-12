@@ -15,6 +15,9 @@ Commands:
   check-rules TICKER       evaluate monitoring/rules.yaml against financials/latest.json
   catch-up TICKER          earnings / FCF / revenue catch-up scenarios (not forecasts)
   expectation-gap TICKER   market-implied vs internal base / bull, with direction vs prior
+  record-gap TICKER        upsert valuation/expectation-gap-history.csv
+  refresh-financials TICKER  merge history-derived metrics into financials/latest.json
+  snapshot-state TICKER    write snapshots/<as_of>.json (all domains) for the state diff
 """
 from __future__ import annotations
 
@@ -43,6 +46,35 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import recommendation  # noqa: E402  (reuse validated catch-up / reverse-DCF helpers)
 
 THESIS_STATUSES = ("supported", "improving", "uncertain", "weakening", "invalidated")
+# Explicit semantics for every status transition. Enum order carries no meaning.
+# "neutral" covers moves that are slightly weaker or stronger but not a thesis
+# deterioration (e.g. supported -> improving: evidence still positive, less settled).
+_POS, _NEU, _NEG = "positive", "neutral", "negative"
+THESIS_TRANSITIONS = {
+    ("uncertain", "improving"): _POS, ("uncertain", "supported"): _POS,
+    ("improving", "supported"): _POS,
+    ("weakening", "uncertain"): _POS, ("weakening", "improving"): _POS, ("weakening", "supported"): _POS,
+    ("invalidated", "weakening"): _POS, ("invalidated", "uncertain"): _POS,
+    ("invalidated", "improving"): _POS, ("invalidated", "supported"): _POS,
+    ("supported", "improving"): _NEU,
+    ("supported", "uncertain"): _NEG, ("improving", "uncertain"): _NEG,
+    ("supported", "weakening"): _NEG, ("improving", "weakening"): _NEG, ("uncertain", "weakening"): _NEG,
+    ("supported", "invalidated"): _NEG, ("improving", "invalidated"): _NEG,
+    ("uncertain", "invalidated"): _NEG, ("weakening", "invalidated"): _NEG,
+}
+TRANSITION_NOTES = {("supported", "improving"): "slightly less settled evidence; not automatically negative"}
+
+
+def classify_transition(prev: Optional[str], cur: str) -> str:
+    """positive / neutral / negative / unchanged / new for a thesis component status change."""
+    if prev is None:
+        return "new"
+    if prev == cur:
+        return "unchanged"
+    if (prev, cur) not in THESIS_TRANSITIONS:
+        raise ValueError(f"unknown thesis transition {prev} -> {cur}")
+    return THESIS_TRANSITIONS[(prev, cur)]
+
 IMPORTANCE = ("high", "medium", "low")
 PROMISE_STATUSES = ("pending", "delivered", "partially_delivered", "missed", "superseded")
 VALUATION_HISTORY_FIELDS = (
@@ -130,6 +162,8 @@ def init_company(ticker: str, company: str = "", cik: Optional[str] = None,
 EVENT_REACTION_HEADER = (
     "event_date", "event_type", "description", "source", "t0", "gap_pct", "day_return_pct",
     "volume_ratio_20d", "return_m1_p1_pct", "drift_p2_p20_pct", "max_drawdown_20d_pct",
+    "benchmark", "return_5d_pct", "return_20d_pct", "abnormal_1d_pct", "abnormal_5d_pct", "abnormal_20d_pct",
+    "abnormal_sector_1d_pct", "abnormal_sector_5d_pct", "abnormal_sector_20d_pct",
     "observation", "interpretation",
 )
 
@@ -281,6 +315,62 @@ def expectation_gap_for(latest: Dict[str, Any]) -> Dict[str, Any]:
             "label": "Assumptions solved from price; not forecasts"}
 
 
+GAP_HISTORY_FIELDS = ("date", "metric", "market_implied", "base", "bull", "gap_vs_base", "gap_vs_bull",
+                      "direction", "confidence", "price", "source")
+
+
+def read_gap_history(path: Path) -> List[Dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
+
+
+def gap_history_rows(latest: Dict[str, Any], prior_rows: List[Dict[str, str]],
+                     tolerance: float = 0.005) -> List[Dict[str, str]]:
+    """Rows for latest.json's date; direction compares |market - base| with the most
+    recent earlier row of the same metric (widening / stable / narrowing)."""
+    exp = latest.get("expectations") or {}
+    if not exp.get("market_implied"):
+        return []
+    metrics = expectation_gap(exp["market_implied"], exp.get("internal_base", {}), exp.get("bull", {}))
+    date = str(latest.get("as_of"))
+    rows = []
+    for key, m in metrics.items():
+        earlier = [r for r in prior_rows if r["metric"] == key and r["date"] < date and r.get("gap_vs_base")]
+        if earlier:
+            prev = max(earlier, key=lambda r: r["date"])
+            delta = abs(m["gap_vs_base"]) - abs(float(prev["gap_vs_base"]))
+            direction = "stable" if abs(delta) <= tolerance else ("widening" if delta > 0 else "narrowing")
+        else:
+            direction = "no prior state"
+        rows.append({"date": date, "metric": key, "market_implied": str(m["market_implied"]),
+                     "base": str(m["internal_base"]), "bull": str(m["bull"]),
+                     "gap_vs_base": str(m["gap_vs_base"]),
+                     "gap_vs_bull": str(round(float(m["market_implied"]) - float(m["bull"]), 4)),
+                     "direction": direction,
+                     "confidence": str(latest.get("valuation_confidence", "")),
+                     "price": str(latest.get("price", "")), "source": "valuation/latest.json expectations"})
+    return rows
+
+
+def record_expectation_gap(ticker: str, root: Path = ROOT) -> List[Dict[str, str]]:
+    """Upsert today's expectation-gap rows into valuation/expectation-gap-history.csv by (date, metric)."""
+    base = company_dir(ticker, root)
+    latest = _read_json(base / "valuation/latest.json", {}) or {}
+    path = base / "valuation/expectation-gap-history.csv"
+    existing = read_gap_history(path)
+    new = gap_history_rows(latest, existing)
+    keys = {(r["date"], r["metric"]) for r in new}
+    rows = sorted([r for r in existing if (r["date"], r["metric"]) not in keys] + new,
+                  key=lambda r: (r["date"], r["metric"]))
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=GAP_HISTORY_FIELDS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    return rows
+
+
 # --------------------------------------------------------------------------
 # monitoring rules
 # --------------------------------------------------------------------------
@@ -312,11 +402,200 @@ def evaluate_rules(rules: Dict[str, Any], metrics: Dict[str, Any]) -> List[Dict[
     return results
 
 
-def check_rules(ticker: str, root: Path = ROOT) -> List[Dict[str, Any]]:
+def latest_close(base: Path) -> Optional[Dict[str, Any]]:
+    """Latest stored daily close (completed session) from market/prices.csv."""
+    path = base / "market/prices.csv"
+    if not path.exists():
+        return None
+    with path.open(newline="", encoding="utf-8") as fh:
+        rows = [r for r in csv.DictReader(fh) if r.get("close")]
+    if not rows:
+        return None
+    last = max(rows, key=lambda r: r["date"])
+    return {"date": last["date"], "close": float(last["close"]), "source": last.get("source", "")}
+
+
+def evaluate_market_rules(market: Dict[str, Any], price: Optional[float],
+                          reference_price: Optional[float]) -> List[Dict[str, Any]]:
+    """Valuation-map reassessment levels. A level crossed between the last reviewed
+    price and the latest close is `triggered` (= REASSESS), never a trade."""
+    levels = sorted(float(x) for x in (market or {}).get("reassess_price") or [])
+    out = []
+    for lvl in levels:
+        if price is None:
+            state = "missing_data"
+        elif reference_price is not None and (min(price, reference_price) < lvl <= max(price, reference_price)):
+            state = "triggered"
+        else:
+            state = "not_triggered"
+        side = None if price is None else ("above" if price >= lvl else "below")
+        out.append({"rule": f"reassess_price_{lvl:g}", "type": "market", "level": lvl, "value": price,
+                    "reference_price": reference_price, "price_side": side, "state": state,
+                    "action": "REASSESS" if state == "triggered" else "none",
+                    "meaning": market.get("meaning", "reassess thesis and valuation; not an order")})
+    return out
+
+
+def evaluate_invalidation(rules: Dict[str, Any], metrics: Dict[str, Any],
+                          quarter_series: Optional[Dict[str, List[float]]] = None) -> List[Dict[str, Any]]:
+    """thesis/invalidation-rules.yaml. A rule with machine `checks` ({metric, warning,
+    consecutive_quarters?}) is evaluated; all checks must fire (or any, with logic: any). Rules without checks
+    keep the analyst's recorded state and are marked manual."""
+    out = []
+    for r in (rules or {}).get("rules") or []:
+        checks = r.get("checks") or []
+        if not checks:
+            out.append({"rule": r["id"], "type": "invalidation", "state": r.get("state", "missing_data"),
+                        "evaluation": "manual", "thesis_component": r.get("thesis_component"),
+                        "action": "REASSESS" if r.get("state") == "triggered" else "none"})
+            continue
+        states, values = [], {}
+        for c in checks:
+            op, threshold = parse_condition(c["warning"])
+            n = int(c.get("consecutive_quarters", 1))
+            if n > 1:
+                series = (quarter_series or {}).get(c["metric"]) or []
+                vals = series[-n:]
+                values[c["metric"]] = vals
+                if len(vals) < n or any(v is None for v in vals):
+                    states.append("missing_data")
+                else:
+                    states.append("triggered" if all(_OPS[op](float(v), threshold) for v in vals) else "not_triggered")
+            else:
+                m = metrics.get(c["metric"])
+                v = m.get("value") if isinstance(m, dict) else m
+                values[c["metric"]] = v
+                states.append("missing_data" if v is None else
+                              ("triggered" if _OPS[op](float(v), threshold) else "not_triggered"))
+        if r.get("logic", "all") == "any":
+            state = ("triggered" if "triggered" in states else
+                     "missing_data" if "missing_data" in states else "not_triggered")
+        else:
+            state = ("triggered" if all(x == "triggered" for x in states) else
+                     "missing_data" if "missing_data" in states and "not_triggered" not in states else "not_triggered")
+        out.append({"rule": r["id"], "type": "invalidation", "state": state, "evaluation": "automatic",
+                    "values": values, "thesis_component": r.get("thesis_component"),
+                    "action": "REASSESS" if state == "triggered" else "none",
+                    "meaning": "reassess the thesis component; not a sell signal"})
+    return out
+
+
+# Metrics refreshed from financials/history.json (SEC-derived, latest reported quarter / TTM).
+HISTORY_METRICS = {
+    "revenue_growth_yoy_pct": ("q", "revenue_yoy_pct"),
+    "q2_revenue_growth_yoy_pct": None,  # legacy single-period key; left as recorded
+    "quarterly_revenue_growth_yoy_pct": ("q", "revenue_yoy_pct"),
+    "gaap_gross_margin_pct": ("q", "gross_margin_pct"),
+    "quarterly_gross_margin_pct": ("q", "gross_margin_pct"),
+    "operating_margin_pct": ("q", "operating_margin_pct"),
+    "rpo_yoy_pct": ("q", "rpo_yoy_pct"),
+    "diluted_shares_yoy_pct": ("q", "diluted_shares_yoy_pct"),
+    "capex_pct_revenue": ("ttm_ratio", ("capex", "revenue")),
+    "sbc_pct_revenue": ("ttm_ratio", ("sbc", "revenue")),
+    "fcf_ttm": ("ttm", "fcf"),
+    "revenue_ttm": ("ttm", "revenue"),
+    "rpo": ("q", "rpo"),
+    "cash_and_investments": ("q", "cash_and_investments"),
+    "debt": ("q", "debt"),
+}
+
+
+def _hv(m: Dict[str, Any], k: str) -> Optional[float]:
+    x = m.get(k)
+    return x.get("value") if isinstance(x, dict) else None
+
+
+def history_metrics(history: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
+    """Latest-quarter and TTM metrics from the SEC history, each with period and provenance."""
+    qs = [q for q in history.get("quarters", []) if _hv(q["metrics"], "revenue") is not None]
+    if not qs:
+        return {}
+    last, out = qs[-1], {}
+    src = "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    for key, spec in HISTORY_METRICS.items():
+        if spec is None:
+            continue
+        kind, arg = spec
+        if kind == "q":
+            v, period = _hv(last["metrics"], arg), last["period"]
+        elif kind == "ttm":
+            vals = [_hv(q["metrics"], arg) for q in qs[-4:]]
+            v = sum(vals) if len(vals) == 4 and None not in vals else None
+            period = f"TTM to {last['period']}"
+        else:
+            num = [_hv(q["metrics"], arg[0]) for q in qs[-4:]]
+            den = [_hv(q["metrics"], arg[1]) for q in qs[-4:]]
+            v = (sum(num) / sum(den) * 100 if len(num) == 4 and None not in num and None not in den and sum(den)
+                 else None)
+            period = f"TTM to {last['period']}"
+        out[key] = {"value": None if v is None else round(v, 4), "period": period,
+                    "unit": "%" if key.endswith("_pct") else "USD millions",
+                    "classification": "Calculation" if kind != "q" or key.endswith("_pct") else "Fact",
+                    "source": src}
+    for a in history.get("annual", []):
+        rev = _hv(a["metrics"], "revenue")
+        if rev is not None:
+            out[f"{a['period'].lower()}_revenue_reported"] = {
+                "value": round(rev, 4), "period": a["period"], "unit": "USD millions",
+                "classification": "Fact", "source": src}
+    return out
+
+
+def quarter_series(history: Dict[str, Any]) -> Dict[str, List[Optional[float]]]:
+    qs = [q for q in history.get("quarters", []) if _hv(q["metrics"], "revenue") is not None]
+    keys = {"gaap_gross_margin_pct": "gross_margin_pct", "operating_margin_pct": "operating_margin_pct",
+            "revenue_growth_yoy_pct": "revenue_yoy_pct", "rpo_yoy_pct": "rpo_yoy_pct",
+            "diluted_shares_yoy_pct": "diluted_shares_yoy_pct"}
+    return {k: [_hv(q["metrics"], v) for q in qs] for k, v in keys.items()}
+
+
+def refresh_latest_financials(ticker: str, root: Path = ROOT) -> Dict[str, Any]:
+    """Merge history-derived metrics into financials/latest.json. Hand-entered metrics
+    with other keys are kept; a history metric replaces a stored value only when its
+    period is a newer reported quarter (or the stored value is missing)."""
+    base = company_dir(ticker, root)
+    history = _read_json(base / "financials/history.json")
+    path = base / "financials/latest.json"
+    latest = _read_json(path, {"ticker": ticker.upper(), "metrics": {}}) or {"metrics": {}}
+    if not history:
+        return latest
+    hm = history_metrics(history)
+    metrics = latest.setdefault("metrics", {})
+    for k, v in hm.items():
+        old = metrics.get(k)
+        if v["value"] is None and isinstance(old, dict) and old.get("value") is not None:
+            continue
+        if isinstance(old, dict) and old.get("value") is not None:
+            old = {**old}
+            old_period = old.get("period", "")
+            if old_period != v["period"]:
+                v = {**v, "previous_value": old.get("value"), "previous_period": old_period}
+        metrics[k] = v
+    qs = [q for q in history["quarters"] if _hv(q["metrics"], "revenue") is not None]
+    if qs:
+        latest["latest_reported_period"] = f"{qs[-1]['period']} (ended {qs[-1]['period_end']})"
+        latest["history_refreshed_from"] = "financials/history.json"
+    _write_json(path, latest)
+    return latest
+
+
+def check_rules(ticker: str, root: Path = ROOT, reference_price: Optional[float] = None) -> List[Dict[str, Any]]:
+    """Fundamental + market (price reassessment) + thesis invalidation rules.
+    Every triggered rule means REASSESS; none produces BUY / SELL."""
     base = company_dir(ticker, root)
     rules = _read_yaml(base / "monitoring/rules.yaml") or {}
     metrics = (_read_json(base / "financials/latest.json", {}) or {}).get("metrics", {})
-    return evaluate_rules(rules, metrics)
+    out = [{**r, "type": "fundamental", "action": "REASSESS" if r["state"] == "triggered" else "none"}
+           for r in evaluate_rules(rules, metrics)]
+    close = latest_close(base)
+    latest = _read_json(base / "valuation/latest.json", {}) or {}
+    ref = reference_price if reference_price is not None else latest.get("price")
+    out += evaluate_market_rules((rules.get("monitoring") or {}).get("market") or {},
+                                 close["close"] if close else None, ref)
+    history = _read_json(base / "financials/history.json")
+    out += evaluate_invalidation(_read_yaml(base / "thesis/invalidation-rules.yaml") or {}, metrics,
+                                 quarter_series(history) if history else None)
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -376,19 +655,38 @@ def latest_market_lines(base: Path, state_price: Any) -> List[str]:
     return out
 
 
+def latest_change_date(base: Path) -> Optional[str]:
+    dates = []
+    for p in (base / "reports").glob("*.md"):
+        m = re.match(r"(\d{4}-\d{2}-\d{2})", p.name)
+        if m:
+            dates.append(m.group(1))
+    for p in (base / "snapshots").glob("*.json"):
+        dates.append(p.stem)
+    return max(dates) if dates else None
+
+
 def status(ticker: str, root: Path = ROOT) -> str:
     base = company_dir(ticker, root)
     thesis = _read_yaml(base / "thesis/current.yaml") or {}
     latest = _read_json(base / "valuation/latest.json", {}) or {}
     rules = check_rules(ticker, root)
+    comps = thesis.get("components") or {}
+    counts: Dict[str, int] = {}
+    for c in comps.values():
+        counts[c.get("status")] = counts.get(c.get("status"), 0) + 1
     lines = [f"# {ticker.upper()} research status (local state, no network)", ""]
-    lines.append(f"As of: {thesis.get('as_of')} | Action: {thesis.get('action')} | "
-                 f"Valuation confidence: {thesis.get('valuation_confidence')} | "
-                 f"Role: {thesis.get('research_role')}")
-    lines += ["", "## Thesis components"]
-    for name, c in (thesis.get("components") or {}).items():
+    lines += ["## Current action",
+              f"Action: {thesis.get('action')} | Valuation confidence: {thesis.get('valuation_confidence')} | "
+              f"Role: {thesis.get('research_role')} | Thesis as of: {thesis.get('as_of')}"
+              + (" | RETROSPECTIVE" if thesis.get("retrospective") else ""),
+              f"Latest change date: {latest_change_date(base) or 'none recorded'}", ""]
+    lines += ["## Thesis summary",
+              (thesis.get("summary") or "").strip() or "(no summary)",
+              "Status counts: " + (", ".join(f"{k} {v}" for k, v in sorted(counts.items(), key=str)) or "none")]
+    for name, c in comps.items():
         lines.append(f"- {name} [{c.get('importance')}]: {c.get('status')} — next check: {c.get('next_check')}")
-    lines += ["", "## Valuation", f"State price: {latest.get('price')} ({latest.get('price_date')})"]
+    lines += ["", "## Valuation summary", f"State price: {latest.get('price')} ({latest.get('price_date')})"]
     lines += latest_market_lines(base, latest.get("price"))
     for m, v in (latest.get("methods") or {}).items():
         lines.append(f"- {m}: bear {v.get('bear')} / base {v.get('base')} / bull {v.get('bull')}")
@@ -398,15 +696,34 @@ def status(ticker: str, root: Path = ROOT) -> str:
     rd = latest.get("reverse_dcf") or {}
     lines.append(f"Reverse DCF: {rd.get('status', 'quantified') if rd else 'not recorded'}"
                  + (f"; implied growth {rd['implied_growth']:.1%}" if rd.get("implied_growth") else ""))
+    pct = _read_json(base / "valuation/historical-percentiles.json")
+    if pct:
+        for mult, p in (pct.get("percentiles") or {}).items():
+            lines.append(f"Historical {mult}: current {p.get('current')} | 1Y pct {p.get('1y')} | "
+                         f"3Y pct {p.get('3y')} | since listing {p.get('since_listing')}")
+    lines += ["", "## Expectation gap"]
     gap = latest.get("expectation_gap") or {}
+    hist = read_gap_history(base / "valuation/expectation-gap-history.csv")
+    if hist:
+        for r in [r for r in hist if r["date"] == max(h["date"] for h in hist)]:
+            lines.append(f"- {r['metric']}: market {r['market_implied']} vs base {r['base']} / bull {r['bull']} "
+                         f"(gap vs base {r['gap_vs_base']}; {r['direction']})")
     if gap.get("interpretation"):
-        lines.append(f"Expectation gap: {gap['interpretation']}")
-    lines += ["", "## Monitoring rules (reassess, not trade)"]
+        lines.append(f"Interpretation: {gap['interpretation']}")
+    if not hist and not gap:
+        lines.append("- not quantified")
+    lines += ["", "## Monitoring rules (REASSESS only; never BUY / SELL)"]
     for r in rules:
-        lines.append(f"- {r['rule']}: {r['state']} (value {r['value']}, warning {r['warning']})")
-    market = ((_read_yaml(base / "monitoring/rules.yaml") or {}).get("monitoring") or {}).get("market") or {}
-    if market.get("reassess_price"):
-        lines.append(f"- reassess at prices: {market['reassess_price']} — {market.get('meaning', 'reassess')}")
+        if r["type"] == "market":
+            lines.append(f"- [market] {r['rule']}: {r['state']} (latest close {r['value']}, last reviewed "
+                         f"{r['reference_price']}, price {r['price_side']} level)")
+        elif r["type"] == "invalidation":
+            lines.append(f"- [invalidation] {r['rule']}: {r['state']} ({r['evaluation']}) → {r.get('thesis_component')}")
+        else:
+            lines.append(f"- [fundamental] {r['rule']}: {r['state']} (value {r['value']}, warning {r['warning']})")
+    trig = [r["rule"] for r in rules if r["state"] == "triggered"]
+    lines.append(f"Triggered → REASSESS: {', '.join(trig) if trig else 'none'}")
+    lines += ["", "## Next catalysts"] + ([f"- {c}" for c in thesis.get("next_catalysts") or []] or ["- none recorded"])
     return "\n".join(lines)
 
 
@@ -415,6 +732,16 @@ def _fmt_change(prev: Any, cur: Any) -> str:
 
 
 def change_report(ticker: str, root: Path = ROOT, dry_run_note: str = "") -> str:
+    """Multi-domain diff of the two latest state snapshots (state_diff.py). With fewer
+    than two snapshots it falls back to thesis / valuation history only."""
+    import state_diff
+    snaps = state_diff.list_snapshots(ticker, root)
+    if len(snaps) >= 2:
+        return state_diff.render_report(ticker, state_diff.diff_states(snaps[-2], snaps[-1]), snaps[-1], dry_run_note)
+    return _legacy_change_report(ticker, root, dry_run_note)
+
+
+def _legacy_change_report(ticker: str, root: Path = ROOT, dry_run_note: str = "") -> str:
     base = company_dir(ticker, root)
     t_hist = _read_json(base / "thesis/history.json", []) or []
     v_hist = read_valuation_history(base / "valuation/history.csv")
@@ -430,15 +757,18 @@ def change_report(ticker: str, root: Path = ROOT, dry_run_note: str = "") -> str
         lines += [f"基準狀態日期為 {cur.get('as_of')}；沒有先前的研究狀態可供比較。",
                   "以下各項皆為下次更新的比較起點。", ""]
     pos, neg, same = [], [], []
-    order = {s: i for i, s in enumerate(THESIS_STATUSES)}
+    order = {s: i for i, s in enumerate(THESIS_STATUSES)}  # severity, used only for "weakest component"
     for name, c in cur.get("components", {}).items():
         p = (prev or {}).get("components", {}).get(name)
-        if not p:
+        kind = classify_transition(p["status"] if p else None, c["status"])
+        if kind == "new":
             same.append(f"{name}: {c['status']}（新增或基準）")
-        elif order[c["status"]] < order[p["status"]]:
+        elif kind == "positive":
             pos.append(f"{name}: {p['status']} → {c['status']}")
-        elif order[c["status"]] > order[p["status"]]:
+        elif kind == "negative":
             neg.append(f"{name}: {p['status']} → {c['status']}")
+        elif kind == "neutral":
+            same.append(f"{name}: {p['status']} → {c['status']}（中性：{TRANSITION_NOTES.get((p['status'], c['status']), '')}）")
         else:
             same.append(f"{name}: {c['status']}")
     for title, items in (("Positive 正面變化", pos), ("Negative 負面變化", neg), ("Unchanged 未變化", same)):
@@ -484,8 +814,11 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("init"); p.add_argument("ticker"); p.add_argument("--company", default="")
     p.add_argument("--cik")
-    for name in ("status", "record-valuation", "check-rules", "catch-up", "expectation-gap"):
+    for name in ("status", "record-valuation", "check-rules", "catch-up", "expectation-gap",
+                 "record-gap", "refresh-financials"):
         sub.add_parser(name).add_argument("ticker")
+    p = sub.add_parser("snapshot-state"); p.add_argument("ticker"); p.add_argument("--as-of")
+    p.add_argument("--note", default="")
     p = sub.add_parser("snapshot"); p.add_argument("ticker"); p.add_argument("--note", default="")
     p = sub.add_parser("change-report"); p.add_argument("ticker")
     p.add_argument("--dry-run-note", default=""); p.add_argument("--out", type=Path)
@@ -509,6 +842,14 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
             print(json.dumps(catch_up(_read_json(company_dir(args.ticker, root) / "valuation/latest.json", {})), indent=2))
         elif args.cmd == "expectation-gap":
             print(json.dumps(expectation_gap_for(_read_json(company_dir(args.ticker, root) / "valuation/latest.json", {})), indent=2))
+        elif args.cmd == "record-gap":
+            print(f"{len(record_expectation_gap(args.ticker, root))} expectation-gap history rows")
+        elif args.cmd == "refresh-financials":
+            print(json.dumps(refresh_latest_financials(args.ticker, root).get("latest_reported_period")))
+        elif args.cmd == "snapshot-state":
+            import state_diff
+            snap = state_diff.build_snapshot(args.ticker, root, args.as_of, note=args.note)
+            print(state_diff.save_snapshot(args.ticker, snap, root))
         elif args.cmd == "change-report":
             text = change_report(args.ticker, root, args.dry_run_note)
             if args.out:

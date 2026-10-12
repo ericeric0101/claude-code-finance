@@ -1,3 +1,5 @@
+# `checks` (added 2026-10-13) are machine-evaluated by research_state.check_rules;
+# `state` is the analyst-recorded state at as_of and is kept for history.
 # Observable invalidation conditions carried from PL-analysis-2026-10-11.md.
 # state: not_triggered | triggered | missing_data. Never a trading instruction.
 ticker: PL
@@ -9,6 +11,8 @@ rules:
     revisit_by: FY2027 results
     thesis_component: revenue_growth_durability
     state: missing_data
+    checks:
+      - {metric: fy2027_revenue_reported, warning: '<430'}
   - id: rpo_decline_or_low_conversion
     condition: RPO declines again year over year or next-12-month conversion share falls below 40%
     metric: [rpo_yoy_pct, rpo_12m_conversion_pct]
@@ -16,12 +20,18 @@ rules:
     thesis_component: backlog_visibility
     state: not_triggered
     note: RPO fell 11.7% versus fiscal year-end; year-over-year RPO not captured locally.
+    logic: any
+    checks:
+      - {metric: rpo_yoy_pct, warning: '<0%'}
+      - {metric: rpo_12m_conversion_pct, warning: '<40%'}
   - id: gross_margin_below_52_two_quarters
     condition: GAAP gross margin below 52% for two consecutive quarters
     metric: gaap_gross_margin_pct
     revisit_by: Next two 10-Qs
     thesis_component: margin_and_cash_conversion
     state: not_triggered
+    checks:
+      - {metric: gaap_gross_margin_pct, warning: '<52%', consecutive_quarters: 2}
   - id: capex_heavy_with_negative_fcf
     condition: Annual capex above 25% of revenue while FCF excluding deferred-revenue inflows stays negative
     metric: [capex_pct_revenue, fcf_ex_deferred_revenue]
@@ -29,9 +39,16 @@ rules:
     thesis_component: margin_and_cash_conversion
     state: not_triggered
     note: H1 capex was 22.4% of revenue; FCF ex deferred revenue was negative.
+    checks:
+      - {metric: capex_pct_revenue, warning: '>25%'}
+      - {metric: fcf_ex_deferred_revenue, warning: '<0'}
+    check_note: Machine check uses TTM capex / revenue (financials/history.json) as a proxy for the annual condition.
   - id: dilution_above_5pct
     condition: Fully diluted shares rise more than 5% year over year without commensurate FCF/share progress
     metric: diluted_shares_yoy_pct
     revisit_by: Each 10-Q / 10-K
     thesis_component: per_share_value_vs_dilution
     state: missing_data
+    checks:
+      - {metric: diluted_shares_yoy_pct, warning: '>5%'}
+    check_note: Machine check covers the share-count leg only; FCF/share progress needs analyst review.

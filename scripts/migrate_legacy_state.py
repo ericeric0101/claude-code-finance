@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
-"""One-time, re-runnable migration of the 2026-10-11 AAPL / PL outputs into
-research/<TICKER>/ state files. Reads existing dated outputs only (no network)
-and regenerates derived files: financials/historical.csv, financials/latest.json,
-evidence/sources.json and market/prices.csv. Hand-authored state (thesis,
-valuation, monitoring, management) is not touched. The dated reports and their
-input JSON remain the authoritative record for that research date.
+"""LEGACY one-time migration of the 2026-10-11 AAPL / PL outputs into state files.
+
+ARCHIVED: the research state has since grown (price history, SEC history, updates).
+This script is now append-only / merge-safe so a re-run can never shrink or
+overwrite newer persistent state:
+
+  * market/prices.csv        only dates that are missing are added
+  * evidence/sources.json    only source ids that are missing are added
+  * financials/historical.csv  only (period_end, metric) keys that are missing are added
+  * financials/latest.json   only metric keys that are missing are added
+
+Existing rows / keys always win. It refuses to run without --legacy-one-time.
+Hand-authored state (thesis, valuation, monitoring, management) is never touched.
 """
 from __future__ import annotations
 
@@ -13,14 +20,63 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RESEARCH = ROOT / "research"
+RESEARCH = ROOT / "research"  # overridable for tests via set_root()
+
+
+def set_root(root: Path) -> None:
+    global RESEARCH
+    RESEARCH = root / "research"
 
 
 def _write_csv(path: Path, header, rows) -> None:
+    """Merge-safe: rows whose key (date for prices; period_end+metric otherwise) already
+    exists are skipped. The file is never truncated."""
+    key_cols = ["date"] if header[0] == "date" else ["period_end", "metric"]
+    existing = []
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as fh:
+            existing = list(csv.DictReader(fh))
+    seen = {tuple(r.get(k, "") for k in key_cols) for r in existing}
+    added = []
+    for row in rows:
+        rec = dict(zip(header, [str(v) for v in row]))
+        key = tuple(rec.get(k, "") for k in key_cols)
+        if key not in seen:
+            seen.add(key)
+            added.append(rec)
+    if not added and existing:
+        print(f"kept {path} ({len(existing)} rows; nothing missing)")
+        return
+    out = existing + added
+    out.sort(key=lambda r: tuple(r.get(k, "") for k in key_cols))
     with path.open("w", newline="", encoding="utf-8") as fh:
-        w = csv.writer(fh)
-        w.writerow(header)
-        w.writerows(rows)
+        w = csv.DictWriter(fh, fieldnames=list(existing[0].keys()) if existing else list(header),
+                           extrasaction="ignore")
+        w.writeheader()
+        w.writerows(out)
+    print(f"merged {path}: +{len(added)} rows (kept {len(existing)})")
+
+
+def _write_json_merge(path: Path, data) -> None:
+    """Merge-safe JSON: lists merge by `id`, dicts add only missing metric keys."""
+    if not path.exists():
+        path.write_text(json.dumps(data, indent=2) + "\n")
+        return
+    old = json.loads(path.read_text())
+    if isinstance(old, list) and isinstance(data, list):
+        ids = {x.get("id") for x in old}
+        merged = old + [x for x in data if x.get("id") not in ids]
+    elif isinstance(old, dict) and isinstance(data, dict):
+        merged = dict(old)
+        for k, v in data.items():
+            if k == "metrics" and isinstance(v, dict):
+                merged["metrics"] = {**v, **(old.get("metrics") or {})}
+            elif k not in merged:
+                merged[k] = v
+    else:
+        print(f"kept {path} (shape differs; not overwritten)")
+        return
+    path.write_text(json.dumps(merged, indent=2) + "\n")
 
 
 def _metric(value, period, unit, classification, source, note=""):
@@ -81,13 +137,13 @@ def migrate_aapl() -> None:
               "latest_reported_period": "Q3 FY2026 (ended 2026-06-27; 10-Q filed 2026-07-31)",
               "authoritative_source": "../financial-data.json (SEC XBRL with provenance)",
               "metrics": metrics}
-    (base / "financials/latest.json").write_text(json.dumps(latest, indent=2) + "\n")
+    _write_json_merge(base / "financials/latest.json", latest)
 
     manifest = json.loads((base / "filing-manifest.json").read_text())
     sources = [{"id": f"sec-{r['accession']}", "tier": 1, "type": r["form"], "period_end": r.get("period_end"),
                 "filed": r.get("filed"), "url": r["url"], "retrieved_at": manifest.get("retrieved_at_utc"),
                 "local_raw": "raw/ (git-ignored)"} for r in manifest["records"]]
-    (base / "evidence/sources.json").write_text(json.dumps(sources, indent=2) + "\n")
+    _write_json_merge(base / "evidence/sources.json", sources)
 
     market = json.loads((base / "market-data.json").read_text())
     rows = [[m["date"][:10], "", "", "", round(m["close"], 2), "", m["source"], m["retrieved_at_utc"]]
@@ -140,7 +196,7 @@ def migrate_pl() -> None:
               "latest_reported_period": f"Q2 FY2027 (ended {d['latest_filing']['period_end']}; "
                                         f"10-Q filed {d['latest_filing']['filed']})",
               "authoritative_source": "../filings-data.json", "metrics": metrics}
-    (base / "financials/latest.json").write_text(json.dumps(latest, indent=2) + "\n")
+    _write_json_merge(base / "financials/latest.json", latest)
     sources = [
         {"id": f"sec-{d['latest_filing']['accession']}", "tier": 1, "type": "10-Q",
          "period_end": d["latest_filing"]["period_end"], "filed": d["latest_filing"]["filed"],
@@ -151,7 +207,7 @@ def migrate_pl() -> None:
          "url": d["source_urls"]["fy2026_10k"]},
     ] + [{"id": f"event-{e['date']}", "tier": 1, "type": "issuer announcement", "date": e["date"],
           "description": e["event"], "url": e["source"]} for e in d["post_quarter_events"]]
-    (base / "evidence/sources.json").write_text(json.dumps(sources, indent=2) + "\n")
+    _write_json_merge(base / "evidence/sources.json", sources)
     _write_csv(base / "market/prices.csv",
                ["date", "open", "high", "low", "close", "volume", "source", "retrieved_at"],
                [["2026-10-09", "", "", "", 17.18, "",
@@ -159,6 +215,10 @@ def migrate_pl() -> None:
 
 
 if __name__ == "__main__":
+    import sys
+    if "--legacy-one-time" not in sys.argv:
+        sys.exit("Archived legacy migration. It is merge-safe but should not be needed; "
+                 "pass --legacy-one-time to run it anyway (existing state always wins).")
     migrate_aapl()
     migrate_pl()
-    print("AAPL and PL derived state files regenerated")
+    print("AAPL and PL legacy outputs merged (missing entries only)")

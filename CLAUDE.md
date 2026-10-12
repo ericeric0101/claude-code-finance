@@ -20,6 +20,9 @@ Rules:
 - Label material statements Fact / Calculation / Assumption / Interpretation.
 - Update prior state (`scripts/research_state.py`), don't rewrite blindly;
   keep dated reports; git history is research history.
+- INIT / UPDATE / MONTHLY run through `scripts/research_pipeline.py` and
+  `scripts/monthly_research_review.py` (Level 3 engine: docs §15). Auto-drafts
+  are labelled `draft_auto`; retrospective snapshots carry no recommendation.
 - Prefer reverse DCF, expectation gap and the valuation map over target prices;
   never generate a mechanical DCF-haircut buy range (`docs/recommendation-policy.md`).
 - Thesis changes require evidence; price action alone does not prove

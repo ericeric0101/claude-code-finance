@@ -1,0 +1,2 @@
+date,metric,market_implied,base,bull,gap_vs_base,gap_vs_bull,direction,confidence,price,source
+2026-10-13,nopat_growth_10y,0.1480518006,0.08,0.12,0.0681,0.0281,no prior state,low,336.64,valuation/latest.json expectations

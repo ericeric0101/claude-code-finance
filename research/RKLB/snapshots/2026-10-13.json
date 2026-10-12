@@ -1,0 +1,202 @@
+{
+  "ticker": "RKLB",
+  "as_of": "2026-10-13",
+  "retrospective": false,
+  "generated_at": "2026-10-12T18:13:40+00:00",
+  "note": "INIT baseline",
+  "financials": {
+    "latest_quarter": "Q2 FY2026",
+    "quarter": {
+      "revenue": 234.066,
+      "revenue_yoy_pct": 61.985633,
+      "gross_margin_pct": 36.133398,
+      "operating_margin_pct": -24.571702,
+      "fcf": -110.122,
+      "sbc": 19.561,
+      "diluted_shares": 629.681803,
+      "debt": 13.129,
+      "cash_and_investments": 2302.185,
+      "rpo": 2355.949,
+      "rpo_yoy_pct": 136.681267,
+      "backlog": null
+    },
+    "ttm": {
+      "revenue_ttm": 769.146,
+      "fcf_ttm": -371.139,
+      "sbc_ttm": 81.609,
+      "operating_income_ttm": -223.494
+    },
+    "other": {},
+    "latest_quarter_end": "2026-06-30",
+    "latest_filed": "2026-08-10"
+  },
+  "management": {
+    "statement_count": 113,
+    "periods": [
+      "Q1 FY2025",
+      "Q1 FY2026",
+      "Q2 FY2024",
+      "Q2 FY2025",
+      "Q2 FY2026",
+      "Q3 FY2024",
+      "Q3 FY2025",
+      "Q4 FY2024",
+      "Q4 FY2025"
+    ],
+    "latest_period": "Q2 FY2026",
+    "latest_tone_by_topic": {
+      "backlog_rpo": 0.67,
+      "demand": 1.5,
+      "product_launch": 0.67,
+      "customers": 0.0,
+      "margins": -0.33,
+      "dilution": 1.0
+    },
+    "guidance": {},
+    "promises": {}
+  },
+  "action": "WATCH",
+  "valuation_confidence": "low",
+  "thesis": {
+    "revenue_growth_durability": {
+      "status": "improving",
+      "importance": "high",
+      "evidence_count": 1,
+      "evidence_fp": "da1e8f3010"
+    },
+    "margin_trajectory": {
+      "status": "improving",
+      "importance": "high",
+      "evidence_count": 1,
+      "evidence_fp": "90d24c7d32"
+    },
+    "cash_conversion": {
+      "status": "weakening",
+      "importance": "high",
+      "evidence_count": 1,
+      "evidence_fp": "4c9bd7a9e3"
+    },
+    "per_share_dilution": {
+      "status": "weakening",
+      "importance": "medium",
+      "evidence_count": 1,
+      "evidence_fp": "182e007ce1"
+    },
+    "balance_sheet_liquidity": {
+      "status": "supported",
+      "importance": "medium",
+      "evidence_count": 1,
+      "evidence_fp": "791bbe5115"
+    },
+    "backlog_visibility": {
+      "status": "improving",
+      "importance": "high",
+      "evidence_count": 1,
+      "evidence_fp": "89cecd929b"
+    }
+  },
+  "next_catalysts": [
+    "Next 10-Q / earnings release (8-K Item 2.02)",
+    "Resolution of pending guidance promises (management/promises.json)"
+  ],
+  "valuation": {
+    "price": 68.21,
+    "price_date": "2026-10-09 close",
+    "latest_close": 68.21,
+    "latest_close_date": "2026-10-09",
+    "methods": {
+      "five-year scenario DCF (auto-draft)": {
+        "bear": 4.43,
+        "base": 11.37,
+        "bull": 33.38
+      }
+    },
+    "map_position": "above all modeled bull values",
+    "reverse_dcf_implied_growth": 1.0891,
+    "percentiles": {
+      "ev_sales": {
+        "current": 50.09,
+        "1y": 23.1,
+        "3y": 73.0,
+        "since_listing": 80.4
+      },
+      "ev_ebit": {
+        "current": null,
+        "1y": null,
+        "3y": null,
+        "since_listing": null
+      },
+      "pe": {
+        "current": null,
+        "1y": null,
+        "3y": null,
+        "since_listing": null
+      },
+      "p_fcf": {
+        "current": null,
+        "1y": null,
+        "3y": null,
+        "since_listing": null
+      }
+    }
+  },
+  "expectation_gap": {
+    "revenue_cagr_5y": {
+      "market_implied": 1.0891,
+      "internal_base": 0.4,
+      "bull": 0.56,
+      "gap_vs_base": 0.6891,
+      "position": "above modeled bull growth"
+    }
+  },
+  "rules": {
+    "revenue_growth": {
+      "state": "not_triggered",
+      "type": "fundamental"
+    },
+    "dilution_yoy": {
+      "state": "triggered",
+      "type": "fundamental"
+    },
+    "gross_margin": {
+      "state": "not_triggered",
+      "type": "fundamental"
+    },
+    "backlog_yoy": {
+      "state": "not_triggered",
+      "type": "fundamental"
+    },
+    "capex_intensity": {
+      "state": "not_triggered",
+      "type": "fundamental"
+    },
+    "reassess_price_4.43": {
+      "state": "not_triggered",
+      "type": "market"
+    },
+    "reassess_price_11.37": {
+      "state": "not_triggered",
+      "type": "market"
+    },
+    "reassess_price_33.38": {
+      "state": "not_triggered",
+      "type": "market"
+    },
+    "revenue_decline_two_quarters": {
+      "state": "not_triggered",
+      "type": "invalidation"
+    },
+    "dilution_above_5pct": {
+      "state": "triggered",
+      "type": "invalidation"
+    },
+    "gross_margin_below_8q_low": {
+      "state": "not_triggered",
+      "type": "invalidation"
+    },
+    "rpo_decline_yoy": {
+      "state": "not_triggered",
+      "type": "invalidation"
+    }
+  }
+}

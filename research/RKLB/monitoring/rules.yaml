@@ -1,0 +1,32 @@
+ticker: RKLB
+as_of: '2026-10-13'
+draft_auto: true
+monitoring:
+  fundamental:
+    revenue_growth:
+      metric: revenue_growth_yoy_pct
+      warning: <0%
+      basis: 'assumption (auto-draft): revenue decline year over year'
+    dilution_yoy:
+      metric: diluted_shares_yoy_pct
+      warning: '>5%'
+      basis: assumption (auto-draft)
+    gross_margin:
+      metric: gaap_gross_margin_pct
+      warning: <24.7%
+      basis: 'auto-draft: 2 pp below the 8-quarter low'
+    backlog_yoy:
+      metric: rpo_yoy_pct
+      warning: <0%
+      basis: auto-draft
+    capex_intensity:
+      metric: capex_pct_revenue
+      warning: '>29.3%'
+      basis: 'auto-draft: TTM capex intensity + 10 pp'
+  market:
+    reassess_price:
+    - 4.43
+    - 11.37
+    - 33.38
+    basis: valuation-map boundaries of the auto-draft scenario DCF
+    meaning: reassess thesis and valuation; not an entry price, exit price or order

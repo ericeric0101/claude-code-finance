@@ -1,0 +1,99 @@
+{
+  "as_of": null,
+  "history_stats": {
+    "revenue_growth": {
+      "cagr_3y_pct": 1.81,
+      "cagr_5y_pct": 8.68,
+      "latest_fy_growth_pct": 6.43,
+      "latest_8q_yoy_range_pct": [
+        3.95,
+        16.6
+      ],
+      "latest_4q_ttm_growth_pct": 14.24,
+      "median_quarterly_yoy_pct": 8.79,
+      "basis": "annual revenue FY2020..FY2025; quarters Q4 FY2024..Q3 FY2026"
+    },
+    "gross_margin_pct": {
+      "by_year": {
+        "FY2020": 38.23,
+        "FY2021": 41.78,
+        "FY2022": 43.31,
+        "FY2023": 44.13,
+        "FY2024": 46.21,
+        "FY2025": 46.91
+      },
+      "latest_fy_pct": 46.91,
+      "ttm_pct": 48.65,
+      "avg_3y_pct": 45.75,
+      "best_pct": 46.91,
+      "worst_pct": 38.23
+    },
+    "operating_margin_pct": {
+      "by_year": {
+        "FY2020": 24.15,
+        "FY2021": 29.78,
+        "FY2022": 30.29,
+        "FY2023": 29.82,
+        "FY2024": 31.51,
+        "FY2025": 31.97
+      },
+      "latest_fy_pct": 31.97,
+      "ttm_pct": 33.17,
+      "avg_3y_pct": 31.1,
+      "best_pct": 31.97,
+      "worst_pct": 24.15
+    },
+    "fcf_margin_pct": {
+      "by_year": {
+        "FY2020": 26.73,
+        "FY2021": 25.41,
+        "FY2022": 28.26,
+        "FY2023": 25.98,
+        "FY2024": 27.83,
+        "FY2025": 23.73
+      },
+      "latest_fy_pct": 23.73,
+      "ttm_pct": 29.28,
+      "avg_3y_pct": 25.85,
+      "best_pct": 28.26,
+      "worst_pct": 23.73
+    },
+    "sbc_pct_revenue": {
+      "by_year": {
+        "FY2020": 2.49,
+        "FY2021": 2.16,
+        "FY2022": 2.29,
+        "FY2023": 2.83,
+        "FY2024": 2.99,
+        "FY2025": 3.09
+      },
+      "latest_fy_pct": 3.09,
+      "ttm_pct": 2.94,
+      "avg_3y_pct": 2.97,
+      "best_pct": 3.09,
+      "worst_pct": 2.16
+    },
+    "capex_pct_revenue": {
+      "by_year": {
+        "FY2020": 2.66,
+        "FY2021": 3.03,
+        "FY2022": 2.72,
+        "FY2023": 2.86,
+        "FY2024": 2.42,
+        "FY2025": 3.06
+      },
+      "latest_fy_pct": 3.06,
+      "ttm_pct": 2.15,
+      "avg_3y_pct": 2.78,
+      "best_pct": 3.06,
+      "worst_pct": 2.42
+    },
+    "diluted_share_growth": {
+      "cagr_3y_pct": -2.77,
+      "latest_fy_yoy_pct": -2.62,
+      "latest_quarter_yoy_pct": -1.56
+    }
+  },
+  "checks": [],
+  "caveat": "History is evidence, not a ceiling: a forward 5-year assumption can exceed history if new evidence supports it. FCF history may include working-capital timing (e.g. customer prepayments)."
+}

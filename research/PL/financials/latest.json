@@ -2,15 +2,15 @@
   "ticker": "PL",
   "as_of": "2026-10-11",
   "reporting_basis": "consolidated US GAAP",
-  "latest_reported_period": "Q2 FY2027 (ended 2026-07-31; 10-Q filed 2026-09-03)",
+  "latest_reported_period": "Q2 FY2027 (ended 2026-07-31)",
   "authoritative_source": "../filings-data.json",
   "metrics": {
     "revenue_growth_yoy_pct": {
-      "value": 50.5,
-      "period": "H1 FY2027",
+      "value": 58.1392,
+      "period": "Q2 FY2027",
       "unit": "%",
-      "classification": "Fact",
-      "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     },
     "q2_revenue_growth_yoy_pct": {
       "value": 58.1,
@@ -20,12 +20,11 @@
       "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
     },
     "gaap_gross_margin_pct": {
-      "value": 56.6,
+      "value": 56.554,
       "period": "Q2 FY2027",
       "unit": "%",
-      "classification": "Fact",
-      "source": "PL-analysis-2026-10-11.md (SEC 10-Q / earnings 8-K)",
-      "note": "H1 GAAP gross margin 55.2%; prior-year Q2 57.6%."
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     },
     "rpo_change_vs_fy_end_pct": {
       "value": -11.65,
@@ -35,12 +34,11 @@
       "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
     },
     "rpo_yoy_pct": {
-      "value": null,
-      "period": "2026-07-31 vs 2025-07-31",
+      "value": 9.1291,
+      "period": "Q2 FY2027",
       "unit": "%",
-      "classification": "Fact",
-      "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json",
-      "note": "Year-over-year RPO not captured in local data."
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     },
     "rpo_12m_conversion_pct": {
       "value": 46,
@@ -50,11 +48,11 @@
       "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
     },
     "capex_pct_revenue": {
-      "value": 22.4,
-      "period": "H1 FY2027",
-      "unit": "%",
+      "value": 25.8429,
+      "period": "TTM to Q2 FY2027",
+      "unit": "USD millions",
       "classification": "Calculation",
-      "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     },
     "fcf_ex_deferred_revenue": {
       "value": -25.786,
@@ -65,19 +63,18 @@
       "note": "Timing sensitivity, not a GAAP figure or forecast."
     },
     "sbc_pct_revenue": {
-      "value": 15.95,
-      "period": "H1 FY2027",
-      "unit": "%",
+      "value": 16.527,
+      "period": "TTM to Q2 FY2027",
+      "unit": "USD millions",
       "classification": "Calculation",
-      "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     },
     "diluted_shares_yoy_pct": {
-      "value": null,
-      "period": "latest vs prior year",
+      "value": 18.2373,
+      "period": "Q2 FY2027",
       "unit": "%",
-      "classification": "Fact",
-      "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json",
-      "note": "Fully diluted share count history not captured locally."
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     },
     "fy2027_revenue_reported": {
       "value": null,
@@ -107,6 +104,105 @@
       "unit": "shares",
       "classification": "Fact",
       "source": "SEC 10-Q 0001193125-26-382016 filed 2026-09-03 via filings-data.json"
+    },
+    "quarterly_revenue_growth_yoy_pct": {
+      "value": 58.1392,
+      "period": "Q2 FY2027",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "quarterly_gross_margin_pct": {
+      "value": 56.554,
+      "period": "Q2 FY2027",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "operating_margin_pct": {
+      "value": -11.6405,
+      "period": "Q2 FY2027",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fcf_ttm": {
+      "value": 19.872,
+      "period": "TTM to Q2 FY2027",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "revenue_ttm": {
+      "value": 378.278,
+      "period": "TTM to Q2 FY2027",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "rpo": {
+      "value": 753.1,
+      "period": "Q2 FY2027",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "cash_and_investments": {
+      "value": 865.418,
+      "period": "Q2 FY2027",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "debt": {
+      "value": 448.255,
+      "period": "Q2 FY2027",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2021_revenue_reported": {
+      "value": 113.168,
+      "period": "FY2021",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2022_revenue_reported": {
+      "value": 131.209,
+      "period": "FY2022",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2023_revenue_reported": {
+      "value": 191.256,
+      "period": "FY2023",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2024_revenue_reported": {
+      "value": 220.696,
+      "period": "FY2024",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2025_revenue_reported": {
+      "value": 244.352,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2026_revenue_reported": {
+      "value": 307.727,
+      "period": "FY2026",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
     }
-  }
+  },
+  "history_refreshed_from": "financials/history.json"
 }

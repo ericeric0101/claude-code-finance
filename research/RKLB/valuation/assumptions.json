@@ -1,0 +1,39 @@
+{
+  "ticker": "RKLB",
+  "as_of": "2026-10-13",
+  "classification": "Assumption (auto-draft from reported history; analyst review required)",
+  "scenario_assumptions": {
+    "bear": {
+      "revenue_cagr_5y": 0.2,
+      "fcf_margin_y5": 0.06
+    },
+    "base": {
+      "revenue_cagr_5y": 0.4,
+      "fcf_margin_y5": 0.1
+    },
+    "bull": {
+      "revenue_cagr_5y": 0.56,
+      "fcf_margin_y5": 0.15
+    }
+  },
+  "model_parameters": {
+    "bear": {
+      "revenue_cagr_5y": 0.2,
+      "fcf_margin_y5": 0.06,
+      "terminal_ev_fcf": 18,
+      "discount_rate": 0.12
+    },
+    "base": {
+      "revenue_cagr_5y": 0.4,
+      "fcf_margin_y5": 0.1,
+      "terminal_ev_fcf": 22,
+      "discount_rate": 0.105
+    },
+    "bull": {
+      "revenue_cagr_5y": 0.56,
+      "fcf_margin_y5": 0.15,
+      "terminal_ev_fcf": 28,
+      "discount_rate": 0.095
+    }
+  }
+}

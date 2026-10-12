@@ -1,0 +1,148 @@
+{
+  "ticker": "RKLB",
+  "as_of": null,
+  "metrics": {
+    "revenue_growth_yoy_pct": {
+      "value": 61.9856,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "quarterly_revenue_growth_yoy_pct": {
+      "value": 61.9856,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "gaap_gross_margin_pct": {
+      "value": 36.1334,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "quarterly_gross_margin_pct": {
+      "value": 36.1334,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "operating_margin_pct": {
+      "value": -24.5717,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "rpo_yoy_pct": {
+      "value": 136.6813,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "diluted_shares_yoy_pct": {
+      "value": 22.2477,
+      "period": "Q2 FY2026",
+      "unit": "%",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "capex_pct_revenue": {
+      "value": 19.3303,
+      "period": "TTM to Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "sbc_pct_revenue": {
+      "value": 10.6103,
+      "period": "TTM to Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fcf_ttm": {
+      "value": -371.139,
+      "period": "TTM to Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "revenue_ttm": {
+      "value": 769.146,
+      "period": "TTM to Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Calculation",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "rpo": {
+      "value": 2355.949,
+      "period": "Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "cash_and_investments": {
+      "value": 2302.185,
+      "period": "Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "debt": {
+      "value": 13.129,
+      "period": "Q2 FY2026",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2020_revenue_reported": {
+      "value": 35.16,
+      "period": "FY2020",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2021_revenue_reported": {
+      "value": 62.237,
+      "period": "FY2021",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2022_revenue_reported": {
+      "value": 210.996,
+      "period": "FY2022",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2023_revenue_reported": {
+      "value": 244.592,
+      "period": "FY2023",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2024_revenue_reported": {
+      "value": 436.214,
+      "period": "FY2024",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    },
+    "fy2025_revenue_reported": {
+      "value": 601.799,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "classification": "Fact",
+      "source": "financials/history.json (SEC companyfacts; build_fundamental_history.py)"
+    }
+  },
+  "latest_reported_period": "Q2 FY2026 (ended 2026-06-30)",
+  "history_refreshed_from": "financials/history.json"
+}

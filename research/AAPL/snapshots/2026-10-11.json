@@ -1,0 +1,213 @@
+{
+  "ticker": "AAPL",
+  "as_of": "2026-10-11",
+  "retrospective": false,
+  "generated_at": "2026-10-12T18:16:33+00:00",
+  "note": "reconstructed from git 99870a4 (state recorded 2026-10-11); SEC history and management data filtered to <= 2026-10-11",
+  "financials": {
+    "latest_quarter": "Q3 FY2026",
+    "quarter": {
+      "revenue": 109417.0,
+      "revenue_yoy_pct": 16.356502,
+      "gross_margin_pct": 50.056207,
+      "operating_margin_pct": 32.622901,
+      "fcf": 31914.0,
+      "sbc": 3401.0,
+      "diluted_shares": 14714.676,
+      "debt": 82300.0,
+      "cash_and_investments": 62399.0,
+      "rpo": null,
+      "rpo_yoy_pct": null,
+      "backlog": null
+    },
+    "ttm": {
+      "revenue_ttm": 466823.0,
+      "fcf_ttm": 136683.0,
+      "sbc_ttm": 13706.0,
+      "operating_income_ttm": 154859.0
+    },
+    "other": {},
+    "latest_quarter_end": "2026-06-27",
+    "latest_filed": "2026-07-31"
+  },
+  "management": {
+    "statement_count": 3,
+    "periods": [
+      "Q3 FY2026"
+    ],
+    "latest_period": "Q3 FY2026",
+    "latest_tone_by_topic": {},
+    "guidance": {},
+    "promises": {
+      "AAPL-2026-04-20-ceo-transition": {
+        "status": "delivered",
+        "claim": "John Ternus to become CEO effective 2026-09-01",
+        "actual": null
+      },
+      "AAPL-2026-09-09-iphone-duo": {
+        "status": "pending",
+        "claim": "iPhone Duo preorders 2026-10-16, availability 2026-10-23",
+        "actual": null
+      }
+    }
+  },
+  "action": "WATCH",
+  "valuation_confidence": "low",
+  "thesis": {
+    "ecosystem_cash_generation": {
+      "status": "supported",
+      "importance": "high",
+      "evidence_count": 2,
+      "evidence_fp": "6331e4f564"
+    },
+    "services_monetization": {
+      "status": "uncertain",
+      "importance": "high",
+      "evidence_count": 2,
+      "evidence_fp": "bba8e5d31f"
+    },
+    "earnings_quality_working_capital": {
+      "status": "weakening",
+      "importance": "high",
+      "evidence_count": 2,
+      "evidence_fp": "f320fb0300"
+    },
+    "normalized_margin_ex_one_offs": {
+      "status": "uncertain",
+      "importance": "medium",
+      "evidence_count": 2,
+      "evidence_fp": "1452321a8b"
+    },
+    "management_transition": {
+      "status": "uncertain",
+      "importance": "medium",
+      "evidence_count": 1,
+      "evidence_fp": "528f49a32b"
+    },
+    "product_cycle_iphone_duo": {
+      "status": "uncertain",
+      "importance": "low",
+      "evidence_count": 2,
+      "evidence_fp": "9c6dbae5b7"
+    },
+    "balance_sheet_and_controls": {
+      "status": "supported",
+      "importance": "medium",
+      "evidence_count": 2,
+      "evidence_fp": "81c0567163"
+    }
+  },
+  "next_catalysts": [
+    "Q4 FY2026 results and FY2026 10-K (not yet filed as of 2026-10-11).",
+    "iPhone Duo preorders 2026-10-16 and availability 2026-10-23 (Apple announcement).",
+    "Disclosures on the EU Core Technology Commission effect on Services.",
+    "Receivables and inventory in the FY2026 10-K."
+  ],
+  "valuation": {
+    "price": 336.64,
+    "price_date": "2026-10-09 close",
+    "latest_close": 336.64,
+    "latest_close_date": "2026-10-09",
+    "methods": {
+      "reinvestment-aware DCF": {
+        "bear": 117,
+        "base": 194,
+        "bull": 295
+      },
+      "earnings-method PV": {
+        "bear": 174,
+        "base": 242,
+        "bull": 318
+      }
+    },
+    "map_position": "above all modeled bull values",
+    "reverse_dcf_implied_growth": 0.1480518006,
+    "percentiles": {}
+  },
+  "expectation_gap": {
+    "nopat_growth_10y": {
+      "market_implied": 0.1480518006,
+      "internal_base": 0.08,
+      "bull": 0.12,
+      "gap_vs_base": 0.0681,
+      "position": "above modeled bull growth"
+    }
+  },
+  "rules": {
+    "revenue_growth": {
+      "state": "not_triggered",
+      "type": "fundamental",
+      "value": 16.36
+    },
+    "gross_margin": {
+      "state": "not_triggered",
+      "type": "fundamental",
+      "value": 50.06
+    },
+    "receivables_gap": {
+      "state": "triggered",
+      "type": "fundamental",
+      "value": 12.7
+    },
+    "share_count": {
+      "state": "not_triggered",
+      "type": "fundamental",
+      "value": -1.56
+    },
+    "reassess_price_117": {
+      "state": "not_triggered",
+      "type": "market",
+      "value": 336.64
+    },
+    "reassess_price_174": {
+      "state": "not_triggered",
+      "type": "market",
+      "value": 336.64
+    },
+    "reassess_price_194": {
+      "state": "not_triggered",
+      "type": "market",
+      "value": 336.64
+    },
+    "reassess_price_242": {
+      "state": "not_triggered",
+      "type": "market",
+      "value": 336.64
+    },
+    "reassess_price_295": {
+      "state": "not_triggered",
+      "type": "market",
+      "value": 336.64
+    },
+    "reassess_price_318": {
+      "state": "not_triggered",
+      "type": "market",
+      "value": 336.64
+    },
+    "services_stall": {
+      "state": "missing_data",
+      "type": "invalidation",
+      "value": null
+    },
+    "margin_and_cash_conversion": {
+      "state": "not_triggered",
+      "type": "invalidation",
+      "value": null
+    },
+    "receivables_inventory_build": {
+      "state": "triggered",
+      "type": "invalidation",
+      "value": null
+    },
+    "eu_or_google_structural": {
+      "state": "watch",
+      "type": "invalidation",
+      "value": null
+    },
+    "controls_or_audit": {
+      "state": "not_triggered",
+      "type": "invalidation",
+      "value": null
+    }
+  }
+}

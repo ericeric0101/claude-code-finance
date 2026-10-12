@@ -1,0 +1,2 @@
+date,metric,market_implied,base,bull,gap_vs_base,gap_vs_bull,direction,confidence,price,source
+2026-10-13,revenue_cagr_5y,1.0891,0.4,0.56,0.6891,0.5291,no prior state,low,68.21,valuation/latest.json expectations

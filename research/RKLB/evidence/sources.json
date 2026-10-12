@@ -1,0 +1,362 @@
+[
+  {
+    "id": "sec-0000950170-24-125529",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2024-09-30",
+    "filed": "2024-11-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000095017024125529/rklb-20240930.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0000950170-24-131909",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2024-11-22",
+    "filed": "2024-11-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000095017024131909/rklb-20241122.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0000950170-24-133686",
+    "tier": 1,
+    "type": "8-K (items 1.01,3.02,5.02,9.01)",
+    "period_end": "2024-12-03",
+    "filed": "2024-12-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000095017024133686/rklb-20241203.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-001137",
+    "tier": 1,
+    "type": "8-K (items 3.03,5.03,9.01)",
+    "period_end": "2025-01-07",
+    "filed": "2025-01-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025001137/rklb-20250107.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-008724",
+    "tier": 1,
+    "type": "10-K",
+    "period_end": "2024-12-31",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025008724/rklb-20241231.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-008658",
+    "tier": 1,
+    "type": "8-K (items 2.02,9.01)",
+    "period_end": "2025-02-27",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025008658/rklb-20250227.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001193125-25-052062",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2025-03-11",
+    "filed": "2025-03-11",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000119312525052062/d897799d8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-021054",
+    "tier": 1,
+    "type": "10-K/A",
+    "period_end": "2024-12-31",
+    "filed": "2025-04-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025021054/rklb-20241231.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-023857",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2025-03-31",
+    "filed": "2025-05-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025023857/rklb-20250331.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-023816",
+    "tier": 1,
+    "type": "8-K (items 2.02,8.01,9.01)",
+    "period_end": "2025-05-08",
+    "filed": "2025-05-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025023816/rklb-20250508.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-027920",
+    "tier": 1,
+    "type": "8-K (items 1.01,3.02,7.01,9.01)",
+    "period_end": "2025-05-22",
+    "filed": "2025-05-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025027920/rklb-20250522.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-030197",
+    "tier": 1,
+    "type": "8-K (items 5.08,8.01)",
+    "period_end": "2025-06-09",
+    "filed": "2025-06-09",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025030197/rklb-20250609.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-038936",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2025-06-30",
+    "filed": "2025-08-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025038936/rklb-20250630.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-038900",
+    "tier": 1,
+    "type": "8-K (items 2.02,9.01)",
+    "period_end": "2025-08-07",
+    "filed": "2025-08-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025038900/rklb-20250807.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-25-001284",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2025-08-12",
+    "filed": "2025-08-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392625001284/g084916_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-25-041402",
+    "tier": 1,
+    "type": "8-K (items 5.02,5.07,9.01)",
+    "period_end": "2025-08-25",
+    "filed": "2025-08-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025041402/rklb-20250825.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-25-001488",
+    "tier": 1,
+    "type": "8-K (items 8.01,9.01)",
+    "period_end": "2025-09-15",
+    "filed": "2025-09-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392625001488/g084950_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-25-000010",
+    "tier": 1,
+    "type": "8-K (items 3.02,8.01)",
+    "period_end": "2025-09-25",
+    "filed": "2025-09-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999425000010/rklb-20250925.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-25-000021",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2025-09-30",
+    "filed": "2025-11-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999425000021/rklb-20250930.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-25-000020",
+    "tier": 1,
+    "type": "8-K (items 2.02,5.02,9.01)",
+    "period_end": "2025-11-07",
+    "filed": "2025-11-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999425000020/rklb-20251107.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-25-000024",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2025-12-17",
+    "filed": "2025-12-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999425000024/rklb-20251217.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000004",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2026-01-21",
+    "filed": "2026-01-22",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000004/rklb-20260121.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000013",
+    "tier": 1,
+    "type": "10-K",
+    "period_end": "2025-12-31",
+    "filed": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000012",
+    "tier": 1,
+    "type": "8-K (items 2.02,9.01)",
+    "period_end": "2026-02-26",
+    "filed": "2026-02-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000012/rklb-20260226.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000016",
+    "tier": 1,
+    "type": "8-K (items 5.08,8.01)",
+    "period_end": "2026-03-12",
+    "filed": "2026-03-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000016/rklb-20260312.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001628280-26-018789",
+    "tier": 1,
+    "type": "8-K (items 8.01,9.01)",
+    "period_end": "2026-03-17",
+    "filed": "2026-03-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828026018789/rklb-20260317.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-000568",
+    "tier": 1,
+    "type": "8-K (items 5.02,9.01)",
+    "period_end": "2026-03-30",
+    "filed": "2026-03-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626000568/g085462_8k-rocket.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-000654",
+    "tier": 1,
+    "type": "8-K (items 3.02,7.01,8.01,9.01)",
+    "period_end": "2026-04-14",
+    "filed": "2026-04-14",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626000654/g085683_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000028",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2026-03-31",
+    "filed": "2026-05-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000028/rklb-20260331.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000027",
+    "tier": 1,
+    "type": "8-K (items 2.02,9.01)",
+    "period_end": "2026-05-07",
+    "filed": "2026-05-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-20260507.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-000799",
+    "tier": 1,
+    "type": "8-K (items 8.01,9.01)",
+    "period_end": "2026-05-08",
+    "filed": "2026-05-08",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626000799/g085715_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000045",
+    "tier": 1,
+    "type": "8-K (items 8.01,9.01)",
+    "period_end": "2026-05-20",
+    "filed": "2026-05-20",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000045/rklb-20260520.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000048",
+    "tier": 1,
+    "type": "8-K (items 5.07)",
+    "period_end": "2026-05-20",
+    "filed": "2026-05-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000048/rklb-20260520.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000056",
+    "tier": 1,
+    "type": "8-K (items 5.02)",
+    "period_end": "2026-06-03",
+    "filed": "2026-06-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000056/rklb-20260603.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-001085",
+    "tier": 1,
+    "type": "8-K (items 1.01,7.01,9.01)",
+    "period_end": "2026-06-28",
+    "filed": "2026-06-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001085/g085783_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000062",
+    "tier": 1,
+    "type": "10-Q",
+    "period_end": "2026-06-30",
+    "filed": "2026-08-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001819994-26-000061",
+    "tier": 1,
+    "type": "8-K (items 2.02,9.01)",
+    "period_end": "2026-08-10",
+    "filed": "2026-08-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-20260810.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-001463",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2026-08-13",
+    "filed": "2026-08-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001463/g085846_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-001454",
+    "tier": 1,
+    "type": "8-K (items 8.01,9.01)",
+    "period_end": "2026-08-13",
+    "filed": "2026-08-13",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001454/g085841_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  },
+  {
+    "id": "sec-0001753926-26-001769",
+    "tier": 1,
+    "type": "8-K (items 7.01,8.01,9.01)",
+    "period_end": "2026-09-15",
+    "filed": "2026-09-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm",
+    "retrieved_by": "research_pipeline.py"
+  }
+]

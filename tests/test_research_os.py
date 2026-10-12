@@ -138,6 +138,10 @@ class StateSafetyTests(unittest.TestCase):
         cpath = base / "valuation/history.csv"
         lines = cpath.read_text().splitlines(keepends=True)
         cpath.write_text("".join(lines[:1] + [l for l in lines[1:] if l.split(",", 1)[0] <= as_of]))
+        # These tests cover the thesis / valuation-history fallback of change_report,
+        # which applies when fewer than two full-state snapshots exist.
+        for snap in (base / "snapshots").glob("*.json"):
+            snap.unlink()
 
     def tearDown(self):
         self.tmp.cleanup()

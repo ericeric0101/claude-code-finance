@@ -1,6 +1,6 @@
 {
   "ticker": "AAPL",
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-13",
   "source_report": "../AAPL-analysis-2026-10-11.md",
   "authoritative_inputs": [
     "../recommendation-input.json",

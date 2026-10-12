@@ -49,8 +49,40 @@ def _pct(a: float, b: float) -> float:
     return round((b / a - 1) * 100, 2)
 
 
+def _close_on_or_before(series: List[Dict[str, Any]], d: str) -> Optional[float]:
+    lo, hi = 0, len(series)
+    while lo < hi:
+        mid = (lo + hi) // 2
+        if series[mid]["date"] <= d:
+            lo = mid + 1
+        else:
+            hi = mid
+    return series[lo - 1]["close"] if lo else None
+
+
+def abnormal_returns(prices: List[Dict[str, Any]], idx: int, benchmark: List[Dict[str, Any]],
+                     prefix: str = "abnormal") -> Dict[str, Any]:
+    """Stock minus benchmark return from the t-1 close to t0 (1D), t+4 (5D) and t+19 (20D)."""
+    prev = prices[idx - 1]
+    b0 = _close_on_or_before(benchmark, prev["date"])
+    out: Dict[str, Any] = {}
+    for label, k in (("1d", 0), ("5d", 4), ("20d", 19)):
+        j = idx + k
+        if j >= len(prices) or b0 is None:
+            out[f"{prefix}_{label}_pct"] = None
+            continue
+        b1 = _close_on_or_before(benchmark, prices[j]["date"])
+        stock = _pct(prev["close"], prices[j]["close"])
+        out[f"{prefix}_{label}_pct"] = None if b1 is None else round(stock - _pct(b0, b1), 2)
+        if prefix == "abnormal":
+            out[f"return_{label}_pct"] = stock
+    return out
+
+
 def event_reaction(prices: List[Dict[str, Any]], event_date: str,
-                   drift_days: int = 20, after_close: bool = False) -> Optional[Dict[str, Any]]:
+                   drift_days: int = 20, after_close: bool = False,
+                   benchmark: Optional[List[Dict[str, Any]]] = None,
+                   sector: Optional[List[Dict[str, Any]]] = None) -> Optional[Dict[str, Any]]:
     """Reaction on t0 = first session on/after event_date, or the next session when
     the event was released after the close. Returns None if no data."""
     idx = next((i for i, r in enumerate(prices)
@@ -73,6 +105,10 @@ def event_reaction(prices: List[Dict[str, Any]], event_date: str,
             peak = max(peak, r["close"])
             mdd = min(mdd, r["close"] / peak - 1)
         out["max_drawdown_20d_pct"] = round(mdd * 100, 2)
+    if benchmark:
+        out.update(abnormal_returns(prices, idx, benchmark))
+    if sector:
+        out.update(abnormal_returns(prices, idx, sector, "abnormal_sector"))
     flags = []
     if out["gap_pct"] is not None and abs(out["gap_pct"]) >= GAP_FLAG_PCT:
         flags.append(f"gap {out['gap_pct']:+.1f}%")
@@ -82,20 +118,42 @@ def event_reaction(prices: List[Dict[str, Any]], event_date: str,
     return out
 
 
+def benchmark_path(symbol: str, root: Path = ROOT) -> Path:
+    return root / "research" / "benchmarks" / symbol.upper() / "prices.csv"
+
+
+def benchmarks_for(ticker: str, root: Path = ROOT) -> Dict[str, Any]:
+    """SPY by default; a sector ETF only when market/benchmark.json names one explicitly."""
+    cfg_path = company_dir(ticker, root) / "market/benchmark.json"
+    cfg = json.loads(cfg_path.read_text()) if cfg_path.exists() else {}
+    out: Dict[str, Any] = {"benchmark": cfg.get("benchmark", "SPY"), "sector_etf": cfg.get("sector_etf")}
+    bp = benchmark_path(out["benchmark"], root)
+    out["benchmark_prices"] = load_prices(bp) if bp.exists() else None
+    if out["sector_etf"]:
+        sp = benchmark_path(out["sector_etf"], root)
+        out["sector_prices"] = load_prices(sp) if sp.exists() else None
+    return out
+
+
 def analyze(ticker: str, events_path: Path, root: Path = ROOT) -> List[Dict[str, Any]]:
     base = company_dir(ticker, root)
     prices = load_prices(base / "market/prices.csv")
+    bm = benchmarks_for(ticker, root)
     rows = []
     with events_path.open(newline="", encoding="utf-8") as fh:
         for ev in csv.DictReader(fh):
             r = event_reaction(prices, ev["event_date"],
-                               after_close=ev.get("timing", "").lower().startswith("amc"))
+                               after_close=ev.get("timing", "").lower().startswith("amc"),
+                               benchmark=bm["benchmark_prices"], sector=bm.get("sector_prices"))
             row = {k: "" for k in EVENT_REACTION_HEADER}
             row.update({k: ev.get(k, "") for k in ("event_date", "event_type", "description", "source")})
             if r is None:
                 row["observation"] = "insufficient local price data"
             else:
                 row.update({k: ("" if r.get(k) is None else r[k]) for k in EVENT_REACTION_HEADER if k in r})
+            row["benchmark"] = bm["benchmark"] if bm["benchmark_prices"] else "unavailable (run fetch-benchmark)"
+            if bm.get("sector_etf"):
+                row["benchmark"] += f"; sector {bm['sector_etf']}"
             row["interpretation"] = ""  # analyst-owned; never auto-filled
             rows.append(row)
     return rows
@@ -119,7 +177,7 @@ def _yfinance_rows(ticker: str, retrieved: str, period: str) -> List[List[Any]]:
             for idx, v in hist.iterrows()]
 
 
-def fetch(ticker: str, source: str, root: Path = ROOT, period: str = "2y") -> int:
+def fetch(ticker: str, source: str, root: Path = ROOT, period: str = "2y", dest: Optional[Path] = None) -> int:
     """Refresh prices.csv (network). auto = Alpha Vantage for recent sessions,
     yfinance only to backfill older dates; higher-tier rows win on overlap and
     previously stored rows for other dates are kept."""
@@ -138,7 +196,8 @@ def fetch(ticker: str, source: str, root: Path = ROOT, period: str = "2y") -> in
         print("ERROR: no price rows returned; prices.csv left unchanged", file=sys.stderr)
         return 2
     header = ["date", "open", "high", "low", "close", "volume", "source", "retrieved_at"]
-    path = company_dir(ticker, root) / "market/prices.csv"
+    path = dest or company_dir(ticker, root) / "market/prices.csv"
+    path.parent.mkdir(parents=True, exist_ok=True)
     # A row for today's US session before the close is an intraday snapshot, not a
     # completed daily bar: keep it out of prices.csv and store it as latest-quote.json.
     now_et = datetime.now(ZoneInfo("America/New_York"))
@@ -174,7 +233,7 @@ def fetch(ticker: str, source: str, root: Path = ROOT, period: str = "2y") -> in
         w.writerows(merged[d] for d in sorted(merged))
     last = merged[max(merged)]
     print(f"{ticker}: {len(merged)} rows ({len(primary)} Alpha Vantage, {len(backfill)} yfinance) -> "
-          f"{path.relative_to(root)}; latest {last[0]} close {float(last[4]):.2f} [{last[6]}]")
+          f"{path}; latest {last[0]} close {float(last[4]):.2f} [{last[6]}]")
     if diffs:
         print(f"WARNING: {len(diffs)} overlapping closes differ >0.5% between sources (Alpha Vantage kept)")
     return 0
@@ -187,10 +246,14 @@ def main() -> int:
     a.add_argument("--write", action="store_true", help="write market/event-reactions.csv")
     f = sub.add_parser("fetch"); f.add_argument("ticker")
     f.add_argument("--source", choices=("auto", "alphavantage", "yfinance"), default="auto")
-    f.add_argument("--period", default="2y", help="yfinance backfill period")
+    f.add_argument("--period", default="2y", help="yfinance backfill period (e.g. max = since listing)")
+    b = sub.add_parser("fetch-benchmark"); b.add_argument("symbol", nargs="?", default="SPY")
+    b.add_argument("--period", default="10y")
     args = parser.parse_args()
     if args.cmd == "fetch":
         return fetch(args.ticker.upper(), args.source, period=args.period)
+    if args.cmd == "fetch-benchmark":
+        return fetch(args.symbol.upper(), "yfinance", period=args.period, dest=benchmark_path(args.symbol))
     rows = analyze(args.ticker, args.events)
     out = sys.stdout
     if args.write:

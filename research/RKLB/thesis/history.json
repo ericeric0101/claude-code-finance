@@ -1,0 +1,35 @@
+[
+  {
+    "as_of": "2026-10-13",
+    "action": "WATCH",
+    "valuation_confidence": "low",
+    "components": {
+      "revenue_growth_durability": {
+        "status": "improving",
+        "importance": "high"
+      },
+      "margin_trajectory": {
+        "status": "improving",
+        "importance": "high"
+      },
+      "cash_conversion": {
+        "status": "weakening",
+        "importance": "high"
+      },
+      "per_share_dilution": {
+        "status": "weakening",
+        "importance": "medium"
+      },
+      "balance_sheet_liquidity": {
+        "status": "supported",
+        "importance": "medium"
+      },
+      "backlog_visibility": {
+        "status": "improving",
+        "importance": "high"
+      }
+    },
+    "source_report": null,
+    "note": "INIT baseline (auto-draft where noted)"
+  }
+]

@@ -1,9 +1,9 @@
 {
   "ticker": "PL",
   "session_date": "2026-10-12",
-  "price": 16.45,
+  "price": 16.135,
   "status": "intraday, session not closed",
-  "as_of_et": "2026-10-12T11:53-04:00",
+  "as_of_et": "2026-10-12T14:15-04:00",
   "source": "yfinance history auto_adjust=False (tier 4, backfill / cross-check)",
   "classification": "Fact (dated market source, intraday)"
 }

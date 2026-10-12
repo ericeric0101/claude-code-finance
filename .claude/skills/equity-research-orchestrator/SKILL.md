@@ -25,8 +25,16 @@ Do not duplicate other skills. Delegate:
 | Cross-company monthly review | `research-review` |
 
 State tool (local only, no network): `python3 scripts/research_state.py <cmd> TICKER`
-with `init`, `status`, `list`, `snapshot`, `record-valuation`, `change-report`,
-`check-rules`, `catch-up`, `expectation-gap`.
+with `init`, `status`, `list`, `snapshot`, `snapshot-state`, `record-valuation`,
+`record-gap`, `refresh-financials`, `change-report`, `check-rules`, `catch-up`,
+`expectation-gap`.
+
+Level 3 engine (see `docs/us-equity-research-os.md` §15):
+`scripts/research_pipeline.py init|update TICKER --cik CIK` runs the whole INIT /
+UPDATE sequence; `monthly_research_review.py` runs MONTHLY. Building blocks:
+`build_fundamental_history.py`, `assumption_history_check.py`,
+`build_management_history.py`, `build_valuation_history.py`, `state_diff.py`,
+`backfill_state_snapshots.py`.
 
 ## Always refresh prices first
 
@@ -41,17 +49,24 @@ local-first: only fetch what is newer than the stored state.
 
 ## Intents
 
-**INIT `<TICKER>`** — baseline state.
+**INIT `<TICKER>`** — baseline state (never an empty shell).
 1. Verify a numeric CIK (`finance-skill`; unknown tickers need a verified CIK).
-2. `research_state.py init TICKER --company ... --cik ...` (never overwrites).
-3. Run a Standard analysis via `my-equity-research` / `stock-analysis`; save the
+2. `research_pipeline.py init TICKER --cik CIK`: state, SEC data, 5Y + 8Q history,
+   prices since listing, earnings events, management history and promises,
+   stock-analysis ratios / verify_data, auto-draft thesis / valuation / rules,
+   assumption-vs-history check, historical valuation, snapshot, baseline report.
+   Drafts are labelled `draft_auto`; existing analyst files are kept.
+3. Review the drafts. For a full report, run a Standard analysis via `my-equity-research` / `stock-analysis`; save the
    dated report at `research/<TICKER>/<TICKER>-analysis-<date>.md` with its inputs.
 4. Fill `thesis/current.yaml`, `thesis/invalidation-rules.yaml`,
    `valuation/latest.json` + `assumptions.json`, `financials/latest.json`,
    `management/*.json`, `monitoring/rules.yaml`, `evidence/sources.json`.
 5. `snapshot`, `record-valuation`, then `change-report` (baseline).
 
-**UPDATE `<TICKER>`** — incremental.
+**UPDATE `<TICKER>`** — incremental. `research_pipeline.py update TICKER --cik CIK`
+performs steps 1-13 (previous snapshot → new SEC filings only → history merge →
+management / promises → rules → re-price only changed inputs → valuation history →
+snapshot → multi-domain change report). Then apply analyst judgment:
 1. `status TICKER`; note `as_of`, latest reported period and `evidence/sources.json`.
 2. Retrieve only filings / releases dated after the stored state (SEC
    submissions list first). If no new filings, still refresh prices and
@@ -73,7 +88,8 @@ next catalysts, reassessment triggers and open promises against the latest price
 
 **WHAT CHANGED** — `change-report TICKER`; add context from `management/changes.md`.
 
-**MONTHLY** — `research-review` across `research_state.py list`.
+**MONTHLY** — `monthly_research_review.py` across `research_state.py list`, then
+`research-review` for commentary.
 
 ## Rules
 

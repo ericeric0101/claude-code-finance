@@ -11,7 +11,9 @@
     "evidence": [
       "2026-09-09 iPhone Duo announcement names Ternus as CEO (https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/)"
     ],
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-11",
+    "actual_result": null,
+    "resolved_date": null
   },
   {
     "promise_id": "AAPL-2026-09-09-iphone-duo",
@@ -23,6 +25,8 @@
     "status": "pending",
     "source": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
     "evidence": [],
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-11",
+    "actual_result": null,
+    "resolved_date": null
   }
 ]

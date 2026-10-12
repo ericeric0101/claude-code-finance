@@ -1,0 +1,4457 @@
+{
+ "as_of": null,
+ "entity": "Planet Labs PBC",
+ "cik": 1836833,
+ "fiscal_year_ends": [
+  "2021-01-31",
+  "2022-01-31",
+  "2023-01-31",
+  "2024-01-31",
+  "2025-01-31",
+  "2026-01-31"
+ ],
+ "units": "USD millions; shares in millions; EPS in USD",
+ "annual": [
+  {
+   "period": "FY2021",
+   "period_end": "2021-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 113.168,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "cost_of_revenue": {
+     "value": 87.383,
+     "tag": "CostOfRevenue",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "gross_profit": {
+     "value": 25.785,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "operating_income": {
+     "value": -87.442,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "net_income": {
+     "value": -127.103,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "cfo": {
+     "value": -4.027,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "capex_ppe": {
+     "value": 26.096,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "capitalized_software": {
+     "value": 4.03,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "sbc": {
+     "value": 14.012,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "depreciation_amortization": {
+     "value": 62.212,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "diluted_shares": {
+     "value": 44.214426,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "basic_shares": {
+     "value": 44.214426,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "eps_diluted": {
+     "value": -2.87,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": "2020-02-01",
+     "end": "2021-01-31"
+    },
+    "cash": {
+     "value": 71.183,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2022-04-14",
+     "accn": "0001836833-22-000018",
+     "start": null,
+     "end": "2021-01-31"
+    },
+    "debt_current": {
+     "value": 8.244,
+     "tag": "ConvertibleNotesPayableCurrent",
+     "form": "10-K",
+     "filed": "2022-04-14",
+     "accn": "0001836833-22-000018",
+     "start": null,
+     "end": "2021-01-31",
+     "tag_fallback": true
+    },
+    "equity": {
+     "value": 107.511,
+     "tag": "StockholdersEquity",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2021-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 22.784709,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -77.267425,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -112.313552,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 30.126,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -34.153,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -30.179026,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 12.381592,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 26.620599,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 8.244,
+     "calculation": "debt_current"
+    },
+    "cash_and_investments": {
+     "value": 71.183,
+     "calculation": "cash"
+    },
+    "revenue_yoy_pct": {
+     "value": 18.208406,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 3.151351,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": null,
+    "gross_profit_yoy_pct": {
+     "value": -487.336638,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   }
+  },
+  {
+   "period": "FY2022",
+   "period_end": "2022-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 131.209,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "cost_of_revenue": {
+     "value": 82.987,
+     "tag": "CostOfRevenue",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "gross_profit": {
+     "value": 48.222,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "operating_income": {
+     "value": -128.051,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "net_income": {
+     "value": -137.124,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "cfo": {
+     "value": -42.211,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "capex_ppe": {
+     "value": 10.313,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "capitalized_software": {
+     "value": 4.618,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "sbc": {
+     "value": 41.956,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "depreciation_amortization": {
+     "value": 45.043,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "diluted_shares": {
+     "value": 79.61097,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "basic_shares": {
+     "value": 79.61097,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "eps_diluted": {
+     "value": -1.72,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2021-02-01",
+     "end": "2022-01-31"
+    },
+    "cash": {
+     "value": 490.762,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": null,
+     "end": "2022-01-31"
+    },
+    "short_term_investments": {
+     "value": 0.0,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": null,
+     "end": "2022-01-31",
+     "tag_fallback": true
+    },
+    "debt_current": {
+     "value": 0.0,
+     "tag": "ConvertibleNotesPayableCurrent",
+     "form": "10-K",
+     "filed": "2022-04-14",
+     "accn": "0001836833-22-000018",
+     "start": null,
+     "end": "2022-01-31",
+     "tag_fallback": true
+    },
+    "equity": {
+     "value": 648.245,
+     "tag": "StockholdersEquity",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2022-01-31"
+    },
+    "rpo": {
+     "value": 153.4,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2022-04-14",
+     "accn": "0001836833-22-000018",
+     "start": null,
+     "end": "2022-01-31"
+    },
+    "deferred_revenue": {
+     "value": 67.8,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-K",
+     "filed": "2022-04-14",
+     "accn": "0001836833-22-000018",
+     "start": null,
+     "end": "2022-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 36.752052,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -97.593153,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -104.508075,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 14.931,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -57.142,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -43.550366,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 31.976465,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 11.379555,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 0.0,
+     "calculation": "debt_current"
+    },
+    "cash_and_investments": {
+     "value": 490.762,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 15.941786,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 80.05655,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": null,
+    "gross_profit_yoy_pct": {
+     "value": 87.015707,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   }
+  },
+  {
+   "period": "FY2023",
+   "period_end": "2023-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 191.256,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "cost_of_revenue": {
+     "value": 97.248,
+     "tag": "CostOfRevenue",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "gross_profit": {
+     "value": 94.008,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "operating_income": {
+     "value": -175.675,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "net_income": {
+     "value": -161.966,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "cfo": {
+     "value": -73.933,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "capex_ppe": {
+     "value": 10.44,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "capitalized_software": {
+     "value": 2.32,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "sbc": {
+     "value": 75.544,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "depreciation_amortization": {
+     "value": 43.33,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "diluted_shares": {
+     "value": 267.126918,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "basic_shares": {
+     "value": 267.126918,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "eps_diluted": {
+     "value": -0.61,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": "2022-02-01",
+     "end": "2023-01-31"
+    },
+    "cash": {
+     "value": 181.892,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2023-01-31"
+    },
+    "short_term_investments": {
+     "value": 226.868,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2023-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 22.03,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": null,
+     "end": "2023-01-31"
+    },
+    "equity": {
+     "value": 576.104,
+     "tag": "StockholdersEquity",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2023-01-31"
+    },
+    "rpo": {
+     "value": 152.0,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": null,
+     "end": "2023-01-31"
+    },
+    "deferred_revenue": {
+     "value": 54.8,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-K",
+     "filed": "2023-03-30",
+     "accn": "0001836833-23-000014",
+     "start": null,
+     "end": "2023-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 49.152968,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -91.853327,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -84.685448,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 12.76,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -86.693,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -45.328251,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 39.498892,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 6.671686,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 408.76,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 45.764391,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 235.540338,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": -0.912647,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 94.948364,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   }
+  },
+  {
+   "period": "FY2024",
+   "period_end": "2024-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 220.696,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "cost_of_revenue": {
+     "value": 107.746,
+     "tag": "CostOfRevenue",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "gross_profit": {
+     "value": 112.95,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "operating_income": {
+     "value": -169.748,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "net_income": {
+     "value": -140.509,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "cfo": {
+     "value": -50.711,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "capex_ppe": {
+     "value": 37.991,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "capitalized_software": {
+     "value": 4.419,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "sbc": {
+     "value": 57.132,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "depreciation_amortization": {
+     "value": 47.639,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "diluted_shares": {
+     "value": 279.585698,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "basic_shares": {
+     "value": 279.585698,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "eps_diluted": {
+     "value": -0.5,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-02-01",
+     "end": "2024-01-31"
+    },
+    "cash": {
+     "value": 83.866,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "short_term_investments": {
+     "value": 215.041,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2024-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 24.93,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "equity": {
+     "value": 518.018,
+     "tag": "StockholdersEquity",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "rpo": {
+     "value": 132.6,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "deferred_revenue": {
+     "value": 77.6,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 51.178997,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -76.914851,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -63.66631,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 42.41,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -93.121,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -42.19424,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 25.887193,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 19.216479,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 298.907,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 15.392981,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 4.663993,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": -12.763158,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 20.149349,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   }
+  },
+  {
+   "period": "FY2025",
+   "period_end": "2025-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 244.352,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "cost_of_revenue": {
+     "value": 104.627,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 139.725,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "operating_income": {
+     "value": -116.122,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "net_income": {
+     "value": -123.196,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "cfo": {
+     "value": -14.374,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "capex_ppe": {
+     "value": 44.297,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "capitalized_software": {
+     "value": 5.322,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "sbc": {
+     "value": 48.485,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "depreciation_amortization": {
+     "value": 45.637,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "diluted_shares": {
+     "value": 292.124291,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "basic_shares": {
+     "value": 292.124291,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "eps_diluted": {
+     "value": -0.42,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-02-01",
+     "end": "2025-01-31"
+    },
+    "cash": {
+     "value": 118.048,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "short_term_investments": {
+     "value": 104.027,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2025-01-31",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 0.0,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2025-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 21.613,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "equity": {
+     "value": 441.286,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "rpo": {
+     "value": 412.8,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 57.181852,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -47.522427,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -50.417431,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 49.619,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -63.993,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -26.188859,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 19.842277,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 20.306361,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 0.0,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 222.075,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 10.718817,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 4.484705,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 211.312217,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 23.705179,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   }
+  },
+  {
+   "period": "FY2026",
+   "period_end": "2026-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 307.727,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "cost_of_revenue": {
+     "value": 135.242,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 172.485,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "operating_income": {
+     "value": -95.073,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "net_income": {
+     "value": -246.86,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "cfo": {
+     "value": 134.362,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "capex_ppe": {
+     "value": 76.714,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "capitalized_software": {
+     "value": 4.783,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "sbc": {
+     "value": 54.995,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "depreciation_amortization": {
+     "value": 41.825,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "diluted_shares": {
+     "value": 307.799424,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "basic_shares": {
+     "value": 307.799424,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "eps_diluted": {
+     "value": -0.8,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-02-01",
+     "end": "2026-01-31"
+    },
+    "cash": {
+     "value": 229.441,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "short_term_investments": {
+     "value": 410.649,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 446.884,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 15.596,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "equity": {
+     "value": 188.431,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "rpo": {
+     "value": 852.4,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 56.051305,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -30.895242,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -80.220455,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 81.497,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": 52.865,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": 17.179188,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 17.87136,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 26.483539,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 446.884,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 640.09,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 25.935945,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 5.365912,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 106.492248,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 23.446055,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   }
+  }
+ ],
+ "quarters": [
+  {
+   "period_end": "2023-10-31",
+   "metrics": {
+    "revenue": {
+     "value": 55.38,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "cost_of_revenue": {
+     "value": 29.35,
+     "tag": "CostOfRevenue",
+     "form": "10-Q",
+     "filed": "2023-12-08",
+     "accn": "0001836833-23-000110",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "gross_profit": {
+     "value": 26.03,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "operating_income": {
+     "value": -47.858,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "net_income": {
+     "value": -38.004,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "cfo": {
+     "value": -22.87,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-07-31",
+     "end": "2023-10-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2023-02-01..2023-10-31 minus 2023-02-01..2023-07-31",
+     "derived_from": [
+      "0001836833-24-000118",
+      "0001836833-24-000102"
+     ]
+    },
+    "capex_ppe": {
+     "value": 7.377,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-07-31",
+     "end": "2023-10-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2023-02-01..2023-10-31 minus 2023-02-01..2023-07-31",
+     "derived_from": [
+      "0001836833-24-000118",
+      "0001836833-24-000102"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.268,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-07-31",
+     "end": "2023-10-31",
+     "derived": "PaymentsForSoftware 2023-02-01..2023-10-31 minus 2023-02-01..2023-07-31",
+     "derived_from": [
+      "0001836833-24-000118",
+      "0001836833-24-000102"
+     ]
+    },
+    "sbc": {
+     "value": 12.598,
+     "tag": "AllocatedShareBasedCompensationExpense",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31",
+     "tag_fallback": true
+    },
+    "depreciation_amortization": {
+     "value": 13.625,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-07-31",
+     "end": "2023-10-31",
+     "derived": "DepreciationDepletionAndAmortization 2023-02-01..2023-10-31 minus 2023-02-01..2023-07-31",
+     "derived_from": [
+      "0001836833-24-000118",
+      "0001836833-24-000102"
+     ]
+    },
+    "diluted_shares": {
+     "value": 284.197733,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "basic_shares": {
+     "value": 284.197733,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "eps_diluted": {
+     "value": -0.13,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": "2023-08-01",
+     "end": "2023-10-31"
+    },
+    "cash": {
+     "value": 101.547,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2023-12-08",
+     "accn": "0001836833-23-000110",
+     "start": null,
+     "end": "2023-10-31"
+    },
+    "short_term_investments": {
+     "value": 213.347,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2023-12-08",
+     "accn": "0001836833-23-000110",
+     "start": null,
+     "end": "2023-10-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 24.822,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2023-12-08",
+     "accn": "0001836833-23-000110",
+     "start": null,
+     "end": "2023-10-31"
+    },
+    "equity": {
+     "value": 533.598,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": null,
+     "end": "2023-10-31"
+    },
+    "rpo": {
+     "value": 152.9,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2023-12-08",
+     "accn": "0001836833-23-000110",
+     "start": null,
+     "end": "2023-10-31"
+    },
+    "deferred_revenue": {
+     "value": 75.0,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-Q",
+     "filed": "2023-12-08",
+     "accn": "0001836833-23-000110",
+     "start": null,
+     "end": "2023-10-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 47.002528,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -86.417479,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -68.624052,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 8.645,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -31.515,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -56.906826,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 22.748285,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 15.610329,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 314.894,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 11.419604,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 6.064644,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 16.896024,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 4.220051,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q3 FY2024"
+  },
+  {
+   "period_end": "2024-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 58.852,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "RevenueFromContractWithCustomerExcludingAssessedTax 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "cost_of_revenue": {
+     "value": 26.371,
+     "tag": "CostOfRevenue",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "CostOfRevenue 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001836833-24-000037",
+      "0001836833-23-000110"
+     ]
+    },
+    "gross_profit": {
+     "value": 32.481,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "GrossProfit 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "operating_income": {
+     "value": -33.918,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "OperatingIncomeLoss 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "net_income": {
+     "value": -30.086,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "NetIncomeLoss 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "cfo": {
+     "value": -6.837,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "capex_ppe": {
+     "value": 8.905,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.153,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "PaymentsForSoftware 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "sbc": {
+     "value": 12.521,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "ShareBasedCompensation 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "depreciation_amortization": {
+     "value": 11.606,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2023-10-31",
+     "end": "2024-01-31",
+     "derived": "DepreciationDepletionAndAmortization 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001836833-24-000118"
+     ]
+    },
+    "diluted_shares": null,
+    "basic_shares": null,
+    "eps_diluted": null,
+    "cash": {
+     "value": 83.866,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "short_term_investments": {
+     "value": 215.041,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2024-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 24.93,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "equity": {
+     "value": 518.018,
+     "tag": "StockholdersEquity",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "rpo": {
+     "value": 132.6,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "deferred_revenue": {
+     "value": 77.6,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-K",
+     "filed": "2024-03-29",
+     "accn": "0001836833-24-000037",
+     "start": null,
+     "end": "2024-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 55.190988,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -57.632706,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -51.121457,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 10.058,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -16.895,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -28.707606,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 21.275403,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 17.090328,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 298.907,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 11.093912,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": null,
+    "rpo_yoy_pct": {
+     "value": -12.763158,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 11.772195,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q4 FY2024"
+  },
+  {
+   "period_end": "2024-04-30",
+   "metrics": {
+    "revenue": {
+     "value": 60.44,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "cost_of_revenue": {
+     "value": 28.757,
+     "tag": "CostOfRevenue",
+     "form": "10-Q",
+     "filed": "2024-06-06",
+     "accn": "0001836833-24-000062",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "gross_profit": {
+     "value": 31.683,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "operating_income": {
+     "value": -34.571,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "net_income": {
+     "value": -29.293,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "cfo": {
+     "value": -4.297,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "capex_ppe": {
+     "value": 9.938,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "capitalized_software": {
+     "value": 1.418,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "sbc": {
+     "value": 13.072,
+     "tag": "ShareBasedCompensation",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "depreciation_amortization": {
+     "value": 13.103,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "diluted_shares": {
+     "value": 288.268718,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "basic_shares": {
+     "value": 288.268718,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "eps_diluted": {
+     "value": -0.1,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": "2024-02-01",
+     "end": "2024-04-30"
+    },
+    "cash": {
+     "value": 107.367,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2024-06-06",
+     "accn": "0001836833-24-000062",
+     "start": null,
+     "end": "2024-04-30"
+    },
+    "short_term_investments": {
+     "value": 168.218,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2024-06-06",
+     "accn": "0001836833-24-000062",
+     "start": null,
+     "end": "2024-04-30",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 23.382,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2024-06-06",
+     "accn": "0001836833-24-000062",
+     "start": null,
+     "end": "2024-04-30"
+    },
+    "equity": {
+     "value": 500.325,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2024-04-30"
+    },
+    "rpo": {
+     "value": 124.9,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2024-06-06",
+     "accn": "0001836833-24-000062",
+     "start": null,
+     "end": "2024-04-30"
+    },
+    "deferred_revenue": {
+     "value": 76.9,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-Q",
+     "filed": "2024-06-06",
+     "accn": "0001836833-24-000062",
+     "start": null,
+     "end": "2024-04-30"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 52.420582,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -57.198875,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -48.466248,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 11.356,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -15.653,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -25.898412,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 21.628061,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 18.788882,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 275.585,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 14.680379,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 5.845735,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": -9.492754,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 12.562618,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q1 FY2025"
+  },
+  {
+   "period_end": "2024-07-31",
+   "metrics": {
+    "revenue": {
+     "value": 61.092,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "cost_of_revenue": {
+     "value": 28.782,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 32.31,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "operating_income": {
+     "value": -39.577,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "net_income": {
+     "value": -38.668,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "cfo": {
+     "value": -7.858,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-04-30",
+     "end": "2024-07-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2024-02-01..2024-07-31 minus 2024-02-01..2024-04-30",
+     "derived_from": [
+      "0001836833-25-000104",
+      "0001836833-25-000063"
+     ]
+    },
+    "capex_ppe": {
+     "value": 15.123,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-04-30",
+     "end": "2024-07-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2024-02-01..2024-07-31 minus 2024-02-01..2024-04-30",
+     "derived_from": [
+      "0001836833-25-000104",
+      "0001836833-25-000063"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.498,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-04-30",
+     "end": "2024-07-31",
+     "derived": "PaymentsForSoftware 2024-02-01..2024-07-31 minus 2024-02-01..2024-04-30",
+     "derived_from": [
+      "0001836833-25-000104",
+      "0001836833-25-000063"
+     ]
+    },
+    "sbc": {
+     "value": 11.566,
+     "tag": "AllocatedShareBasedCompensationExpense",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31",
+     "tag_fallback": true
+    },
+    "depreciation_amortization": {
+     "value": 13.145,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-04-30",
+     "end": "2024-07-31",
+     "derived": "DepreciationDepletionAndAmortization 2024-02-01..2024-07-31 minus 2024-02-01..2024-04-30",
+     "derived_from": [
+      "0001836833-25-000104",
+      "0001836833-25-000063"
+     ]
+    },
+    "diluted_shares": {
+     "value": 290.364319,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "basic_shares": {
+     "value": 290.364319,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "eps_diluted": {
+     "value": -0.13,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": "2024-05-01",
+     "end": "2024-07-31"
+    },
+    "cash": {
+     "value": 148.288,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2024-09-05",
+     "accn": "0001836833-24-000102",
+     "start": null,
+     "end": "2024-07-31"
+    },
+    "short_term_investments": {
+     "value": 101.102,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2024-09-05",
+     "accn": "0001836833-24-000102",
+     "start": null,
+     "end": "2024-07-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 23.973,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2024-09-05",
+     "accn": "0001836833-24-000102",
+     "start": null,
+     "end": "2024-07-31"
+    },
+    "equity": {
+     "value": 473.247,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2024-07-31"
+    },
+    "rpo": {
+     "value": 112.1,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2024-09-05",
+     "accn": "0001836833-24-000102",
+     "start": null,
+     "end": "2024-07-31"
+    },
+    "deferred_revenue": {
+     "value": 76.5,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-Q",
+     "filed": "2024-09-05",
+     "accn": "0001836833-24-000102",
+     "start": null,
+     "end": "2024-07-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 52.887448,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -64.782623,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -63.294703,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 16.621,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -24.479,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -40.069076,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 18.932102,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 27.206508,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 249.39,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 13.636279,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 5.566604,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": -27.160494,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 22.889092,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q2 FY2025"
+  },
+  {
+   "period_end": "2024-10-31",
+   "metrics": {
+    "revenue": {
+     "value": 61.266,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "cost_of_revenue": {
+     "value": 23.749,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 37.517,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "operating_income": {
+     "value": -22.608,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "net_income": {
+     "value": -20.081,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "cfo": {
+     "value": 4.076,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-07-31",
+     "end": "2024-10-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2024-02-01..2024-10-31 minus 2024-02-01..2024-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001836833-25-000104"
+     ]
+    },
+    "capex_ppe": {
+     "value": 7.633,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-07-31",
+     "end": "2024-10-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2024-02-01..2024-10-31 minus 2024-02-01..2024-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001836833-25-000104"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.229,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-07-31",
+     "end": "2024-10-31",
+     "derived": "PaymentsForSoftware 2024-02-01..2024-10-31 minus 2024-02-01..2024-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001836833-25-000104"
+     ]
+    },
+    "sbc": {
+     "value": 11.829,
+     "tag": "AllocatedShareBasedCompensationExpense",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31",
+     "tag_fallback": true
+    },
+    "depreciation_amortization": {
+     "value": 10.117,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-07-31",
+     "end": "2024-10-31",
+     "derived": "DepreciationDepletionAndAmortization 2024-02-01..2024-10-31 minus 2024-02-01..2024-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001836833-25-000104"
+     ]
+    },
+    "diluted_shares": {
+     "value": 293.338324,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "basic_shares": {
+     "value": 293.338324,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "eps_diluted": {
+     "value": -0.07,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2024-08-01",
+     "end": "2024-10-31"
+    },
+    "cash": {
+     "value": 138.969,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": null,
+     "end": "2024-10-31"
+    },
+    "short_term_investments": {
+     "value": 103.255,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": null,
+     "end": "2024-10-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 22.925,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": null,
+     "end": "2024-10-31"
+    },
+    "equity": {
+     "value": 464.605,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2024-10-31"
+    },
+    "rpo": {
+     "value": 145.9,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": null,
+     "end": "2024-10-31"
+    },
+    "deferred_revenue": {
+     "value": 77.7,
+     "tag": "ContractWithCustomerLiability",
+     "form": "10-Q",
+     "filed": "2024-12-09",
+     "accn": "0001836833-24-000118",
+     "start": null,
+     "end": "2024-10-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 61.236248,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -36.901381,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -32.776744,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 8.862,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -4.786,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -7.811837,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 19.307609,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 14.464793,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 242.224,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 10.628386,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 3.216279,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": -4.578156,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 44.12985,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q3 FY2025"
+  },
+  {
+   "period_end": "2025-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 61.554,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "RevenueFromContractWithCustomerExcludingAssessedTax 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "cost_of_revenue": {
+     "value": 23.339,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "tag_fallback": true,
+     "derived": "CostOfGoodsAndServicesSold 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "gross_profit": {
+     "value": 38.215,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "GrossProfit 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "operating_income": {
+     "value": -19.366,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "OperatingIncomeLoss 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "net_income": {
+     "value": -35.154,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "NetIncomeLoss 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "cfo": {
+     "value": -6.295,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "capex_ppe": {
+     "value": 11.603,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.177,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "PaymentsForSoftware 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "sbc": {
+     "value": 12.018,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "ShareBasedCompensation 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "depreciation_amortization": {
+     "value": 9.272,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2024-10-31",
+     "end": "2025-01-31",
+     "derived": "DepreciationDepletionAndAmortization 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "diluted_shares": null,
+    "basic_shares": null,
+    "eps_diluted": null,
+    "cash": {
+     "value": 118.048,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "short_term_investments": {
+     "value": 104.027,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2025-01-31",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 0.0,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2025-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 21.613,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "equity": {
+     "value": 441.286,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "rpo": {
+     "value": 412.8,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2025-03-26",
+     "accn": "0001836833-25-000050",
+     "start": null,
+     "end": "2025-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 62.083699,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -31.461806,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -57.11083,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 12.78,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -19.075,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -30.98905,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 19.52432,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 20.762258,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 0.0,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 222.075,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 4.591178,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": null,
+    "rpo_yoy_pct": {
+     "value": 211.312217,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 17.653397,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q4 FY2025"
+  },
+  {
+   "period_end": "2025-04-30",
+   "metrics": {
+    "revenue": {
+     "value": 66.265,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "cost_of_revenue": {
+     "value": 29.662,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 36.603,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "operating_income": {
+     "value": -22.771,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "net_income": {
+     "value": -12.628,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "cfo": {
+     "value": 17.346,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "capex_ppe": {
+     "value": 8.119,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "capitalized_software": {
+     "value": 1.225,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "sbc": {
+     "value": 12.542,
+     "tag": "ShareBasedCompensation",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "depreciation_amortization": {
+     "value": 11.082,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "diluted_shares": {
+     "value": 300.267952,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "basic_shares": {
+     "value": 300.267952,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "eps_diluted": {
+     "value": -0.04,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2025-02-01",
+     "end": "2025-04-30"
+    },
+    "cash": {
+     "value": 133.471,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": null,
+     "end": "2025-04-30"
+    },
+    "short_term_investments": {
+     "value": 92.624,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": null,
+     "end": "2025-04-30",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 19.622,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": null,
+     "end": "2025-04-30"
+    },
+    "equity": {
+     "value": 444.802,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2025-04-30"
+    },
+    "rpo": {
+     "value": 451.9,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2025-06-04",
+     "accn": "0001836833-25-000063",
+     "start": null,
+     "end": "2025-04-30"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 55.237305,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -34.36354,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -19.056817,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 9.344,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": 8.002,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": 12.075756,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 18.927035,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 14.100958,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 226.095,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 9.637657,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 4.162517,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 261.809448,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 15.528832,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q1 FY2026"
+  },
+  {
+   "period_end": "2025-07-31",
+   "metrics": {
+    "revenue": {
+     "value": 73.386,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "cost_of_revenue": {
+     "value": 31.118,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 42.268,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "operating_income": {
+     "value": -17.96,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "net_income": {
+     "value": -22.592,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "cfo": {
+     "value": 67.774,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-04-30",
+     "end": "2025-07-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2025-02-01..2025-07-31 minus 2025-02-01..2025-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "capex_ppe": {
+     "value": 20.291,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-04-30",
+     "end": "2025-07-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2025-02-01..2025-07-31 minus 2025-02-01..2025-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.195,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-04-30",
+     "end": "2025-07-31",
+     "derived": "PaymentsForSoftware 2025-02-01..2025-07-31 minus 2025-02-01..2025-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "sbc": {
+     "value": 13.456,
+     "tag": "AllocatedShareBasedCompensationExpense",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31",
+     "tag_fallback": true
+    },
+    "depreciation_amortization": {
+     "value": 10.622,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-04-30",
+     "end": "2025-07-31",
+     "derived": "DepreciationDepletionAndAmortization 2025-02-01..2025-07-31 minus 2025-02-01..2025-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "diluted_shares": {
+     "value": 304.129204,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "basic_shares": {
+     "value": 304.129204,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "eps_diluted": {
+     "value": -0.07,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2025-05-01",
+     "end": "2025-07-31"
+    },
+    "cash": {
+     "value": 181.087,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": null,
+     "end": "2025-07-31"
+    },
+    "short_term_investments": {
+     "value": 90.45,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": null,
+     "end": "2025-07-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 17.543,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": null,
+     "end": "2025-07-31"
+    },
+    "equity": {
+     "value": 435.689,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2025-07-31"
+    },
+    "rpo": {
+     "value": 690.1,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2025-09-08",
+     "accn": "0001836833-25-000104",
+     "start": null,
+     "end": "2025-07-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 57.596817,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -24.473333,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -30.785163,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 21.486,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": 46.288,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": 63.074701,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 18.335922,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 29.278064,
+     "calculation": "capex / revenue"
+    },
+    "debt": null,
+    "cash_and_investments": {
+     "value": 271.537,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 20.123748,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 4.740557,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 515.611062,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 30.82018,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q2 FY2026"
+  },
+  {
+   "period_end": "2025-10-31",
+   "metrics": {
+    "revenue": {
+     "value": 81.254,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "cost_of_revenue": {
+     "value": 34.67,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 46.584,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "operating_income": {
+     "value": -18.34,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "net_income": {
+     "value": -59.185,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "cfo": {
+     "value": 28.593,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-07-31",
+     "end": "2025-10-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2025-02-01..2025-10-31 minus 2025-02-01..2025-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001193125-26-382016"
+     ]
+    },
+    "capex_ppe": {
+     "value": 26.704,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-07-31",
+     "end": "2025-10-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2025-02-01..2025-10-31 minus 2025-02-01..2025-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001193125-26-382016"
+     ]
+    },
+    "capitalized_software": {
+     "value": 0.978,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-07-31",
+     "end": "2025-10-31",
+     "derived": "PaymentsForSoftware 2025-02-01..2025-10-31 minus 2025-02-01..2025-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001193125-26-382016"
+     ]
+    },
+    "sbc": {
+     "value": 13.473,
+     "tag": "AllocatedShareBasedCompensationExpense",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31",
+     "tag_fallback": true
+    },
+    "depreciation_amortization": {
+     "value": 9.908,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-07-31",
+     "end": "2025-10-31",
+     "derived": "DepreciationDepletionAndAmortization 2025-02-01..2025-10-31 minus 2025-02-01..2025-07-31",
+     "derived_from": [
+      "0001193125-25-314295",
+      "0001193125-26-382016"
+     ]
+    },
+    "diluted_shares": {
+     "value": 309.248247,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "basic_shares": {
+     "value": 309.248247,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "eps_diluted": {
+     "value": -0.19,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": "2025-08-01",
+     "end": "2025-10-31"
+    },
+    "cash": {
+     "value": 443.349,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2025-10-31"
+    },
+    "short_term_investments": {
+     "value": 233.975,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2025-10-31",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 446.201,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2025-10-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 0.015152,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2025-10-31"
+    },
+    "equity": {
+     "value": 349.558,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2025-10-31"
+    },
+    "rpo": {
+     "value": 672.5,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2025-12-10",
+     "accn": "0001193125-25-314295",
+     "start": null,
+     "end": "2025-10-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 57.331331,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -22.571196,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -72.839491,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 27.682,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": 0.911,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": 1.121176,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 16.581338,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 34.068477,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 446.201,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 677.324,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 32.624947,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 5.423745,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 360.932145,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 24.167711,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q3 FY2026"
+  },
+  {
+   "period_end": "2026-01-31",
+   "metrics": {
+    "revenue": {
+     "value": 86.822,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "cost_of_revenue": {
+     "value": 39.792,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "tag_fallback": true,
+     "derived": "CostOfGoodsAndServicesSold 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "gross_profit": {
+     "value": 47.03,
+     "tag": "GrossProfit",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "GrossProfit 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "operating_income": {
+     "value": -36.002,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "OperatingIncomeLoss 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "net_income": {
+     "value": -152.455,
+     "tag": "NetIncomeLoss",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "NetIncomeLoss 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "cfo": {
+     "value": 20.649,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "capex_ppe": {
+     "value": 21.6,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.385,
+     "tag": "PaymentsForSoftware",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "PaymentsForSoftware 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "sbc": {
+     "value": 15.524,
+     "tag": "ShareBasedCompensation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "ShareBasedCompensation 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "depreciation_amortization": {
+     "value": 10.213,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": "2025-10-31",
+     "end": "2026-01-31",
+     "derived": "DepreciationDepletionAndAmortization 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31",
+     "derived_from": [
+      "0001193125-26-119957",
+      "0001193125-25-314295"
+     ]
+    },
+    "diluted_shares": null,
+    "basic_shares": null,
+    "eps_diluted": null,
+    "cash": {
+     "value": 229.441,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "short_term_investments": {
+     "value": 410.649,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 446.884,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 15.596,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "equity": {
+     "value": 188.431,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "rpo": {
+     "value": 852.4,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-K",
+     "filed": "2026-03-23",
+     "accn": "0001193125-26-119957",
+     "start": null,
+     "end": "2026-01-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 54.168298,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -41.466449,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -175.594895,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 22.985,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -2.336,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -2.690562,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 17.880261,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 26.473705,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 446.884,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 640.09,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 41.050135,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": null,
+    "rpo_yoy_pct": {
+     "value": 106.492248,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 23.066859,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q4 FY2026"
+  },
+  {
+   "period_end": "2026-04-30",
+   "metrics": {
+    "revenue": {
+     "value": 94.15,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "cost_of_revenue": {
+     "value": 43.749,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 50.401,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "operating_income": {
+     "value": -34.888,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "net_income": {
+     "value": -138.872,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "cfo": {
+     "value": 15.44,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "capex_ppe": {
+     "value": 17.31,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "capitalized_software": {
+     "value": 0.647,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "sbc": {
+     "value": 16.461,
+     "tag": "ShareBasedCompensation",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "depreciation_amortization": {
+     "value": 11.189,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "diluted_shares": {
+     "value": 345.524328,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "basic_shares": {
+     "value": 345.524328,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "eps_diluted": {
+     "value": -0.4,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": "2026-02-01",
+     "end": "2026-04-30"
+    },
+    "cash": {
+     "value": 368.09,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": null,
+     "end": "2026-04-30"
+    },
+    "short_term_investments": {
+     "value": 362.745,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": null,
+     "end": "2026-04-30",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 447.569,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": null,
+     "end": "2026-04-30",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 0.040465,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": null,
+     "end": "2026-04-30"
+    },
+    "equity": {
+     "value": 443.704,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-04-30"
+    },
+    "rpo": {
+     "value": 816.0,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2026-06-05",
+     "accn": "0001193125-26-258304",
+     "start": null,
+     "end": "2026-04-30"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 53.532661,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -37.055762,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -147.500797,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 17.957,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": -2.517,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": -2.673394,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 17.483802,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 19.072756,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 447.569,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 730.835,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 42.081038,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 15.071997,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 80.570923,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 37.696364,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q1 FY2027"
+  },
+  {
+   "period_end": "2026-07-31",
+   "metrics": {
+    "revenue": {
+     "value": 116.052,
+     "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "cost_of_revenue": {
+     "value": 50.42,
+     "tag": "CostOfGoodsAndServicesSold",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31",
+     "tag_fallback": true
+    },
+    "gross_profit": {
+     "value": 65.632,
+     "tag": "GrossProfit",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "operating_income": {
+     "value": -13.509,
+     "tag": "OperatingIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "net_income": {
+     "value": -9.353,
+     "tag": "NetIncomeLoss",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "cfo": {
+     "value": 52.948,
+     "tag": "NetCashProvidedByUsedInOperatingActivities",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-04-30",
+     "end": "2026-07-31",
+     "derived": "NetCashProvidedByUsedInOperatingActivities 2026-02-01..2026-07-31 minus 2026-02-01..2026-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "capex_ppe": {
+     "value": 27.346,
+     "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-04-30",
+     "end": "2026-07-31",
+     "derived": "PaymentsToAcquirePropertyPlantAndEquipment 2026-02-01..2026-07-31 minus 2026-02-01..2026-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "capitalized_software": {
+     "value": 1.788,
+     "tag": "PaymentsForSoftware",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-04-30",
+     "end": "2026-07-31",
+     "derived": "PaymentsForSoftware 2026-02-01..2026-07-31 minus 2026-02-01..2026-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "sbc": {
+     "value": 17.06,
+     "tag": "AllocatedShareBasedCompensationExpense",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31",
+     "tag_fallback": true
+    },
+    "depreciation_amortization": {
+     "value": 10.788,
+     "tag": "DepreciationDepletionAndAmortization",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-04-30",
+     "end": "2026-07-31",
+     "derived": "DepreciationDepletionAndAmortization 2026-02-01..2026-07-31 minus 2026-02-01..2026-04-30",
+     "derived_from": [
+      "0001193125-26-382016",
+      "0001193125-26-258304"
+     ]
+    },
+    "diluted_shares": {
+     "value": 359.594052,
+     "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "basic_shares": {
+     "value": 359.594052,
+     "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "eps_diluted": {
+     "value": -0.03,
+     "tag": "EarningsPerShareDiluted",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": "2026-05-01",
+     "end": "2026-07-31"
+    },
+    "cash": {
+     "value": 415.13,
+     "tag": "CashAndCashEquivalentsAtCarryingValue",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-07-31"
+    },
+    "short_term_investments": {
+     "value": 450.288,
+     "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-07-31",
+     "tag_fallback": true
+    },
+    "debt_noncurrent": {
+     "value": 448.255,
+     "tag": "ConvertibleNotesPayable",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-07-31",
+     "tag_fallback": true
+    },
+    "operating_lease_liability": {
+     "value": 0.050368,
+     "tag": "OperatingLeaseLiability",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-07-31"
+    },
+    "equity": {
+     "value": 564.351,
+     "tag": "StockholdersEquity",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-07-31"
+    },
+    "rpo": {
+     "value": 753.1,
+     "tag": "RevenueRemainingPerformanceObligation",
+     "form": "10-Q",
+     "filed": "2026-09-03",
+     "accn": "0001193125-26-382016",
+     "start": null,
+     "end": "2026-07-31"
+    },
+    "backlog": null,
+    "arr": null,
+    "bookings": null,
+    "units": null,
+    "subscribers": null,
+    "gross_margin_pct": {
+     "value": 56.553959,
+     "calculation": "gross_profit / revenue"
+    },
+    "operating_margin_pct": {
+     "value": -11.640472,
+     "calculation": "operating_income / revenue"
+    },
+    "net_margin_pct": {
+     "value": -8.059318,
+     "calculation": "net_income / revenue"
+    },
+    "capex": {
+     "value": 29.134,
+     "calculation": "capex_ppe + capitalized_software"
+    },
+    "fcf": {
+     "value": 23.814,
+     "calculation": "cfo - capex"
+    },
+    "fcf_margin_pct": {
+     "value": 20.520112,
+     "calculation": "fcf / revenue"
+    },
+    "sbc_pct_revenue": {
+     "value": 14.700307,
+     "calculation": "sbc / revenue"
+    },
+    "capex_pct_revenue": {
+     "value": 25.104264,
+     "calculation": "capex / revenue"
+    },
+    "debt": {
+     "value": 448.255,
+     "calculation": "debt_noncurrent"
+    },
+    "cash_and_investments": {
+     "value": 865.418,
+     "calculation": "cash + short_term_investments"
+    },
+    "revenue_yoy_pct": {
+     "value": 58.139155,
+     "calculation": "revenue vs same period prior year"
+    },
+    "diluted_shares_yoy_pct": {
+     "value": 18.237265,
+     "calculation": "diluted_shares vs same period prior year"
+    },
+    "rpo_yoy_pct": {
+     "value": 9.129112,
+     "calculation": "rpo vs same period prior year"
+    },
+    "gross_profit_yoy_pct": {
+     "value": 55.275859,
+     "calculation": "gross_profit vs same period prior year"
+    }
+   },
+   "period": "Q2 FY2027"
+  }
+ ],
+ "method": "build_fundamental_history.py (primary filings, latest-filed precedence, YTD differencing only with matching fiscal-year start)"
+}

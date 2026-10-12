@@ -53,10 +53,33 @@ Each tracked company lives in `research/<TICKER>/`. Tool:
 - Every metric carries `classification` ∈ {Fact, Calculation, Assumption, Interpretation}.
 - Rule `meaning` is always "reassess"; never an order.
 
+## Level 3 files (2026-10-13)
+
+| Path | Contents |
+|---|---|
+| `financials/history.json` | annual + quarterly metrics with per-metric provenance (tag, form, filed, accession; derivations) |
+| `financials/coverage.json` | periods present, ≥5Y / ≥8Q flags, missing metrics, tag fallbacks |
+| `financials/tag-overrides.json` | optional extension tags for company KPIs (backlog, ARR, …) |
+| `management/guidance.json` | guidance ranges: issued, period, metric, low, high, unit, statement, source |
+| `management/reported-kpis.json` | company-reported non-GAAP figures per quarter / FY |
+| `management/promises.json` | + `guidance`, `actual_result`, `evidence`, `resolved_date`, `resolution_rule`, `superseded_by` |
+| `snapshots/<date>.json` | full multi-domain state; `retrospective: true` = rebuilt from data public at that date, no recommendation |
+| `valuation/assumption-check.{json,md}` | Base / Bull assumptions vs history (Below / Near / Above / Materially above) |
+| `valuation/historical-multiples.csv` | no-look-ahead price, market cap, EV, TTM fundamentals, EV/Sales, EV/EBIT, P/E, P/FCF |
+| `valuation/historical-percentiles.json` | current multiple vs 1Y / 3Y / since-listing month-end values |
+| `valuation/expectation-gap-history.csv` | date, metric, market_implied, base, bull, gap_vs_base, gap_vs_bull, direction, confidence |
+| `market/fundamental-price-timeline.csv` | per earnings release: price before / after, abnormal moves, fundamentals, EV/Sales, research state |
+| `market/benchmark.json` | optional `{"benchmark": "SPY", "sector_etf": "..."}` |
+| `thesis/invalidation-rules.yaml` | + optional machine `checks` (`metric`, `warning`, `consecutive_quarters`) and `logic: any` |
+| `qa/` | stock-analysis `ratios.py` / `verify_data.py` inputs and outputs from INIT |
+| `research/benchmarks/<SYMBOL>/prices.csv` | benchmark closes for abnormal returns |
+| `research/reviews/YYYY-MM-monthly-review.md` | monthly multi-company review |
+
 ## Migration status (2026-10-12)
 
 | Ticker | State | Notes |
 |---|---|---|
 | AAPL | Migrated | Baseline snapshot 2026-10-11; legacy files untouched |
 | PL | Migrated | Baseline snapshot 2026-10-11; reverse DCF recorded as not established, as in the report |
+| RKLB | Level 3 INIT 2026-10-13 | SEC history, prices, management, auto-draft thesis / valuation / rules |
 | PLTR | Not migrated | Report and recommendation I/O preserved; run `/init-stock PLTR` to add state |

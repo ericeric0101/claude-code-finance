@@ -1,63 +1,1439 @@
 [
   {
-    "promise_id": "PL-2026-09-03-q3-revenue",
+    "promise_id": "PL-2024-06-06-q2-capex",
     "topic": "guidance",
-    "statement_date": "2026-09-03",
-    "management_claim": "Q3 FY2027 revenue guidance $101-105m",
-    "target_date": "2026-10-31 (quarter end; reported later)",
-    "expected_result": "Q3 revenue within or above $101-105m",
-    "status": "pending",
-    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
-    "evidence": [],
-    "last_checked": "2026-10-11"
+    "statement_date": "2024-06-06",
+    "management_claim": "Capital Expenditures are expected to be in the range of approximately $14 million and $17 million for the quarter.",
+    "target_date": "Q2 FY2025",
+    "expected_result": "capex 14.0..17.0 USD millions for Q2 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm",
+    "evidence": [
+      "Actual capex 16.621 vs guided 14.0..17.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2025",
+      "metric": "capex",
+      "low": 14.0,
+      "high": 17.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 16.621,
+    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
   },
   {
-    "promise_id": "PL-2026-09-03-q3-ebitda",
+    "promise_id": "PL-2024-06-06-q2-ebitda",
     "topic": "guidance",
-    "statement_date": "2026-09-03",
-    "management_claim": "Q3 FY2027 adjusted EBITDA loss of $1-6m",
-    "target_date": "2026-10-31",
-    "expected_result": "Adjusted EBITDA between -$6m and -$1m or better",
-    "status": "pending",
-    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
-    "evidence": [],
-    "last_checked": "2026-10-11"
+    "statement_date": "2024-06-06",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($10) million and ($7) million for the quarter.",
+    "target_date": "Q2 FY2025",
+    "expected_result": "adjusted_ebitda -10.0..-7.0 USD millions for Q2 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm",
+    "evidence": [
+      "Actual adjusted_ebitda -4.4 vs guided -10.0..-7.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2025",
+      "metric": "adjusted_ebitda",
+      "low": -10.0,
+      "high": -7.0,
+      "unit": "USD millions"
+    },
+    "actual_result": -4.4,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2024-09-05",
+    "last_checked": "2026-10-13"
   },
   {
-    "promise_id": "PL-2026-09-03-fy27-revenue",
+    "promise_id": "PL-2024-06-06-q2-gm",
     "topic": "guidance",
-    "statement_date": "2026-09-03",
-    "management_claim": "FY2027 revenue guidance $430-441m",
-    "target_date": "2027-01-31",
-    "expected_result": "FY2027 revenue within or above $430-441m",
-    "status": "pending",
-    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
-    "evidence": [],
-    "last_checked": "2026-10-11"
+    "statement_date": "2024-06-06",
+    "management_claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 51% to 53%.",
+    "target_date": "Q2 FY2025",
+    "expected_result": "non_gaap_gross_margin 51.0..53.0 % for Q2 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 58.0 vs guided 51.0..53.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2025",
+      "metric": "non_gaap_gross_margin",
+      "low": 51.0,
+      "high": 53.0,
+      "unit": "%"
+    },
+    "actual_result": 58.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2024-09-05",
+    "last_checked": "2026-10-13"
   },
   {
-    "promise_id": "PL-2026-09-03-fy27-gm",
-    "topic": "gross margin",
-    "statement_date": "2026-09-03",
-    "management_claim": "FY2027 non-GAAP gross margin 55-57%",
-    "target_date": "2027-01-31",
-    "expected_result": "Non-GAAP gross margin within 55-57%",
-    "status": "pending",
-    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
-    "evidence": [],
-    "last_checked": "2026-10-11"
+    "promise_id": "PL-2024-06-06-q2-revenue",
+    "topic": "guidance",
+    "statement_date": "2024-06-06",
+    "management_claim": "For the second quarter of fiscal year 2025, ending July 31, 2024, Planet expects revenue to be in the range of approximately $59 million to $63 million.",
+    "target_date": "Q2 FY2025",
+    "expected_result": "revenue 59.0..63.0 USD millions for Q2 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm",
+    "evidence": [
+      "Actual revenue 61.092 vs guided 59.0..63.0 (SEC 10-Q 0001836833-25-000104 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2025",
+      "metric": "revenue",
+      "low": 59.0,
+      "high": 63.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 61.092,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
   },
   {
-    "promise_id": "PL-2026-09-03-fy27-ebitda",
-    "topic": "operating margin",
-    "statement_date": "2026-09-03",
-    "management_claim": "FY2027 adjusted EBITDA $3-10m",
-    "target_date": "2027-01-31",
-    "expected_result": "Positive adjusted EBITDA within $3-10m",
-    "status": "pending",
-    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "promise_id": "PL-2024-09-05-q3-capex",
+    "topic": "guidance",
+    "statement_date": "2024-09-05",
+    "management_claim": "Capital Expenditures are expected to be in the range of approximately $13 million and $16 million for the quarter.",
+    "target_date": "Q3 FY2025",
+    "expected_result": "capex 13.0..16.0 USD millions for Q3 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+    "evidence": [
+      "Actual capex 8.862 vs guided 13.0..16.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "missed",
+    "guidance": {
+      "period": "Q3 FY2025",
+      "metric": "capex",
+      "low": 13.0,
+      "high": 16.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 8.862,
+    "resolution_rule": "underspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-09-05-q3-ebitda",
+    "topic": "guidance",
+    "statement_date": "2024-09-05",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($5) \n million and ($2) million for the quarter.",
+    "target_date": "Q3 FY2025",
+    "expected_result": "adjusted_ebitda -5.0..-2.0 USD millions for Q3 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+    "evidence": [
+      "Actual adjusted_ebitda -0.2 vs guided -5.0..-2.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q3 FY2025",
+      "metric": "adjusted_ebitda",
+      "low": -5.0,
+      "high": -2.0,
+      "unit": "USD millions"
+    },
+    "actual_result": -0.2,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2024-12-09",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-09-05-q3-gm",
+    "topic": "guidance",
+    "statement_date": "2024-09-05",
+    "management_claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 59% to 61%.",
+    "target_date": "Q3 FY2025",
+    "expected_result": "non_gaap_gross_margin 59.0..61.0 % for Q3 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 64.0 vs guided 59.0..61.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q3 FY2025",
+      "metric": "non_gaap_gross_margin",
+      "low": 59.0,
+      "high": 61.0,
+      "unit": "%"
+    },
+    "actual_result": 64.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2024-12-09",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-09-05-q3-revenue",
+    "topic": "guidance",
+    "statement_date": "2024-09-05",
+    "management_claim": "For the third quarter of fiscal year 2025, ending October 31, 2024, Planet expects revenue to be in the range of approximately $61 million to $64 million.",
+    "target_date": "Q3 FY2025",
+    "expected_result": "revenue 61.0..64.0 USD millions for Q3 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+    "evidence": [
+      "Actual revenue 61.266 vs guided 61.0..64.0 (SEC 10-Q 0001193125-25-314295 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q3 FY2025",
+      "metric": "revenue",
+      "low": 61.0,
+      "high": 64.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 61.266,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-12-09-q4-capex",
+    "topic": "guidance",
+    "statement_date": "2024-12-09",
+    "management_claim": "Capital Expenditures are expected to be in the range of approximately $8 million and $11 million for the quarter.",
+    "target_date": "Q4 FY2025",
+    "expected_result": "capex 8.0..11.0 USD millions for Q4 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+    "evidence": [
+      "Actual capex 12.78 vs guided 8.0..11.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "missed",
+    "guidance": {
+      "period": "Q4 FY2025",
+      "metric": "capex",
+      "low": 8.0,
+      "high": 11.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 12.78,
+    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-12-09-q4-ebitda",
+    "topic": "guidance",
+    "statement_date": "2024-12-09",
+    "management_claim": "Adjusted EBITDA is expected to be in the range of approximately $0 to $2 million for the quarter.",
+    "target_date": "Q4 FY2025",
+    "expected_result": "adjusted_ebitda 0.0..2.0 USD millions for Q4 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 2.4 vs guided 0.0..2.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2025",
+      "metric": "adjusted_ebitda",
+      "low": 0.0,
+      "high": 2.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 2.4,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-03-20",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-12-09-q4-gm",
+    "topic": "guidance",
+    "statement_date": "2024-12-09",
+    "management_claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 63% to 65%.",
+    "target_date": "Q4 FY2025",
+    "expected_result": "non_gaap_gross_margin 63.0..65.0 % for Q4 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 65.0 vs guided 63.0..65.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2025",
+      "metric": "non_gaap_gross_margin",
+      "low": 63.0,
+      "high": 65.0,
+      "unit": "%"
+    },
+    "actual_result": 65.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-03-20",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2024-12-09-q4-revenue",
+    "topic": "guidance",
+    "statement_date": "2024-12-09",
+    "management_claim": "For the fourth quarter of fiscal year 2025, ending January 31, 2025, Planet expects revenue to be in the range of approximately $61 million to $63 million.",
+    "target_date": "Q4 FY2025",
+    "expected_result": "revenue 61.0..63.0 USD millions for Q4 FY2025",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+    "evidence": [
+      "Actual revenue 61.554 vs guided 61.0..63.0 (SEC 10-K 0001193125-26-119957 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2025",
+      "metric": "revenue",
+      "low": 61.0,
+      "high": 63.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 61.554,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-03-20-fy26-capex",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "Capital Expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
+    "target_date": "FY2026",
+    "expected_result": "capex 50.0..65.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual capex 81.497 vs guided 50.0..65.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "missed",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "capex",
+      "low": 50.0,
+      "high": 65.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 81.497,
+    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-03-20-fy26-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "Adjusted EBITDA loss is expected to be between approximately ($13) million and ($7) million.",
+    "target_date": "FY2026",
+    "expected_result": "adjusted_ebitda -13.0..-7.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 15.5 vs guided -13.0..-7.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -13.0,
+      "high": -7.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 15.5,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-03-20-fy26-gm",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "Non-GAAP Gross Margin is expected to be between approximately 55% to 57%.",
+    "target_date": "FY2026",
+    "expected_result": "non_gaap_gross_margin 55.0..57.0 % for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 59.0 vs guided 55.0..57.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 55.0,
+      "high": 57.0,
+      "unit": "%"
+    },
+    "actual_result": 59.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-03-20-fy26-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "For fiscal year 2026, ending January 31, 2026, Planet expects revenue to be in the range of approximately $260 million to $280 million.",
+    "target_date": "FY2026",
+    "expected_result": "revenue 260.0..280.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual revenue 307.727 vs guided 260.0..280.0 (SEC 10-K 0001193125-26-119957 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "revenue",
+      "low": 260.0,
+      "high": 280.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 307.727,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-03-20-q1-capex",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "Capital Expenditures are expected to be in the range of approximately $11 million and $16 million for the quarter.",
+    "target_date": "Q1 FY2026",
+    "expected_result": "capex 11.0..16.0 USD millions for Q1 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual capex 9.344 vs guided 11.0..16.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "missed",
+    "guidance": {
+      "period": "Q1 FY2026",
+      "metric": "capex",
+      "low": 11.0,
+      "high": 16.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 9.344,
+    "resolution_rule": "underspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-03-20-q1-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($3) to ($2) million for the quarter.",
+    "target_date": "Q1 FY2026",
+    "expected_result": "adjusted_ebitda -3.0..-2.0 USD millions for Q1 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 1.2 vs guided -3.0..-2.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -3.0,
+      "high": -2.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 1.2,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-06-04",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-03-20-q1-gm",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 58% to 60%.",
+    "target_date": "Q1 FY2026",
+    "expected_result": "non_gaap_gross_margin 58.0..60.0 % for Q1 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 59.0 vs guided 58.0..60.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 58.0,
+      "high": 60.0,
+      "unit": "%"
+    },
+    "actual_result": 59.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-06-04",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-03-20-q1-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-03-20",
+    "management_claim": "For the first quarter of fiscal year 2026, ending April 30, 2025, Planet expects revenue to be in the range of approximately $61 million to $63 million.",
+    "target_date": "Q1 FY2026",
+    "expected_result": "revenue 61.0..63.0 USD millions for Q1 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "evidence": [
+      "Actual revenue 66.265 vs guided 61.0..63.0 (SEC 10-Q 0001193125-26-258304 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2026",
+      "metric": "revenue",
+      "low": 61.0,
+      "high": 63.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 66.265,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-06-04-fy26-capex",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
+    "target_date": "FY2026",
+    "expected_result": "capex 50.0..65.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual capex 81.497 vs guided 50.0..65.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "missed",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "capex",
+      "low": 50.0,
+      "high": 65.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 81.497,
+    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-06-04-fy26-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($12) million and ($7) million.",
+    "target_date": "FY2026",
+    "expected_result": "adjusted_ebitda -12.0..-7.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 15.5 vs guided -12.0..-7.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -12.0,
+      "high": -7.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 15.5,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-06-04-fy26-gm",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+    "target_date": "FY2026",
+    "expected_result": "non_gaap_gross_margin 55.0..57.0 % for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 59.0 vs guided 55.0..57.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 55.0,
+      "high": 57.0,
+      "unit": "%"
+    },
+    "actual_result": 59.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-06-04-fy26-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $265 million to $280 million.",
+    "target_date": "FY2026",
+    "expected_result": "revenue 265.0..280.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual revenue 307.727 vs guided 265.0..280.0 (SEC 10-K 0001193125-26-119957 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "revenue",
+      "low": 265.0,
+      "high": 280.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 307.727,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-06-04-q2-capex",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $17 million and $22 million for the quarter.",
+    "target_date": "Q2 FY2026",
+    "expected_result": "capex 17.0..22.0 USD millions for Q2 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual capex 21.486 vs guided 17.0..22.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2026",
+      "metric": "capex",
+      "low": 17.0,
+      "high": 22.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 21.486,
+    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-06-04-q2-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($4) million to ($2) million for the quarter.",
+    "target_date": "Q2 FY2026",
+    "expected_result": "adjusted_ebitda -4.0..-2.0 USD millions for Q2 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 6.4 vs guided -4.0..-2.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -4.0,
+      "high": -2.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 6.4,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-09-08",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-06-04-q2-gm",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 56% to 57%.",
+    "target_date": "Q2 FY2026",
+    "expected_result": "non_gaap_gross_margin 56.0..57.0 % for Q2 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 61.0 vs guided 56.0..57.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 56.0,
+      "high": 57.0,
+      "unit": "%"
+    },
+    "actual_result": 61.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-09-08",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-06-04-q2-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-06-04",
+    "management_claim": "For the second quarter of fiscal year 2026, ending July 31, 2025, Planet expects revenue to be in the range of approximately $65 million to $67 million.",
+    "target_date": "Q2 FY2026",
+    "expected_result": "revenue 65.0..67.0 USD millions for Q2 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "evidence": [
+      "Actual revenue 73.386 vs guided 65.0..67.0 (SEC 10-Q 0001193125-26-382016 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2026",
+      "metric": "revenue",
+      "low": 65.0,
+      "high": 67.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 73.386,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-09-08-fy26-capex",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $65 million and $75 million for the year.",
+    "target_date": "FY2026",
+    "expected_result": "capex 65.0..75.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual capex 81.497 vs guided 65.0..75.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "partially_delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "capex",
+      "low": 65.0,
+      "high": 75.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 81.497,
+    "resolution_rule": "overspent vs plan by <10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-09-08-fy26-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($7) million and $0.",
+    "target_date": "FY2026",
+    "expected_result": "adjusted_ebitda -7.0..0.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 15.5 vs guided -7.0..0.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -7.0,
+      "high": 0.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 15.5,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-09-08-fy26-gm",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+    "target_date": "FY2026",
+    "expected_result": "non_gaap_gross_margin 55.0..57.0 % for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 59.0 vs guided 55.0..57.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 55.0,
+      "high": 57.0,
+      "unit": "%"
+    },
+    "actual_result": 59.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-09-08-fy26-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $281 million to $289 million.",
+    "target_date": "FY2026",
+    "expected_result": "revenue 281.0..289.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual revenue 307.727 vs guided 281.0..289.0 (SEC 10-K 0001193125-26-119957 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "revenue",
+      "low": 281.0,
+      "high": 289.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 307.727,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13",
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+  },
+  {
+    "promise_id": "PL-2025-09-08-q3-capex",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $18 million and $24 million for the quarter.",
+    "target_date": "Q3 FY2026",
+    "expected_result": "capex 18.0..24.0 USD millions for Q3 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual capex 27.682 vs guided 18.0..24.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "missed",
+    "guidance": {
+      "period": "Q3 FY2026",
+      "metric": "capex",
+      "low": 18.0,
+      "high": 24.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 27.682,
+    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-09-08-q3-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($4) million to $0 for the quarter.",
+    "target_date": "Q3 FY2026",
+    "expected_result": "adjusted_ebitda -4.0..0.0 USD millions for Q3 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 5.6 vs guided -4.0..0.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q3 FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -4.0,
+      "high": 0.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 5.6,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-09-08-q3-gm",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 56%.",
+    "target_date": "Q3 FY2026",
+    "expected_result": "non_gaap_gross_margin 55.0..56.0 % for Q3 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 60.0 vs guided 55.0..56.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q3 FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 55.0,
+      "high": 56.0,
+      "unit": "%"
+    },
+    "actual_result": 60.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-09-08-q3-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-09-08",
+    "management_claim": "For the third quarter of fiscal year 2026, ending October 31, 2025, Planet expects revenue to be in the range of approximately $71 million to $74 million.",
+    "target_date": "Q3 FY2026",
+    "expected_result": "revenue 71.0..74.0 USD millions for Q3 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "evidence": [
+      "Actual revenue 81.254 vs guided 71.0..74.0 (SEC 10-Q 0001193125-25-314295 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q3 FY2026",
+      "metric": "revenue",
+      "low": 71.0,
+      "high": 74.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 81.254,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2025-12-10",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-fy26-capex",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $81 million and $85 million for the year.",
+    "target_date": "FY2026",
+    "expected_result": "capex 81.0..85.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual capex 81.497 vs guided 81.0..85.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "capex",
+      "low": 81.0,
+      "high": 85.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 81.497,
+    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-fy26-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "Adjusted EBITDA profit is expected to be in the range of approximately $6 million and $8 million.",
+    "target_date": "FY2026",
+    "expected_result": "adjusted_ebitda 6.0..8.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 15.5 vs guided 6.0..8.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "adjusted_ebitda",
+      "low": 6.0,
+      "high": 8.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 15.5,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-fy26-gm",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 57% to 58%.",
+    "target_date": "FY2026",
+    "expected_result": "non_gaap_gross_margin 57.0..58.0 % for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 59.0 vs guided 57.0..58.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 57.0,
+      "high": 58.0,
+      "unit": "%"
+    },
+    "actual_result": 59.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-fy26-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $297 million to $301 million.",
+    "target_date": "FY2026",
+    "expected_result": "revenue 297.0..301.0 USD millions for FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual revenue 307.727 vs guided 297.0..301.0 (SEC 10-K 0001193125-26-119957 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "FY2026",
+      "metric": "revenue",
+      "low": 297.0,
+      "high": 301.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 307.727,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-q4-capex",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $22 million and $26 million for the quarter.",
+    "target_date": "Q4 FY2026",
+    "expected_result": "capex 22.0..26.0 USD millions for Q4 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual capex 22.985 vs guided 22.0..26.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2026",
+      "metric": "capex",
+      "low": 22.0,
+      "high": 26.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 22.985,
+    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-q4-ebitda",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($7) million to ($5) million for the quarter.",
+    "target_date": "Q4 FY2026",
+    "expected_result": "adjusted_ebitda -7.0..-5.0 USD millions for Q4 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 2.3 vs guided -7.0..-5.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2026",
+      "metric": "adjusted_ebitda",
+      "low": -7.0,
+      "high": -5.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 2.3,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-q4-gm",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
+    "target_date": "Q4 FY2026",
+    "expected_result": "non_gaap_gross_margin 50.0..52.0 % for Q4 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 57.0 vs guided 50.0..52.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2026",
+      "metric": "non_gaap_gross_margin",
+      "low": 50.0,
+      "high": 52.0,
+      "unit": "%"
+    },
+    "actual_result": 57.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-03-19",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2025-12-10-q4-revenue",
+    "topic": "guidance",
+    "statement_date": "2025-12-10",
+    "management_claim": "For the fourth quarter of fiscal year 2026, ending January 31, 2026, Planet expects revenue to be in the range of approximately $76 million to $80 million.",
+    "target_date": "Q4 FY2026",
+    "expected_result": "revenue 76.0..80.0 USD millions for Q4 FY2026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "evidence": [
+      "Actual revenue 86.822 vs guided 76.0..80.0 (SEC 10-K 0001193125-26-119957 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q4 FY2026",
+      "metric": "revenue",
+      "low": 76.0,
+      "high": 80.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 86.822,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-fy27-capex",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
+    "target_date": "FY2027",
+    "expected_result": "capex 80.0..95.0 USD millions for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
     "evidence": [],
-    "last_checked": "2026-10-11"
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "capex",
+      "low": 80.0,
+      "high": 95.0,
+      "unit": "USD millions"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-fy27-ebitda",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
+    "target_date": "FY2027",
+    "expected_result": "adjusted_ebitda 0.0..10.0 USD millions for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "adjusted_ebitda",
+      "low": 0.0,
+      "high": 10.0,
+      "unit": "USD millions"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-fy27-gm",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
+    "target_date": "FY2027",
+    "expected_result": "non_gaap_gross_margin 50.0..52.0 % for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "non_gaap_gross_margin",
+      "low": 50.0,
+      "high": 52.0,
+      "unit": "%"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-fy27-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $415 million to $440 million.",
+    "target_date": "FY2027",
+    "expected_result": "revenue 415.0..440.0 USD millions for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "revenue",
+      "low": 415.0,
+      "high": 440.0,
+      "unit": "USD millions"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-q1-capex",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $17 million and $23 million for the quarter.",
+    "target_date": "Q1 FY2027",
+    "expected_result": "capex 17.0..23.0 USD millions for Q1 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [
+      "Actual capex 17.957 vs guided 17.0..23.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2027",
+      "metric": "capex",
+      "low": 17.0,
+      "high": 23.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 17.957,
+    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-q1-ebitda",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($6) million to ($3) million for the quarter.",
+    "target_date": "Q1 FY2027",
+    "expected_result": "adjusted_ebitda -6.0..-3.0 USD millions for Q1 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [
+      "Actual adjusted_ebitda -1.0 vs guided -6.0..-3.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2027",
+      "metric": "adjusted_ebitda",
+      "low": -6.0,
+      "high": -3.0,
+      "unit": "USD millions"
+    },
+    "actual_result": -1.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-06-04",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-q1-gm",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 49% to 51%.",
+    "target_date": "Q1 FY2027",
+    "expected_result": "non_gaap_gross_margin 49.0..51.0 % for Q1 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 56.0 vs guided 49.0..51.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2027",
+      "metric": "non_gaap_gross_margin",
+      "low": 49.0,
+      "high": 51.0,
+      "unit": "%"
+    },
+    "actual_result": 56.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-06-04",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-03-19-q1-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-03-19",
+    "management_claim": "For the first quarter of fiscal year 2027, ending April 30, 2026, Planet expects revenue to be in the range of approximately $87 million to $91 million.",
+    "target_date": "Q1 FY2027",
+    "expected_result": "revenue 87.0..91.0 USD millions for Q1 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "evidence": [
+      "Actual revenue 94.15 vs guided 87.0..91.0 (SEC 10-Q 0001193125-26-258304 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q1 FY2027",
+      "metric": "revenue",
+      "low": 87.0,
+      "high": 91.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 94.15,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-fy27-capex",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
+    "target_date": "FY2027",
+    "expected_result": "capex 80.0..95.0 USD millions for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "capex",
+      "low": 80.0,
+      "high": 95.0,
+      "unit": "USD millions"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-fy27-ebitda",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
+    "target_date": "FY2027",
+    "expected_result": "adjusted_ebitda 0.0..10.0 USD millions for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "adjusted_ebitda",
+      "low": 0.0,
+      "high": 10.0,
+      "unit": "USD millions"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-fy27-gm",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 54%.",
+    "target_date": "FY2027",
+    "expected_result": "non_gaap_gross_margin 52.0..54.0 % for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "non_gaap_gross_margin",
+      "low": 52.0,
+      "high": 54.0,
+      "unit": "%"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-fy27-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $425 million to $441 million.",
+    "target_date": "FY2027",
+    "expected_result": "revenue 425.0..441.0 USD millions for FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "superseded",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "revenue",
+      "low": 425.0,
+      "high": 441.0,
+      "unit": "USD millions"
+    },
+    "superseded_by": "guidance issued 2026-09-03",
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-q2-capex",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $21 million and $27 million for the quarter.",
+    "target_date": "Q2 FY2027",
+    "expected_result": "capex 21.0..27.0 USD millions for Q2 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [
+      "Actual capex 29.134 vs guided 21.0..27.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+    ],
+    "status": "partially_delivered",
+    "guidance": {
+      "period": "Q2 FY2027",
+      "metric": "capex",
+      "low": 21.0,
+      "high": 27.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 29.134,
+    "resolution_rule": "overspent vs plan by <10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-q2-ebitda",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 to $5 million for the quarter.",
+    "target_date": "Q2 FY2027",
+    "expected_result": "adjusted_ebitda 0.0..5.0 USD millions for Q2 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [
+      "Actual adjusted_ebitda 13.9 vs guided 0.0..5.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2027",
+      "metric": "adjusted_ebitda",
+      "low": 0.0,
+      "high": 5.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 13.9,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-q2-gm",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 55%.",
+    "target_date": "Q2 FY2027",
+    "expected_result": "non_gaap_gross_margin 52.0..55.0 % for Q2 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [
+      "Actual non_gaap_gross_margin 59.0 vs guided 52.0..55.0 (company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm)"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2027",
+      "metric": "non_gaap_gross_margin",
+      "low": 52.0,
+      "high": 55.0,
+      "unit": "%"
+    },
+    "actual_result": 59.0,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-06-04-q2-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-06-04",
+    "management_claim": "For the second quarter of fiscal year 2027, ending July 31, 2026, Planet expects revenue to be in the range of approximately $102 million to $107 million.",
+    "target_date": "Q2 FY2027",
+    "expected_result": "revenue 102.0..107.0 USD millions for Q2 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "evidence": [
+      "Actual revenue 116.052 vs guided 102.0..107.0 (SEC 10-Q 0001193125-26-382016 (revenue))"
+    ],
+    "status": "delivered",
+    "guidance": {
+      "period": "Q2 FY2027",
+      "metric": "revenue",
+      "low": 102.0,
+      "high": 107.0,
+      "unit": "USD millions"
+    },
+    "actual_result": 116.052,
+    "resolution_rule": "at or above low end of range",
+    "resolved_date": "2026-09-03",
+    "last_checked": "2026-10-13"
   },
   {
     "promise_id": "PL-2026-09-03-fy27-capex",
@@ -69,6 +1445,162 @@
     "status": "pending",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
     "evidence": [],
-    "last_checked": "2026-10-11"
+    "last_checked": "2026-10-13",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "capex",
+      "low": 100.0,
+      "high": 115.0,
+      "unit": "USD millions"
+    },
+    "actual_result": null,
+    "resolved_date": null
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-ebitda",
+    "topic": "operating margin",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 adjusted EBITDA $3-10m",
+    "target_date": "2027-01-31",
+    "expected_result": "Positive adjusted EBITDA within $3-10m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-13",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "adjusted_ebitda",
+      "low": 3.0,
+      "high": 10.0,
+      "unit": "USD millions"
+    },
+    "actual_result": null,
+    "resolved_date": null
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-gm",
+    "topic": "gross margin",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 non-GAAP gross margin 55-57%",
+    "target_date": "2027-01-31",
+    "expected_result": "Non-GAAP gross margin within 55-57%",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-13",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "non_gaap_gross_margin",
+      "low": 55.0,
+      "high": 57.0,
+      "unit": "%"
+    },
+    "actual_result": null,
+    "resolved_date": null
+  },
+  {
+    "promise_id": "PL-2026-09-03-fy27-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "FY2027 revenue guidance $430-441m",
+    "target_date": "2027-01-31",
+    "expected_result": "FY2027 revenue within or above $430-441m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-13",
+    "guidance": {
+      "period": "FY2027",
+      "metric": "revenue",
+      "low": 430.0,
+      "high": 441.0,
+      "unit": "USD millions"
+    },
+    "actual_result": null,
+    "resolved_date": null
+  },
+  {
+    "promise_id": "PL-2026-09-03-q3-capex",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "Capital expenditures are expected to be in the range of approximately $30 million and $37 million for the quarter.",
+    "target_date": "Q3 FY2027",
+    "expected_result": "capex 30.0..37.0 USD millions for Q3 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "pending",
+    "guidance": {
+      "period": "Q3 FY2027",
+      "metric": "capex",
+      "low": 30.0,
+      "high": 37.0,
+      "unit": "USD millions"
+    },
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-09-03-q3-ebitda",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "Q3 FY2027 adjusted EBITDA loss of $1-6m",
+    "target_date": "2026-10-31",
+    "expected_result": "Adjusted EBITDA between -$6m and -$1m or better",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-13",
+    "guidance": {
+      "period": "Q3 FY2027",
+      "metric": "adjusted_ebitda",
+      "low": -6.0,
+      "high": -1.0,
+      "unit": "USD millions"
+    },
+    "actual_result": null,
+    "resolved_date": null
+  },
+  {
+    "promise_id": "PL-2026-09-03-q3-gm",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "Non-GAAP gross margin is expected to be in the range of approximately 56% to 58%.",
+    "target_date": "Q3 FY2027",
+    "expected_result": "non_gaap_gross_margin 56.0..58.0 % for Q3 FY2027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "status": "pending",
+    "guidance": {
+      "period": "Q3 FY2027",
+      "metric": "non_gaap_gross_margin",
+      "low": 56.0,
+      "high": 58.0,
+      "unit": "%"
+    },
+    "actual_result": null,
+    "resolved_date": null,
+    "last_checked": "2026-10-13"
+  },
+  {
+    "promise_id": "PL-2026-09-03-q3-revenue",
+    "topic": "guidance",
+    "statement_date": "2026-09-03",
+    "management_claim": "Q3 FY2027 revenue guidance $101-105m",
+    "target_date": "2026-10-31 (quarter end; reported later)",
+    "expected_result": "Q3 revenue within or above $101-105m",
+    "status": "pending",
+    "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "evidence": [],
+    "last_checked": "2026-10-13",
+    "guidance": {
+      "period": "Q3 FY2027",
+      "metric": "revenue",
+      "low": 101.0,
+      "high": 105.0,
+      "unit": "USD millions"
+    },
+    "actual_result": null,
+    "resolved_date": null
   }
 ]

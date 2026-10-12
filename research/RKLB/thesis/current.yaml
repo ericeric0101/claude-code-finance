@@ -1,0 +1,70 @@
+ticker: RKLB
+company: Rocket Lab Corp
+as_of: '2026-10-13'
+draft_auto: true
+action: WATCH
+valuation_confidence: low
+research_role: auto-draft (unclassified)
+summary: 'Auto-drafted from SEC history: component statuses follow reported trends
+  only. An analyst must review the thesis, add qualitative evidence and set the action.'
+components:
+  revenue_growth_durability:
+    importance: high
+    status: improving
+    evidence:
+    - 'Calculation: latest quarter revenue YoY 62.0%, TTM growth 52.5%, 3Y CAGR 41.8%
+      (financials/history.json).'
+    last_updated: '2026-10-13'
+    next_check: Next 10-Q revenue YoY
+    invalidation_condition: Revenue YoY negative for two consecutive quarters
+    draft_auto: true
+  margin_trajectory:
+    importance: high
+    status: improving
+    evidence:
+    - 'Calculation: gross margin latest 36.1% vs 8Q median 34.1%; operating margin
+      -24.6% (financials/history.json).'
+    last_updated: '2026-10-13'
+    next_check: Next 10-Q gross and operating margin
+    invalidation_condition: Gross margin below the 8-quarter low for two consecutive
+      quarters
+    draft_auto: true
+  cash_conversion:
+    importance: high
+    status: weakening
+    evidence:
+    - 'Calculation: TTM FCF -371.1m (CFO - capex), capex 19.3% of revenue (financials/history.json).'
+    last_updated: '2026-10-13'
+    next_check: Next 10-Q cash flow statement
+    invalidation_condition: TTM FCF turns negative while capex intensity rises
+    draft_auto: true
+  per_share_dilution:
+    importance: medium
+    status: weakening
+    evidence:
+    - 'Calculation: weighted diluted shares YoY 22.2% (financials/history.json).'
+    last_updated: '2026-10-13'
+    next_check: Each 10-Q share count
+    invalidation_condition: Diluted shares rise more than 5% YoY
+    draft_auto: true
+  balance_sheet_liquidity:
+    importance: medium
+    status: supported
+    evidence:
+    - 'Fact: cash and short-term investments 2302.2m vs debt 13.1m (financials/history.json).'
+    last_updated: '2026-10-13'
+    next_check: Next balance sheet
+    invalidation_condition: Net debt with negative FCF
+    draft_auto: true
+  backlog_visibility:
+    importance: high
+    status: improving
+    evidence:
+    - 'Fact/Calculation: RPO 2355.9m, YoY 136.7% (financials/history.json).'
+    last_updated: '2026-10-13'
+    next_check: Next 10-Q RPO
+    invalidation_condition: RPO declines year over year
+    draft_auto: true
+next_catalysts:
+- Next 10-Q / earnings release (8-K Item 2.02)
+- Resolution of pending guidance promises (management/promises.json)

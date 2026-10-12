@@ -1,0 +1,246 @@
+{
+  "annual_periods": [
+    "FY2020",
+    "FY2021",
+    "FY2022",
+    "FY2023",
+    "FY2024",
+    "FY2025"
+  ],
+  "quarter_periods": [
+    "Q4 FY2023",
+    "Q1 FY2024",
+    "Q2 FY2024",
+    "Q3 FY2024",
+    "Q4 FY2024",
+    "Q1 FY2025",
+    "Q2 FY2025",
+    "Q3 FY2025",
+    "Q4 FY2025",
+    "Q1 FY2026",
+    "Q2 FY2026",
+    "Q3 FY2026"
+  ],
+  "meets_5y": true,
+  "meets_8q": true,
+  "missing": {
+    "annual": {
+      "FY2020": [
+        "arr",
+        "backlog",
+        "bookings",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "FY2021": [
+        "arr",
+        "backlog",
+        "bookings",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "FY2022": [
+        "arr",
+        "backlog",
+        "bookings",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "FY2023": [
+        "arr",
+        "backlog",
+        "bookings",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "FY2024": [
+        "arr",
+        "backlog",
+        "bookings",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "FY2025": [
+        "arr",
+        "backlog",
+        "bookings",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ]
+    },
+    "quarters": {
+      "Q4 FY2023": [
+        "arr",
+        "backlog",
+        "basic_shares",
+        "bookings",
+        "capitalized_software",
+        "diluted_shares",
+        "diluted_shares_yoy_pct",
+        "eps_diluted",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q1 FY2024": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q2 FY2024": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q3 FY2024": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q4 FY2024": [
+        "arr",
+        "backlog",
+        "basic_shares",
+        "bookings",
+        "capitalized_software",
+        "diluted_shares",
+        "diluted_shares_yoy_pct",
+        "eps_diluted",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q1 FY2025": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q2 FY2025": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q3 FY2025": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q4 FY2025": [
+        "arr",
+        "backlog",
+        "basic_shares",
+        "bookings",
+        "capitalized_software",
+        "diluted_shares",
+        "diluted_shares_yoy_pct",
+        "eps_diluted",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q1 FY2026": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q2 FY2026": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ],
+      "Q3 FY2026": [
+        "arr",
+        "backlog",
+        "bookings",
+        "capitalized_software",
+        "rpo_yoy_pct",
+        "subscribers",
+        "units"
+      ]
+    }
+  },
+  "tag_fallbacks": [
+    "FY2020:cost_of_revenue",
+    "FY2020:debt_total",
+    "FY2020:short_term_investments",
+    "FY2021:cost_of_revenue",
+    "FY2021:short_term_investments",
+    "FY2022:cost_of_revenue",
+    "FY2022:short_term_investments",
+    "FY2023:cost_of_revenue",
+    "FY2023:short_term_investments",
+    "FY2024:cost_of_revenue",
+    "FY2024:short_term_investments",
+    "FY2025:cost_of_revenue",
+    "FY2025:short_term_investments",
+    "Q1 FY2024:cost_of_revenue",
+    "Q1 FY2024:short_term_investments",
+    "Q1 FY2025:cost_of_revenue",
+    "Q1 FY2025:short_term_investments",
+    "Q1 FY2026:cost_of_revenue",
+    "Q1 FY2026:short_term_investments",
+    "Q2 FY2024:cost_of_revenue",
+    "Q2 FY2024:sbc",
+    "Q2 FY2024:short_term_investments",
+    "Q2 FY2025:cost_of_revenue",
+    "Q2 FY2025:sbc",
+    "Q2 FY2025:short_term_investments",
+    "Q2 FY2026:cost_of_revenue",
+    "Q2 FY2026:sbc",
+    "Q2 FY2026:short_term_investments",
+    "Q3 FY2024:cost_of_revenue",
+    "Q3 FY2024:sbc",
+    "Q3 FY2024:short_term_investments",
+    "Q3 FY2025:cost_of_revenue",
+    "Q3 FY2025:sbc",
+    "Q3 FY2025:short_term_investments",
+    "Q3 FY2026:cost_of_revenue",
+    "Q3 FY2026:sbc",
+    "Q3 FY2026:short_term_investments",
+    "Q4 FY2023:cost_of_revenue",
+    "Q4 FY2023:short_term_investments",
+    "Q4 FY2024:cost_of_revenue",
+    "Q4 FY2024:short_term_investments",
+    "Q4 FY2025:cost_of_revenue",
+    "Q4 FY2025:short_term_investments"
+  ],
+  "company_kpis_note": "backlog / ARR / bookings / units / subscribers have no us-gaap tag; null unless an extension tag is configured in tag-overrides.json"
+}

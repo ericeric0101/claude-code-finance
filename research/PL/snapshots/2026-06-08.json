@@ -1,0 +1,647 @@
+{
+  "ticker": "PL",
+  "as_of": "2026-06-08",
+  "retrospective": true,
+  "generated_at": "2026-10-12T18:15:10+00:00",
+  "note": "retrospective = true: rebuilt from data public at this date",
+  "financials": {
+    "latest_quarter": "Q1 FY2027",
+    "quarter": {
+      "revenue": 94.15,
+      "revenue_yoy_pct": 42.081038,
+      "gross_margin_pct": 53.532661,
+      "operating_margin_pct": -37.055762,
+      "fcf": -2.517,
+      "sbc": 16.461,
+      "diluted_shares": 345.524328,
+      "debt": 447.569,
+      "cash_and_investments": 730.835,
+      "rpo": 816.0,
+      "rpo_yoy_pct": 80.570923,
+      "backlog": null
+    },
+    "ttm": {
+      "revenue_ttm": 335.612,
+      "fcf_ttm": 42.346,
+      "sbc_ttm": 58.914,
+      "operating_income_ttm": -107.19
+    },
+    "other": {
+      "normalized_fcf": {
+        "value": -25.786,
+        "period": "H1 FY2027"
+      }
+    },
+    "latest_quarter_end": "2026-04-30",
+    "latest_filed": "2026-06-05"
+  },
+  "management": {
+    "statement_count": 178,
+    "periods": [
+      "Q1 FY2025",
+      "Q1 FY2026",
+      "Q1 FY2027",
+      "Q2 FY2025",
+      "Q2 FY2026",
+      "Q3 FY2025",
+      "Q3 FY2026",
+      "Q4 FY2025",
+      "Q4 FY2026"
+    ],
+    "latest_period": "Q1 FY2027",
+    "latest_tone_by_topic": {
+      "backlog_rpo": 0.33,
+      "product_launch": 0.0,
+      "cash_flow": 0.33,
+      "demand": 2.0,
+      "dilution": 0.67,
+      "customers": 0.0,
+      "margins": 0.0,
+      "constraints": 0.0,
+      "guidance": 0.0,
+      "capex": 0.0
+    },
+    "guidance": {
+      "Q2 FY2025|adjusted_ebitda": {
+        "low": -10.0,
+        "high": -7.0,
+        "issued": "2024-06-06",
+        "unit": "USD millions"
+      },
+      "Q2 FY2025|capex": {
+        "low": 14.0,
+        "high": 17.0,
+        "issued": "2024-06-06",
+        "unit": "USD millions"
+      },
+      "Q2 FY2025|non_gaap_gross_margin": {
+        "low": 51.0,
+        "high": 53.0,
+        "issued": "2024-06-06",
+        "unit": "%"
+      },
+      "Q2 FY2025|revenue": {
+        "low": 59.0,
+        "high": 63.0,
+        "issued": "2024-06-06",
+        "unit": "USD millions"
+      },
+      "Q3 FY2025|adjusted_ebitda": {
+        "low": -5.0,
+        "high": -2.0,
+        "issued": "2024-09-05",
+        "unit": "USD millions"
+      },
+      "Q3 FY2025|capex": {
+        "low": 13.0,
+        "high": 16.0,
+        "issued": "2024-09-05",
+        "unit": "USD millions"
+      },
+      "Q3 FY2025|non_gaap_gross_margin": {
+        "low": 59.0,
+        "high": 61.0,
+        "issued": "2024-09-05",
+        "unit": "%"
+      },
+      "Q3 FY2025|revenue": {
+        "low": 61.0,
+        "high": 64.0,
+        "issued": "2024-09-05",
+        "unit": "USD millions"
+      },
+      "Q4 FY2025|adjusted_ebitda": {
+        "low": 0.0,
+        "high": 2.0,
+        "issued": "2024-12-09",
+        "unit": "USD millions"
+      },
+      "Q4 FY2025|capex": {
+        "low": 8.0,
+        "high": 11.0,
+        "issued": "2024-12-09",
+        "unit": "USD millions"
+      },
+      "Q4 FY2025|non_gaap_gross_margin": {
+        "low": 63.0,
+        "high": 65.0,
+        "issued": "2024-12-09",
+        "unit": "%"
+      },
+      "Q4 FY2025|revenue": {
+        "low": 61.0,
+        "high": 63.0,
+        "issued": "2024-12-09",
+        "unit": "USD millions"
+      },
+      "FY2026|adjusted_ebitda": {
+        "low": 6.0,
+        "high": 8.0,
+        "issued": "2025-12-10",
+        "unit": "USD millions"
+      },
+      "FY2026|capex": {
+        "low": 81.0,
+        "high": 85.0,
+        "issued": "2025-12-10",
+        "unit": "USD millions"
+      },
+      "FY2026|non_gaap_gross_margin": {
+        "low": 57.0,
+        "high": 58.0,
+        "issued": "2025-12-10",
+        "unit": "%"
+      },
+      "FY2026|revenue": {
+        "low": 297.0,
+        "high": 301.0,
+        "issued": "2025-12-10",
+        "unit": "USD millions"
+      },
+      "Q1 FY2026|adjusted_ebitda": {
+        "low": -3.0,
+        "high": -2.0,
+        "issued": "2025-03-20",
+        "unit": "USD millions"
+      },
+      "Q1 FY2026|capex": {
+        "low": 11.0,
+        "high": 16.0,
+        "issued": "2025-03-20",
+        "unit": "USD millions"
+      },
+      "Q1 FY2026|non_gaap_gross_margin": {
+        "low": 58.0,
+        "high": 60.0,
+        "issued": "2025-03-20",
+        "unit": "%"
+      },
+      "Q1 FY2026|revenue": {
+        "low": 61.0,
+        "high": 63.0,
+        "issued": "2025-03-20",
+        "unit": "USD millions"
+      },
+      "Q2 FY2026|adjusted_ebitda": {
+        "low": -4.0,
+        "high": -2.0,
+        "issued": "2025-06-04",
+        "unit": "USD millions"
+      },
+      "Q2 FY2026|capex": {
+        "low": 17.0,
+        "high": 22.0,
+        "issued": "2025-06-04",
+        "unit": "USD millions"
+      },
+      "Q2 FY2026|non_gaap_gross_margin": {
+        "low": 56.0,
+        "high": 57.0,
+        "issued": "2025-06-04",
+        "unit": "%"
+      },
+      "Q2 FY2026|revenue": {
+        "low": 65.0,
+        "high": 67.0,
+        "issued": "2025-06-04",
+        "unit": "USD millions"
+      },
+      "Q3 FY2026|adjusted_ebitda": {
+        "low": -4.0,
+        "high": 0.0,
+        "issued": "2025-09-08",
+        "unit": "USD millions"
+      },
+      "Q3 FY2026|capex": {
+        "low": 18.0,
+        "high": 24.0,
+        "issued": "2025-09-08",
+        "unit": "USD millions"
+      },
+      "Q3 FY2026|non_gaap_gross_margin": {
+        "low": 55.0,
+        "high": 56.0,
+        "issued": "2025-09-08",
+        "unit": "%"
+      },
+      "Q3 FY2026|revenue": {
+        "low": 71.0,
+        "high": 74.0,
+        "issued": "2025-09-08",
+        "unit": "USD millions"
+      },
+      "Q4 FY2026|adjusted_ebitda": {
+        "low": -7.0,
+        "high": -5.0,
+        "issued": "2025-12-10",
+        "unit": "USD millions"
+      },
+      "Q4 FY2026|capex": {
+        "low": 22.0,
+        "high": 26.0,
+        "issued": "2025-12-10",
+        "unit": "USD millions"
+      },
+      "Q4 FY2026|non_gaap_gross_margin": {
+        "low": 50.0,
+        "high": 52.0,
+        "issued": "2025-12-10",
+        "unit": "%"
+      },
+      "Q4 FY2026|revenue": {
+        "low": 76.0,
+        "high": 80.0,
+        "issued": "2025-12-10",
+        "unit": "USD millions"
+      },
+      "FY2027|adjusted_ebitda": {
+        "low": 0.0,
+        "high": 10.0,
+        "issued": "2026-06-04",
+        "unit": "USD millions"
+      },
+      "FY2027|capex": {
+        "low": 80.0,
+        "high": 95.0,
+        "issued": "2026-06-04",
+        "unit": "USD millions"
+      },
+      "FY2027|non_gaap_gross_margin": {
+        "low": 52.0,
+        "high": 54.0,
+        "issued": "2026-06-04",
+        "unit": "%"
+      },
+      "FY2027|revenue": {
+        "low": 425.0,
+        "high": 441.0,
+        "issued": "2026-06-04",
+        "unit": "USD millions"
+      },
+      "Q1 FY2027|adjusted_ebitda": {
+        "low": -6.0,
+        "high": -3.0,
+        "issued": "2026-03-19",
+        "unit": "USD millions"
+      },
+      "Q1 FY2027|capex": {
+        "low": 17.0,
+        "high": 23.0,
+        "issued": "2026-03-19",
+        "unit": "USD millions"
+      },
+      "Q1 FY2027|non_gaap_gross_margin": {
+        "low": 49.0,
+        "high": 51.0,
+        "issued": "2026-03-19",
+        "unit": "%"
+      },
+      "Q1 FY2027|revenue": {
+        "low": 87.0,
+        "high": 91.0,
+        "issued": "2026-03-19",
+        "unit": "USD millions"
+      },
+      "Q2 FY2027|adjusted_ebitda": {
+        "low": 0.0,
+        "high": 5.0,
+        "issued": "2026-06-04",
+        "unit": "USD millions"
+      },
+      "Q2 FY2027|capex": {
+        "low": 21.0,
+        "high": 27.0,
+        "issued": "2026-06-04",
+        "unit": "USD millions"
+      },
+      "Q2 FY2027|non_gaap_gross_margin": {
+        "low": 52.0,
+        "high": 55.0,
+        "issued": "2026-06-04",
+        "unit": "%"
+      },
+      "Q2 FY2027|revenue": {
+        "low": 102.0,
+        "high": 107.0,
+        "issued": "2026-06-04",
+        "unit": "USD millions"
+      }
+    },
+    "promises": {
+      "PL-2024-06-06-q2-capex": {
+        "status": "delivered",
+        "claim": "Capital Expenditures are expected to be in the range of approximately $14 million and $17 million for the quarter.",
+        "actual": 16.621
+      },
+      "PL-2024-06-06-q2-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($10) million and ($7) million for the quarter.",
+        "actual": -4.4
+      },
+      "PL-2024-06-06-q2-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 51% to 53%.",
+        "actual": 58.0
+      },
+      "PL-2024-06-06-q2-revenue": {
+        "status": "delivered",
+        "claim": "For the second quarter of fiscal year 2025, ending July 31, 2024, Planet expects revenue to be in the range of approximately $59 million to $63 million.",
+        "actual": 61.092
+      },
+      "PL-2024-09-05-q3-capex": {
+        "status": "missed",
+        "claim": "Capital Expenditures are expected to be in the range of approximately $13 million and $16 million for the quarter.",
+        "actual": 8.862
+      },
+      "PL-2024-09-05-q3-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($5) \n million and ($2) million for the quarter.",
+        "actual": -0.2
+      },
+      "PL-2024-09-05-q3-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 59% to 61%.",
+        "actual": 64.0
+      },
+      "PL-2024-09-05-q3-revenue": {
+        "status": "delivered",
+        "claim": "For the third quarter of fiscal year 2025, ending October 31, 2024, Planet expects revenue to be in the range of approximately $61 million to $64 million.",
+        "actual": 61.266
+      },
+      "PL-2024-12-09-q4-capex": {
+        "status": "pending",
+        "claim": "Capital Expenditures are expected to be in the range of approximately $8 million and $11 million for the quarter.",
+        "actual": null
+      },
+      "PL-2024-12-09-q4-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA is expected to be in the range of approximately $0 to $2 million for the quarter.",
+        "actual": 2.4
+      },
+      "PL-2024-12-09-q4-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 63% to 65%.",
+        "actual": 65.0
+      },
+      "PL-2024-12-09-q4-revenue": {
+        "status": "pending",
+        "claim": "For the fourth quarter of fiscal year 2025, ending January 31, 2025, Planet expects revenue to be in the range of approximately $61 million to $63 million.",
+        "actual": null
+      },
+      "PL-2025-03-20-fy26-capex": {
+        "status": "pending",
+        "claim": "Capital Expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
+        "actual": null
+      },
+      "PL-2025-03-20-fy26-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be between approximately ($13) million and ($7) million.",
+        "actual": 15.5
+      },
+      "PL-2025-03-20-fy26-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP Gross Margin is expected to be between approximately 55% to 57%.",
+        "actual": 59.0
+      },
+      "PL-2025-03-20-fy26-revenue": {
+        "status": "pending",
+        "claim": "For fiscal year 2026, ending January 31, 2026, Planet expects revenue to be in the range of approximately $260 million to $280 million.",
+        "actual": null
+      },
+      "PL-2025-03-20-q1-capex": {
+        "status": "pending",
+        "claim": "Capital Expenditures are expected to be in the range of approximately $11 million and $16 million for the quarter.",
+        "actual": null
+      },
+      "PL-2025-03-20-q1-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($3) to ($2) million for the quarter.",
+        "actual": 1.2
+      },
+      "PL-2025-03-20-q1-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP Gross Margin is expected to be in the range of approximately 58% to 60%.",
+        "actual": 59.0
+      },
+      "PL-2025-03-20-q1-revenue": {
+        "status": "pending",
+        "claim": "For the first quarter of fiscal year 2026, ending April 30, 2025, Planet expects revenue to be in the range of approximately $61 million to $63 million.",
+        "actual": null
+      },
+      "PL-2025-06-04-fy26-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
+        "actual": null
+      },
+      "PL-2025-06-04-fy26-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($12) million and ($7) million.",
+        "actual": 15.5
+      },
+      "PL-2025-06-04-fy26-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+        "actual": 59.0
+      },
+      "PL-2025-06-04-fy26-revenue": {
+        "status": "pending",
+        "claim": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $265 million to $280 million.",
+        "actual": null
+      },
+      "PL-2025-06-04-q2-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $17 million and $22 million for the quarter.",
+        "actual": null
+      },
+      "PL-2025-06-04-q2-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($4) million to ($2) million for the quarter.",
+        "actual": 6.4
+      },
+      "PL-2025-06-04-q2-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 56% to 57%.",
+        "actual": 61.0
+      },
+      "PL-2025-06-04-q2-revenue": {
+        "status": "pending",
+        "claim": "For the second quarter of fiscal year 2026, ending July 31, 2025, Planet expects revenue to be in the range of approximately $65 million to $67 million.",
+        "actual": null
+      },
+      "PL-2025-09-08-fy26-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $65 million and $75 million for the year.",
+        "actual": null
+      },
+      "PL-2025-09-08-fy26-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($7) million and $0.",
+        "actual": 15.5
+      },
+      "PL-2025-09-08-fy26-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 57%.",
+        "actual": 59.0
+      },
+      "PL-2025-09-08-fy26-revenue": {
+        "status": "pending",
+        "claim": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $281 million to $289 million.",
+        "actual": null
+      },
+      "PL-2025-09-08-q3-capex": {
+        "status": "missed",
+        "claim": "Capital expenditures are expected to be in the range of approximately $18 million and $24 million for the quarter.",
+        "actual": 27.682
+      },
+      "PL-2025-09-08-q3-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($4) million to $0 for the quarter.",
+        "actual": 5.6
+      },
+      "PL-2025-09-08-q3-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 55% to 56%.",
+        "actual": 60.0
+      },
+      "PL-2025-09-08-q3-revenue": {
+        "status": "delivered",
+        "claim": "For the third quarter of fiscal year 2026, ending October 31, 2025, Planet expects revenue to be in the range of approximately $71 million to $74 million.",
+        "actual": 81.254
+      },
+      "PL-2025-12-10-fy26-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $81 million and $85 million for the year.",
+        "actual": null
+      },
+      "PL-2025-12-10-fy26-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA profit is expected to be in the range of approximately $6 million and $8 million.",
+        "actual": 15.5
+      },
+      "PL-2025-12-10-fy26-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 57% to 58%.",
+        "actual": 59.0
+      },
+      "PL-2025-12-10-fy26-revenue": {
+        "status": "pending",
+        "claim": "For the full fiscal year 2026, Planet expects revenue to be in the range of approximately $297 million to $301 million.",
+        "actual": null
+      },
+      "PL-2025-12-10-q4-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $22 million and $26 million for the quarter.",
+        "actual": null
+      },
+      "PL-2025-12-10-q4-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($7) million to ($5) million for the quarter.",
+        "actual": 2.3
+      },
+      "PL-2025-12-10-q4-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
+        "actual": 57.0
+      },
+      "PL-2025-12-10-q4-revenue": {
+        "status": "pending",
+        "claim": "For the fourth quarter of fiscal year 2026, ending January 31, 2026, Planet expects revenue to be in the range of approximately $76 million to $80 million.",
+        "actual": null
+      },
+      "PL-2026-03-19-fy27-capex": {
+        "status": "superseded",
+        "claim": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
+        "actual": null
+      },
+      "PL-2026-03-19-fy27-ebitda": {
+        "status": "superseded",
+        "claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
+        "actual": null
+      },
+      "PL-2026-03-19-fy27-gm": {
+        "status": "superseded",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
+        "actual": null
+      },
+      "PL-2026-03-19-fy27-revenue": {
+        "status": "superseded",
+        "claim": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $415 million to $440 million.",
+        "actual": null
+      },
+      "PL-2026-03-19-q1-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $17 million and $23 million for the quarter.",
+        "actual": null
+      },
+      "PL-2026-03-19-q1-ebitda": {
+        "status": "delivered",
+        "claim": "Adjusted EBITDA loss is expected to be in the range of approximately ($6) million to ($3) million for the quarter.",
+        "actual": -1.0
+      },
+      "PL-2026-03-19-q1-gm": {
+        "status": "delivered",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 49% to 51%.",
+        "actual": 56.0
+      },
+      "PL-2026-03-19-q1-revenue": {
+        "status": "pending",
+        "claim": "For the first quarter of fiscal year 2027, ending April 30, 2026, Planet expects revenue to be in the range of approximately $87 million to $91 million.",
+        "actual": null
+      },
+      "PL-2026-06-04-fy27-capex": {
+        "status": "superseded",
+        "claim": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
+        "actual": null
+      },
+      "PL-2026-06-04-fy27-ebitda": {
+        "status": "superseded",
+        "claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
+        "actual": null
+      },
+      "PL-2026-06-04-fy27-gm": {
+        "status": "superseded",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 54%.",
+        "actual": null
+      },
+      "PL-2026-06-04-fy27-revenue": {
+        "status": "superseded",
+        "claim": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $425 million to $441 million.",
+        "actual": null
+      },
+      "PL-2026-06-04-q2-capex": {
+        "status": "pending",
+        "claim": "Capital expenditures are expected to be in the range of approximately $21 million and $27 million for the quarter.",
+        "actual": null
+      },
+      "PL-2026-06-04-q2-ebitda": {
+        "status": "pending",
+        "claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 to $5 million for the quarter.",
+        "actual": null
+      },
+      "PL-2026-06-04-q2-gm": {
+        "status": "pending",
+        "claim": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 55%.",
+        "actual": null
+      },
+      "PL-2026-06-04-q2-revenue": {
+        "status": "pending",
+        "claim": "For the second quarter of fiscal year 2027, ending July 31, 2026, Planet expects revenue to be in the range of approximately $102 million to $107 million.",
+        "actual": null
+      }
+    }
+  },
+  "action": null,
+  "valuation_confidence": null,
+  "thesis": {},
+  "next_catalysts": [],
+  "rules": {},
+  "expectation_gap": {},
+  "valuation": {
+    "price": 32.74,
+    "price_date": "2026-06-08",
+    "methods": {},
+    "map_position": null,
+    "percentiles": {}
+  },
+  "recommendation_note": "retrospective = true: no recommendation existed at this date; only public data as of the date is recorded."
+}
