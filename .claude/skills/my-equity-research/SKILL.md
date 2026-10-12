@@ -15,6 +15,8 @@ Default to Standard analysis unless the user chooses another depth. Prioritize
 SEC filings and issuer materials, preserve source dates, units and periods,
 then run stock-analysis intake verification, calculations, challenge pass and
 report linting. Save outputs under `research/<TICKER>/` with a dated report.
+Write report prose in Traditional Chinese (繁體中文); tickers, field names,
+metric abbreviations and code identifiers may stay English.
 Use the user's research date and Asia/Taipei timezone; market prices carry
 their own trading date and exchange timezone. Never describe a test or a
 partially sourced report as a completed live research workflow.

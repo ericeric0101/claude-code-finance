@@ -411,7 +411,7 @@ def status(ticker: str, root: Path = ROOT) -> str:
 
 
 def _fmt_change(prev: Any, cur: Any) -> str:
-    return f"{prev} → {cur}" if prev != cur else f"{cur} (unchanged)"
+    return f"{prev} → {cur}" if prev != cur else f"{cur}（未變）"
 
 
 def change_report(ticker: str, root: Path = ROOT, dry_run_note: str = "") -> str:
@@ -423,54 +423,54 @@ def change_report(ticker: str, root: Path = ROOT, dry_run_note: str = "") -> str
     latest = _read_json(base / "valuation/latest.json", {}) or {}
     cur = t_hist[-1] if t_hist else thesis_snapshot(thesis)
     prev = t_hist[-2] if len(t_hist) >= 2 else None
-    lines = [f"# What Changed Since Last Review — {ticker.upper()}", ""]
+    lines = [f"# What Changed Since Last Review — {ticker.upper()}｜自上次檢視以來的變化", ""]
     if dry_run_note:
         lines += [f"> {dry_run_note}", ""]
     if prev is None:
-        lines += [f"Baseline state as of {cur.get('as_of')}; there is no prior research state to compare.",
-                  "Every item below is the starting point for the next update.", ""]
+        lines += [f"基準狀態日期為 {cur.get('as_of')}；沒有先前的研究狀態可供比較。",
+                  "以下各項皆為下次更新的比較起點。", ""]
     pos, neg, same = [], [], []
     order = {s: i for i, s in enumerate(THESIS_STATUSES)}
     for name, c in cur.get("components", {}).items():
         p = (prev or {}).get("components", {}).get(name)
         if not p:
-            same.append(f"{name}: {c['status']} (new or baseline)")
+            same.append(f"{name}: {c['status']}（新增或基準）")
         elif order[c["status"]] < order[p["status"]]:
             pos.append(f"{name}: {p['status']} → {c['status']}")
         elif order[c["status"]] > order[p["status"]]:
             neg.append(f"{name}: {p['status']} → {c['status']}")
         else:
             same.append(f"{name}: {c['status']}")
-    for title, items in (("Positive", pos), ("Negative", neg), ("Unchanged", same)):
-        lines += [f"## {title}"] + ([f"- {i}" for i in items] or ["- none"]) + [""]
-    lines += ["## Management wording changes",
-              f"- See management/changes.md ({len(_read_json(base / 'management/statements.json', []) or [])} statements recorded)", ""]
+    for title, items in (("Positive 正面變化", pos), ("Negative 負面變化", neg), ("Unchanged 未變化", same)):
+        lines += [f"## {title}"] + ([f"- {i}" for i in items] or ["- 無"]) + [""]
+    lines += ["## Management wording changes 管理層措辭變化",
+              f"- 詳見 management/changes.md（已記錄 {len(_read_json(base / 'management/statements.json', []) or [])} 則陳述）", ""]
     counts: Dict[str, int] = {}
     for p in promises:
         counts[p.get("status", "?")] = counts.get(p.get("status", "?"), 0) + 1
-    lines += ["## Promises", "- " + (", ".join(f"{k}: {v}" for k, v in sorted(counts.items()))
-                                     or "none recorded"), ""]
+    lines += ["## Promises 管理層承諾", "- " + (", ".join(f"{k}: {v}" for k, v in sorted(counts.items()))
+                                     or "尚無紀錄"), ""]
     statuses = [c["status"] for c in cur.get("components", {}).values()]
     worst = max(statuses, key=lambda s: order[s]) if statuses else "n/a"
-    lines += ["## Thesis", f"- weakest component status: {worst}", ""]
+    lines += ["## Thesis 投資論點", f"- 最弱論點元件狀態：{worst}", ""]
     dates = sorted({r["as_of"] for r in v_hist})
     def _vals(d):
         return {r["method"]: f"{r['bear']}/{r['base']}/{r['bull']}" for r in v_hist if r["as_of"] == d}
     if len(dates) >= 2:
-        lines += ["## Valuation (bear/base/bull)",
+        lines += ["## Valuation (bear/base/bull) 估值（悲觀/基準/樂觀）",
                   *[f"- {m}: {_fmt_change(_vals(dates[-2]).get(m), v)}" for m, v in _vals(dates[-1]).items()], ""]
     elif dates:
-        lines += ["## Valuation (bear/base/bull)",
-                  *[f"- {m}: {v} (baseline)" for m, v in _vals(dates[-1]).items()], ""]
+        lines += ["## Valuation (bear/base/bull) 估值（悲觀/基準/樂觀）",
+                  *[f"- {m}: {v}（基準）" for m, v in _vals(dates[-1]).items()], ""]
     gap_hist = latest.get("expectation_gap") or {}
-    lines += ["## Expectation gap", f"- {gap_hist.get('interpretation', 'not quantified')}"
-              + (f" Direction: {gap_hist.get('direction')}." if gap_hist.get("direction") else ""), ""]
-    lines += ["## Action", f"- {_fmt_change((prev or {}).get('action', cur.get('action')), cur.get('action'))}", "",
-              "## Confidence",
+    lines += ["## Expectation gap 預期落差", f"- {gap_hist.get('interpretation', '尚未量化')}"
+              + (f" 方向：{gap_hist.get('direction')}。" if gap_hist.get("direction") else ""), ""]
+    lines += ["## Action 研究分類", f"- {_fmt_change((prev or {}).get('action', cur.get('action')), cur.get('action'))}", "",
+              "## Confidence 估值信心",
               f"- {_fmt_change((prev or {}).get('valuation_confidence', cur.get('valuation_confidence')), cur.get('valuation_confidence'))}",
-              "", "## Next catalysts"]
-    lines += [f"- {c}" for c in thesis.get("next_catalysts", [])] or ["- none recorded"]
-    lines += ["", "Price movement alone is not treated as evidence that fundamentals changed."]
+              "", "## Next catalysts 下一個催化劑"]
+    lines += [f"- {c}" for c in thesis.get("next_catalysts", [])] or ["- 尚無紀錄"]
+    lines += ["", "僅有股價變動不視為基本面已改變的證據。"]
     return "\n".join(lines) + "\n"
 
 

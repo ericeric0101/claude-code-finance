@@ -165,7 +165,7 @@ class StateSafetyTests(unittest.TestCase):
     def test_baseline_change_report(self):
         report = rs.change_report("PL", self.root)
         self.assertIn("# What Changed Since Last Review — PL", report)
-        self.assertIn("no prior research state", report)
+        self.assertIn("沒有先前的研究狀態", report)
         for section in ("## Positive", "## Negative", "## Unchanged", "## Promises",
                         "## Valuation", "## Expectation gap", "## Action", "## Confidence",
                         "## Next catalysts"):

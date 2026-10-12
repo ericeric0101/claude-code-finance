@@ -34,3 +34,5 @@ Rules:
   Unknown tickers need a verified numeric CIK.
 - Credentials live in ignored `.env`; never print, stage or commit them.
 - Tests: `python3 -m unittest discover -s tests`.
+- Report prose is Traditional Chinese (繁體中文); tickers, field names and code
+  identifiers may stay English. Don't translate existing dated reports.

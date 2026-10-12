@@ -16,6 +16,7 @@ upstream source folders; custom requirements belong in my-equity-research.
 The user's current initial test is AAPL. PL is prepared, not scheduled or run.
 
 Keep dated reports and reproducible inputs in `research/<TICKER>/`.
+Report language: write all report prose (change reports, deep / full reports, monthly reviews, replies) in Traditional Chinese (繁體中文). Tickers, field names, YAML/JSON keys, section identifiers and code identifiers may stay English. Do not translate existing dated reports.
 Use primary filings for financial facts and dated market sources for prices.
 State reporting basis, units, period, missing data and assumptions explicitly.
 Run stock-analysis verify_data, valuation, score, challenge and lint_report.

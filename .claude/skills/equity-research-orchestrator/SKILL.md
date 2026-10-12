@@ -77,6 +77,7 @@ next catalysts, reassessment triggers and open promises against the latest price
 
 ## Rules
 
+- Report language: write all report prose (change reports, deep / full reports, monthly reviews, replies) in Traditional Chinese (繁體中文). Tickers, field names, YAML/JSON keys, section identifiers and code identifiers may stay English. Do not translate existing dated reports. `change-report` emits bilingual section headings; add any narrative in Traditional Chinese.
 - Primary sources first (`docs/data-source-policy.md`); label Fact / Calculation /
   Assumption / Interpretation; never fabricate consensus estimates.
 - Thesis status changes require evidence; price action alone is not evidence.

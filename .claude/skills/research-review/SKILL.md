@@ -15,6 +15,9 @@ description: Run the monthly review across every company with research state in 
 
 ## Required sections
 
+Write the review in Traditional Chinese (繁體中文); tickers, field names and code
+identifiers may stay English.
+
 1. New information that changed prior judgments (cite source and date).
 2. Theses that strengthened.
 3. Theses that weakened.

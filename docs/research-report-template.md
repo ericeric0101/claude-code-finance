@@ -4,6 +4,9 @@ Use this project-owned supplement with the upstream stock-analysis report templa
 It controls the recommendation and valuation decision layer; it does not replace
 sector, accounting, source, risk, or diligence requirements.
 
+**Language:** write the report prose in Traditional Chinese (繁體中文); tickers,
+field names, metric abbreviations and code identifiers may stay English.
+
 ## Decision summary
 
 **Action:** [BUY / ACCUMULATE / WATCH / HOLD EXISTING / AVOID] — [evidence-based
