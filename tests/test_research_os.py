@@ -111,11 +111,32 @@ class MigrationRegressionTests(unittest.TestCase):
         self.assertFalse(rs.validate_thesis(thesis))
 
 
+BASELINE = "2026-10-11"
+
+
 class StateSafetyTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)
         shutil.copytree(ROOT / "research/PL", self.root / "research/PL")
+        self._rewind_to_baseline(self.root / "research/PL", BASELINE)
+
+    @staticmethod
+    def _rewind_to_baseline(base: Path, as_of: str) -> None:
+        # Live PL state keeps growing with real updates; tests start from the baseline.
+        tpath = base / "thesis/current.yaml"
+        doc = yaml.safe_load(tpath.read_text())
+        doc["as_of"] = as_of
+        tpath.write_text(yaml.safe_dump(doc, sort_keys=False))
+        vpath = base / "valuation/latest.json"
+        latest = json.loads(vpath.read_text())
+        latest["as_of"] = as_of
+        vpath.write_text(json.dumps(latest))
+        hpath = base / "thesis/history.json"
+        hpath.write_text(json.dumps([h for h in json.loads(hpath.read_text()) if h["as_of"] <= as_of]))
+        cpath = base / "valuation/history.csv"
+        lines = cpath.read_text().splitlines(keepends=True)
+        cpath.write_text("".join(lines[:1] + [l for l in lines[1:] if l.split(",", 1)[0] <= as_of]))
 
     def tearDown(self):
         self.tmp.cleanup()

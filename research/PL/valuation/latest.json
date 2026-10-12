@@ -1,6 +1,6 @@
 {
   "ticker": "PL",
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-12",
   "source_report": "../PL-analysis-2026-10-11.md",
   "authoritative_inputs": [
     "../recommendation-input.json",
@@ -81,7 +81,7 @@
   },
   "expectation_gap": {
     "interpretation": "Not quantified. Qualitatively the quote sits between the modeled base and bull values (about 43% above base), so market expectations appear above the internal base case.",
-    "direction": "no prior state"
+    "direction": "unchanged vs 2026-10-11 (latest completed close 2026-10-09 $17.18 is the same close; no new fundamental inputs)"
   },
   "catch_up": {
     "ev": 5900,
@@ -103,5 +103,11 @@
     "unit": "USD millions",
     "classification": "Calculation",
     "basis": "basic shares 363.8m x $17.18 + notes $448.3m + leases $50.4m - cash/investments $865.4m"
+  },
+  "latest_quote": {
+    "price": 16.45,
+    "status": "intraday, session not closed",
+    "as_of_et": "2026-10-12T11:53-04:00",
+    "classification": "Fact (dated market source, intraday); not used for valuation state"
   }
 }
