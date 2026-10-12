@@ -9,10 +9,12 @@ Tool: `scripts/price_reaction.py` (stdlib; reads local CSVs).
 
 - Prices: `research/<TICKER>/market/prices.csv`
   (`date,open,high,low,close,volume,source,retrieved_at`).
-  Refresh only when needed (network):
-  `uv run --project .claude/skills/finance-skill/scripts python scripts/price_reaction.py fetch TICKER --source alphavantage`
-  (`--source yfinance` is a tier-4 fallback / cross-check).
-- Events CSV: `event_date,event_type,description,source`, built from SEC filing
+  Always refresh before analyzing (network; Alpha Vantage compact for recent
+  sessions, yfinance backfill for older dates, today's open session stored
+  separately in `market/latest-quote.json`):
+  `uv run --project .claude/skills/finance-skill/scripts python scripts/price_reaction.py fetch TICKER`
+- Events CSV (`market/events.csv`): `event_date,event_type,description,source,timing`
+  (`timing: amc` moves t0 to the next session; unverified timing stays `unknown`), built from SEC filing
   dates (`evidence/sources.json`, `finance-skill` submissions), earnings 8-K
   dates and guidance changes.
 - Run: `python3 scripts/price_reaction.py analyze TICKER events.csv [--write]`

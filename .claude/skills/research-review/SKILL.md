@@ -6,7 +6,8 @@ description: Run the monthly review across every company with research state in 
 # Monthly Research Review
 
 1. `python3 scripts/research_state.py list` → tracked tickers.
-2. For each: `status`, `check-rules`, `change-report` (local, no network). Run an
+2. For each: refresh prices (`price_reaction.py fetch`), then `status`,
+   `check-rules`, `change-report`. Run an
    UPDATE via `equity-research-orchestrator` first only for companies with new
    filings since their `as_of` (check SEC submissions dates; skip API calls when
    nothing new was filed).

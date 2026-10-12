@@ -64,7 +64,7 @@ fill thesis / valuation / financials / management / monitoring →
 
 ## 6. Update flow
 
-`status` → list filings newer than `as_of` (stop if none) → management-change →
+refresh prices (`price_reaction.py fetch`, always) → `status` → list filings newer than `as_of` → management-change →
 thesis-monitor → valuation-monitor → `check-rules` → `snapshot` →
 `record-valuation` → `change-report --out reports/<date>-change-report.md` → commit.
 
@@ -129,11 +129,12 @@ Same `research/`, `scripts/`, `docs/`, skills. Codex enters via `AGENTS.md` and
 ```
 
 ```bash
+uv run --project .claude/skills/finance-skill/scripts python scripts/price_reaction.py fetch PL
 python3 scripts/research_state.py status PL
 python3 scripts/research_state.py change-report AAPL
 python3 scripts/research_state.py check-rules PL
 python3 scripts/research_state.py catch-up PL
 python3 scripts/research_state.py expectation-gap AAPL
-python3 scripts/price_reaction.py analyze PL events.csv
+python3 scripts/price_reaction.py analyze PL research/PL/market/events.csv --write
 python3 -m unittest discover -s tests
 ```

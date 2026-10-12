@@ -28,6 +28,17 @@ State tool (local only, no network): `python3 scripts/research_state.py <cmd> TI
 with `init`, `status`, `list`, `snapshot`, `record-valuation`, `change-report`,
 `check-rules`, `catch-up`, `expectation-gap`.
 
+## Always refresh prices first
+
+Every intent that touches a ticker starts by refreshing prices (network):
+`uv run --project .claude/skills/finance-skill/scripts python scripts/price_reaction.py fetch TICKER`
+(Alpha Vantage for recent sessions, yfinance only to backfill older dates).
+Use the latest completed close; if the US session is open, also cite
+`market/latest-quote.json` and label it intraday. Valuation-map position,
+catch-up tables and any price comparison use that latest price, not the
+price stored at the last research date. Filings and other evidence stay
+local-first: only fetch what is newer than the stored state.
+
 ## Intents
 
 **INIT `<TICKER>`** — baseline state.
@@ -42,9 +53,10 @@ with `init`, `status`, `list`, `snapshot`, `record-valuation`, `change-report`,
 
 **UPDATE `<TICKER>`** — incremental.
 1. `status TICKER`; note `as_of`, latest reported period and `evidence/sources.json`.
-2. Retrieve only filings / releases / prices dated after the stored state
-   (SEC submissions list first). If nothing new, say so and stop after a
-   status refresh; do not call APIs when local evidence already answers.
+2. Retrieve only filings / releases dated after the stored state (SEC
+   submissions list first). If no new filings, still refresh prices and
+   report the price-only change (valuation-map position, catch-up), without
+   changing thesis status.
 3. `management-change` → statements, wording changes, promise status.
 4. `thesis-monitor` → update component status only on evidence.
 5. `valuation-monitor` → re-run existing scripts with new inputs; update
@@ -56,8 +68,8 @@ with `init`, `status`, `list`, `snapshot`, `record-valuation`, `change-report`,
 **DEEP `<TICKER>`** — full current deep dive (`my-equity-research` Deep Dive
 depth), then the UPDATE state steps so the state reflects it.
 
-**WATCH `<TICKER>`** — read-only: `status`, `check-rules`, next catalysts,
-reassessment triggers, and open promises. No network unless asked.
+**WATCH `<TICKER>`** — refresh prices, then read-only `status`, `check-rules`,
+next catalysts, reassessment triggers and open promises against the latest price.
 
 **WHAT CHANGED** — `change-report TICKER`; add context from `management/changes.md`.
 

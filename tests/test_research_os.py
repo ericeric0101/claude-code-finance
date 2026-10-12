@@ -209,6 +209,27 @@ class AnalyticsTests(unittest.TestCase):
         self.assertNotIn("smart money", json.dumps(r))
 
 
+class PriceFreshnessTests(unittest.TestCase):
+    def test_after_close_event_moves_t0_to_next_session(self):
+        prices = [{"date": f"2026-03-{d:02d}", "open": 10.0, "close": 10.0 + d / 10, "volume": 100.0}
+                  for d in range(1, 10)]
+        self.assertEqual(price_reaction.event_reaction(prices, "2026-03-05")["t0"], "2026-03-05")
+        self.assertEqual(price_reaction.event_reaction(prices, "2026-03-05", after_close=True)["t0"], "2026-03-06")
+
+    def test_status_reports_latest_stored_close(self):
+        lines = rs.latest_market_lines(ROOT / "research/PL", 17.18)
+        self.assertTrue(lines and lines[0].startswith("Latest stored close"))
+        self.assertIn("price_reaction.py fetch", lines[-1])
+
+    def test_stored_prices_have_source_and_retrieval(self):
+        for t in ("AAPL", "PL"):
+            with (ROOT / "research" / t / "market/prices.csv").open() as fh:
+                rows = list(csv.DictReader(fh))
+            self.assertGreater(len(rows), 100)
+            self.assertTrue(all(r["source"] and r["retrieved_at"] for r in rows))
+            self.assertEqual(len({r["date"] for r in rows}), len(rows))
+
+
 class SecretTests(unittest.TestCase):
     def test_no_secret_files_or_values_tracked(self):
         tracked = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True).stdout.split()

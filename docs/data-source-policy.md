@@ -17,8 +17,9 @@ Rules:
 3. Consensus estimates are never fabricated. If consensus is not available from a
    cited source, say so; analyst assumptions are labelled as assumptions.
 4. An unavailable source is a disclosed gap, not permission to use remembered numbers.
-5. Prefer local evidence: do not call an API when `research/<TICKER>/` already
-   holds the dated data needed. Network acquisition goes through `finance-skill`
+5. Prices are always refreshed before an analysis (latest close; intraday quotes
+   labelled). For filings and other evidence prefer local data: do not call an
+   API when `research/<TICKER>/` already holds the dated data needed. Network acquisition goes through `finance-skill`
    (`uv run --project .claude/skills/finance-skill/scripts ...`) so caching and
    the SEC User-Agent are applied.
 6. Unknown tickers require a verified numeric CIK before SEC calls.

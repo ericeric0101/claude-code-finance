@@ -30,8 +30,13 @@ from typing import Any, Dict, Iterable, List, Optional
 
 try:
     import yaml
-except ImportError:  # pragma: no cover - environment guard
-    sys.exit("PyYAML is required: python3 -m pip install pyyaml")
+except ImportError:  # pragma: no cover - e.g. the finance-skill uv env used for price fetches
+    yaml = None
+
+
+def _require_yaml() -> None:
+    if yaml is None:
+        sys.exit("PyYAML is required for thesis / monitoring state: python3 -m pip install pyyaml")
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -58,6 +63,7 @@ def company_dir(ticker: str, root: Path = ROOT) -> Path:
 
 
 def _read_yaml(path: Path) -> Any:
+    _require_yaml()
     return yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else None
 
 
@@ -99,6 +105,7 @@ def _skeleton(ticker: str, company: str, cik: Optional[str]) -> Dict[str, Any]:
 def init_company(ticker: str, company: str = "", cik: Optional[str] = None,
                  root: Path = ROOT) -> Dict[str, List[str]]:
     """Create missing state files only; existing research is never overwritten."""
+    _require_yaml()
     base = company_dir(ticker, root)
     created: List[str] = []
     kept: List[str] = []
@@ -121,7 +128,7 @@ def init_company(ticker: str, company: str = "", cik: Optional[str] = None,
 
 
 EVENT_REACTION_HEADER = (
-    "event_date", "event_type", "description", "source", "gap_pct", "day_return_pct",
+    "event_date", "event_type", "description", "source", "t0", "gap_pct", "day_return_pct",
     "volume_ratio_20d", "return_m1_p1_pct", "drift_p2_p20_pct", "max_drawdown_20d_pct",
     "observation", "interpretation",
 )
@@ -347,6 +354,28 @@ def tracked_companies(root: Path = ROOT) -> List[str]:
     return sorted(p.parent.parent.name for p in (root / "research").glob("*/thesis/current.yaml"))
 
 
+def latest_market_lines(base: Path, state_price: Any) -> List[str]:
+    """Latest stored close and any intraday quote, compared with the state's price."""
+    out = []
+    prices = base / "market/prices.csv"
+    if prices.exists():
+        with prices.open(newline="", encoding="utf-8") as fh:
+            rows = [r for r in csv.DictReader(fh) if r.get("close")]
+        if rows:
+            last = max(rows, key=lambda r: r["date"])
+            line = f"Latest stored close: {float(last['close']):.2f} ({last['date']}, {last['source']})"
+            if state_price:
+                line += f"; {float(last['close']) / float(state_price) - 1:+.1%} vs state price"
+            out.append(line)
+    quote = _read_json(base / "market/latest-quote.json")
+    if quote:
+        out.append(f"Latest quote: {quote['price']:.2f} ({quote['status']}, {quote['as_of_et']} ET)")
+    if out:
+        out.append("Refresh before analysis: uv run --project .claude/skills/finance-skill/scripts "
+                   "python scripts/price_reaction.py fetch TICKER")
+    return out
+
+
 def status(ticker: str, root: Path = ROOT) -> str:
     base = company_dir(ticker, root)
     thesis = _read_yaml(base / "thesis/current.yaml") or {}
@@ -359,7 +388,8 @@ def status(ticker: str, root: Path = ROOT) -> str:
     lines += ["", "## Thesis components"]
     for name, c in (thesis.get("components") or {}).items():
         lines.append(f"- {name} [{c.get('importance')}]: {c.get('status')} — next check: {c.get('next_check')}")
-    lines += ["", "## Valuation", f"Price: {latest.get('price')} ({latest.get('price_date')})"]
+    lines += ["", "## Valuation", f"State price: {latest.get('price')} ({latest.get('price_date')})"]
+    lines += latest_market_lines(base, latest.get("price"))
     for m, v in (latest.get("methods") or {}).items():
         lines.append(f"- {m}: bear {v.get('bear')} / base {v.get('base')} / bull {v.get('bull')}")
     pos = (latest.get("valuation_map") or {}).get("current_position")

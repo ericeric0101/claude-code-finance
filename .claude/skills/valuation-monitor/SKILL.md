@@ -17,7 +17,9 @@ State: `valuation/latest.json` (current), `valuation/assumptions.json`,
 
 ## Update procedure
 
-1. Refresh price with a dated source (`finance-skill`; Alpha Vantage before yfinance).
+1. Refresh prices first (`uv run --project .claude/skills/finance-skill/scripts python
+   scripts/price_reaction.py fetch TICKER`) and value against the latest close
+   (intraday quote only if labelled). Alpha Vantage before yfinance.
 2. Re-run the existing method inputs with updated filings / assumptions; record
    each method's bear / base / bull in `latest.json["methods"]`.
 3. Reverse DCF: solve the operating assumption the price requires; store in

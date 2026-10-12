@@ -1,0 +1,7 @@
+event_date,event_type,description,source,timing
+2025-10-30,8-K 2.02 earnings,Q4 FY2025 results,https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm,amc (assumed after-close release; t0 volume spike consistent; verify)
+2026-01-29,8-K 2.02 earnings,Q1 FY2026 results,https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm,amc (assumed after-close release; t0 volume spike consistent; verify)
+2026-04-20,8-K,CEO succession announced (Ternus CEO effective 2026-09-01),https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm,unknown
+2026-04-30,8-K 2.02 earnings,Q2 FY2026 results,https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm,amc (assumed after-close release; t0 volume spike consistent; verify)
+2026-07-30,8-K 2.02 earnings,Q3 FY2026 results (incl. one-time tariff refund),https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm,amc (assumed after-close release; t0 volume spike consistent; verify)
+2026-09-09,issuer announcement,iPhone Duo announced,https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/,unknown

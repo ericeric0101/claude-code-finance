@@ -31,6 +31,10 @@ research classification, not a personalized trade instruction. Tie events to the
 exposures, primary sources, and explicit scenarios; do not apply generic
 headline premiums or double-count risk in cashflows and WACC.
 
+Before every analysis, update, watch or review, refresh prices with
+`uv run --project .agents/skills/finance-skill/scripts python scripts/price_reaction.py fetch <TICKER>`
+and use the latest close (label intraday quotes as intraday).
+
 Use `uv run --project .agents/skills/finance-skill/scripts python ...` for
 finance utilities. Unknown tickers require a verified numeric CIK.
 Credentials are in ignored `.env`; never print, stage or commit its contents.

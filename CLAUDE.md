@@ -25,6 +25,9 @@ Rules:
 - Thesis changes require evidence; price action alone does not prove
   fundamentals changed. Alerts mean "reassess", never an order.
 - Never fabricate consensus estimates or remembered numbers.
+- Always refresh market prices before an analysis, update, watch or review
+  (`uv run --project .claude/skills/finance-skill/scripts python scripts/price_reaction.py fetch <TICKER>`)
+  and use the latest close; label an intraday quote as intraday. Filings stay local-first.
 - Run stock-analysis verify_data, valuation, score, challenge and lint_report
   for full reports; a linter PASS is not source verification.
 - Finance utilities: `uv run --project .claude/skills/finance-skill/scripts python ...`.
