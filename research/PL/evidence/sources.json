@@ -44,5 +44,85 @@
     "date": "2026-10-01",
     "description": "Successful launch of 20 satellites",
     "url": "https://investors.planet.com/news/news-details/2026/Planet-Launches-Suncatcher-Tanager-2-and-18-SuperDove-Satellites/default.aspx"
+  },
+  {
+    "id": "sec-0001836833-26-000046",
+    "tier": 1,
+    "type": "Form 4 (ownership)",
+    "filed": "2026-10-02",
+    "summary": "Director Ita M. Brennan sold 11,500 sh at $16.30 (10b5-1); 250,373 sh held after",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000046/"
+  },
+  {
+    "id": "sec-0001950047-26-009952",
+    "tier": 1,
+    "type": "Form 144 (ownership)",
+    "filed": "2026-10-01",
+    "summary": "Notice of proposed sale (related to 2026-10-02 Form 4)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000195004726009952/"
+  },
+  {
+    "id": "sec-0001193125-26-395503",
+    "tier": 1,
+    "type": "Form 4 (ownership)",
+    "filed": "2026-09-18",
+    "summary": "CEO William Marshall gift of 80,000 sh; 2,488,473 sh held after",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526395503/"
+  },
+  {
+    "id": "sec-0001193125-26-394792",
+    "tier": 1,
+    "type": "Form 4 (ownership)",
+    "filed": "2026-09-17",
+    "summary": "CEO William Marshall 134,642 sh withheld for tax (code F) at $16.02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394792/"
+  },
+  {
+    "id": "sec-0001193125-26-394658",
+    "tier": 1,
+    "type": "Form 4 (ownership)",
+    "filed": "2026-09-17",
+    "summary": "President & CFO Ashley Johnson: tax withholding (F), trust transfers (J), 55,663 sh sold at ~$16.96 (10b5-1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394658/"
+  },
+  {
+    "id": "sec-0001193125-26-394651",
+    "tier": 1,
+    "type": "Form 4 (ownership)",
+    "filed": "2026-09-17",
+    "summary": "Co-founder/CSO Robert Schingler: tax withholding (F), transfers (J), 52,240 sh sold at ~$16.96 (10b5-1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394651/"
+  },
+  {
+    "id": "sec-0001950047-26-009638",
+    "tier": 1,
+    "type": "Form 144 (ownership)",
+    "filed": "2026-09-17",
+    "summary": "Notice of proposed sale",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000195004726009638/"
+  },
+  {
+    "id": "sec-0001950047-26-009631",
+    "tier": 1,
+    "type": "Form 144 (ownership)",
+    "filed": "2026-09-17",
+    "summary": "Notice of proposed sale",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000195004726009631/"
+  },
+  {
+    "id": "sec-submissions-check-2026-10-12",
+    "tier": 1,
+    "type": "EDGAR submissions check",
+    "date": "2026-10-12",
+    "description": "No 10-Q, 10-K, 8-K or S-3 filed after 2026-09-03; only Forms 4/144. An aggregator headline describing a 2026-10-01 8-K was not matched by EDGAR and was not used.",
+    "url": "https://data.sec.gov/submissions/CIK0001836833.json"
+  },
+  {
+    "id": "external-analyst-2026-10-08",
+    "tier": 4,
+    "type": "aggregator (analyst ratings)",
+    "date": "2026-10-08/09",
+    "description": "Barclays Equal Weight/Hold, Goldman Hold reported by MarketBeat/CNN; dates differ across sources; context only, not used for valuation",
+    "url": "https://marketbeat.com/instant-alerts/analyst-planet-labs-pbc-nyse-pl-upgraded-to-hold-at-barclays-2026-10-10"
   }
 ]
