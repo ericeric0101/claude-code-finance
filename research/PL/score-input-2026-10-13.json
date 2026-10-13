@@ -1,0 +1,100 @@
+{
+  "company": "Planet Labs PBC",
+  "ticker": "NYSE:PL",
+  "as_of": "2026-10-13",
+  "basis": "consolidated",
+  "currency": "USD",
+  "sector": "it-saas",
+  "metrics": {
+    "gross_margin_pct": {
+      "value": 56.5,
+      "source": "SEC Q2 FY2027 10-Q, Q2 GAAP gross margin",
+      "period": "Q2 FY2027",
+      "own_history": [
+        22.8,
+        36.7,
+        49.1,
+        51.2,
+        57.2,
+        56.1
+      ],
+      "note": "FY2021-FY2026 GAAP gross margin from financials/history.json"
+    },
+    "opm_pct": {
+      "value": -27.2,
+      "source": "computed: TTM operating loss -102.7 / TTM revenue 378.3 (history.json)",
+      "period": "TTM to 2026-07-31",
+      "own_history": [
+        -77.3,
+        -97.6,
+        -91.8,
+        -76.9,
+        -47.5,
+        -30.9
+      ]
+    },
+    "sbc_to_revenue_pct": {
+      "value": 16.5,
+      "source": "computed: TTM SBC 62.5 / TTM revenue 378.3"
+    },
+    "rule_of_40": {
+      "value": 49.4,
+      "source": "computed: TTM revenue growth 44.1% + TTM reported FCF margin 5.3%",
+      "note": "Reported FCF includes deferred-revenue inflows; normalized FCF margin negative"
+    },
+    "fcf_margin_pct": {
+      "value": 5.3,
+      "source": "computed: TTM FCF 19.9 / TTM revenue 378.3",
+      "own_history": [
+        -30.2,
+        -43.5,
+        -45.3,
+        -42.2,
+        -26.2,
+        17.2
+      ]
+    },
+    "dilution_5y_pct": {
+      "value": 35.0,
+      "source": "computed: diluted weighted shares FY2023 267.1m -> Q2 FY2027 359.6m (pre-SPAC periods not comparable)",
+      "note": "18.2% year over year"
+    },
+    "capital_allocation_score": {
+      "value": 5.0,
+      "note": "ATM sold near the top (avg net $31.95) and convertible with capped call; but SBC ~16% of revenue and capex plans raised repeatedly"
+    },
+    "disclosure_quality_score": {
+      "value": 6.0,
+      "note": "RPO/backlog timing, customer mix disclosed; no satellite-level economics or renewal terms"
+    },
+    "moat_width_score": {
+      "value": 6.5,
+      "note": "Daily global archive and sovereign dedicated-constellation contracts; competition from BlackSky, Airbus, government systems"
+    },
+    "pricing_power_score": {
+      "value": 5.0,
+      "note": "Non-GAAP gross margin 55-59% stable; no price disclosure"
+    },
+    "reverse_dcf_growth_gap_pp": {
+      "value": 8.5,
+      "source": "valuation/model-2026-10-13.json: implied 33.5% vs base 25%"
+    },
+    "cyclicality_resilience_score": {
+      "value": 5.0,
+      "note": "Government budget/appropriation timing risk; 68% D&I revenue"
+    },
+    "net_debt_to_ebitda": {
+      "value": -17.6,
+      "source": "computed: (notes 448.3 + leases 50.4 - cash/investments 865.4) / TTM company adjusted EBITDA 20.8 (Q3 FY26 5.6 + Q4 FY26 2.3 + Q1 FY27 -1.0 + Q2 FY27 13.9)",
+      "note": "net cash; adjusted EBITDA excludes SBC"
+    }
+  },
+  "flags": {},
+  "overrides": {
+    "category_weights": {
+      "valuation": 0.14,
+      "growth": 0.16
+    },
+    "note": "it-saas bands used as the closest data-subscription benchmark; satellite capital intensity is not captured by these bands."
+  }
+}

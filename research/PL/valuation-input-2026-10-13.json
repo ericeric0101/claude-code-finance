@@ -1,0 +1,17 @@
+{
+  "company": "Planet Labs PBC",
+  "ticker": "PL",
+  "as_of": "2026-10-13",
+  "currency": "USD",
+  "units": "million",
+  "market": {"price": 15.96, "shares_out": 363.848, "as_of": "2026-10-12"},
+  "ev_bridge": {
+    "total_debt": 448.255, "cash": 865.418,
+    "minority_interest": 0, "preferred": 0,
+    "lease_liabilities": 50.4, "associate_investments": 0
+  },
+  "financials": {
+    "ebit": -102.739, "pat": -359.865, "sales": 378.278,
+    "fcf": 19.87
+  }
+}

@@ -1,24 +1,24 @@
 {
   "ticker": "PL",
-  "listing_date_used": "2021-12-08",
+  "listing_date_used": "2021-06-04",
   "method": "percentile rank of the current multiple within month-end values (no look-ahead fundamentals); EV excludes leases",
   "percentiles": {
     "ev_sales": {
-      "current": 15.23,
-      "as_of": "2026-10-09",
-      "1y": 30.8,
+      "current": 14.07,
+      "as_of": "2026-10-12",
+      "1y": 15.4,
       "1y_range": [
         12.75,
         50.76
       ],
       "1y_n": 13,
-      "3y": 75.7,
+      "3y": 70.3,
       "3y_range": [
         0.82,
         50.76
       ],
       "3y_n": 37,
-      "since_listing": 80.9,
+      "since_listing": 76.6,
       "since_listing_range": [
         0.82,
         50.76
@@ -27,7 +27,7 @@
     },
     "ev_ebit": {
       "current": null,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "1y": null,
       "1y_note": "current multiple not meaningful (denominator <= 0)",
       "3y": null,
@@ -37,7 +37,7 @@
     },
     "pe": {
       "current": null,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "1y": null,
       "1y_note": "current multiple not meaningful (denominator <= 0)",
       "3y": null,
@@ -46,20 +46,20 @@
       "since_listing_note": "current multiple not meaningful (denominator <= 0)"
     },
     "p_fcf": {
-      "current": 310.88,
-      "as_of": "2026-10-09",
-      "1y": 100.0,
+      "current": 288.8,
+      "as_of": "2026-10-12",
+      "1y": 84.6,
       "1y_range": [
         118.94,
-        310.88
+        299.16
       ],
       "1y_n": 13,
       "3y": null,
       "3y_note": "insufficient data (14 month-end observations)",
-      "since_listing": 100.0,
+      "since_listing": 85.7,
       "since_listing_range": [
         118.94,
-        310.88
+        299.16
       ],
       "since_listing_n": 14
     }

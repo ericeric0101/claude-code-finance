@@ -1,10 +1,27 @@
 {
-  "current_price": 17.18,
+  "current_price": 15.96,
   "valuation_methods": {
-    "five-year scenario DCF": {"bear": 3, "base": 12, "bull": 25}
+    "five-year scenario DCF": {
+      "bear": 3,
+      "base": 12,
+      "bull": 25
+    },
+    "own-history EV/Sales": {
+      "bear": 5.06,
+      "base": 5.8,
+      "bull": 22.6
+    }
   },
-  "current_ev": 5900,
+  "current_ev": 5440,
   "current_revenue": 435.5,
-  "revenue_growth_rates": [0.10, 0.25, 0.35],
-  "catch_up_years": [1, 2, 3]
+  "revenue_growth_rates": [
+    0.1,
+    0.25,
+    0.35
+  ],
+  "catch_up_years": [
+    1,
+    2,
+    3
+  ]
 }

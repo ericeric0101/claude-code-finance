@@ -1,16 +1,18 @@
 {
   "ticker": "PL",
   "as_of": "2026-10-13",
-  "source_report": "../PL-analysis-2026-10-11.md",
+  "source_report": "../PL-analysis-2026-10-13.md",
   "authoritative_inputs": [
     "../recommendation-input.json",
-    "../recommendation-output.json"
+    "../recommendation-output.json",
+    "model-2026-10-13.json",
+    "../valuation-output-2026-10-13.txt"
   ],
-  "price": 17.18,
-  "price_date": "2026-10-09 NYSE close",
+  "price": 15.96,
+  "price_date": "2026-10-12 close (yfinance history auto_adjust=False (tier)",
   "action": "WATCH",
   "valuation_confidence": "low",
-  "confidence_reason": "Single scenario DCF; normalized owner cash flow, satellite replacement investment, dilution and terminal margins are unproven.",
+  "confidence_reason": "Single scenario DCF; normalized FCF ex deferred revenue negative across FY2021-H1 FY2027; base 20% year-5 FCF margin above long-run history; dilution and capex invalidation rules triggered on TTM basis; own-history EV/Sales bimodal ($5-$23 implied).",
   "classification": {
     "methods": "Calculation from Assumptions",
     "price": "Fact (dated market source)"
@@ -38,23 +40,39 @@
   "reverse_dcf": {
     "status": "illustrative (low confidence)",
     "classification": "Calculation from Assumptions",
-    "implied_growth": 0.361,
+    "implied_growth": 0.3346,
     "base_growth": 0.25,
     "bull_growth": 0.35,
     "solved_for": "5-year revenue CAGR from FY2027 midpoint guidance $435.5m",
-    "price_used": "17.18 (2026-10-09 NYSE close); 34.8% at 16.45 intraday 2026-10-12",
+    "price_used": "15.96 (2026-10-12 close)",
     "held_at_base_case": {
       "fcf_margin_y5": 0.2,
       "fcf_margin_fy2027_start": -0.06,
       "terminal_ev_fcf": 25,
       "discount_rate": 0.105,
-      "net_liquid_assets_m": 375,
-      "diluted_shares_m": 410
+      "net_liquid_assets_m": 366.8,
+      "diluted_shares_m": 402.4
     },
-    "sensitivity": "With bull-case margin (25%), multiple (30x) and discount rate (9.5%), implied CAGR is about 24.5%.",
+    "sensitivity": "Bull margin 25% / 30x / 9.5%: implied CAGR about 22.1%; history-anchored 15% margin: about 41.6%. If-converted notes add ~0.7pp.",
     "replication_check": "Same simplified model gives bear 2.4 / base 11.6 / bull 25.2 vs stored 3 / 12 / 25.",
     "caveat": "Not a unique solution: mature FCF margin, terminal multiple and dilution are unproven, so implied growth moves materially with them. Excludes future ATM/SBC dilution beyond 410m shares.",
-    "market_expectation_vs_cases": "above modeled bull growth (at base-case margin/multiple)"
+    "market_expectation_vs_cases": "above modeled bull growth (at base-case margin/multiple)",
+    "history_anchored_margin_15pct": 0.4156,
+    "retrospective": {
+      "2025-09-10": {
+        "price": 8.97,
+        "basis": "FY2026 guidance mid 281-289 (8-K 2025-09-08); cash 271.5, no debt; diluted 304.1m",
+        "implied_5y_cagr_base_margin": 0.2114,
+        "implied_5y_cagr_bull_margin": 0.1081
+      },
+      "2026-06-08": {
+        "price": 32.74,
+        "basis": "FY2027 guidance mid 425-441 (8-K 2026-06-04); cash 730.8 - notes 447.6 - leases 50.4; diluted 345.5m",
+        "implied_5y_cagr_base_margin": 0.5097,
+        "implied_5y_cagr_bull_margin": 0.3813
+      }
+    },
+    "source": "valuation/model-2026-10-13.json"
   },
   "valuation_map": {
     "current_position": "between base and bull estimates",
@@ -62,30 +80,41 @@
       {
         "low": null,
         "high": 3.0,
-        "interpretation": "below all modeled bear values"
+        "interpretation": "below DCF bear; not a loss floor"
       },
       {
         "low": 3.0,
+        "high": 5.06,
+        "interpretation": "DCF bear to since-listing EV/Sales median"
+      },
+      {
+        "low": 5.06,
         "high": 12.0,
-        "interpretation": "between bear and base estimates"
+        "interpretation": "own-history median to DCF base"
       },
       {
         "low": 12.0,
+        "high": 22.6,
+        "interpretation": "DCF base to 1Y EV/Sales median (current quote here)"
+      },
+      {
+        "low": 22.6,
         "high": 25.0,
-        "interpretation": "between base and bull estimates"
+        "interpretation": "1Y median to DCF bull"
       },
       {
         "low": 25.0,
         "high": null,
-        "interpretation": "above all modeled bull values"
+        "interpretation": "above DCF bull"
       }
     ],
     "base_method_spread_pct_of_low": null,
-    "note": "Zones are model comparisons, not forecasts or entry prices."
+    "note": "Zones are model comparisons, not forecasts or entry prices.",
+    "current_position_detail": "between DCF base ($12) and 1Y own-history EV/Sales median (~$22.6)"
   },
   "expectations": {
     "market_implied": {
-      "revenue_cagr_5y": 0.361
+      "revenue_cagr_5y": 0.3346
     },
     "internal_base": {
       "revenue_cagr_5y": 0.25,
@@ -95,14 +124,14 @@
       "revenue_cagr_5y": 0.35,
       "fcf_margin_y5": 0.25
     },
-    "reason": "Market-implied revenue CAGR solved holding base-case margin, multiple, discount rate and shares (illustrative reverse DCF)."
+    "reason": "Solved holding base-case margin, multiple, discount rate; shares = basic 363.8m + 38.5m awards/warrants; notes as debt (model-2026-10-13)."
   },
   "expectation_gap": {
-    "interpretation": "Calculation: at the 2026-10-09 close the price implies about 36% five-year revenue CAGR if mature FCF margin is 20% at 25x, vs 25% internal base and 35% bull. Market expectations sit at or slightly above the bull growth case unless margins/multiples are also bull-level (then ~24.5%, near base).",
-    "direction": "first quantified 2026-10-12; prior state was qualitative only (about 43% above base value) — not a change in fundamentals"
+    "interpretation": "Calculation: at the 2026-10-12 close ($15.96) the price implies ~33.5% five-year revenue CAGR at 20% mature FCF margin / 25x, vs 25% base and 35% bull; ~41.6% at a history-anchored 15% margin. Retrospective: 21.1% implied on 2025-09-10, 51.0% on 2026-06-08.",
+    "direction": "narrowing vs 2026-10-12 (price fell); not a change in fundamentals"
   },
   "catch_up": {
-    "ev": 5900,
+    "ev": 5440,
     "revenue": 435.5,
     "revenue_growth_rates": [
       0.1,
@@ -117,15 +146,17 @@
     "label": "EV held flat; scenarios, not forecasts; excludes dilution"
   },
   "current_ev": {
-    "value": 5900,
+    "value": 5440.3,
     "unit": "USD millions",
     "classification": "Calculation",
-    "basis": "basic shares 363.8m x $17.18 + notes $448.3m + leases $50.4m - cash/investments $865.4m"
+    "basis": "basic shares 363.848m x $15.96 + notes $448.3m + leases $50.4m - cash/investments $865.4m (valuation-output-2026-10-13.txt)"
   },
-  "latest_quote": {
-    "price": 16.45,
-    "status": "intraday, session not closed",
-    "as_of_et": "2026-10-12T11:52-04:00",
-    "classification": "Fact (dated market source, intraday); not used for valuation state"
+  "cross_checks": {
+    "own-history EV/Sales (TTM sales; range reference only)": {
+      "bear": 5.06,
+      "base": 5.8,
+      "bull": 22.6,
+      "note": "since-listing median / 3Y median / 1Y median; bimodal history, not averaged with DCF"
+    }
   }
 }

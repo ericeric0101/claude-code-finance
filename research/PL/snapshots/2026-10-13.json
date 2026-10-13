@@ -2,8 +2,8 @@
   "ticker": "PL",
   "as_of": "2026-10-13",
   "retrospective": false,
-  "generated_at": "2026-10-12T18:17:35+00:00",
-  "note": "UPDATE pipeline (Level 3 engine first run)",
+  "generated_at": "2026-10-13T07:56:17+00:00",
+  "note": "DEEP 2026-10-13: multi-year deep dive (PL-analysis-2026-10-13.md)",
   "financials": {
     "latest_quarter": "Q2 FY2027",
     "quarter": {
@@ -357,7 +357,7 @@
         "status": "delivered",
         "claim": "Capital Expenditures are expected to be in the range of approximately $14 million and $17 million for the quarter.",
         "actual": 16.621,
-        "rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "within guided spending range"
       },
       "PL-2024-06-06-q2-ebitda": {
         "status": "delivered",
@@ -381,7 +381,7 @@
         "status": "missed",
         "claim": "Capital Expenditures are expected to be in the range of approximately $13 million and $16 million for the quarter.",
         "actual": 8.862,
-        "rule": "underspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "underspent vs plan by 32%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2024-09-05-q3-ebitda": {
         "status": "delivered",
@@ -405,7 +405,7 @@
         "status": "missed",
         "claim": "Capital Expenditures are expected to be in the range of approximately $8 million and $11 million for the quarter.",
         "actual": 12.78,
-        "rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "overspent vs plan by 16%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2024-12-09-q4-ebitda": {
         "status": "delivered",
@@ -429,7 +429,7 @@
         "status": "missed",
         "claim": "Capital Expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
         "actual": 81.497,
-        "rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "overspent vs plan by 25%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2025-03-20-fy26-ebitda": {
         "status": "delivered",
@@ -453,7 +453,7 @@
         "status": "missed",
         "claim": "Capital Expenditures are expected to be in the range of approximately $11 million and $16 million for the quarter.",
         "actual": 9.344,
-        "rule": "underspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "underspent vs plan by 15%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2025-03-20-q1-ebitda": {
         "status": "delivered",
@@ -477,7 +477,7 @@
         "status": "missed",
         "claim": "Capital expenditures are expected to be in the range of approximately $50 million and $65 million for the year.",
         "actual": 81.497,
-        "rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "overspent vs plan by 25%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2025-06-04-fy26-ebitda": {
         "status": "delivered",
@@ -501,7 +501,7 @@
         "status": "delivered",
         "claim": "Capital expenditures are expected to be in the range of approximately $17 million and $22 million for the quarter.",
         "actual": 21.486,
-        "rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "within guided spending range"
       },
       "PL-2025-06-04-q2-ebitda": {
         "status": "delivered",
@@ -525,7 +525,7 @@
         "status": "partially_delivered",
         "claim": "Capital expenditures are expected to be in the range of approximately $65 million and $75 million for the year.",
         "actual": 81.497,
-        "rule": "overspent vs plan by <10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "overspent vs plan by 9%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2025-09-08-fy26-ebitda": {
         "status": "delivered",
@@ -549,7 +549,7 @@
         "status": "missed",
         "claim": "Capital expenditures are expected to be in the range of approximately $18 million and $24 million for the quarter.",
         "actual": 27.682,
-        "rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "overspent vs plan by 15%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2025-09-08-q3-ebitda": {
         "status": "delivered",
@@ -573,7 +573,7 @@
         "status": "delivered",
         "claim": "Capital expenditures are expected to be in the range of approximately $81 million and $85 million for the year.",
         "actual": 81.497,
-        "rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "within guided spending range"
       },
       "PL-2025-12-10-fy26-ebitda": {
         "status": "delivered",
@@ -597,7 +597,7 @@
         "status": "delivered",
         "claim": "Capital expenditures are expected to be in the range of approximately $22 million and $26 million for the quarter.",
         "actual": 22.985,
-        "rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "within guided spending range"
       },
       "PL-2025-12-10-q4-ebitda": {
         "status": "delivered",
@@ -621,31 +621,31 @@
         "status": "superseded",
         "claim": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-03-19-fy27-ebitda": {
         "status": "superseded",
         "claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-03-19-fy27-gm": {
         "status": "superseded",
         "claim": "Non-GAAP gross margin is expected to be in the range of approximately 50% to 52%.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-03-19-fy27-revenue": {
         "status": "superseded",
         "claim": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $415 million to $440 million.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-03-19-q1-capex": {
         "status": "delivered",
         "claim": "Capital expenditures are expected to be in the range of approximately $17 million and $23 million for the quarter.",
         "actual": 17.957,
-        "rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "within guided spending range"
       },
       "PL-2026-03-19-q1-ebitda": {
         "status": "delivered",
@@ -669,31 +669,31 @@
         "status": "superseded",
         "claim": "Capital expenditures are expected to be in the range of approximately $80 million and $95 million for the year.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-06-04-fy27-ebitda": {
         "status": "superseded",
         "claim": "Adjusted EBITDA profit is expected to be in the range of approximately $0 and $10 million.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-06-04-fy27-gm": {
         "status": "superseded",
         "claim": "Non-GAAP gross margin is expected to be in the range of approximately 52% to 54%.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-06-04-fy27-revenue": {
         "status": "superseded",
         "claim": "For the full fiscal year 2027, Planet expects revenue to be in the range of approximately $425 million to $441 million.",
         "actual": null,
-        "rule": null
+        "rule": "period not yet reported; guidance issued 2026-09-03"
       },
       "PL-2026-06-04-q2-capex": {
         "status": "partially_delivered",
         "claim": "Capital expenditures are expected to be in the range of approximately $21 million and $27 million for the quarter.",
         "actual": 29.134,
-        "rule": "overspent vs plan by <10% (capex = PP&E purchases + capitalized software; company definition may differ)"
+        "rule": "overspent vs plan by 8%; a spending-plan deviation, not by itself a negative signal"
       },
       "PL-2026-06-04-q2-ebitda": {
         "status": "delivered",
@@ -787,14 +787,14 @@
     "margin_and_cash_conversion": {
       "status": "uncertain",
       "importance": "high",
-      "evidence_count": 3,
-      "evidence_fp": "61e8d2e402"
+      "evidence_count": 5,
+      "evidence_fp": "55c48ed82d"
     },
     "per_share_value_vs_dilution": {
       "status": "weakening",
       "importance": "high",
-      "evidence_count": 3,
-      "evidence_fp": "f213e3df09"
+      "evidence_count": 5,
+      "evidence_fp": "017aeef0aa"
     },
     "commercial_diversification": {
       "status": "uncertain",
@@ -822,10 +822,10 @@
     "ATM usage and share count in the next 10-Q."
   ],
   "valuation": {
-    "price": 17.18,
-    "price_date": "2026-10-09 NYSE close",
-    "latest_close": 17.18,
-    "latest_close_date": "2026-10-09",
+    "price": 15.96,
+    "price_date": "2026-10-12 close (yfinance history auto_adjust=False (tier)",
+    "latest_close": 15.96,
+    "latest_close_date": "2026-10-12",
     "methods": {
       "five-year scenario DCF": {
         "bear": 3,
@@ -834,13 +834,13 @@
       }
     },
     "map_position": "between base and bull estimates",
-    "reverse_dcf_implied_growth": 0.361,
+    "reverse_dcf_implied_growth": 0.3346,
     "percentiles": {
       "ev_sales": {
-        "current": 15.23,
-        "1y": 30.8,
-        "3y": 75.7,
-        "since_listing": 80.9
+        "current": 14.07,
+        "1y": 15.4,
+        "3y": 70.3,
+        "since_listing": 76.6
       },
       "ev_ebit": {
         "current": null,
@@ -855,20 +855,20 @@
         "since_listing": null
       },
       "p_fcf": {
-        "current": 310.88,
-        "1y": 100.0,
+        "current": 288.8,
+        "1y": 84.6,
         "3y": null,
-        "since_listing": 100.0
+        "since_listing": 85.7
       }
     }
   },
   "expectation_gap": {
     "revenue_cagr_5y": {
-      "market_implied": 0.361,
+      "market_implied": 0.3346,
       "internal_base": 0.25,
       "bull": 0.35,
-      "gap_vs_base": 0.111,
-      "position": "above modeled bull growth"
+      "gap_vs_base": 0.0846,
+      "position": "above base but within modeled bull growth"
     }
   },
   "rules": {
@@ -915,17 +915,17 @@
     "reassess_price_3": {
       "state": "not_triggered",
       "type": "market",
-      "value": 17.18
+      "value": 15.96
     },
     "reassess_price_12": {
       "state": "not_triggered",
       "type": "market",
-      "value": 17.18
+      "value": 15.96
     },
     "reassess_price_25": {
       "state": "not_triggered",
       "type": "market",
-      "value": 17.18
+      "value": 15.96
     },
     "fy27_revenue_below_guidance": {
       "state": "missing_data",

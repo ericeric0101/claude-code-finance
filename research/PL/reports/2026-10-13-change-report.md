@@ -1,6 +1,6 @@
 # What Changed Since Last Review — PL｜自上次檢視以來的變化
 
-> UPDATE pipeline 2026-10-13；新 SEC 文件 0 份。
+> UPDATE pipeline 與 DEEP 深度報告 2026-10-13；新 SEC 文件 0 份（2026-09-03 之後只有 Form 4／144）。新的主報告是 [PL-analysis-2026-10-13.md](../PL-analysis-2026-10-13.md)，納入 FY2021 起的多年財務、guidance 兌現紀錄、估值歷史與回溯 reverse DCF。分類維持 WATCH、估值信心低；情境 DCF 約 $3／$12／$25 不變。兩條失效條件（capex_heavy_with_negative_fcf、dilution_above_5pct）以 TTM 為基礎觸發，代表 REASSESS，已在深度報告中重新評估，不是買賣訊號。
 
 比較：2026-10-12 → 2026-10-13
 
@@ -70,22 +70,24 @@
 - [unchanged] revenue_growth_durability: supported
 - [unchanged] backlog_visibility: weakening
 - [unchanged] margin_and_cash_conversion: uncertain
+- [neutral] margin_and_cash_conversion: 證據更新（3 → 5 則）
 - [unchanged] per_share_value_vs_dilution: weakening
+- [neutral] per_share_value_vs_dilution: 證據更新（3 → 5 則）
 - [unchanged] commercial_diversification: uncertain
 - [unchanged] constellation_execution: uncertain
 - [unchanged] liquidity: supported
 
 ## Valuation changes 估值變化
-- [unchanged] price: 17.18 (2026-10-09) → 17.18 (2026-10-09)（+0.0%；股價變動不是基本面證據）
+- [neutral] price: 17.18 (2026-10-09) → 15.96 (2026-10-12)（-7.1%；股價變動不是基本面證據）
 - [unchanged] five-year scenario DCF: 3/12/25（未變）
 - [unchanged] valuation zone: between base and bull estimates
-- [unchanged] ev_sales historical percentile 3Y: None → 75.7; since listing: None → 80.9（current 15.23）
-- [unchanged] ev_ebit historical percentile 3Y: None → None; since listing: None → None（current None）
-- [unchanged] pe historical percentile 3Y: None → None; since listing: None → None（current None）
-- [unchanged] p_fcf historical percentile 3Y: None → None; since listing: None → 100.0（current 310.88）
+- [neutral] ev_sales historical percentile 首次建立：3Y 70.3; since listing 76.6（current 14.07）
+- [neutral] ev_ebit historical percentile 首次建立：3Y None; since listing None（current None）
+- [neutral] pe historical percentile 首次建立：3Y None; since listing None（current None）
+- [neutral] p_fcf historical percentile 首次建立：3Y None; since listing 85.7（current 288.8）
 
 ## Expectation gap 預期落差
-- [unchanged] revenue_cagr_5y: gap vs base +0.111 → +0.111（stable）
+- [neutral] revenue_cagr_5y: gap vs base +0.111 → +0.085（narrowing）
 
 ## Monitoring triggers 監控規則（觸發 = REASSESS，非買賣訊號）
 - [negative] newly triggered → REASSESS: capex_heavy_with_negative_fcf（invalidation；之前 not_triggered；value {'capex_pct_revenue': 25.8429, 'fcf_ex_deferred_revenue': -25.786}）

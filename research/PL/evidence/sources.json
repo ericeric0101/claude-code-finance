@@ -466,5 +466,13 @@
     "date": "2026-10-12",
     "description": "No 10-Q, 10-K, 8-K or S-3 filed after 2026-09-03; only Forms 4/144. An aggregator headline describing a 2026-10-01 8-K was not matched by EDGAR and was not used.",
     "url": "https://data.sec.gov/submissions/CIK0001836833.json"
+  },
+  {
+    "id": "sec-8k-2025-09-12-convertible",
+    "tier": 1,
+    "type": "8-K (convertible notes indenture, capped calls)",
+    "period_end": "2025-09-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000114036125034840/ef20055521_8k.htm",
+    "retrieved_by": "deep dive 2026-10-13"
   }
 ]

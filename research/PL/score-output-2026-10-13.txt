@@ -1,0 +1,154 @@
+============================================================================================================
+SECTOR-RELATIVE SCORECARD  |  Planet Labs PBC  (NYSE:PL)
+Sector: IT services, software, SaaS and internet platforms [it-saas]  |  Basis: consolidated  |  Currency: USD  |  As of: 2026-10-13
+Weights: default preset  |  Scale 0-10 (2.5 poor / 5.0 average / 7.5 good / 10 excellent)
+Benchmarks: /Users/cheng-kaihuang/stock-deep-research/.claude/skills/stock-analysis/scripts/benchmarks.json
+============================================================================================================
+
+SECTOR NOTE: Margin levels here are high by construction, so the sector bands are lifted: a 20% operating
+margin that would be excellent in distribution is merely average in software. What actually differentiates
+is retention, incremental returns and whether growth survives without ever-rising sales spend. Indian IT
+services and US SaaS are different businesses on the same tag — services score on attrition, revenue per
+employee and book-to-bill; product SaaS on NRR, Rule of 40 and CAC payback.
+
+------------------------------------------------------------------------------------------------------------
+BUSINESS QUALITY   score  5.86   weight 18% -> 18%   coverage 37%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Moat width and direction                         6.5  analyst judgement    0-10 direct            6.5  2.0
+      note: Daily global archive and sovereign dedicated-constellation contracts; competition from BlackSky,
+      Airbus, government systems
+  Pricing power                                      5  analyst judgement    0-10 direct            5.0  1.5
+      note: Non-GAAP gross margin 55-59% stable; no price disclosure
+  Net revenue retention (%)                         --  not supplied
+  Market share change, 3y (bps)                     --  not supplied
+  Top-10 client concentration (%)                   --  not supplied
+  Top-5 customer concentration (% of revenue        --  not supplied
+  [IT services] Voluntary attrition (%)             --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+PROFITABILITY   score  1.12   weight 18% -> 18%   coverage 29%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Operating margin (%)                           -27.2  sector band          10 / 18 / 25 / 35      0.0  1.5
+      source: computed: TTM operating loss -102.7 / TTM revenue 378.3 (history.json)
+      period: TTM to 2026-07-31
+  Gross margin (%)                                56.5  sector band          55 / 68 / 76 / 84      2.8  1.0
+      source: SEC Q2 FY2027 10-Q, Q2 GAAP gross margin
+      period: Q2 FY2027
+      note: FY2021-FY2026 GAAP gross margin from financials/history.json
+  ROCE (%)                                          --  not supplied
+  ROIC - WACC spread (pp)                           --  not supplied
+  ROE (%)                                           --  not supplied
+  [IT services] Revenue per employee (USD k)        --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+GROWTH   score  9.07   weight 16% -> 16%   coverage 17%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Rule of 40 (growth % + FCF margin %)            49.4  sector band          20 / 30 / 40 / 55      9.1  2.0
+      source: computed: TTM revenue growth 44.1% + TTM reported FCF margin 5.3%
+      note: Reported FCF includes deferred-revenue inflows; normalized FCF margin negative
+  Return on incremental invested capital (%)        --  not supplied
+  CAC payback (months)                              --  not supplied
+  Reinvestment runway                               --  not supplied
+  [IT services] Book-to-bill (x)                    --  not supplied
+  EPS CAGR, 5y (%)                                  --  not supplied
+  Organic share of growth (%)                       --  not supplied
+  Revenue CAGR, 5y (%)                              --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+EARNINGS QUALITY   score  4.54   weight 14% -> 14%   coverage 39%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Stock-based compensation / revenue (%)          16.5  sector band          20 / 12 / 6 / 2        3.6  2.0
+      source: computed: TTM SBC 62.5 / TTM revenue 378.3
+  FCF margin (%)                                   5.3  sector band          0 / 4 / 8 / 15         5.8  1.5
+      source: computed: TTM FCF 19.9 / TTM revenue 378.3
+  Cumulative CFO / PAT, 3y (x)                      --  not supplied
+  Accruals ratio (%)                                --  not supplied
+  Effective tax rate (%)                            --  not supplied
+  Receivable-days growth minus sales growth         --  not supplied
+  Other income as % of PBT                          --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+VALUATION   score  2.25   weight 14% -> 14%   coverage 29%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Price-implied growth minus defensible grow       8.5  sector band          8 / 3 / 0 / -4         2.2  2.0
+      source: valuation/model-2026-10-13.json: implied 33.5% vs base 25%
+  Current multiple vs own 10y median (%)            --  not supplied
+  FCF yield (%)                                     --  not supplied
+  EV / EBITDA (x)                                   --  not supplied
+  P/E (x)                                           --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+GOVERNANCE   score  4.89   weight 10% -> 10%   coverage 50%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Capital allocation record                          5  analyst judgement    0-10 direct            5.0  2.0
+      note: ATM sold near the top (avg net $31.95) and convertible with capped call; but SBC ~16% of revenue
+      and capex plans raised repeatedly
+  Disclosure quality                                 6  analyst judgement    0-10 direct            6.0  1.5
+      note: RPO/backlog timing, customer mix disclosed; no satellite-level economics or renewal terms
+  Share count change, 5y (%)                        35  sector band          40 / 15 / 3 / -5       3.0  1.0
+      source: computed: diluted weighted shares FY2023 267.1m -> Q2 FY2027 359.6m (pre-SPAC periods not
+      comparable)
+      note: 18.2% year over year
+  [India] Promoter shares pledged (% of prom        --  not supplied
+  Related-party transactions / revenue (%)          --  not supplied
+  Promoter / insider holding (%)                    --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+BALANCE SHEET   score 10.00   weight 6% -> 6%   coverage 31%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Net debt / EBITDA (x)                          -17.6  sector band          4 / 2.5 / 1.2 / 0     10.0  2.0
+      source: computed: (notes 448.3 + leases 50.4 - cash/investments 865.4) / TTM company adjusted EBITDA
+      20.8 (Q3 FY26 5.6 + Q4 FY26 2.3 + Q1 FY27 -1.0 + Q2 FY27 13.9)
+      note: net cash; adjusted EBITDA excludes SBC
+  Interest coverage (EBIT / interest, x)            --  not supplied
+  Liquidity / next-12m debt maturities (x)          --  not supplied
+  Cash conversion cycle (days)                      --  not supplied
+  Current ratio (x)                                 --  not supplied
+
+
+------------------------------------------------------------------------------------------------------------
+RISK   score  5.00   weight 6% -> 6%   coverage 23%
+------------------------------------------------------------------------------------------------------------
+  Metric                                         Value  Basis                Band p/a/g/e         Score   Wt
+  Resilience through a downturn                      5  analyst judgement    0-10 direct            5.0  1.5
+      note: Government budget/appropriation timing risk; 68% D&I revenue
+  AI / platform disruption exposure (10 = lo        --  not supplied
+  Input cost / FX exposure (10 = low risk)          --  not supplied
+  Key-person dependence (10 = low risk)             --  not supplied
+  Regulatory / policy exposure (10 = low ris        --  not supplied
+  Environmental / social / litigation exposu        --  not supplied
+
+============================================================================================================
+COMPOSITE 4.95 / 10   (Below average)
+Coverage: categories 100% (floor 70%), metric weight 32%
+============================================================================================================
+
+GATES: none raised. State in the report which gate checks were actually performed --
+       an unchecked gate and a cleared gate look identical in this output.
+
+NOTES AND WARNINGS
+------------------------------------------------------------------------------------------------------------
+  - category weights summed to 1.020 -- rescaled to 1.00
+  - categories resting on a single metric (fragile, easy to dispute): balance_sheet, growth, risk, valuation
+
+BENCHMARK CAVEAT: INDICATIVE DEFAULTS, MEANT TO BE EDITED. Every threshold in this file is a starting
+reference, not a fact. Benchmark levels move with market, cycle, accounting regime, interest rates and
+period. Where you have a real peer set with comparable accounting and aligned fiscal periods, PERCENTILE
+COMPARISON AGAINST THAT PEER SET OVERRIDES THESE ABSOLUTE BANDS — pass peer_values or peer_percentile in the
+input and score.py will use it in preference to the band below. Where a company has a long, stable,
+comparable own history, own-history scoring (basis: own_history) overrides the band too. Treat an unedited
+run as a first draft of a scorecard, and say so in the report.
+

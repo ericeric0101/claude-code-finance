@@ -1,0 +1,171 @@
+{
+  "as_of": "2026-10-13",
+  "price": 15.96,
+  "price_date": "2026-10-12 close",
+  "classification": "Calculation from Assumptions",
+  "start_revenue": 435.5,
+  "start_fcf_margin": -0.06,
+  "conversion_shares_m": 38.49,
+  "scenarios": {
+    "stored (net liquid 375 / 410m)": {
+      "bear": 2.43,
+      "base": 11.6,
+      "bull": 25.18,
+      "probability_weighted": 11.56
+    },
+    "basic + awards, notes as debt": {
+      "bear": 2.45,
+      "base": 11.8,
+      "bull": 25.64,
+      "probability_weighted": 11.76
+    },
+    "basic + awards + if-converted notes": {
+      "bear": 3.26,
+      "base": 11.79,
+      "bull": 24.42,
+      "probability_weighted": 11.76
+    }
+  },
+  "reverse_dcf_implied_5y_cagr": {
+    "base margin 20% / 25x / 10.5%": {
+      "stored (net liquid 375 / 410m)": 0.3396,
+      "basic + awards, notes as debt": 0.3346,
+      "basic + awards + if-converted notes": 0.3419
+    },
+    "history-anchored margin 15% / 25x / 10.5%": {
+      "stored (net liquid 375 / 410m)": 0.4209,
+      "basic + awards, notes as debt": 0.4156,
+      "basic + awards + if-converted notes": 0.4233
+    },
+    "bull margin 25% / 30x / 9.5%": {
+      "stored (net liquid 375 / 410m)": 0.2255,
+      "basic + awards, notes as debt": 0.2209,
+      "basic + awards + if-converted notes": 0.2276
+    }
+  },
+  "base_sensitivity": {
+    "fcf_margin_y5": {
+      "0.1": 6.27,
+      "0.15": 9.04,
+      "0.2": 11.8,
+      "0.25": 14.57
+    },
+    "discount_rate": {
+      "0.095": 12.3,
+      "0.105": 11.8,
+      "0.12": 11.1
+    },
+    "terminal_ev_fcf": {
+      "18": 8.99,
+      "25": 11.8,
+      "30": 13.81
+    },
+    "revenue_cagr": {
+      "0.15": 8.13,
+      "0.2": 9.82,
+      "0.25": 11.8,
+      "0.3": 14.13
+    }
+  },
+  "current_ev_m": 5440.3,
+  "ev_sales_fy2027_guidance_mid": 12.49,
+  "ev_sales_ttm": 14.38,
+  "ev_gross_profit_ttm": 25.95,
+  "own_history_ev_sales": {
+    "since_listing": {
+      "n": 47,
+      "q25": 1.91,
+      "median": 3.9,
+      "q75": 14.07,
+      "min": 0.82,
+      "max": 50.76,
+      "implied_price_at_median_ttm_sales": 5.06
+    },
+    "3y": {
+      "n": 37,
+      "q25": 1.8,
+      "median": 4.61,
+      "q75": 14.55,
+      "min": 0.82,
+      "max": 50.76,
+      "implied_price_at_median_ttm_sales": 5.8
+    },
+    "1y": {
+      "n": 13,
+      "q25": 14.55,
+      "median": 20.77,
+      "q75": 27.46,
+      "min": 12.75,
+      "max": 50.76,
+      "implied_price_at_median_ttm_sales": 22.6
+    }
+  },
+  "own_history_note": "Bimodal history: 0.8-6.6x before the 2025 sovereign-contract RPO step-up, 12.8-50.8x after; a single median mixes two regimes.",
+  "catch_up": {
+    "10%": [
+      {
+        "year": 1,
+        "revenue": 479,
+        "ev_sales": 11.4
+      },
+      {
+        "year": 2,
+        "revenue": 527,
+        "ev_sales": 10.3
+      },
+      {
+        "year": 3,
+        "revenue": 580,
+        "ev_sales": 9.4
+      }
+    ],
+    "25%": [
+      {
+        "year": 1,
+        "revenue": 544,
+        "ev_sales": 10.0
+      },
+      {
+        "year": 2,
+        "revenue": 680,
+        "ev_sales": 8.0
+      },
+      {
+        "year": 3,
+        "revenue": 851,
+        "ev_sales": 6.4
+      }
+    ],
+    "35%": [
+      {
+        "year": 1,
+        "revenue": 588,
+        "ev_sales": 9.3
+      },
+      {
+        "year": 2,
+        "revenue": 794,
+        "ev_sales": 6.9
+      },
+      {
+        "year": 3,
+        "revenue": 1071,
+        "ev_sales": 5.1
+      }
+    ]
+  },
+  "retrospective_reverse_dcf": {
+    "2025-09-10": {
+      "price": 8.97,
+      "basis": "FY2026 guidance mid 281-289 (8-K 2025-09-08); cash 271.5, no debt; diluted 304.1m",
+      "implied_5y_cagr_base_margin": 0.2114,
+      "implied_5y_cagr_bull_margin": 0.1081
+    },
+    "2026-06-08": {
+      "price": 32.74,
+      "basis": "FY2027 guidance mid 425-441 (8-K 2026-06-04); cash 730.8 - notes 447.6 - leases 50.4; diluted 345.5m",
+      "implied_5y_cagr_base_margin": 0.5097,
+      "implied_5y_cagr_bull_margin": 0.3813
+    }
+  }
+}

@@ -1,0 +1,66 @@
+FINISHED-REPORT LINT  --  PL-analysis-2026-10-13.md
+================================================================
+STRUCTURE
+----------------------------------------------------------------
+  [PASS] recency-statement    
+         Recency statement found. (line 20)
+         > Reporting basis: consolidated U.S. GAAP. Latest reported period: Q2 FY2027 (ended 2026-07...
+  [PASS] data-quality-note    
+         Data Quality Note found. (line 18)
+         > ## 資料品質與範圍（Data quality note）
+  [PASS] reporting-basis      
+         Reporting basis (consolidated / standalone) stated. (line 20)
+         > Reporting basis: consolidated U.S. GAAP. Latest reported period: Q2 FY2027 (ended 2026-07...
+  [PASS] currency-units       
+         Currency symbol and scale word present in the text.
+  [PASS] verdict-summary      
+         Verdict / summary present near the top. (line 24)
+         > ## 結論與關鍵判斷（Verdict summary）
+  [PASS] risks-bear-case      
+         Bear-case section found. (line 238)
+         > Bear case： 政府合約轉換延遲、成長降到低雙位數、衛星投資持續下 FCF margin 只有 8%、終值倍數較低。Bull case： 主權服務、分析與國際擴張都成功，3...
+  [PASS] thesis-invalidation  
+         Thesis-invalidation / change-my-mind triggers found. (line 300)
+         > - 什麼會改變分類： 見文末「What would change my mind」。
+  [PASS] disclaimer           
+         Not-financial-advice disclaimer found. (line 365)
+         > *This document is research for informational purposes only and is not investment advice. ...
+  [PASS] scorecard-gates      
+         Scorecard shown and gate status disclosed. (line 52)
+         > Critical gates： 已檢查期中報告未見查核保留意見或重大內控缺失、流動性充足。客戶集中、稀釋與執行風險重大但不構成剔除條件。score.py 未觸發 gate。
+
+FIGURE SOURCING
+----------------------------------------------------------------
+  [PASS] figure-sourcing      
+         83% of 605 financial figures sit near a provenance cue (page, filing, period label, URL, 'as of', ...). HEURISTIC: this is a prompt to review, not proof of sourcing or fabrication. At or above the 60%% target.
+             - line 14: $17.18 -- - 股價： $17.18（10-09）更新為 $15.96（10-12）。股價變動本身不是基本面證據。
+             - line 14: $15.96 -- - 股價： $17.18（10-09）更新為 $15.96（10-12）。股價變動本身不是基本面證據。
+             - line 16: $3 -- 情境 DCF 的 bear／base／bull 假設刻意維持不變，讓兩版可比；結果是情境價值仍為約 $3／$12／$25，分類維持 WATCH。
+             - line 16: $12 -- 情境 DCF 的 bear／base／bull 假設刻意維持不變，讓兩版可比；結果是情境價值仍為約 $3／$12／$25，分類維持 WATCH。
+             - line 16: $25 -- 情境 DCF 的 bear／base／bull 假設刻意維持不變，讓兩版可比；結果是情境價值仍為約 $3／$12／$25，分類維持 WATCH。
+             - line 90: 4.6% -- - 營收連續 8 季逐季成長，年增率從 4.6% 加速到 58.1%；這是主權合約進入認列期的結果。
+             - line 90: 58.1% -- - 營收連續 8 季逐季成長，年增率從 4.6% 加速到 58.1%；這是主權合約進入認列期的結果。
+             - line 186: 46% -- Backlog 品質（Fact）： RPO 的 46% 預計 12 個月內認列、68% 在 24 個月內；backlog 含 $61.7m 可取消合約價...
+             - line 186: 68% -- Backlog 品質（Fact）： RPO 的 46% 預計 12 個月內認列、68% 在 24 個月內；backlog 含 $61.7m 可取消合約價...
+             - line 186: $61.7 -- Backlog 品質（Fact）： RPO 的 46% 預計 12 個月內認列、68% 在 24 個月內；backlog 含 $61.7m 可取消合...
+             - line 190: $33.5 -- 股權報酬（Fact）： H1 SBC $33.5m（去年 $26.0m）；7 月底有約 37.4m 股選擇權／RSU／PSU 與 1.1m 股 wa...
+             - line 190: $26.0 -- 股權報酬（Fact）： H1 SBC $33.5m（去年 $26.0m）；7 月底有約 37.4m 股選擇權／RSU／PSU 與 1.1m 股 wa...
+  [PASS] aggregator-sourcing  
+         No figures appear cited only to an aggregator.
+
+HYGIENE
+----------------------------------------------------------------
+  [PASS] placeholder-leakage  
+         No placeholder or unfilled template fields found.
+  [INFO] blank-cells          
+         2 blank cell(s) sit in otherwise-numeric columns and may be dropped values -- prefer 'n/a (reason)' over an empty cell. Review: some may be intentional layout blanks.
+             - line 50: | Composite | 4.95 | | Below average；growth、risk、valuation 只靠單一指標，容易被挑戰 |
+             - line 223: | 機率加權 | | | | ~$11.8 | ~$11.8 | 約 -26% |
+  [INFO] na-declarations      
+         3 explicit 'not available / n/a / undefined' declaration(s) -- good: gaps are disclosed rather than hidden.
+  [PASS] advice-boundary      
+         No imperative personalised trade instructions detected.
+
+----------------------------------------------------------------
+OVERALL: PASS
+  errors: 0   warnings: 0   info: 2   pass: 13

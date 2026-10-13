@@ -1,7 +1,7 @@
 {
   "ticker": "PL",
-  "as_of": "2026-10-11",
-  "source_report": "../PL-analysis-2026-10-11.md",
+  "as_of": "2026-10-13",
+  "source_report": "../PL-analysis-2026-10-13.md",
   "classification": "Assumption (analyst, not company guidance)",
   "methods": {
     "five-year scenario DCF": {
@@ -45,12 +45,22 @@
           "discount_rate": 0.095,
           "value_per_share": 25
         }
-      }
+      },
+      "share_count_sensitivity": {
+        "basic_plus_awards_m": 402.4,
+        "if_converted_notes_m": 38.49,
+        "note": "0.50% notes due 2030, conversion price ~$11.95, capped call to $18.04 (8-K 2025-09-12); scenario values move < $1/share across share bases"
+      },
+      "history_check": "base fcf_margin_y5 20% classified Above historical (aggressive) by assumption_history_check.py; kept for comparability, 15% shown as reverse-DCF sensitivity"
     }
   },
   "unsuitable_methods": {
     "P/E": "GAAP losses",
     "EV/EBITDA": "excludes SBC, satellite depreciation and replacement capex",
-    "peer multiples": "BlackSky too different; Maxar private"
+    "peer multiples": "BlackSky too different; Maxar private",
+    "stock-analysis valuation.py two-stage DCF": "TTM FCF $19.9m includes deferred-revenue inflows; growth solve not meaningful"
+  },
+  "cross_checks": {
+    "own-history EV/Sales": "bimodal; since-listing median 3.9x (~$5), 1Y median 20.8x (~$23); range reference only"
   }
 }

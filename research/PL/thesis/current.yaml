@@ -3,7 +3,7 @@
 ticker: PL
 company: Planet Labs PBC
 as_of: '2026-10-13'
-source_report: ../PL-analysis-2026-10-11.md
+source_report: ../PL-analysis-2026-10-13.md
 last_update_report: reports/2026-10-13-change-report.md
 action: WATCH
 valuation_confidence: low
@@ -11,7 +11,10 @@ research_role: Growth / Speculative
 summary: >-
   Growth and sovereign-data demand are real, but government concentration,
   declining RPO/backlog, satellite reinvestment, negative normalized cash flow
-  and dilution make the current price difficult to underwrite.
+  and dilution make the current price difficult to underwrite. Multi-year
+  history (FY2021-H1 FY2027) shows cumulative FCF of about -$261m and no
+  year of positive FCF without deferred-revenue inflows; the price still
+  implies ~33% five-year revenue CAGR at the base margin (deep dive 2026-10-13).
 components:
   sovereign_defense_demand:
     importance: high
@@ -47,7 +50,9 @@ components:
       - "Fact: Q2 GAAP gross margin 56.6% vs 57.6% prior-year Q2 (SEC 10-Q)."
       - "Calculation: H1 FCF excluding the $47.1m deferred-revenue inflow is about -$25.8m (filings-data.json)."
       - "Fact: FY2027 adjusted EBITDA guidance $3-10m vs capex guidance $100-115m (earnings 8-K)."
-    last_updated: '2026-10-11'
+      - "Calculation: TTM capex $97.8m = 25.8% of TTM revenue; FCF margin FY2021-FY2025 between -26% and -45%, FY2026 +17.2% driven by deferred revenue (financials/history.json). Invalidation rule capex_heavy_with_negative_fcf met on a TTM proxy; annual test remains FY2028 (PL-analysis-2026-10-13.md)."
+      - "Fact: capex guidance exceeded or raised in 6 of 11 resolved periods (management/guidance-vs-actual.md)."
+    last_updated: '2026-10-13'
     next_check: Q3 FY2027 gross margin, capex and CFO bridge
     invalidation_condition: GAAP gross margin below 52% for two consecutive quarters, or annual capex above 25% of revenue while FCF excluding deferred-revenue inflows stays negative.
   per_share_value_vs_dilution:
@@ -57,7 +62,9 @@ components:
       - "Fact: $1.5bn ATM authorization; $120.8m net Q2 ATM proceeds; $107.8m H1 warrant proceeds (SEC 10-Q)."
       - "Fact: H1 SBC $33.5m (16% of revenue); about 38.6m potential shares excluded from diluted EPS (SEC 10-Q)."
       - "Fact: Sep 15-Oct 1 Form 4s: shares withheld for taxes on RSU vesting at $16.02 (CEO 134.6k, CFO 87.9k, CSO 54.1k); 10b5-1 sales by CFO 55.7k and CSO 52.2k at ~$16.96 and director 11.5k at $16.30; CEO gift 80k (SEC Form 4). Interpretation: routine compensation-related activity, not thesis evidence; status unchanged."
-    last_updated: '2026-10-11'
+      - "Calculation: diluted weighted shares 359.6m in Q2 FY2027 vs 304.1m a year earlier (+18.2%); TTM FCF/share about $0.055 vs $0.100 a year earlier. Invalidation rule dilution_above_5pct met (PL-analysis-2026-10-13.md); status stays weakening, REASSESS recorded."
+      - "Fact: notes convertible at ~$11.95 (83.6715 shares per $1,000, ~38.5m shares) with capped call to $18.04 (8-K 2025-09-12)."
+    last_updated: '2026-10-13'
     next_check: Each 10-Q / 10-K share count and ATM usage
     invalidation_condition: Fully diluted shares rise more than 5% year over year without commensurate FCF/share progress.
   commercial_diversification:

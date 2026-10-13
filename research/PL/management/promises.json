@@ -8,7 +8,8 @@
     "expected_result": "capex 14.0..17.0 USD millions for Q2 FY2025",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm",
     "evidence": [
-      "Actual capex 16.621 vs guided 14.0..17.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 16.621 vs guided 14.0..17.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 16.621 vs guided 14.0..17.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "delivered",
     "guidance": {
@@ -144,7 +145,8 @@
     "expected_result": "capex 13.0..16.0 USD millions for Q3 FY2025",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
     "evidence": [
-      "Actual capex 8.862 vs guided 13.0..16.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 8.862 vs guided 13.0..16.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 8.862 vs guided 13.0..16.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "missed",
     "guidance": {
@@ -280,7 +282,8 @@
     "expected_result": "capex 8.0..11.0 USD millions for Q4 FY2025",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
     "evidence": [
-      "Actual capex 12.78 vs guided 8.0..11.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 12.78 vs guided 8.0..11.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 12.78 vs guided 8.0..11.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "missed",
     "guidance": {
@@ -416,7 +419,8 @@
     "expected_result": "capex 50.0..65.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 50.0..65.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 81.497 vs guided 50.0..65.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 81.497 vs guided 50.0..65.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "missed",
     "guidance": {
@@ -556,7 +560,8 @@
     "expected_result": "capex 11.0..16.0 USD millions for Q1 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
     "evidence": [
-      "Actual capex 9.344 vs guided 11.0..16.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 9.344 vs guided 11.0..16.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 9.344 vs guided 11.0..16.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "missed",
     "guidance": {
@@ -692,7 +697,8 @@
     "expected_result": "capex 50.0..65.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 50.0..65.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 81.497 vs guided 50.0..65.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 81.497 vs guided 50.0..65.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "missed",
     "guidance": {
@@ -832,7 +838,8 @@
     "expected_result": "capex 17.0..22.0 USD millions for Q2 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
     "evidence": [
-      "Actual capex 21.486 vs guided 17.0..22.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 21.486 vs guided 17.0..22.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 21.486 vs guided 17.0..22.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "delivered",
     "guidance": {
@@ -968,7 +975,8 @@
     "expected_result": "capex 65.0..75.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 65.0..75.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 81.497 vs guided 65.0..75.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 81.497 vs guided 65.0..75.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "partially_delivered",
     "guidance": {
@@ -1108,7 +1116,8 @@
     "expected_result": "capex 18.0..24.0 USD millions for Q3 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
     "evidence": [
-      "Actual capex 27.682 vs guided 18.0..24.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 27.682 vs guided 18.0..24.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 27.682 vs guided 18.0..24.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "missed",
     "guidance": {
@@ -1244,7 +1253,8 @@
     "expected_result": "capex 81.0..85.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 81.0..85.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 81.497 vs guided 81.0..85.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 81.497 vs guided 81.0..85.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "delivered",
     "guidance": {
@@ -1380,7 +1390,8 @@
     "expected_result": "capex 22.0..26.0 USD millions for Q4 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 22.985 vs guided 22.0..26.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 22.985 vs guided 22.0..26.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 22.985 vs guided 22.0..26.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "delivered",
     "guidance": {
@@ -1648,7 +1659,8 @@
     "expected_result": "capex 17.0..23.0 USD millions for Q1 FY2027",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 17.957 vs guided 17.0..23.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 17.957 vs guided 17.0..23.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 17.957 vs guided 17.0..23.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "delivered",
     "guidance": {
@@ -1916,7 +1928,8 @@
     "expected_result": "capex 21.0..27.0 USD millions for Q2 FY2027",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 29.134 vs guided 21.0..27.0 (financials/history.json capex = capex_ppe + capitalized_software)"
+      "Actual capex 29.134 vs guided 21.0..27.0 (financials/history.json capex = capex_ppe + capitalized_software)",
+      "Actual capex 29.134 vs guided 21.0..27.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
     ],
     "status": "partially_delivered",
     "guidance": {

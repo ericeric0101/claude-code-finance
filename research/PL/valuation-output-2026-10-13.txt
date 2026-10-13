@@ -1,0 +1,25 @@
+========================================================================
+VALUATION  --  Planet Labs PBC [PL]
+========================================================================
+As of : 2026-10-13   Amounts in: USD million   (multiples/rates are unitless)
+Outputs are estimates -- only as sound as the assumptions below.
+
+------------------------------------------------------------------------
+EV BRIDGE (USD million)
+------------------------------------------------------------------------
+  Market cap                              5,807.0
+  + Total debt                              448.3
+  + Lease liabilities                        50.4
+  - Cash & equivalents                     -865.4
+  = Enterprise value                      5,440.3
+  (net debt)                               -366.8
+
+------------------------------------------------------------------------
+TRAILING MULTIPLES
+------------------------------------------------------------------------
+  P/E            -16.1x   EV/EBITDA      n/a      EV/EBIT        -53.0x   
+  EV/Sales       14.4x    P/B            n/a      P/FCF          292.3x   
+  FCF yield      0.3%     Earnings yield -6.2%    Dividend yield n/a      
+
+------------------------------------------------------------------------
+No assumption warnings.

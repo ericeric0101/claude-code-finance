@@ -101,7 +101,7 @@ class MigrationRegressionTests(unittest.TestCase):
         self.assertTrue(latest["reverse_dcf"]["status"].startswith("illustrative"))
         self.assertLess(latest["reverse_dcf"]["base_growth"], latest["reverse_dcf"]["implied_growth"])
         rev = rs.catch_up(latest)["revenue"]
-        self.assertEqual([r for r in rev if r["annual_revenue_growth_pct"] == 25.0 and r["years"] == 3][0]["static_ev_sales"], 6.9)
+        self.assertEqual([r for r in rev if r["annual_revenue_growth_pct"] == 25.0 and r["years"] == 3][0]["static_ev_sales"], 6.4)  # EV 5,440m at the 2026-10-12 close (deep dive 2026-10-13)
         self.assertIn("dilution_caveat", rs.catch_up(latest))
         self.assertEqual(thesis["components"]["per_share_value_vs_dilution"]["status"], "weakening")
         metrics = json.loads((base / "financials/latest.json").read_text())["metrics"]
