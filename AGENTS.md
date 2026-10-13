@@ -1,5 +1,7 @@
 # Stock Deep Research
 
+User guide (start here, Traditional Chinese): `docs/USER-GUIDE.md`.
+
 Project-level skills are under `.agents/skills/`:
 
 - `finance-skill`: SEC EDGAR, Alpha Vantage and yfinance acquisition.

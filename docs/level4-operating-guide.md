@@ -1,5 +1,7 @@
 # Level 4 操作指南（Research Command Center）
 
+> 總入口與三種使用方式（本機斜線指令 / 專案聊天室 / Codex）見 [USER-GUIDE.md](USER-GUIDE.md)。
+
 Level 4 回答的是「現在最該研究哪家公司、發生了什麼、要不要改 thesis、下一步做什麼」。
 它不會自動交易，也不會自動跑完整研究：所有觸發都是 REASSESS，真正的更新仍由你下 `/update-stock`。
 

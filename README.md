@@ -1,3 +1,5 @@
+> **使用手冊（從這裡開始）：[docs/USER-GUIDE.md](docs/USER-GUIDE.md)**
+>
 > This fork is a dual **Codex / Claude Code** US equity continuous research system ([architecture](docs/us-equity-research-os.md), [dual usage](docs/dual-codex-claude-usage.md)).
 > Codex entry points: `AGENTS.md` and `.agents/skills/`. The original upstream README follows below.
 > See [local setup and 15-step status](docs/SETUP.md), [research prompts](docs/research-prompts.md), and [the AAPL test report](research/AAPL/AAPL-analysis-2026-10-11.md).

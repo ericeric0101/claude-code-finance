@@ -2,7 +2,8 @@
 
 This repo maintains persistent, versioned research state for US equities in
 `research/<TICKER>/` and answers "what changed since the last review?" rather
-than rewriting reports. Architecture: `docs/us-equity-research-os.md`.
+than rewriting reports. User guide (start here): `docs/USER-GUIDE.md`.
+Architecture: `docs/us-equity-research-os.md`.
 
 Skills (`.claude/skills/`, shared with Codex via `.agents/skills/` symlinks):
 - `equity-research-orchestrator`: entry point for init / update / deep / watch /

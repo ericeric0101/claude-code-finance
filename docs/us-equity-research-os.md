@@ -1,5 +1,7 @@
 # US Equity Research OS
 
+> 使用者入口：[USER-GUIDE.md](USER-GUIDE.md)。本文件是架構說明。
+
 A continuous research system: each company has persistent, versioned state, and
 each update answers **"What changed since the previous research state?"**
 
