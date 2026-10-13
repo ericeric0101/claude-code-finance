@@ -65,7 +65,7 @@ KPI coverage、valuation agreement、evidence quality、unresolved promises、st
 先跑 scan，再寫 `research/reviews/YYYY-MM-monthly-review.md`：Level 3 第 1–11 段（本月 snapshot diff）
 ＋ Level 4 第 12–22 段（Research Priority Changes、Thesis Improvements / Deteriorations、Expectation Gap
 Changes、Guidance Delivered / Missed、New Monitoring Triggers、Valuation Re-Rating、Research Staleness、
-Next Month Calendar、Top 5 Research Tasks、Deprioritized Names）。
+Next Month Calendar、Top 5 Research Tasks、Deprioritized Names）＋ 第 23 段 Research OS Quality（品質評估層，獨立區段）。
 
 ## 設定檔
 
@@ -77,6 +77,32 @@ Next Month Calendar、Top 5 Research Tasks、Deprioritized Names）。
 | `research/<T>/config/kpis.yaml` | 公司 KPI、手動公司自訂數值（含原名、定義、來源）、`guidance_metrics`（guided metric 的公司定義與比較口徑）、`milestone_subjects`。 |
 | `research/<T>/config/catalysts.yaml`（選用） | 公司已公告的日期（例如財報日），會以 exact date、高信心進 calendar。 |
 | `research/queue/macro-inbox.json`（選用） | 手動加入的 macro 項目；只有 topic 在該公司 `macro_links` 內才會變成事件。 |
+
+## Research OS 品質評估（Quality Log）
+
+`/scan-research`、`/update-stock`、`/init-stock`、`/monthly-research` 完成後，系統會自動在
+`research/quality/quality-events.jsonl` 建立 **pending** 的品質事件（auto-created ≠ auto-approved；
+人工判斷欄位一律 `unknown`）。不需要每天全部人工 review：
+
+| 系統 priority | review 要求 | 做法 |
+|---|---|---|
+| HIGH | `required`：必 review | `python3 scripts/quality_review.py list --status pending --requirement required` |
+| MEDIUM | `spot_check`：抽查；thesis 有改變時一定 review | 每週挑幾筆 |
+| LOW | `sample`：抽樣 | 偶爾看 |
+| 每月 | 補登漏抓事件 + 看月度 summary | `add-missed-event`、`quality_summary.py` |
+
+```bash
+python3 scripts/quality_review.py list --status pending          # 查看待 review
+python3 scripts/quality_review.py review <id>                    # review 一筆（終端機會只問相關欄位）
+python3 scripts/quality_review.py add-missed-event               # 記錄漏抓事件（false negative）
+python3 scripts/quality_review.py correct <id> --field priority --reviewed-value MEDIUM --reason "..."
+python3 scripts/quality_summary.py --month 2026-10               # 月度品質報告
+```
+
+也可用 `/quality-review`、`/quality-summary`。品質評的是當時的流程、證據與推理：不要用股價後來的漲跌
+評分（這類 review 文字會被拒絕）。人工修正存在 `research/quality/corrections.jsonl`，只記錄、不會自動改規則。
+月報第 23 段與 dashboard 的「Research OS Quality」區塊是獨立區段，不影響任何公司的 thesis 或 priority。
+完整說明：`docs/research-os-quality-framework.md`。
 
 ## 新增一家公司
 

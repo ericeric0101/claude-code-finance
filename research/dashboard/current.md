@@ -62,6 +62,17 @@
 - RKLB: guidance {'not_evaluable': 50, 'delivered': 19, 'partially_delivered': 5, 'pending': 10, 'delayed': 1}；KPI sector space，required unavailable 無
 - AAPL: guidance No explicit evaluable management guidance found.；KPI sector consumer，required unavailable 無
 
+## Research OS Quality（品質評估層；不影響 thesis / priority）
+
+- Reviewed events: 0
+- Pending review: 8（required 3）
+- False positives: 0
+- False negatives: 0
+- Priority agreement: 0/0（insufficient_sample）
+- Manual corrections: 0
+- Largest weakness: 尚無（無已 review 的錯誤）
+- 完整細節：`python3 scripts/quality_summary.py --month YYYY-MM`
+
 ## Open research queue（10）
 
 | Priority | Ticker | Cat | Event | Date | Workflow | Reason | Status |

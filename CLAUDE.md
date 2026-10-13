@@ -36,6 +36,10 @@ Rules:
 - Finance utilities: `uv run --project .claude/skills/finance-skill/scripts python ...`.
   Unknown tickers need a verified numeric CIK.
 - Credentials live in ignored `.env`; never print, stage or commit them.
+- Quality log (`research/quality/`, `docs/research-os-quality-framework.md`): scan / update /
+  init / monthly auto-create *pending* quality events; only a human fills review fields
+  (`scripts/quality_review.py`). Never grade quality from later price moves; corrections are
+  recorded, never applied to rules automatically.
 - Tests: `python3 -m unittest discover -s tests`.
 - Report prose is Traditional Chinese (繁體中文); tickers, field names and code
   identifiers may stay English. Don't translate existing dated reports.

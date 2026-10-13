@@ -173,7 +173,13 @@ def build(root: Path = ROOT, as_of: Optional[str] = None, write: bool = True) ->
         "stale_research": [f"{r['ticker']}（{r['stale']['severity']}：{'; '.join(r['stale']['reasons'][:2])}）"
                            for r in rows if r["stale"]["stale"]],
     }
-    doc = {"as_of": as_of, "generated_at": l4.now_iso(), "companies": rows, "answers": answers,
+    try:  # evaluation layer: process quality of the research OS, never a company signal
+        import quality_summary as qs
+        qc = qs.compact(root)
+        quality = {k: v for k, v in qc.items() if k != "summary"}
+    except Exception as exc:
+        quality = {"error": repr(exc)[:200]}
+    doc = {"as_of": as_of, "generated_at": l4.now_iso(), "companies": rows, "answers": answers, "quality": quality,
            "note": "Command center compares relative state, trend, priority and confidence only; "
                    "raw multiples are not compared across sectors. Not a buy / sell list."}
     if write:
@@ -225,9 +231,26 @@ def render(doc: Dict[str, Any], queue: Dict[str, Any]) -> str:
         g = r["guidance"]
         L.append(f"- {r['ticker']}: guidance {g.get('message') or g.get('counts')}；KPI sector {r['kpi'].get('sector')}，"
                  f"required unavailable {r['kpi'].get('required_unavailable') or '無'}")
+    L += ["", "## Research OS Quality（品質評估層；不影響 thesis / priority）", ""] + render_quality(doc.get("quality") or {})
     open_items = [i for i in queue["items"] if i["status"] in rq.OPEN]
     L += ["", f"## Open research queue（{len(open_items)}）", "", rq.render(queue), ""]
     return "\n".join(L)
+
+
+def render_quality(q: Dict[str, Any]) -> List[str]:
+    if not q or q.get("error"):
+        return [f"- quality log unavailable{(': ' + q['error']) if q.get('error') else ''}"]
+    import quality_summary as qs
+    pa = q["priority_agreement"]
+    return [f"- Reviewed events: {q['reviewed']}",
+            f"- Pending review: {q['pending']}（required {q['required_pending']}）",
+            f"- False positives: {q['false_positives']}",
+            f"- False negatives: {q['false_negatives']}",
+            f"- Priority agreement: {pa['numerator']}/{pa['denominator']}"
+            + ("" if pa["value"] != qs.INSUFFICIENT else f"（{qs.INSUFFICIENT}）"),
+            f"- Manual corrections: {q['manual_corrections']}",
+            f"- Largest weakness: {q['largest_weakness']}",
+            "- 完整細節：`python3 scripts/quality_summary.py --month YYYY-MM`"]
 
 
 def main(argv: Optional[List[str]] = None) -> int:

@@ -24,6 +24,10 @@ thesis improvements / deteriorations, expectation-gap changes, guidance delivere
 new monitoring triggers, valuation re-rating, research staleness, next-month calendar,
 top 5 research tasks (research queue) and deprioritized names.
 
+Section 23 (Research OS Quality) is the evaluation layer (research/quality/): reviewed /
+pending quality events, false positives / negatives, priority disagreements, corrections and
+the weakest module. It is kept separate and never changes a company's thesis or priority.
+
 Output: research/reviews/YYYY-MM-monthly-review.md (Traditional Chinese prose).
 """
 from __future__ import annotations
@@ -240,6 +244,29 @@ def level4_sections(month: str, root: Path, results: List[Dict[str, Any]]) -> st
     return "\n".join(L) + "\n"
 
 
+def quality_section(month: str, root: Path, write: bool = True) -> str:
+    """Research OS Quality (evaluation layer). Separate from the research sections: quality
+    metrics describe the research process and never feed a company's thesis or priority."""
+    try:
+        import quality_summary as qs
+        res = qs.run(month, root, write=write)
+        s = res["summary"]
+    except Exception as exc:
+        return f"\n## 23. Research OS Quality 研究系統品質\n\n- quality summary unavailable: {exc!r}"[:300] + "\n"
+    c, d, p = s["coverage"], s["event_detection"], s["priority"]
+    L = ["", "## 23. Research OS Quality 研究系統品質（research/quality/；獨立區段，不影響任何公司 thesis）", "",
+         f"- Reviewed events：{c['events_reviewed']}；Pending review：{c['pending_reviews']}（required {c['required_pending']}）",
+         f"- False positives：{d['false_positives']}；False negatives：{d['false_negatives']}（人工補登漏抓 {d['missed_events']}）",
+         f"- Priority disagreements：{p['reviewed'] - p['agreement']['numerator']}/{p['reviewed']}"
+         + (f"（{qs.INSUFFICIENT}，n < {qs.MIN_SAMPLE}）" if p["agreement"]["value"] == qs.INSUFFICIENT
+            else f"（agreement {qs.fmt_ratio(p['agreement'])}）"),
+         f"- Manual corrections：{s['manual_corrections']['total']}",
+         f"- Weakest module：{qs.largest_weakness(s)}",
+         f"- Next quality improvement：{s['actions_next_month'][0]}",
+         f"- 完整報告：research/quality/summaries/{month}-quality-summary.md", ""]
+    return "\n".join(L)
+
+
 def run(month: Optional[str] = None, root: Path = ROOT, write: bool = True) -> Dict[str, Any]:
     month = month or date.today().strftime("%Y-%m")
     month_start = f"{month}-01"
@@ -247,6 +274,20 @@ def run(month: Optional[str] = None, root: Path = ROOT, write: bool = True) -> D
     text = render(month, results)
     text += level4_sections(month, root, results)
     out = root / "research/reviews" / f"{month}-monthly-review.md"
+    if write:  # the monthly run itself is a workflow to evaluate (pending, never auto-approved)
+        try:
+            import quality_log
+            quality_log.record_workflow(
+                "monthly-research", "ALL", date.today().isoformat() if month == date.today().strftime("%Y-%m") else f"{month}-28",
+                {"detected": True, "classification": None, "priority": None,
+                 "companies": [r["ticker"] for r in results],
+                 "company_priorities": {r["ticker"]: r["priority"] for r in results},
+                 "outputs": [f"research/reviews/{month}-monthly-review.md"]},
+                [f"research/reviews/{month}-monthly-review.md"], event_id=f"ALL-{month}-monthly-research",
+                event_type="monthly_review", modules=["monthly_review"], root=root)
+        except Exception:
+            pass
+    text += quality_section(month, root, write)
     if write:
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(text, encoding="utf-8")

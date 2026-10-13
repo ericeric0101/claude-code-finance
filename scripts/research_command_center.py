@@ -77,6 +77,7 @@ def scan(root: Path = ROOT, as_of: Optional[str] = None, tickers: Optional[List[
     entries = [e for e in l4.load_watchlist(root) if not tickers or e["ticker"] in [x.upper() for x in tickers]]
     log: Dict[str, Any] = {}
     q = rq.load(root)
+    seen_ids = {i["event_id"] for i in q["items"]}
     for e in entries:
         t = e["ticker"]
         if not (l4.company_dir(t, root) / "thesis/current.yaml").exists():
@@ -101,9 +102,28 @@ def scan(root: Path = ROOT, as_of: Optional[str] = None, tickers: Optional[List[
     sr.run(root, as_of)
     pri = prioritize(root, as_of)
     out = {"as_of": as_of, "tickers": log, "priorities": pri["tickers"],
-           "open_items": len(rq.open_items(root))}
+           "open_items": len(rq.open_items(root)), "quality": record_quality(root, as_of, seen_ids, log)}
     l4.write_json(root / "research/queue/last-scan.json", out)
     return out
+
+
+def record_quality(root: Path, as_of: str, seen_ids: set, log: Dict[str, Any]) -> Dict[str, Any]:
+    """Quality evaluation layer: one pending quality event per new queue item (or one run-level
+    event when the scan found nothing, so missed events can still be attached to the run)."""
+    try:
+        import quality_log as ql
+        new_items = [i for i in rq.load(root)["items"] if i["event_id"] not in seen_ids]
+        if new_items:
+            r = ql.record_queue_items(new_items, as_of, root=root)
+            return {"added": r["added"], "quality_event_ids": r["quality_event_ids"]}
+        r = ql.record_workflow("scan-research", "ALL", as_of,
+                               {"detected": False, "classification": None, "priority": None, "new_events": 0,
+                                "tickers": sorted(log)}, ["research/queue/last-scan.json"],
+                               event_id=f"ALL-{as_of}-scan-research", event_type="scan_run",
+                               modules=list(ql.SCAN_MODULES), root=root)
+        return {"added": r["added"], "quality_event_ids": [r["quality_event_id"]]}
+    except Exception as exc:  # never fails the scan
+        return {"error": repr(exc)[:200]}
 
 
 def main(argv: Optional[List[str]] = None) -> int:
@@ -122,6 +142,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         for r in out["priorities"]:
             print(f"{r['rank']}. {r['ticker']} {r['priority']} — {'; '.join(r['reasons'])[:160]}")
         print(f"open queue items: {out['open_items']} → research/queue/current.json")
+        print(f"quality events (pending review): {out['quality']} → research/quality/quality-events.jsonl")
     elif args.cmd == "queue":
         pri = l4.read_json(ROOT / "research/queue/priorities.json", {}) or {}
         for r in pri.get("tickers", []):

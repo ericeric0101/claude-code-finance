@@ -286,6 +286,18 @@ def init(ticker: str, cik: str, company: str = "", root: Path = ROOT, offline: b
     _log(steps, 14, "snapshot", "ok", f"snapshots/{as_of}.json")
     rep = baseline_report(t, root, steps, as_of)
     _log(steps, 15, "baseline report", "ok", str(rep.relative_to(root)))
+    gva = rs._read_json(base / "management/guidance-vs-actual.json", {}) or {}
+    th = rs._read_yaml(tpath) or {}
+    so = {"detected": True, "classification": None, "priority": None, "thesis_draft_auto": bool(th.get("draft_auto")),
+          "fiscal_years": len(out["annual_periods"]), "quarters": len(out["quarter_periods"]),
+          "management_statements": m["statements_total"], "guidance_counts": gva.get("counts"),
+          "triggered_rules": [r["rule"] for r in rs.check_rules(t, root) if r["state"] == "triggered"],
+          "failed_steps": [x["name"] for x in steps if x["status"] == "failed"],
+          "outputs": [str(rep.relative_to(root))]}
+    _log(steps, 0, "quality event", *quality_event(
+        "init-stock", t, root, as_of, so, [str(rep.relative_to(root)), f"research/{t}/snapshots/{as_of}.json"],
+        ["kpi_registry", "guidance_tracker", "management_diff", "promise_tracker", "thesis_monitor",
+         "valuation_monitor", "monitoring_rules"]))
     return {"ticker": t, "steps": steps, "report": str(rep)}
 
 
@@ -356,6 +368,17 @@ def level4_refresh(ticker: str, root: Path, as_of: str) -> tuple:
         return "ok", {"kpi_required_unavailable": k["required_unavailable"], "guidance_added": g["guidance_added"],
                       "promise_counts": g["counts"], "message": g["message"]}
     except Exception as exc:
+        return "skipped", repr(exc)[:200]
+
+
+def quality_event(workflow: str, ticker: str, root: Path, as_of: str, system_output: Dict[str, Any],
+                  references: List[str], modules: List[str]) -> tuple:
+    """Quality evaluation layer: one pending (never auto-approved) quality event per run."""
+    try:
+        import quality_log
+        r = quality_log.record_workflow(workflow, ticker, as_of, system_output, references, modules=modules, root=root)
+        return "ok", f"{r['quality_event_id']} (pending human review)"
+    except Exception as exc:  # the evaluation layer never fails the research pipeline
         return "skipped", repr(exc)[:200]
 
 
@@ -433,8 +456,8 @@ def update(ticker: str, cik: str, root: Path = ROOT, offline: bool = False, skip
     state_diff.save_snapshot(t, cur, root, overwrite=True)
     _log(steps, 12, "save snapshot", "ok", f"snapshots/{as_of}.json")
     prev_snap = next((s for s in reversed(state_diff.list_snapshots(t, root)) if s["as_of"] < as_of), prev)
-    text = state_diff.render_report(t, state_diff.diff_states(prev_snap, cur), cur,
-                                    f"UPDATE pipeline {as_of}；新 SEC 文件 {len(new)} 份。")
+    diff = state_diff.diff_states(prev_snap, cur)
+    text = state_diff.render_report(t, diff, cur, f"UPDATE pipeline {as_of}；新 SEC 文件 {len(new)} 份。")
     out = base / "reports" / f"{as_of}-change-report.md"
     out.write_text(text, encoding="utf-8")
     _index(base, as_of, "Change report (UPDATE pipeline)", out.name)
@@ -444,7 +467,22 @@ def update(ticker: str, cik: str, root: Path = ROOT, offline: bool = False, skip
         n = research_queue.complete_for_ticker(t, as_of, ("A", "B"), f"handled by UPDATE {as_of} ({out.name})", root)
         _log(steps, 0, "Level 4: research queue", "ok", f"{n} open items completed")
     except Exception as exc:
+        n = None
         _log(steps, 0, "Level 4: research queue", "skipped", repr(exc)[:200])
+    gva = rs._read_json(base / "management/guidance-vs-actual.json", {}) or {}
+    so = {"detected": True, "classification": None, "priority": None, "new_sec_filings": len(new),
+          "latest_quarter": f"{old_q} → {new_q}",
+          "thesis_changed": any(x.startswith(("[positive]", "[negative]")) for x in diff.get("thesis", [])),
+          "thesis_changes": [x for x in diff.get("thesis", []) if x.startswith(("[positive]", "[negative]"))][:5],
+          "guidance_counts": gva.get("counts"),
+          "triggered_rules": [r["rule"] for r in rules if r["state"] == "triggered"],
+          "action": f"{prev_snap.get('action')} → {cur.get('action')}", "queue_items_completed": n,
+          "failed_steps": [x["name"] for x in steps if x["status"] == "failed"],
+          "outputs": [str(out.relative_to(root))]}
+    _log(steps, 0, "quality event", *quality_event(
+        "update-stock", t, root, as_of, so, [str(out.relative_to(root)), f"research/{t}/snapshots/{as_of}.json"],
+        ["guidance_tracker", "management_diff", "kpi_registry", "promise_tracker", "thesis_monitor",
+         "valuation_monitor", "monitoring_rules"]))
     return {"ticker": t, "steps": steps, "report": str(out), "text": text}
 
 

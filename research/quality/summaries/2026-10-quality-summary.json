@@ -1,0 +1,293 @@
+{
+  "month": "2026-10",
+  "generated_at": "2026-10-13T00:40:24+00:00",
+  "min_sample": 5,
+  "coverage": {
+    "events_processed": 8,
+    "system_events": 8,
+    "events_reviewed": 0,
+    "pending_reviews": 8,
+    "required_pending": 3,
+    "by_workflow": {
+      "update-stock": 2,
+      "targeted-update": 1,
+      "market-reaction": 1,
+      "scan-research": 2,
+      "init-stock": 1,
+      "monthly-research": 1
+    },
+    "by_origin": {
+      "seed": 8
+    }
+  },
+  "event_detection": {
+    "correct_detections": 0,
+    "detections_reviewed": 0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "missed_events": 0,
+    "duplicates_noted": 0,
+    "precision": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": "insufficient_sample"
+    },
+    "recall": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": "insufficient_sample"
+    }
+  },
+  "classification": {
+    "correct": 0,
+    "too_high": 0,
+    "too_low": 0,
+    "wrong_type": 0
+  },
+  "priority": {
+    "reviewed": 0,
+    "agreement": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": "insufficient_sample"
+    },
+    "disagreement": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": "insufficient_sample"
+    },
+    "by_reviewed_priority": {
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "disagreement_direction": {}
+  },
+  "extraction": {
+    "guidance_errors": 0,
+    "kpi_errors": 0,
+    "management_extraction_errors": 0,
+    "promise_errors": 0,
+    "metric_definition_errors": 0,
+    "by_error_type": {},
+    "guidance_accuracy": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": "insufficient_sample"
+    }
+  },
+  "interpretation": {
+    "correct": 0,
+    "reasonable_but_uncertain": 0,
+    "overinterpreted": 0,
+    "underinterpreted": 0,
+    "unsupported": 0
+  },
+  "research_value": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "NONE": 0
+  },
+  "manual_corrections": {
+    "total": 0,
+    "top_categories": []
+  },
+  "modules": {
+    "event_detector": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "event_classifier": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "priority_engine": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "kpi_registry": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "management_diff": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "guidance_tracker": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "promise_tracker": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "thesis_monitor": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "valuation_monitor": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "monitoring_rules": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    },
+    "monthly_review": {
+      "correct": 0,
+      "errors": 0,
+      "extraction_errors": 0,
+      "corrections": 0,
+      "reviewed": 0,
+      "agreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": "insufficient_sample"
+      }
+    }
+  },
+  "tickers": {
+    "PL": {
+      "events": 4,
+      "reviewed": 0,
+      "pending": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "errors": 0,
+      "corrections": 0,
+      "events_with_issues": 0,
+      "extraction_errors": {},
+      "error_modules": {},
+      "low_confidence_interpretation": 0
+    },
+    "RKLB": {
+      "events": 2,
+      "reviewed": 0,
+      "pending": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "errors": 0,
+      "corrections": 0,
+      "events_with_issues": 0,
+      "extraction_errors": {},
+      "error_modules": {},
+      "low_confidence_interpretation": 0
+    },
+    "AAPL": {
+      "events": 1,
+      "reviewed": 0,
+      "pending": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "errors": 0,
+      "corrections": 0,
+      "events_with_issues": 0,
+      "extraction_errors": {},
+      "error_modules": {},
+      "low_confidence_interpretation": 0
+    },
+    "ALL": {
+      "events": 1,
+      "reviewed": 0,
+      "pending": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "errors": 0,
+      "corrections": 0,
+      "events_with_issues": 0,
+      "extraction_errors": {},
+      "error_modules": {},
+      "low_confidence_interpretation": 0
+    }
+  },
+  "most_problematic_tickers": [],
+  "most_reliable_modules": [],
+  "weakest_modules": [],
+  "weakest_modules_by_error_count": [],
+  "actions_next_month": [
+    "完成 3 筆 HIGH / required 的待 review 事件（QE-20261013-PL-7f82c17e, QE-20261013-PL-8075b151, QE-20261013-AAPL-8f051ca8）",
+    "目前尚無人工 review；先從 required 事件開始，累積樣本後 metrics 才有意義"
+  ],
+  "hindsight_rule": "Quality grades process, evidence and reasoning available at the time; later price moves and returns are never used (no price data is read)."
+}

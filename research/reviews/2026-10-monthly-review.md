@@ -140,3 +140,13 @@
 
 ## 22. Deprioritized Names 可降低優先（research/queue/priorities.json）
 - 無
+
+## 23. Research OS Quality 研究系統品質（research/quality/；獨立區段，不影響任何公司 thesis）
+
+- Reviewed events：0；Pending review：8（required 3）
+- False positives：0；False negatives：0（人工補登漏抓 0）
+- Priority disagreements：0/0（insufficient_sample，n < 5）
+- Manual corrections：0
+- Weakest module：尚無（無已 review 的錯誤）
+- Next quality improvement：完成 3 筆 HIGH / required 的待 review 事件（QE-20261013-PL-7f82c17e, QE-20261013-PL-8075b151, QE-20261013-AAPL-8f051ca8）
+- 完整報告：research/quality/summaries/2026-10-quality-summary.md

@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-13",
-  "generated_at": "2026-10-13T00:06:26+00:00",
+  "generated_at": "2026-10-13T00:40:24+00:00",
   "companies": [
     {
       "ticker": "PL",
@@ -469,6 +469,21 @@
     ],
     "price_up_fundamentals_lagging": [],
     "stale_research": []
+  },
+  "quality": {
+    "reviewed": 0,
+    "pending": 8,
+    "required_pending": 3,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "priority_agreement": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": "insufficient_sample"
+    },
+    "manual_corrections": 0,
+    "largest_weakness": "尚無（無已 review 的錯誤）",
+    "next_action": "完成 3 筆 HIGH / required 的待 review 事件（QE-20261013-PL-7f82c17e, QE-20261013-PL-8075b151, QE-20261013-AAPL-8f051ca8）"
   },
   "note": "Command center compares relative state, trend, priority and confidence only; raw multiples are not compared across sectors. Not a buy / sell list."
 }
