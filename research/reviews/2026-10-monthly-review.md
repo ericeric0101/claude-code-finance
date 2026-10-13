@@ -73,3 +73,70 @@
 - High：論點狀態改變、guidance 改變、新財報、預期落差顯著變化、承諾未兌現、監控規則新觸發
 - Medium：股價變動 ≥ 15% 但基本面未變
 - Low：無有意義的狀態變化
+
+# Level 4 Research Command Center review
+
+> 以下段落引用 state 變化（檔案路徑附在每段），不是摘要報告；優先順序 = 先研究誰，不是買賣建議。
+> 口徑：第 1–11 段的 High / Medium / Low 只看本月 snapshot diff；第 12 段起的 HIGH / MEDIUM / LOW 是 Level 4 研究佇列優先順序，也包含仍未處理的 REASSESS、staleness 與 thesis 重要性，所以兩者可能不同。
+
+## 12. Research Priority Changes 研究優先順序變化（research/queue/priority-history.csv）
+- AAPL: （無前期紀錄） → HIGH；standing_trigger: fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open; standing_trigger: invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open
+- PL: （無前期紀錄） → HIGH；standing_trigger: multiple monitoring rules triggered (3 distinct conditions)
+- RKLB: （無前期紀錄） → MEDIUM；promise_delayed: promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26)); standing_trigger: fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open
+
+## 13. Thesis Improvements 論點改善（thesis/history.json）
+- 無
+
+## 14. Thesis Deteriorations 論點惡化（thesis/history.json）
+- 無
+
+## 15. Expectation Gap Changes 預期落差變化（valuation/expectation-gap-history.csv）
+- AAPL: Wide（market 14.8% vs base 8.0%，no prior state）
+- PL: Wide（market 36.1% vs base 25.0%，stable）；|gap| 變化 +0.000
+- RKLB: Wide（market 108.9% vs base 40.0%，no prior state）
+
+## 16. Guidance Delivered / Missed（management/promises.json，guidance_tracker.py）
+- AAPL: No explicit evaluable management guidance found.（另有 2 個非 guidance 承諾，見 promises.json）
+- PL: 本月結案 / 檢查 無
+- RKLB: 本月結案 / 檢查 delayed 1, not_evaluable 50
+  - RKLB-milestone-neutron-first_launch-2025-02-27: delayed（target moved H2 2025 → Q4 2026 (2026-02-26)；basis timing claim (same subject and milestone)）
+
+## 17. New Monitoring Triggers 新監控觸發（research/queue/current.json；REASSESS）
+- AAPL: 仍未處理｜fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open（pending）
+- AAPL: 仍未處理｜invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open（pending）
+- PL: 仍未處理｜fundamental rule 'rpo_vs_fiscal_year_end' still triggered since 2026-10-13 → REASSESS still open（pending）
+- PL: 仍未處理｜fundamental rule 'capex_intensity' still triggered since 2026-10-13 → REASSESS still open（pending）
+- PL: 仍未處理｜fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open（pending）
+- PL: 仍未處理｜invalidation rule 'capex_heavy_with_negative_fcf' still triggered since 2026-10-13 → REASSESS still open（pending）
+- PL: 仍未處理｜invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open（pending）
+- RKLB: 仍未處理｜fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open（pending）
+- RKLB: 仍未處理｜invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open（pending）
+
+## 18. Valuation Re-Rating 估值重評（snapshots / valuation/historical-percentiles.json）
+- AAPL: 目前 Expensive（高於所有 bull 值）；最新收盤 340.97（2026-10-12），研究價格 336.64（2026-10-09 close）；[neutral] ev_sales historical percentile 首次建立：3Y 100.0; since listing 100.0（current 10.57）; [neutral] ev_ebit historical percentile 首次建立：3Y 100.0; since listing 99.2（current 31.85）
+- PL: 目前 Demanding（介於 base 與 bull）；最新收盤 15.96（2026-10-12），研究價格 17.18（2026-10-09 NYSE close）；[neutral] ev_sales historical percentile 首次建立：3Y 75.7; since listing 80.9（current 15.23）; [neutral] ev_ebit historical percentile 首次建立：3Y None; since listing None（current None）
+- RKLB: 目前 Expensive（高於所有 bull 值）；最新收盤 65.71（2026-10-12），研究價格 68.21（2026-10-09 close）
+
+## 19. Research Staleness 研究過期（stale_research.py）
+- AAPL: not stale
+- PL: not stale
+- RKLB: not stale
+
+## 20. Next Month Calendar 下月行事曆（research/calendar/upcoming.csv）
+- AAPL: SEC 10-K filing deadline (approx. upper bound), fiscal period ending ~2026-09（2026-12-29，deadline (upper bound)，信心 medium）
+- RKLB: SEC 10-Q filing deadline (approx. upper bound), fiscal period ending ~2026-09（2026-11-14，deadline (upper bound)，信心 medium）
+- RKLB: Company target: Neutron first launch by end of Q4 2026（Q4 2026，quarter，信心 medium）
+- AAPL: Earnings release: fiscal-year results (10-K), fiscal period ending ~2026-09（2026-11，month (approximate)，信心 low）
+- PL: SEC 10-Q filing deadline (approx. upper bound), fiscal period ending ~2026-10（2026-12-15，deadline (upper bound)，信心 medium）
+- RKLB: Earnings release: quarterly results (10-Q), fiscal period ending ~2026-09（2026-11，month (approximate)，信心 low）
+- PL: Earnings release: quarterly results (10-Q), fiscal period ending ~2026-10（2026-12，month (approximate)，信心 low）
+
+## 21. Top 5 Research Tasks 五項最重要研究任務（research queue）
+1. PL（HIGH）fundamental rule 'rpo_vs_fiscal_year_end' still triggered since 2026-10-13 → REASSESS still open → thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, 
+2. PL（HIGH）fundamental rule 'capex_intensity' still triggered since 2026-10-13 → REASSESS still open → thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, 
+3. AAPL（HIGH）fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open → thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, 
+4. AAPL（HIGH）invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open → thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, 
+5. RKLB（MEDIUM）promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26)) → management-change: timing slip; thesis-monitor for the affected milestone component
+
+## 22. Deprioritized Names 可降低優先（research/queue/priorities.json）
+- 無

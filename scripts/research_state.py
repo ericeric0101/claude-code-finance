@@ -76,7 +76,8 @@ def classify_transition(prev: Optional[str], cur: str) -> str:
     return THESIS_TRANSITIONS[(prev, cur)]
 
 IMPORTANCE = ("high", "medium", "low")
-PROMISE_STATUSES = ("pending", "delivered", "partially_delivered", "missed", "superseded")
+PROMISE_STATUSES = ("pending", "delivered", "partially_delivered", "missed", "superseded",
+                    "delayed", "not_evaluable")  # Level 4 adds delayed / not_evaluable (guidance_tracker.py)
 VALUATION_HISTORY_FIELDS = (
     "as_of", "price", "price_date", "method", "bear", "base", "bull",
     "reverse_dcf_implied_growth", "valuation_confidence", "action",

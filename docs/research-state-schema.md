@@ -83,3 +83,31 @@ Each tracked company lives in `research/<TICKER>/`. Tool:
 | PL | Migrated | Baseline snapshot 2026-10-11; reverse DCF recorded as not established, as in the report |
 | RKLB | Level 3 INIT 2026-10-13 | SEC history, prices, management, auto-draft thesis / valuation / rules |
 | PLTR | Not migrated | Report and recommendation I/O preserved; run `/init-stock PLTR` to add state |
+
+## Level 4 files (2026-10-13)
+
+| Path | Contents |
+|---|---|
+| `config/watchlist.yaml` | watchlist (not a portfolio): ticker, cik, sector, research_role, priority_override, enabled, macro_links |
+| `config/research-policy.yaml` | market / staleness / priority / queue / scan thresholds (Assumptions) |
+| `config/kpi-registry/<layer>.yaml` | common + sector KPI definitions (name, definition, concept, unit, required, sources) |
+| `<T>/config/kpis.yaml` | company KPIs, `disable`, manual `values` (original name, definition, source), `guidance_metrics`, `milestone_subjects` |
+| `<T>/financials/kpi-history.csv` | date, period, kpi, value (`unavailable` when missing, never 0), unit, source, source_type, confidence, notes |
+| `<T>/financials/kpi-coverage.json` | required / optional KPIs available vs unavailable, errors, draft flags |
+| `<T>/management/claims.json` | structured claims: point / range / qualitative guidance, timing promise, operational milestone |
+| `<T>/management/semantic-diff.{json,md}` | FACT / CHANGE / INTERPRETATION / CONFIDENCE findings per topic and dimension |
+| `<T>/management/guidance-vs-actual.{json,md}` | guidance vs actual table and status counts (or "No explicit evaluable management guidance found.") |
+| `<T>/management/promises.json` | + statuses `delayed`, `not_evaluable`; + `metric_definition`, `comparison_basis`, `resolution_confidence`, `actual_source`, `draft_auto`, `review_required` |
+| `<T>/monitoring/scan-state.json` | last_checked, last_filing, last_price_update, last_management_update, seen accessions, triggered rules, promise statuses |
+| `<T>/monitoring/tradingview-alerts.md` | optional P2 alert text (REASSESS only) |
+| `<T>/exports/notebooklm-sources.md` | optional P2 NotebookLM source list (repo stays canonical) |
+| `research/queue/current.json` | research queue items (event_id, ticker, event_type, detected_at, priority, required_workflow, source, reason, status, …) |
+| `research/queue/priorities.json`, `priority-history.csv` | ticker priority with reasons and rank; history upserted by date |
+| `research/queue/archive/YYYY-MM.json` | closed items older than `queue.archive_after_days` |
+| `research/calendar/upcoming.csv` | ticker, event, expected_date, date_precision, window_start, window_end, source, confidence, importance, status, notes |
+| `research/dashboard/current.{md,json}` | command-center table, answers, confidence components, open queue |
+| `research/dashboard/stale-research.{md,json}` | stale research findings |
+
+Promise rule: a guided metric is auto-resolved only when `comparison_basis` is one of
+`gaap_match`, `definition_match`, `same_company_metric`, `calculated_gaap`; otherwise it is
+`not_evaluable` with the reason.

@@ -975,502 +975,503 @@ date,open,high,low,close,volume,source,retrieved_at
 2024-10-09,9.27,9.66,8.99,9.45,10854500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
 2024-10-10,9.34,9.529,9.27,9.39,6877000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
 2024-10-11,9.35,9.78,9.2,9.7,8278500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-14,9.92,10.11,9.66,9.88,14831200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-15,9.82,10.34,9.48,9.94,16863600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-16,10.03,11.19,9.98,11.19,26303500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-17,11.17,11.19,10.55,10.68,14503200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-18,10.765,11.0,10.48,10.81,10093100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-21,10.85,11.29,10.68,11.26,11021200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-22,11.21,11.52,11.03,11.16,10455700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-23,11.16,11.27,10.65,10.91,10104900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-24,11.005,12.085,11.005,11.19,16684200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-25,11.24,11.33,10.91,11.18,10553300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-28,11.25,11.47,11.061,11.26,8443100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-29,11.15,11.58,10.87,11.47,9573300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-30,11.35,11.63,10.95,10.96,9128500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-10-31,10.91,10.91,10.29,10.7,13057500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-01,10.9,11.5,10.85,11.42,11010800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-04,11.265,11.395,10.97,11.25,7701600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-05,11.34,11.85,11.28,11.81,8554000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-06,12.295,13.06,12.07,13.05,17747300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-07,13.5,13.89,13.08,13.46,15823800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-08,13.32,13.9,12.9,13.51,17769100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-11,14.64,15.24,14.01,14.78,27297200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-12,14.49,15.02,14.24,14.66,25153600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-13,19.24,22.55,18.65,18.83,121001300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-14,19.43,19.43,17.251,17.36,45509000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-15,17.03,19.48,16.8,19.0,42280000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-18,19.54,20.35,18.47,19.29,29097900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-19,19.025,20.97,18.72,20.5,28809600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-20,20.55,20.76,19.64,20.18,17269700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-21,20.4,22.48,19.75,22.41,28114900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-22,23.025,23.81,22.38,23.26,28378000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-25,25.385,25.58,22.82,24.06,40883200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-26,23.72,26.71,23.62,25.44,41464100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-27,25.895,27.2,24.73,25.67,26623100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-11-29,26.0,28.05,25.66,27.28,19870500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-02,27.975,28.1,24.0,24.155,41206900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-03,23.8,24.26,22.5,23.01,30532400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-04,22.95,24.0,22.34,23.11,23047100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-05,23.105,24.52,22.66,23.92,19910400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-06,24.425,25.0,23.43,24.68,19915400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-09,24.96,25.09,21.87,23.24,27871000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-10,22.85,24.4,22.8,22.85,12573000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-11,22.98,23.985,21.93,23.35,14544800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-12,22.92,23.96,22.33,22.58,13386700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-13,22.43,24.57,22.42,24.42,18758500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-16,24.465,25.95,23.35,25.9,19543700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-17,25.9,26.45,24.53,26.37,15278000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-18,26.28,26.78,22.89,22.92,21660900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-19,23.66,24.7,22.7,23.22,15541800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-20,22.14,25.29,22.01,24.87,25072900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-23,24.97,26.32,24.34,25.59,14463700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-24,25.57,26.6,25.09,26.6,8689600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-26,26.6,28.8,26.11,28.44,19997600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-27,28.21,28.71,26.74,27.22,15559200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-30,26.22,26.81,24.9,26.32,13775600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2024-12-31,26.54,26.88,25.18,25.47,13084800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-02,25.43,25.66,23.7,24.96,13792700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-03,25.025,28.77,25.025,28.74,22114700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-06,28.99,30.26,28.58,28.8,22305400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-07,29.13,29.96,27.42,27.95,19138800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-08,27.3,28.32,25.89,27.36,18750200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-10,26.85,27.99,26.01,26.91,15340000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-13,25.55,25.67,23.61,23.91,18040200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-14,24.45,24.86,23.42,24.16,13862800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-15,25.04,26.5,24.78,24.87,15252200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-16,25.03,25.777,24.2,24.64,10860200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-17,25.13,25.653,23.94,24.0,14068300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-21,26.0,31.64,25.52,31.27,62027700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-22,29.65,30.18,28.44,29.62,27902200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-23,29.0,31.75,28.51,31.57,23888100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-24,32.03,33.34,30.2,30.36,23878600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-27,28.94,30.23,28.48,29.43,17477200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-28,29.7,30.49,27.85,28.98,16086900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-29,29.24,30.45,28.26,28.87,12874500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-30,29.185,30.81,27.77,28.53,19556500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-01-31,28.75,30.53,28.259,29.05,20632300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-03,27.19,29.18,26.45,28.38,18884700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-04,29.02,30.16,28.41,28.68,17138200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-05,28.96,29.136,27.85,28.6,15116200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-06,28.58,28.92,27.25,27.68,15384000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-07,27.98,29.691,27.22,27.41,19260100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-10,27.75,31.08,27.36,30.6,27264800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-11,29.86,30.32,28.08,28.22,20244700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-12,28.01,28.58,27.4,27.62,15500000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-13,28.08,28.381,27.01,28.3,18636400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-14,28.24,28.65,27.04,28.02,15313000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-18,28.27,29.788,27.39,27.74,20977200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-19,28.0,28.295,25.73,25.93,18899000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-20,25.98,26.15,23.87,25.26,22884800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-21,25.895,25.93,23.36,23.55,16255100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-24,23.74,23.9,21.72,22.49,19606100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-25,21.7,22.16,19.78,20.28,29089000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-26,21.015,21.46,20.5,21.25,16325100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-27,21.975,22.16,19.755,19.83,23949000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-02-28,16.36,20.49,16.17,20.49,37550700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-03,21.24,21.45,18.4,18.66,26785200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-04,17.97,19.95,17.51,18.995,25807900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-05,19.115,20.84,18.77,20.4,18412400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-06,19.58,20.27,18.37,18.66,18086800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-07,18.29,19.1,17.67,18.8,16108800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-10,18.2,18.23,16.47,17.12,21122000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-11,16.31,18.14,16.05,17.83,15509200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-12,18.92,19.38,17.58,18.43,19095600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-13,18.345,18.52,17.291,17.57,10493900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-14,18.095,18.965,17.8,18.81,12008900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-17,19.09,19.95,18.85,19.1,15581600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-18,18.595,18.595,17.96,17.98,9768300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-19,18.3,19.07,17.78,18.78,12096300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-20,18.4,18.87,18.16,18.53,8509000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-21,18.105,18.98,17.98,18.94,16743600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-24,19.445,20.45,19.41,20.21,13807100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-25,20.295,20.39,19.61,20.27,12026500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-26,20.04,20.345,19.392,19.44,12762900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-27,19.05,19.29,18.31,18.42,11754300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-28,19.56,19.79,18.43,18.62,25511900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-03-31,17.89,18.395,17.351,17.88,15132500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-01,17.69,18.8,17.11,18.15,14075300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-02,17.59,19.75,17.5,19.34,15260400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-03,17.77,18.31,17.42,17.89,16592900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-04,17.125,17.38,15.0,16.37,22799700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-07,14.715,18.24,14.71,17.52,23935500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-08,18.537,19.39,16.73,17.18,19958400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-09,17.5,21.39,17.2,20.59,31470400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-10,19.81,20.74,18.93,19.63,16731400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-11,19.56,19.97,18.87,19.63,15484400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-14,20.31,20.46,18.66,19.13,13196800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-15,19.95,22.1,19.77,21.07,30434200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-16,20.3,20.64,19.51,19.975,14733000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-17,20.085,20.43,19.42,19.74,9225400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-21,19.47,19.72,18.21,18.65,9055600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-22,18.88,19.42,18.55,19.04,9383900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-23,20.45,21.4,20.09,20.29,17819300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-24,20.31,22.07,20.02,21.88,15536400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-25,21.99,22.56,21.75,22.38,13775600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-28,23.2,23.77,21.722,22.67,13139000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-29,22.83,23.0,22.3,22.4,6646500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-04-30,21.2,22.1,20.73,21.79,10400100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-01,22.365,22.38,21.7,22.12,8397400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-02,22.38,23.42,22.34,22.99,12728900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-05,22.56,22.925,22.26,22.48,8016300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-06,21.915,22.44,21.502,22.37,7751400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-07,22.4,22.48,21.845,22.29,7727300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-08,23.025,23.2,22.25,23.1,15754000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-09,22.9,22.9,20.232,20.51,30349700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-12,21.755,21.8,20.885,21.26,15229700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-13,21.68,22.37,21.44,21.83,14950700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-14,21.99,24.52,21.86,24.13,36800900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-15,23.59,25.23,22.77,25.22,27530600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-16,25.3,25.75,24.93,25.57,24452900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-19,24.3,25.82,24.29,25.8,17316300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-20,25.94,26.397,25.34,26.0,18173600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-21,25.655,26.66,25.04,25.17,17081800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-22,24.75,26.568,23.92,25.82,18681200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-23,25.335,25.515,24.67,25.42,14249900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-27,26.6,28.76,26.58,28.76,21781500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-28,29.91,30.78,28.52,28.93,30832500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-29,29.69,30.03,27.26,27.35,16266100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-05-30,27.015,27.22,26.03,26.79,12706300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-02,26.5,27.0,25.81,26.6,10757100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-03,27.385,28.0,26.47,26.72,12186500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-04,26.75,27.46,26.16,26.91,11683000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-05,26.88,26.96,25.52,26.45,27953900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-06,28.16,29.09,26.35,28.92,34136500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-09,30.0,32.7,28.355,29.64,60217100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-10,29.57,29.79,27.0,27.17,30798100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-11,27.715,28.04,26.89,27.36,21283400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-12,27.04,27.41,26.28,26.4,12967500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-13,25.65,26.51,25.24,25.41,15593900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-16,25.87,26.58,25.6,26.55,13601300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-17,26.1,27.22,25.71,26.42,14498900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-18,26.4,28.065,26.23,27.85,18457700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-20,28.35,30.11,27.84,30.04,37066000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-23,28.925,32.93,28.44,32.78,44056800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-24,33.08,34.23,32.43,33.46,28392600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-25,34.0,34.5,31.78,32.35,22969800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-26,32.41,37.27,32.41,36.14,41601800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-27,36.645,37.66,34.83,35.38,75749300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-06-30,36.535,37.95,35.42,35.77,18438400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-01,37.015,38.26,33.88,34.33,26656500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-02,34.39,35.79,33.73,35.68,14865600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-03,35.79,36.21,35.25,35.66,7976000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-07,36.98,39.06,35.275,38.88,35564100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-08,38.49,39.94,37.98,38.74,27769400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-09,38.53,39.43,37.77,39.14,16267300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-10,39.17,39.68,38.13,39.1,13663800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-11,38.97,40.3,38.6,39.03,16371500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-14,39.3,43.47,38.77,43.21,29196200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-15,43.29,45.48,42.821,44.6,29999700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-16,45.55,48.07,44.86,47.69,26692300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-17,48.7,53.44,48.6,51.33,46760200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-18,50.65,51.85,47.91,51.39,32919600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-21,50.05,51.58,46.85,47.19,29305900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-22,45.99,47.87,44.46,46.88,24381700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-23,47.62,49.28,46.93,49.15,18179900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-24,49.3,49.62,47.31,48.13,12600600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-25,47.9,48.23,46.45,47.43,14517900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-28,47.955,48.165,44.41,45.11,20928700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-29,45.41,45.51,42.83,43.79,14706500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-30,43.86,46.56,43.36,46.44,16853400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-07-31,46.37,47.72,45.43,45.92,13041500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-01,43.195,46.17,42.315,44.81,16566300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-04,45.1,45.8,44.07,44.54,11625100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-05,45.12,45.38,43.13,44.75,10920400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-06,44.71,45.1,43.67,44.1,8051600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-07,44.185,44.58,43.1,44.21,21522100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-08,47.54,49.92,43.5,44.69,39170200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-11,44.65,46.1,41.505,45.02,24893500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-12,45.37,47.27,43.42,43.43,20848000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-13,44.0,44.7,42.44,43.0,14523600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-14,42.76,45.69,42.01,42.81,18472900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-15,42.975,44.88,41.75,44.27,14183100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-18,44.3,47.08,44.03,44.97,21268900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-19,45.1,45.16,40.9,40.92,24104800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-20,40.21,40.86,38.26,40.69,20325000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-21,40.78,41.87,40.22,41.53,14951500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-22,40.97,44.684,40.419,44.38,18818200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-25,45.16,49.59,44.05,47.22,30133200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-26,47.73,50.92,47.0,48.13,47698000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-27,48.68,48.74,45.82,46.25,16784700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-28,46.88,47.975,45.34,47.91,16940200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-08-29,47.85,48.8,46.02,48.6,15897800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-02,46.75,49.54,45.68,49.31,20305200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-03,50.27,50.9,43.512,43.53,33322300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-04,44.16,44.58,42.7,42.99,17273100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-05,43.565,45.99,42.39,45.84,17362000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-08,45.5,48.2,45.488,47.73,18846400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-09,47.01,47.53,45.512,47.03,13243700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-10,47.53,48.11,45.6,46.17,11638500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-11,46.32,49.665,46.055,48.43,22816300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-12,48.98,54.03,48.611,53.34,27889800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-15,53.58,55.17,52.72,54.04,23957100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-16,52.0,52.08,47.01,47.245,42608100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-17,47.565,48.54,46.45,48.08,20731000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-18,48.92,49.19,47.0,47.18,19434100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-19,47.68,48.93,47.13,47.79,26870000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-22,47.13,50.26,46.8,49.81,22995900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-23,49.025,54.158,47.91,52.91,38064000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-24,51.795,52.48,48.43,48.69,30681600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-25,48.0,48.62,45.21,46.63,22418500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-26,47.3,47.69,45.83,46.26,14907100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-29,47.4,48.1,46.37,47.01,16145400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-09-30,47.21,47.99,46.51,47.91,14856100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-01,47.38,49.42,47.12,47.97,25640200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-02,48.64,52.65,48.51,52.47,35212900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-03,52.05,56.939,51.26,56.16,37741900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-06,56.865,59.26,55.8,58.5,31020500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-07,59.01,62.56,57.02,61.51,36545600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-08,64.15,68.534,63.65,65.31,36149900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-09,64.9,68.54,64.42,66.42,25844500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-10,70.8,73.5,64.14,64.26,40876800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-13,67.88,70.44,64.622,65.42,26180300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-14,65.34,69.67,62.19,68.03,27623500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-15,70.02,73.97,67.08,69.27,26290800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-16,70.07,72.25,66.425,67.0,23835200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-17,65.89,68.5,63.7,66.27,16892900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-20,69.135,72.18,66.675,67.35,25835200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-21,68.04,68.04,64.86,65.4,17508200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-22,62.97,64.02,58.41,60.565,22149400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-23,61.56,64.7,60.75,63.57,13226400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-24,64.81,66.18,63.65,64.56,12041200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-27,66.19,66.35,64.15,65.62,19183300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-28,65.675,66.54,63.61,63.75,11772900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-29,64.145,67.39,63.48,66.16,17907200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-30,65.0,65.18,60.89,60.92,12479000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-10-31,61.77,63.45,60.4,62.98,13830100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-03,63.03,63.1,59.13,61.34,11463500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-04,57.8,59.49,56.51,56.57,13725500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-05,56.66,57.28,54.87,56.42,13254300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-06,56.21,56.21,49.41,49.61,21053100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-07,47.657,52.1,46.311,51.64,25058800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-10,53.74,54.5,50.76,51.9,22929800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-11,56.0,56.96,51.21,51.24,33240100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-12,51.93,55.33,49.66,49.97,21987100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-13,48.76,49.38,44.37,45.25,26517100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-14,43.71,47.22,43.3,45.54,21107100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-17,45.15,45.682,42.225,43.31,17583500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-18,42.22,43.61,41.23,42.78,16982000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-19,42.5,44.53,42.43,43.62,15304000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-20,46.08,46.26,39.32,39.48,25029300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-21,39.83,41.045,37.57,40.3,18870000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-24,40.76,42.53,39.3,42.45,20281000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-25,42.03,42.805,40.38,42.6,10568800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-26,43.24,43.59,41.38,41.93,10906100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-11-28,42.51,42.7,41.8,42.14,5636800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-01,41.15,41.3,39.98,40.37,13260600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-02,40.56,42.99,40.42,41.9,13390800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-03,41.895,44.74,41.5,44.72,14385200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-04,45.645,49.68,44.82,49.37,28366600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-05,48.875,49.7,47.7,49.055,14633100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-08,50.08,52.37,49.22,51.56,21748500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-09,51.23,53.75,50.34,53.43,17526200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-10,53.44,58.83,52.25,57.52,38839900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-11,57.51,64.15,56.85,63.53,31378800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-12,62.5,65.18,59.8,61.49,33545300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-15,63.052,64.56,55.08,55.41,32932200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-16,54.19,56.73,52.68,55.49,22447400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-17,56.1,56.91,53.085,53.96,23761100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-18,56.2,60.25,56.03,59.92,27939400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-19,61.12,70.56,60.747,70.52,52764800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-22,72.94,78.45,72.752,77.55,48279600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-23,73.81,79.18,73.29,77.18,35673300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-24,78.035,79.83,74.801,77.18,16720600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-26,76.68,76.99,70.39,70.65,23157800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-29,69.5,72.74,69.322,70.12,18294100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-30,73.025,74.69,70.44,70.45,30151700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2025-12-31,71.5,73.196,69.13,69.76,17594200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-02,70.63,76.24,66.85,75.99,31517600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-05,74.62,78.25,71.31,78.14,33498600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-06,77.76,86.25,74.05,86.03,43669700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-07,84.1,85.96,81.85,84.08,28603500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-08,85.5,89.87,82.26,83.08,29874200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-09,84.525,88.43,82.45,84.85,23780400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-12,84.98,88.84,83.419,87.9,22125000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-13,89.14,89.729,85.65,86.58,21759500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-14,86.35,92.19,84.5,91.8,28346000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-15,89.265,92.459,86.65,90.76,24810300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-16,92.525,99.58,92.4,96.3,36105300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-20,93.7,98.27,88.3,89.16,29300900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-21,90.02,91.25,82.71,87.82,30538700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-22,86.38,89.4,81.351,87.98,30063000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-23,89.055,94.45,86.12,88.9,24381000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-26,86.745,87.16,80.01,80.48,21659900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-27,82.89,87.0,82.0,87.0,17676500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-28,87.22,89.8,86.028,88.57,16263000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-29,87.94,89.0,83.0,85.68,15857300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-01-30,85.0,89.32,78.02,80.07,22707000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-02,79.16,80.7,73.879,74.15,18337000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-03,78.6,81.32,75.77,81.27,19000600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-04,81.35,81.35,68.563,73.11,26237400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-05,69.98,72.99,65.2,66.32,22675400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-06,69.0,72.66,67.0,72.32,20049600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-09,72.025,76.8,70.75,75.84,16394400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-10,74.595,75.86,71.55,72.03,13195600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-11,73.13,73.4,67.02,69.62,17563100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-12,67.53,68.45,63.87,66.01,18313700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-13,66.695,69.6,65.5,67.44,14737900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-17,66.084,70.99,65.0,69.89,12059200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-18,71.0,75.765,69.989,74.42,19118400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-19,72.9,77.11,72.35,76.58,14693400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-20,75.482,78.2,69.4,70.86,18253500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-23,68.755,71.25,68.5,70.21,13795700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-24,68.88,70.055,66.6,69.97,12858300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-25,71.095,71.85,68.88,70.2,11793700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-26,70.045,72.74,68.81,72.65,18411600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-02-27,67.59,69.59,64.1,69.1,25729800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-02,66.68,72.1,66.45,70.97,18845500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-03,68.855,73.25,66.19,70.13,17405200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-04,70.81,74.1,69.47,71.91,17073000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-05,70.92,72.31,67.34,70.0,14528800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-06,68.135,75.11,68.135,70.11,22272800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-09,69.39,72.125,67.82,71.48,18434200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-10,70.34,72.935,68.621,68.93,18248800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-11,68.8,73.3,68.33,71.96,18140600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-12,71.95,72.6,68.28,68.37,17683000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-13,69.15,71.31,67.44,68.41,16039800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-16,69.325,72.38,68.67,71.31,16946700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-17,71.475,78.67,71.27,78.59,29734900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-18,76.04,76.88,69.4,69.48,33919300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-19,68.82,72.73,68.0,71.93,28549900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-20,72.0,73.98,66.39,67.23,35247200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-23,68.085,69.45,66.05,68.0,23852300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-24,67.0,68.6,64.46,66.07,21358000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-25,68.94,75.06,68.94,72.88,34508800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-26,71.2,72.09,65.59,65.94,22988800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-27,66.01,66.095,60.35,60.93,20311800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-30,61.45,61.64,56.132,57.38,21933500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-03-31,61.71,64.58,59.03,64.22,26607400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-01,65.5,68.67,65.3,65.52,27157200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-02,62.225,69.39,61.86,67.73,32670600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-06,67.73,70.32,66.6,67.67,22351800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-07,67.115,68.3,63.96,66.32,25396300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-08,72.0,73.668,67.811,69.08,26863800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-09,69.06,69.79,66.545,66.74,17250900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-10,67.7,70.06,66.34,68.05,18621000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-13,67.05,71.55,66.59,70.62,17994700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-14,73.555,74.75,70.48,72.22,22643000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-15,73.585,74.59,69.6,73.6,23568700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-16,76.97,83.49,76.9,82.93,41014200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-17,84.08,86.99,83.6,84.8,26066300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-20,84.85,90.35,84.6,89.46,28827400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-21,90.33,91.95,85.75,86.64,27450400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-22,90.465,93.1,87.76,90.04,21474400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-23,89.85,90.3,81.565,84.6,22664100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-24,86.34,86.41,79.08,79.68,22130400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-27,79.69,82.48,77.054,82.29,19386300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-28,80.075,81.78,77.6,78.59,14379700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-29,77.86,78.01,73.99,77.02,17751400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-04-30,77.55,83.59,77.47,82.51,17604200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-01,83.53,83.79,78.43,78.81,16378800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-04,78.36,81.833,76.25,80.31,16241300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-05,82.6,83.0,76.56,78.76,17126000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-06,79.62,84.68,78.86,84.65,19779200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-07,84.71,84.79,77.93,78.58,22942900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-08,86.035,105.62,85.87,105.47,79927300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-11,105.27,123.94,104.0,117.35,54779700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-12,112.76,121.49,112.41,117.56,34195200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-13,123.895,127.24,116.89,124.15,26587400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-14,123.1,133.18,121.31,132.55,25324100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-15,128.1,130.37,121.8,124.77,22469100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-18,132.755,138.38,125.671,131.16,32319500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T18:12:58+00:00
-2026-05-19,125.9700,129.5700,115.2300,127.3100,30076859,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-20,127.4800,135.3500,124.2200,134.2800,22260857,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-21,126.1400,130.8700,123.8000,125.4500,30826434,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-22,131.4100,139.7600,131.3100,135.7600,32970699,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-26,141.9650,146.0000,138.5600,143.2000,32920000,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-27,149.7200,150.9999,137.9100,150.2300,29193281,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-28,147.1700,150.8300,142.3700,148.0300,20458569,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-05-29,139.9400,144.0000,134.0500,143.4800,34878622,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-01,132.3800,135.6300,121.0000,122.3900,37294596,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-02,125.3400,128.4000,122.5600,123.3200,19498016,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-03,119.5800,122.5049,113.6600,114.7000,21579823,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-04,113.0850,122.6300,110.3900,119.9500,24826280,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-05,114.2700,117.9800,106.7300,110.0800,21477392,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-08,114.6700,116.2499,111.0000,113.6500,13433176,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-09,118.4000,119.7900,101.2000,108.2300,23730202,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-10,107.7000,111.9600,104.4100,105.0500,13000840,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-11,106.5900,115.0450,105.4000,114.7800,26119265,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-12,118.0200,118.3770,99.6100,102.3900,63386962,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-15,107.9600,110.7800,105.8000,109.2500,28928329,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-16,107.7100,108.5000,103.0700,104.6300,27885014,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-17,104.1200,111.3400,104.0400,107.9800,28722971,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-18,108.8300,109.5500,100.9600,107.2400,70325989,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-22,106.9900,107.4000,96.5000,100.2900,27782000,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-23,96.0200,101.7300,94.8850,95.1200,22306722,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-24,93.8500,94.3000,84.8501,85.4100,26770883,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-25,86.1100,86.1100,80.0000,80.6900,26903043,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-26,81.1100,86.2800,80.7300,84.5400,34394174,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-29,91.2950,99.0800,89.8500,98.0100,42899316,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-06-30,97.2000,104.1600,95.6400,101.6500,32812566,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-01,101.1950,107.5999,97.6200,100.0700,21668009,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-02,100.9900,106.9900,97.9100,100.4600,22233599,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-06,100.4300,102.0999,92.3000,93.0900,20511944,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-07,90.0100,90.7400,82.8500,83.4100,26177041,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-08,86.5000,86.5000,81.0000,83.3500,19194543,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-09,86.2950,86.3000,82.4100,82.5500,17866179,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-10,82.2900,82.3000,79.0600,81.0400,14591818,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-13,79.8900,79.9700,75.6000,76.7300,18864691,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-14,78.7600,82.5400,78.5100,78.8100,15801675,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-15,78.9400,81.0500,74.8400,76.2000,15407482,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-16,73.3800,73.9500,66.0000,67.3500,31134318,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-17,65.9300,70.6300,64.5100,67.6200,22367271,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-20,68.3900,69.5400,65.4400,65.7400,17937409,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-21,66.3400,69.7409,65.9009,69.1200,20061063,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-22,70.4900,72.9400,69.2500,69.7500,21031353,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-23,68.1300,70.8100,66.8500,69.9900,14155505,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-24,69.3000,69.5500,63.0000,63.9100,18959499,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-27,64.8000,68.3400,64.0300,66.9400,15752126,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-28,64.5000,64.9500,60.0500,63.8900,18442120,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-29,63.5050,64.1000,58.2000,58.6000,19510869,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-30,60.9300,64.8400,59.6800,64.6800,18165293,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-07-31,66.1300,67.8400,62.6600,64.9500,13533817,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-03,63.3400,70.6000,62.1700,70.4300,16768883,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-04,72.7950,75.5900,72.3600,74.4800,19421340,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-05,74.8800,77.3000,72.9100,74.8200,16755293,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-06,72.3100,80.1924,72.3000,75.6700,19508254,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-07,78.8000,83.2500,77.3800,82.8300,24244928,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-10,84.0650,86.8300,79.7701,80.0400,34015003,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-11,76.2600,81.3999,75.4600,80.0100,30082055,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-12,80.1100,82.2000,78.0700,81.1700,16943266,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-13,78.5000,84.2100,77.7101,80.1000,17306164,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-14,79.5900,82.4800,78.5101,80.2500,13900206,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-17,81.0100,85.5500,80.5300,82.0800,18111842,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-18,78.5500,81.0400,76.8800,79.1600,15416856,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-19,77.0200,77.6000,73.8716,75.8400,16414756,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-20,74.9500,75.3700,71.7500,72.9500,16675501,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-21,74.1500,74.9500,71.4500,72.5700,12570210,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-24,71.2100,71.2100,68.1700,68.2800,14461252,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-25,69.9200,70.0000,66.4800,66.9100,15060006,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-26,66.4000,67.6750,65.8000,66.1800,11166210,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-27,66.9100,67.5700,65.4200,67.5300,11492100,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-28,66.7400,66.7499,63.4950,64.3900,18571063,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-08-31,63.7300,64.1122,62.7900,63.9200,15279381,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-01,62.2400,63.9352,61.9300,62.5400,14442989,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-02,62.3500,63.5200,61.4500,63.1000,16639581,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-03,64.6400,64.9000,62.3600,63.8100,18913228,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-04,64.7600,65.0000,63.2000,64.2600,14952020,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-08,65.2700,67.4800,64.1500,65.8700,24378128,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-09,67.3200,67.7000,62.9900,63.0700,26478752,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-10,61.6500,64.9000,61.5300,61.9600,18956207,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-11,62.3200,64.8900,62.0600,62.9500,15391388,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-14,60.5500,63.3750,60.5100,62.5500,14449293,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-15,63.6800,65.7200,62.0200,63.5500,20448736,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-16,63.6700,64.5600,61.7400,63.7000,17743620,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-17,65.5500,68.3307,65.2600,67.8200,21956027,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-18,68.4300,68.6400,63.7900,64.5700,32298576,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-21,65.2850,70.0100,65.2750,69.8900,26038712,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-22,71.6450,72.5000,70.1000,71.9800,22048757,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-23,72.8700,73.5700,70.0800,70.3100,19258665,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-24,69.7750,75.4600,68.9216,73.6100,25304884,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-25,74.1500,75.3200,72.7801,73.9500,18860391,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-28,73.2000,73.7800,71.6800,72.1900,15012417,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-29,73.4700,74.2500,69.4000,69.7000,19684739,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-09-30,70.6400,74.5800,69.6300,69.6800,22428564,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-01,72.3100,72.6400,69.4242,70.4600,23312579,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-02,72.0850,76.0899,71.4500,73.9200,26839304,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-05,73.7000,73.8100,71.3700,73.0200,19107827,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-06,74.7600,78.2800,73.6600,75.0600,27029198,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-07,73.1150,73.1600,70.6300,71.9200,20500741,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-08,70.5600,71.6500,67.7100,68.4000,23063540,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
-2026-10-09,68.7100,69.2500,66.9800,68.2100,14934614,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T18:12:58+00:00
+2024-10-14,9.92,10.11,9.66,9.88,14831200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-15,9.82,10.34,9.48,9.94,16863600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-16,10.03,11.19,9.98,11.19,26303500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-17,11.17,11.19,10.55,10.68,14503200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-18,10.765,11.0,10.48,10.81,10093100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-21,10.85,11.29,10.68,11.26,11021200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-22,11.21,11.52,11.03,11.16,10455700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-23,11.16,11.27,10.65,10.91,10104900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-24,11.005,12.085,11.005,11.19,16684200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-25,11.24,11.33,10.91,11.18,10553300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-28,11.25,11.47,11.061,11.26,8443100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-29,11.15,11.58,10.87,11.47,9573300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-30,11.35,11.63,10.95,10.96,9128500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-10-31,10.91,10.91,10.29,10.7,13057500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-01,10.9,11.5,10.85,11.42,11010800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-04,11.265,11.395,10.97,11.25,7701600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-05,11.34,11.85,11.28,11.81,8554000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-06,12.295,13.06,12.07,13.05,17747300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-07,13.5,13.89,13.08,13.46,15823800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-08,13.32,13.9,12.9,13.51,17769100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-11,14.64,15.24,14.01,14.78,27297200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-12,14.49,15.02,14.24,14.66,25153600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-13,19.24,22.55,18.65,18.83,121001300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-14,19.43,19.43,17.251,17.36,45509000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-15,17.03,19.48,16.8,19.0,42280000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-18,19.54,20.35,18.47,19.29,29097900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-19,19.025,20.97,18.72,20.5,28809600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-20,20.55,20.76,19.64,20.18,17269700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-21,20.4,22.48,19.75,22.41,28114900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-22,23.025,23.81,22.38,23.26,28378000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-25,25.385,25.58,22.82,24.06,40883200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-26,23.72,26.71,23.62,25.44,41464100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-27,25.895,27.2,24.73,25.67,26623100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-11-29,26.0,28.05,25.66,27.28,19870500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-02,27.975,28.1,24.0,24.155,41206900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-03,23.8,24.26,22.5,23.01,30532400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-04,22.95,24.0,22.34,23.11,23047100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-05,23.105,24.52,22.66,23.92,19910400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-06,24.425,25.0,23.43,24.68,19915400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-09,24.96,25.09,21.87,23.24,27871000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-10,22.85,24.4,22.8,22.85,12573000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-11,22.98,23.985,21.93,23.35,14544800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-12,22.92,23.96,22.33,22.58,13386700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-13,22.43,24.57,22.42,24.42,18758500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-16,24.465,25.95,23.35,25.9,19543700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-17,25.9,26.45,24.53,26.37,15278000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-18,26.28,26.78,22.89,22.92,21660900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-19,23.66,24.7,22.7,23.22,15541800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-20,22.14,25.29,22.01,24.87,25072900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-23,24.97,26.32,24.34,25.59,14463700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-24,25.57,26.6,25.09,26.6,8689600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-26,26.6,28.8,26.11,28.44,19997600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-27,28.21,28.71,26.74,27.22,15559200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-30,26.22,26.81,24.9,26.32,13775600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2024-12-31,26.54,26.88,25.18,25.47,13084800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-02,25.43,25.66,23.7,24.96,13792700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-03,25.025,28.77,25.025,28.74,22114700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-06,28.99,30.26,28.58,28.8,22305400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-07,29.13,29.96,27.42,27.95,19138800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-08,27.3,28.32,25.89,27.36,18750200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-10,26.85,27.99,26.01,26.91,15340000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-13,25.55,25.67,23.61,23.91,18040200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-14,24.45,24.86,23.42,24.16,13862800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-15,25.04,26.5,24.78,24.87,15252200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-16,25.03,25.777,24.2,24.64,10860200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-17,25.13,25.653,23.94,24.0,14068300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-21,26.0,31.64,25.52,31.27,62027700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-22,29.65,30.18,28.44,29.62,27902200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-23,29.0,31.75,28.51,31.57,23888100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-24,32.03,33.34,30.2,30.36,23878600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-27,28.94,30.23,28.48,29.43,17477200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-28,29.7,30.49,27.85,28.98,16086900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-29,29.24,30.45,28.26,28.87,12874500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-30,29.185,30.81,27.77,28.53,19556500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-01-31,28.75,30.53,28.259,29.05,20632300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-03,27.19,29.18,26.45,28.38,18884700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-04,29.02,30.16,28.41,28.68,17138200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-05,28.96,29.136,27.85,28.6,15116200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-06,28.58,28.92,27.25,27.68,15384000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-07,27.98,29.691,27.22,27.41,19260100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-10,27.75,31.08,27.36,30.6,27264800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-11,29.86,30.32,28.08,28.22,20244700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-12,28.01,28.58,27.4,27.62,15500000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-13,28.08,28.381,27.01,28.3,18636400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-14,28.24,28.65,27.04,28.02,15313000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-18,28.27,29.788,27.39,27.74,20977200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-19,28.0,28.295,25.73,25.93,18899000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-20,25.98,26.15,23.87,25.26,22884800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-21,25.895,25.93,23.36,23.55,16255100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-24,23.74,23.9,21.72,22.49,19606100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-25,21.7,22.16,19.78,20.28,29089000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-26,21.015,21.46,20.5,21.25,16325100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-27,21.975,22.16,19.755,19.83,23949000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-02-28,16.36,20.49,16.17,20.49,37550700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-03,21.24,21.45,18.4,18.66,26785200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-04,17.97,19.95,17.51,18.995,25807900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-05,19.115,20.84,18.77,20.4,18412400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-06,19.58,20.27,18.37,18.66,18086800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-07,18.29,19.1,17.67,18.8,16108800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-10,18.2,18.23,16.47,17.12,21122000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-11,16.31,18.14,16.05,17.83,15509200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-12,18.92,19.38,17.58,18.43,19095600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-13,18.345,18.52,17.291,17.57,10493900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-14,18.095,18.965,17.8,18.81,12008900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-17,19.09,19.95,18.85,19.1,15581600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-18,18.595,18.595,17.96,17.98,9768300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-19,18.3,19.07,17.78,18.78,12096300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-20,18.4,18.87,18.16,18.53,8509000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-21,18.105,18.98,17.98,18.94,16743600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-24,19.445,20.45,19.41,20.21,13807100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-25,20.295,20.39,19.61,20.27,12026500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-26,20.04,20.345,19.392,19.44,12762900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-27,19.05,19.29,18.31,18.42,11754300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-28,19.56,19.79,18.43,18.62,25511900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-03-31,17.89,18.395,17.351,17.88,15132500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-01,17.69,18.8,17.11,18.15,14075300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-02,17.59,19.75,17.5,19.34,15260400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-03,17.77,18.31,17.42,17.89,16592900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-04,17.125,17.38,15.0,16.37,22799700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-07,14.715,18.24,14.71,17.52,23935500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-08,18.537,19.39,16.73,17.18,19958400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-09,17.5,21.39,17.2,20.59,31470400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-10,19.81,20.74,18.93,19.63,16731400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-11,19.56,19.97,18.87,19.63,15484400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-14,20.31,20.46,18.66,19.13,13196800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-15,19.95,22.1,19.77,21.07,30434200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-16,20.3,20.64,19.51,19.975,14733000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-17,20.085,20.43,19.42,19.74,9225400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-21,19.47,19.72,18.21,18.65,9055600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-22,18.88,19.42,18.55,19.04,9383900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-23,20.45,21.4,20.09,20.29,17819300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-24,20.31,22.07,20.02,21.88,15536400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-25,21.99,22.56,21.75,22.38,13775600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-28,23.2,23.77,21.722,22.67,13139000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-29,22.83,23.0,22.3,22.4,6646500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-04-30,21.2,22.1,20.73,21.79,10400100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-01,22.365,22.38,21.7,22.12,8397400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-02,22.38,23.42,22.34,22.99,12728900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-05,22.56,22.925,22.26,22.48,8016300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-06,21.915,22.44,21.502,22.37,7751400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-07,22.4,22.48,21.845,22.29,7727300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-08,23.025,23.2,22.25,23.1,15754000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-09,22.9,22.9,20.232,20.51,30349700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-12,21.755,21.8,20.885,21.26,15229700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-13,21.68,22.37,21.44,21.83,14950700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-14,21.99,24.52,21.86,24.13,36800900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-15,23.59,25.23,22.77,25.22,27530600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-16,25.3,25.75,24.93,25.57,24452900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-19,24.3,25.82,24.29,25.8,17316300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-20,25.94,26.397,25.34,26.0,18173600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-21,25.655,26.66,25.04,25.17,17081800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-22,24.75,26.568,23.92,25.82,18681200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-23,25.335,25.515,24.67,25.42,14249900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-27,26.6,28.76,26.58,28.76,21781500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-28,29.91,30.78,28.52,28.93,30832500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-29,29.69,30.03,27.26,27.35,16266100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-05-30,27.015,27.22,26.03,26.79,12706300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-02,26.5,27.0,25.81,26.6,10757100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-03,27.385,28.0,26.47,26.72,12186500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-04,26.75,27.46,26.16,26.91,11683000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-05,26.88,26.96,25.52,26.45,27953900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-06,28.16,29.09,26.35,28.92,34136500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-09,30.0,32.7,28.355,29.64,60217100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-10,29.57,29.79,27.0,27.17,30798100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-11,27.715,28.04,26.89,27.36,21283400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-12,27.04,27.41,26.28,26.4,12967500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-13,25.65,26.51,25.24,25.41,15593900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-16,25.87,26.58,25.6,26.55,13601300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-17,26.1,27.22,25.71,26.42,14498900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-18,26.4,28.065,26.23,27.85,18457700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-20,28.35,30.11,27.84,30.04,37066000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-23,28.925,32.93,28.44,32.78,44056800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-24,33.08,34.23,32.43,33.46,28392600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-25,34.0,34.5,31.78,32.35,22969800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-26,32.41,37.27,32.41,36.14,41601800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-27,36.645,37.66,34.83,35.38,75749300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-06-30,36.535,37.95,35.42,35.77,18438400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-01,37.015,38.26,33.88,34.33,26656500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-02,34.39,35.79,33.73,35.68,14865600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-03,35.79,36.21,35.25,35.66,7976000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-07,36.98,39.06,35.275,38.88,35564100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-08,38.49,39.94,37.98,38.74,27769400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-09,38.53,39.43,37.77,39.14,16267300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-10,39.17,39.68,38.13,39.1,13663800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-11,38.97,40.3,38.6,39.03,16371500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-14,39.3,43.47,38.77,43.21,29196200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-15,43.29,45.48,42.821,44.6,29999700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-16,45.55,48.07,44.86,47.69,26692300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-17,48.7,53.44,48.6,51.33,46760200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-18,50.65,51.85,47.91,51.39,32919600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-21,50.05,51.58,46.85,47.19,29305900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-22,45.99,47.87,44.46,46.88,24381700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-23,47.62,49.28,46.93,49.15,18179900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-24,49.3,49.62,47.31,48.13,12600600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-25,47.9,48.23,46.45,47.43,14517900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-28,47.955,48.165,44.41,45.11,20928700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-29,45.41,45.51,42.83,43.79,14706500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-30,43.86,46.56,43.36,46.44,16853400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-07-31,46.37,47.72,45.43,45.92,13041500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-01,43.195,46.17,42.315,44.81,16566300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-04,45.1,45.8,44.07,44.54,11625100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-05,45.12,45.38,43.13,44.75,10920400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-06,44.71,45.1,43.67,44.1,8051600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-07,44.185,44.58,43.1,44.21,21522100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-08,47.54,49.92,43.5,44.69,39170200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-11,44.65,46.1,41.505,45.02,24893500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-12,45.37,47.27,43.42,43.43,20848000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-13,44.0,44.7,42.44,43.0,14523600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-14,42.76,45.69,42.01,42.81,18472900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-15,42.975,44.88,41.75,44.27,14183100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-18,44.3,47.08,44.03,44.97,21268900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-19,45.1,45.16,40.9,40.92,24104800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-20,40.21,40.86,38.26,40.69,20325000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-21,40.78,41.87,40.22,41.53,14951500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-22,40.97,44.684,40.419,44.38,18818200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-25,45.16,49.59,44.05,47.22,30133200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-26,47.73,50.92,47.0,48.13,47698000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-27,48.68,48.74,45.82,46.25,16784700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-28,46.88,47.975,45.34,47.91,16940200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-08-29,47.85,48.8,46.02,48.6,15897800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-02,46.75,49.54,45.68,49.31,20305200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-03,50.27,50.9,43.512,43.53,33322300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-04,44.16,44.58,42.7,42.99,17273100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-05,43.565,45.99,42.39,45.84,17362000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-08,45.5,48.2,45.488,47.73,18846400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-09,47.01,47.53,45.512,47.03,13243700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-10,47.53,48.11,45.6,46.17,11638500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-11,46.32,49.665,46.055,48.43,22816300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-12,48.98,54.03,48.611,53.34,27889800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-15,53.58,55.17,52.72,54.04,23957100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-16,52.0,52.08,47.01,47.245,42608100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-17,47.565,48.54,46.45,48.08,20731000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-18,48.92,49.19,47.0,47.18,19434100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-19,47.68,48.93,47.13,47.79,26870000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-22,47.13,50.26,46.8,49.81,22995900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-23,49.025,54.158,47.91,52.91,38064000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-24,51.795,52.48,48.43,48.69,30681600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-25,48.0,48.62,45.21,46.63,22418500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-26,47.3,47.69,45.83,46.26,14907100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-29,47.4,48.1,46.37,47.01,16145400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-09-30,47.21,47.99,46.51,47.91,14856100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-01,47.38,49.42,47.12,47.97,25640200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-02,48.64,52.65,48.51,52.47,35212900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-03,52.05,56.939,51.26,56.16,37741900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-06,56.865,59.26,55.8,58.5,31020500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-07,59.01,62.56,57.02,61.51,36545600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-08,64.15,68.534,63.65,65.31,36149900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-09,64.9,68.54,64.42,66.42,25844500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-10,70.8,73.5,64.14,64.26,40876800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-13,67.88,70.44,64.622,65.42,26180300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-14,65.34,69.67,62.19,68.03,27623500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-15,70.02,73.97,67.08,69.27,26290800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-16,70.07,72.25,66.425,67.0,23835200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-17,65.89,68.5,63.7,66.27,16892900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-20,69.135,72.18,66.675,67.35,25835200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-21,68.04,68.04,64.86,65.4,17508200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-22,62.97,64.02,58.41,60.565,22149400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-23,61.56,64.7,60.75,63.57,13226400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-24,64.81,66.18,63.65,64.56,12041200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-27,66.19,66.35,64.15,65.62,19183300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-28,65.675,66.54,63.61,63.75,11772900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-29,64.145,67.39,63.48,66.16,17907200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-30,65.0,65.18,60.89,60.92,12479000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-10-31,61.77,63.45,60.4,62.98,13830100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-03,63.03,63.1,59.13,61.34,11463500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-04,57.8,59.49,56.51,56.57,13725500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-05,56.66,57.28,54.87,56.42,13254300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-06,56.21,56.21,49.41,49.61,21053100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-07,47.657,52.1,46.311,51.64,25058800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-10,53.74,54.5,50.76,51.9,22929800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-11,56.0,56.96,51.21,51.24,33240100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-12,51.93,55.33,49.66,49.97,21987100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-13,48.76,49.38,44.37,45.25,26517100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-14,43.71,47.22,43.3,45.54,21107100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-17,45.15,45.682,42.225,43.31,17583500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-18,42.22,43.61,41.23,42.78,16982000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-19,42.5,44.53,42.43,43.62,15304000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-20,46.08,46.26,39.32,39.48,25029300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-21,39.83,41.045,37.57,40.3,18870000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-24,40.76,42.53,39.3,42.45,20281000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-25,42.03,42.805,40.38,42.6,10568800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-26,43.24,43.59,41.38,41.93,10906100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-11-28,42.51,42.7,41.8,42.14,5636800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-01,41.15,41.3,39.98,40.37,13260600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-02,40.56,42.99,40.42,41.9,13390800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-03,41.895,44.74,41.5,44.72,14385200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-04,45.645,49.68,44.82,49.37,28366600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-05,48.875,49.7,47.7,49.055,14633100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-08,50.08,52.37,49.22,51.56,21748500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-09,51.23,53.75,50.34,53.43,17526200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-10,53.44,58.83,52.25,57.52,38839900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-11,57.51,64.15,56.85,63.53,31378800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-12,62.5,65.18,59.8,61.49,33545300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-15,63.052,64.56,55.08,55.41,32932200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-16,54.19,56.73,52.68,55.49,22447400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-17,56.1,56.91,53.085,53.96,23761100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-18,56.2,60.25,56.03,59.92,27939400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-19,61.12,70.56,60.747,70.52,52764800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-22,72.94,78.45,72.752,77.55,48279600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-23,73.81,79.18,73.29,77.18,35673300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-24,78.035,79.83,74.801,77.18,16720600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-26,76.68,76.99,70.39,70.65,23157800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-29,69.5,72.74,69.322,70.12,18294100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-30,73.025,74.69,70.44,70.45,30151700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2025-12-31,71.5,73.196,69.13,69.76,17594200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-02,70.63,76.24,66.85,75.99,31517600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-05,74.62,78.25,71.31,78.14,33498600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-06,77.76,86.25,74.05,86.03,43669700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-07,84.1,85.96,81.85,84.08,28603500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-08,85.5,89.87,82.26,83.08,29874200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-09,84.525,88.43,82.45,84.85,23780400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-12,84.98,88.84,83.419,87.9,22125000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-13,89.14,89.729,85.65,86.58,21759500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-14,86.35,92.19,84.5,91.8,28346000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-15,89.265,92.459,86.65,90.76,24810300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-16,92.525,99.58,92.4,96.3,36105300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-20,93.7,98.27,88.3,89.16,29300900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-21,90.02,91.25,82.71,87.82,30538700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-22,86.38,89.4,81.351,87.98,30063000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-23,89.055,94.45,86.12,88.9,24381000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-26,86.745,87.16,80.01,80.48,21659900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-27,82.89,87.0,82.0,87.0,17676500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-28,87.22,89.8,86.028,88.57,16263000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-29,87.94,89.0,83.0,85.68,15857300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-01-30,85.0,89.32,78.02,80.07,22707000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-02,79.16,80.7,73.879,74.15,18337000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-03,78.6,81.32,75.77,81.27,19000600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-04,81.35,81.35,68.563,73.11,26237400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-05,69.98,72.99,65.2,66.32,22675400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-06,69.0,72.66,67.0,72.32,20049600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-09,72.025,76.8,70.75,75.84,16394400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-10,74.595,75.86,71.55,72.03,13195600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-11,73.13,73.4,67.02,69.62,17563100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-12,67.53,68.45,63.87,66.01,18313700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-13,66.695,69.6,65.5,67.44,14737900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-17,66.084,70.99,65.0,69.89,12059200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-18,71.0,75.765,69.989,74.42,19118400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-19,72.9,77.11,72.35,76.58,14693400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-20,75.482,78.2,69.4,70.86,18253500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-23,68.755,71.25,68.5,70.21,13795700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-24,68.88,70.055,66.6,69.97,12858300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-25,71.095,71.85,68.88,70.2,11793700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-26,70.045,72.74,68.81,72.65,18411600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-02-27,67.59,69.59,64.1,69.1,25729800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-02,66.68,72.1,66.45,70.97,18845500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-03,68.855,73.25,66.19,70.13,17405200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-04,70.81,74.1,69.47,71.91,17073000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-05,70.92,72.31,67.34,70.0,14528800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-06,68.135,75.11,68.135,70.11,22272800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-09,69.39,72.125,67.82,71.48,18434200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-10,70.34,72.935,68.621,68.93,18248800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-11,68.8,73.3,68.33,71.96,18140600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-12,71.95,72.6,68.28,68.37,17683000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-13,69.15,71.31,67.44,68.41,16039800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-16,69.325,72.38,68.67,71.31,16946700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-17,71.475,78.67,71.27,78.59,29734900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-18,76.04,76.88,69.4,69.48,33919300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-19,68.82,72.73,68.0,71.93,28549900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-20,72.0,73.98,66.39,67.23,35247200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-23,68.085,69.45,66.05,68.0,23852300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-24,67.0,68.6,64.46,66.07,21358000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-25,68.94,75.06,68.94,72.88,34508800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-26,71.2,72.09,65.59,65.94,22988800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-27,66.01,66.095,60.35,60.93,20311800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-30,61.45,61.64,56.132,57.38,21933500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-03-31,61.71,64.58,59.03,64.22,26607400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-01,65.5,68.67,65.3,65.52,27157200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-02,62.225,69.39,61.86,67.73,32670600,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-06,67.73,70.32,66.6,67.67,22351800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-07,67.115,68.3,63.96,66.32,25396300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-08,72.0,73.668,67.811,69.08,26863800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-09,69.06,69.79,66.545,66.74,17250900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-10,67.7,70.06,66.34,68.05,18621000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-13,67.05,71.55,66.59,70.62,17994700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-14,73.555,74.75,70.48,72.22,22643000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-15,73.585,74.59,69.6,73.6,23568700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-16,76.97,83.49,76.9,82.93,41014200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-17,84.08,86.99,83.6,84.8,26066300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-20,84.85,90.35,84.6,89.46,28827400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-21,90.33,91.95,85.75,86.64,27450400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-22,90.465,93.1,87.76,90.04,21474400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-23,89.85,90.3,81.565,84.6,22664100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-24,86.34,86.41,79.08,79.68,22130400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-27,79.69,82.48,77.054,82.29,19386300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-28,80.075,81.78,77.6,78.59,14379700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-29,77.86,78.01,73.99,77.02,17751400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-04-30,77.55,83.59,77.47,82.51,17604200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-01,83.53,83.79,78.43,78.81,16378800,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-04,78.36,81.833,76.25,80.31,16241300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-05,82.6,83.0,76.56,78.76,17126000,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-06,79.62,84.68,78.86,84.65,19779200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-07,84.71,84.79,77.93,78.58,22942900,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-08,86.035,105.62,85.87,105.47,79927300,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-11,105.27,123.94,104.0,117.35,54779700,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-12,112.76,121.49,112.41,117.56,34195200,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-13,123.895,127.24,116.89,124.15,26587400,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-14,123.1,133.18,121.31,132.55,25324100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-15,128.1,130.37,121.8,124.77,22469100,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-18,132.755,138.38,125.671,131.16,32319500,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00
+2026-05-19,125.9700,129.5700,115.2300,127.3100,30076859,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-20,127.4800,135.3500,124.2200,134.2800,22260857,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-21,126.1400,130.8700,123.8000,125.4500,30826434,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-22,131.4100,139.7600,131.3100,135.7600,32970699,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-26,141.9650,146.0000,138.5600,143.2000,32920000,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-27,149.7200,150.9999,137.9100,150.2300,29193281,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-28,147.1700,150.8300,142.3700,148.0300,20458569,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-05-29,139.9400,144.0000,134.0500,143.4800,34878622,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-01,132.3800,135.6300,121.0000,122.3900,37294596,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-02,125.3400,128.4000,122.5600,123.3200,19498016,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-03,119.5800,122.5049,113.6600,114.7000,21579823,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-04,113.0850,122.6300,110.3900,119.9500,24826280,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-05,114.2700,117.9800,106.7300,110.0800,21477392,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-08,114.6700,116.2499,111.0000,113.6500,13433176,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-09,118.4000,119.7900,101.2000,108.2300,23730202,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-10,107.7000,111.9600,104.4100,105.0500,13000840,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-11,106.5900,115.0450,105.4000,114.7800,26119265,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-12,118.0200,118.3770,99.6100,102.3900,63386962,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-15,107.9600,110.7800,105.8000,109.2500,28928329,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-16,107.7100,108.5000,103.0700,104.6300,27885014,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-17,104.1200,111.3400,104.0400,107.9800,28722971,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-18,108.8300,109.5500,100.9600,107.2400,70325989,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-22,106.9900,107.4000,96.5000,100.2900,27782000,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-23,96.0200,101.7300,94.8850,95.1200,22306722,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-24,93.8500,94.3000,84.8501,85.4100,26770883,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-25,86.1100,86.1100,80.0000,80.6900,26903043,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-26,81.1100,86.2800,80.7300,84.5400,34394174,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-29,91.2950,99.0800,89.8500,98.0100,42899316,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-06-30,97.2000,104.1600,95.6400,101.6500,32812566,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-01,101.1950,107.5999,97.6200,100.0700,21668009,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-02,100.9900,106.9900,97.9100,100.4600,22233599,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-06,100.4300,102.0999,92.3000,93.0900,20511944,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-07,90.0100,90.7400,82.8500,83.4100,26177041,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-08,86.5000,86.5000,81.0000,83.3500,19194543,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-09,86.2950,86.3000,82.4100,82.5500,17866179,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-10,82.2900,82.3000,79.0600,81.0400,14591818,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-13,79.8900,79.9700,75.6000,76.7300,18864691,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-14,78.7600,82.5400,78.5100,78.8100,15801675,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-15,78.9400,81.0500,74.8400,76.2000,15407482,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-16,73.3800,73.9500,66.0000,67.3500,31134318,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-17,65.9300,70.6300,64.5100,67.6200,22367271,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-20,68.3900,69.5400,65.4400,65.7400,17937409,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-21,66.3400,69.7409,65.9009,69.1200,20061063,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-22,70.4900,72.9400,69.2500,69.7500,21031353,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-23,68.1300,70.8100,66.8500,69.9900,14155505,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-24,69.3000,69.5500,63.0000,63.9100,18959499,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-27,64.8000,68.3400,64.0300,66.9400,15752126,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-28,64.5000,64.9500,60.0500,63.8900,18442120,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-29,63.5050,64.1000,58.2000,58.6000,19510869,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-30,60.9300,64.8400,59.6800,64.6800,18165293,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-07-31,66.1300,67.8400,62.6600,64.9500,13533817,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-03,63.3400,70.6000,62.1700,70.4300,16768883,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-04,72.7950,75.5900,72.3600,74.4800,19421340,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-05,74.8800,77.3000,72.9100,74.8200,16755293,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-06,72.3100,80.1924,72.3000,75.6700,19508254,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-07,78.8000,83.2500,77.3800,82.8300,24244928,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-10,84.0650,86.8300,79.7701,80.0400,34015003,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-11,76.2600,81.3999,75.4600,80.0100,30082055,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-12,80.1100,82.2000,78.0700,81.1700,16943266,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-13,78.5000,84.2100,77.7101,80.1000,17306164,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-14,79.5900,82.4800,78.5101,80.2500,13900206,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-17,81.0100,85.5500,80.5300,82.0800,18111842,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-18,78.5500,81.0400,76.8800,79.1600,15416856,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-19,77.0200,77.6000,73.8716,75.8400,16414756,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-20,74.9500,75.3700,71.7500,72.9500,16675501,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-21,74.1500,74.9500,71.4500,72.5700,12570210,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-24,71.2100,71.2100,68.1700,68.2800,14461252,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-25,69.9200,70.0000,66.4800,66.9100,15060006,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-26,66.4000,67.6750,65.8000,66.1800,11166210,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-27,66.9100,67.5700,65.4200,67.5300,11492100,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-28,66.7400,66.7499,63.4950,64.3900,18571063,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-08-31,63.7300,64.1122,62.7900,63.9200,15279381,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-01,62.2400,63.9352,61.9300,62.5400,14442989,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-02,62.3500,63.5200,61.4500,63.1000,16639581,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-03,64.6400,64.9000,62.3600,63.8100,18913228,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-04,64.7600,65.0000,63.2000,64.2600,14952020,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-08,65.2700,67.4800,64.1500,65.8700,24378128,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-09,67.3200,67.7000,62.9900,63.0700,26478752,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-10,61.6500,64.9000,61.5300,61.9600,18956207,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-11,62.3200,64.8900,62.0600,62.9500,15391388,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-14,60.5500,63.3750,60.5100,62.5500,14449293,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-15,63.6800,65.7200,62.0200,63.5500,20448736,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-16,63.6700,64.5600,61.7400,63.7000,17743620,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-17,65.5500,68.3307,65.2600,67.8200,21956027,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-18,68.4300,68.6400,63.7900,64.5700,32298576,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-21,65.2850,70.0100,65.2750,69.8900,26038712,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-22,71.6450,72.5000,70.1000,71.9800,22048757,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-23,72.8700,73.5700,70.0800,70.3100,19258665,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-24,69.7750,75.4600,68.9216,73.6100,25304884,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-25,74.1500,75.3200,72.7801,73.9500,18860391,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-28,73.2000,73.7800,71.6800,72.1900,15012417,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-29,73.4700,74.2500,69.4000,69.7000,19684739,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-09-30,70.6400,74.5800,69.6300,69.6800,22428564,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-01,72.3100,72.6400,69.4242,70.4600,23312579,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-02,72.0850,76.0899,71.4500,73.9200,26839304,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-05,73.7000,73.8100,71.3700,73.0200,19107827,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-06,74.7600,78.2800,73.6600,75.0600,27029198,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-07,73.1150,73.1600,70.6300,71.9200,20500741,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-08,70.5600,71.6500,67.7100,68.4000,23063540,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-09,68.7100,69.2500,66.9800,68.2100,14934614,"Alpha Vantage TIME_SERIES_DAILY compact (tier 3, unadjusted)",2026-10-12T23:37:03+00:00
+2026-10-12,67.9,68.07,65.115,65.71,14390631,"yfinance history auto_adjust=False (tier 4, backfill / cross-check)",2026-10-12T23:37:03+00:00

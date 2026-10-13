@@ -1,0 +1,72 @@
+# Common financial KPIs (layer 1). Every company inherits these.
+# Source types:
+#   sec_history   financials/history.json metric (SEC XBRL, provenance kept)  → evidence HIGH
+#   reported_kpis management/reported-kpis.json key (issuer earnings release) → evidence MEDIUM
+#   xbrl_tag      raw/companyfacts.json tag (cached locally; no network)       → evidence HIGH
+#   manual        company override `values:` with source + original name       → evidence per entry
+# Missing data is written as `unavailable`, never 0.
+layer: common
+kpis:
+  revenue:
+    name: Revenue
+    definition: GAAP total revenue (ASC 606), as reported in 10-Q / 10-K
+    unit: USD millions
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: revenue}]
+  gross_margin:
+    name: GAAP gross margin
+    definition: GAAP gross profit / revenue
+    unit: "%"
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: gross_margin_pct}]
+  operating_margin:
+    name: GAAP operating margin
+    definition: GAAP operating income / revenue
+    unit: "%"
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: operating_margin_pct}]
+  fcf:
+    name: Free cash flow
+    definition: CFO - capex (capex = PP&E purchases + capitalized software); repo accounting definition
+    unit: USD millions
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: fcf}]
+  fcf_margin:
+    name: FCF margin
+    definition: fcf / revenue
+    unit: "%"
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: fcf_margin_pct}]
+  sbc_pct_revenue:
+    name: SBC / revenue
+    definition: share-based compensation expense / revenue
+    unit: "%"
+    required: true
+    direction: down
+    sources: [{type: sec_history, metric: sbc_pct_revenue}]
+  diluted_share_growth:
+    name: Diluted share growth YoY
+    definition: weighted diluted shares vs same period prior year
+    unit: "%"
+    required: true
+    direction: down
+    sources: [{type: sec_history, metric: diluted_shares_yoy_pct}]
+  cash:
+    name: Cash and short-term investments
+    definition: cash and equivalents + short-term investments (balance sheet)
+    unit: USD millions
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: cash_and_investments}, {type: sec_history, metric: cash}]
+  debt:
+    name: Debt
+    definition: current + non-current debt / convertible notes (balance sheet; leases excluded)
+    unit: USD millions
+    required: true
+    direction: down
+    sources: [{type: sec_history, metric: debt}]

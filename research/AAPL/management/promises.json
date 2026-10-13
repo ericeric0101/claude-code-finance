@@ -13,7 +13,11 @@
     ],
     "last_checked": "2026-10-11",
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "metric_definition": null,
+    "comparison_basis": "qualitative / milestone (analyst-resolved)",
+    "resolution_confidence": "analyst",
+    "actual_source": null
   },
   {
     "promise_id": "AAPL-2026-09-09-iphone-duo",
@@ -27,6 +31,10 @@
     "evidence": [],
     "last_checked": "2026-10-11",
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "metric_definition": null,
+    "comparison_basis": "qualitative / milestone (analyst-resolved)",
+    "resolution_confidence": null,
+    "actual_source": null
   }
 ]

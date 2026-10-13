@@ -1,0 +1,4 @@
+date,ticker,priority,rank,reasons
+2026-10-13,PL,HIGH,1,standing_trigger: multiple monitoring rules triggered (3 distinct conditions)
+2026-10-13,AAPL,HIGH,2,standing_trigger: fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open | standing_trigger: invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open
+2026-10-13,RKLB,MEDIUM,3,promise_delayed: promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26)) | standing_trigger: fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open | standing_trigger: invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open

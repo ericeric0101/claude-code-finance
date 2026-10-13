@@ -1,0 +1,34 @@
+# Research watchlist (Level 4). This is the set of companies the command center
+# scans and prioritizes. It is NOT a portfolio: holdings, position sizes and cost
+# bases do not belong here and are never read by the research engine.
+#
+# Fields per ticker:
+#   cik               verified numeric SEC CIK (required for SEC event scans)
+#   sector            KPI registry layer in config/kpi-registry/<sector>.yaml
+#   research_role     free text, mirrors thesis/current.yaml research_role
+#   priority_override null | high | medium | low  (analyst override, always explained in output)
+#   enabled           false = keep state but skip scans
+#   macro_links       thesis-relevant macro topics; macro items outside this list are ignored
+version: 1
+tickers:
+  - ticker: PL
+    cik: "0001836833"
+    sector: space
+    research_role: Growth / Speculative
+    priority_override: null
+    enabled: true
+    macro_links: [defense_budget, government_spending]
+  - ticker: RKLB
+    cik: "0001819994"
+    sector: space
+    research_role: auto-draft (unclassified)
+    priority_override: null
+    enabled: true
+    macro_links: [defense_budget, government_spending]
+  - ticker: AAPL
+    cik: "0000320193"
+    sector: consumer
+    research_role: Core candidate
+    priority_override: null
+    enabled: true
+    macro_links: [tariffs, antitrust_regulation]

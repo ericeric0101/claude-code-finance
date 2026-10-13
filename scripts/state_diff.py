@@ -275,7 +275,8 @@ def diff_states(prev: Optional[Dict[str, Any]], cur: Dict[str, Any]) -> Dict[str
         if old is None:
             add("promises", "neutral", f"新承諾 {pid}（{p['status']}）")
         elif old["status"] != p["status"]:
-            kind = {"delivered": "positive", "missed": "negative", "partially_delivered": "negative"}.get(p["status"], "neutral")
+            kind = {"delivered": "positive", "missed": "negative", "partially_delivered": "negative",
+                    "delayed": "negative"}.get(p["status"], "neutral")
             add("promises", kind, f"{pid}: {old['status']} → {p['status']}" +
                 (f"（actual {p['actual']}" + (f"；{p['rule']}" if p.get("rule") else "") + "）"
                  if p.get("actual") is not None else ""))

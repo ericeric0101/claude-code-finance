@@ -232,6 +232,7 @@ def init(ticker: str, cik: str, company: str = "", root: Path = ROOT, offline: b
     _log(steps, 5, "earnings event list", "ok", f"{m['events_total']} events")
     _log(steps, 6, "management history", "ok", f"{m['statements_total']} statements over {len(m['periods'])} periods")
     _log(steps, 7, "initial promise tracker", "ok", m["counts"])
+    _log(steps, 0, "Level 4: KPI registry, semantic diff, guidance vs actual", *level4_refresh(t, root, as_of))
     try:
         qa = run_stock_analysis_qa(t, history, root, as_of)
         _log(steps, 8, "stock-analysis QA", "ok", qa)
@@ -345,6 +346,19 @@ def _touch_analyst_thesis(path: Path, as_of: str, report: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+def level4_refresh(ticker: str, root: Path, as_of: str) -> tuple:
+    """Level 4 add-ons after the Level 3 management step; never fails the Level 3 pipeline."""
+    try:
+        import guidance_tracker
+        import kpi_registry
+        k = kpi_registry.build(ticker, root, as_of)
+        g = guidance_tracker.track(ticker, root, as_of)
+        return "ok", {"kpi_required_unavailable": k["required_unavailable"], "guidance_added": g["guidance_added"],
+                      "promise_counts": g["counts"], "message": g["message"]}
+    except Exception as exc:
+        return "skipped", repr(exc)[:200]
+
+
 def update(ticker: str, cik: str, root: Path = ROOT, offline: bool = False, skip_prices: bool = False,
            as_of: Optional[str] = None, note: str = "") -> Dict[str, Any]:
     t = ticker.upper()
@@ -379,6 +393,7 @@ def update(ticker: str, cik: str, root: Path = ROOT, offline: bool = False, skip
     _log(steps, 5, "update management statements", "ok", f"+{m['statements_added']} statements")
     _log(steps, 6, "resolve old promises", "ok", m["counts"])
     _log(steps, 7, "add new promises", "ok", f"{m['guidance_records']} guidance records tracked")
+    _log(steps, 0, "Level 4: KPI registry, semantic diff, guidance vs actual", *level4_refresh(t, root, as_of))
     rules = rs.check_rules(t, root)
     inval = [r for r in rules if r["type"] == "invalidation" and r["state"] == "triggered"]
     thesis_path = base / "thesis/current.yaml"
@@ -424,6 +439,12 @@ def update(ticker: str, cik: str, root: Path = ROOT, offline: bool = False, skip
     out.write_text(text, encoding="utf-8")
     _index(base, as_of, "Change report (UPDATE pipeline)", out.name)
     _log(steps, 13, "change report", "ok", str(out.relative_to(root)))
+    try:  # Level 4: the full update covers the ticker's open A / B research-queue items
+        import research_queue
+        n = research_queue.complete_for_ticker(t, as_of, ("A", "B"), f"handled by UPDATE {as_of} ({out.name})", root)
+        _log(steps, 0, "Level 4: research queue", "ok", f"{n} open items completed")
+    except Exception as exc:
+        _log(steps, 0, "Level 4: research queue", "skipped", repr(exc)[:200])
     return {"ticker": t, "steps": steps, "report": str(out), "text": text}
 
 

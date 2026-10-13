@@ -1,0 +1,45 @@
+layer: semiconductors
+kpis:
+  utilization:
+    name: Fab / capacity utilization
+    definition: company-disclosed utilization rate
+    unit: "%"
+    required: false
+    direction: up
+    sources: []
+  asp:
+    name: Average selling price
+    definition: company-disclosed ASP (product-specific)
+    unit: USD
+    required: false
+    direction: up
+    sources: []
+  wafer_shipments:
+    name: Wafer shipments
+    definition: company-disclosed wafer shipments (units as disclosed)
+    unit: count
+    required: false
+    direction: up
+    sources: []
+  inventory_days:
+    name: Inventory days
+    definition: inventory / cost of revenue x period days (Calculation)
+    unit: days
+    required: true
+    direction: down
+    sources: []
+  capex:
+    name: Capex (accounting)
+    definition: PP&E purchases (cash-flow statement)
+    concept: capex_accounting
+    unit: USD millions
+    required: true
+    direction: neutral
+    sources: [{type: sec_history, metric: capex}]
+  data_center_mix:
+    name: Data-center revenue share
+    definition: share of revenue from the company-defined data-center segment / end market
+    unit: "%"
+    required: false
+    direction: neutral
+    sources: []

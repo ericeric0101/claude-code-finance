@@ -41,7 +41,7 @@ change report → git commit.
 
 | Skill | Role |
 |---|---|
-| `equity-research-orchestrator` | Intents: init, update, deep, watch, what-changed, monthly |
+| `equity-research-orchestrator` | Intents: init, update, deep, watch, what-changed, monthly; Level 4: scan-events, research-queue, prioritize, command-center, stale-check |
 | `finance-skill` | Data acquisition (upstream, unmodified) |
 | `stock-analysis` | Fundamental framework and QA tools (upstream, unmodified) |
 | `my-equity-research` | Decision layer: BUY / ACCUMULATE / WATCH / HOLD EXISTING / AVOID |
@@ -126,6 +126,10 @@ Same `research/`, `scripts/`, `docs/`, skills. Codex enters via `AGENTS.md` and
 /init-stock PLTR
 /deep-stock AAPL
 /monthly-research
+/scan-research          # Level 4: new events → classifier → queue → priorities
+/research-queue         # Level 4: which company to research first, and the workflow
+/research-dashboard     # Level 4: watchlist command center
+/stale-research         # Level 4: stale research detector
 ```
 
 ```bash
@@ -136,6 +140,9 @@ python3 scripts/research_state.py check-rules PL
 python3 scripts/research_state.py catch-up PL
 python3 scripts/research_state.py expectation-gap AAPL
 python3 scripts/price_reaction.py analyze PL research/PL/market/events.csv --write
+python3 scripts/research_command_center.py scan --refresh --skip-prices
+python3 scripts/research_command_center.py queue
+python3 scripts/research_command_center.py dashboard
 python3 -m unittest discover -s tests
 ```
 
@@ -215,3 +222,111 @@ produces a multi-domain diff, valuation / expectation-gap / thesis / promise
 histories persist, and tests pass. Not LEVEL 4: thesis judgment and long-form
 reports still need an analyst, management extraction is heuristic, transcripts
 and company KPIs outside XBRL are not automated.
+
+
+## 16. Level 4 — Research Command Center（2026-10-13）
+
+核心問題從「這家公司值多少？」變成「**哪家公司現在最值得我研究？發生了什麼？是否改變 thesis？下一步應該做什麼？**」。
+Level 4 疊在 Level 3 之上：不重寫 INIT / UPDATE / MONTHLY、不取代 state schema、不新增估值模型；
+只新增 `config/`、`research/queue/`、`research/calendar/`、`research/dashboard/` 與每家公司的
+`config/kpis.yaml`、`monitoring/scan-state.json`。自動化 ≠ 自動交易：所有觸發只代表 REASSESS，
+沒有任何輸出是 BUY / SELL 指令。
+
+```
+                    DATA / EVENTS
+                         │
+        ┌────────────────┼────────────────┐
+        │                │                │
+      SEC             Market          Company IR   (+ research state: rules, promises, gap, percentiles;
+        │                │                │            macro only when linked to the thesis)
+        └────────────────┼────────────────┘
+                         ▼
+                  EVENT DETECTOR          research_event_detector.py（增量：scan-state）
+                         │
+                  EVENT CLASSIFIER        research_event_classifier.py（A / B / C / D）
+                         │
+            ┌────────────┴────────────┐
+            ▼                         ▼
+     Research Queue              Immediate Alert（= REASSESS，不是下單）
+     research_queue.py
+            │
+            ▼
+      Priority Engine             research_priority.py（透明規則 + 理由）
+            │
+    ┌───────┼────────┐
+    ▼       ▼        ▼
+ HIGH     MEDIUM     LOW
+    │
+    ▼
+ Existing Level-3 /update-stock（research_pipeline.py update；完成後關閉該公司 A / B queue items）
+    │
+    ▼
+  State Diff（state_diff.py）
+    │
+    ▼
+ Research Command Center（research_dashboard.py → research/dashboard/current.md）
+```
+
+| 元件 | Script | 輸出 |
+|---|---|---|
+| KPI Registry | `kpi_registry.py` + `config/kpi-registry/{common,software,semiconductors,space,biotech,banks,consumer}.yaml` + `research/<T>/config/kpis.yaml` | `financials/kpi-history.csv`、`kpi-coverage.json` |
+| Management Semantic Intelligence | `management_semantic_diff.py` | `management/claims.json`、`semantic-diff.{json,md}` |
+| Guidance-vs-Actual Engine | `guidance_tracker.py` | `management/promises.json`（lifecycle 欄位）、`guidance-vs-actual.{json,md}` |
+| Research Event Queue | `research_event_detector.py`、`research_queue.py` | `research/queue/current.json`、`archive/` |
+| Event Classifier | `research_event_classifier.py` | category / severity / required_workflow / reason |
+| Priority Engine | `research_priority.py` | `research/queue/priorities.json`、`priority-history.csv` |
+| Catalyst Calendar | `catalyst_calendar.py` | `research/calendar/upcoming.csv` |
+| Stale Research Detector | `stale_research.py` | `research/dashboard/stale-research.{json,md}` |
+| Research confidence | `research_confidence.py` | dashboard 內的可解釋組成 |
+| Research Command Center | `research_dashboard.py`、`research_command_center.py` | `research/dashboard/current.{md,json}` |
+| Enhanced Monthly Review | `monthly_research_review.py`（第 12–22 段） | `research/reviews/YYYY-MM-monthly-review.md` |
+| P2（選用） | `tradingview_alert_export.py`、`notebooklm_export.py` | `monitoring/tradingview-alerts.md`、`exports/notebooklm-sources.md` |
+
+**Event queue。** Detector 只看 scan-state 之後的新東西：SEC（10-Q、10-K、8-K 依 item、DEF 14A、
+Form 4 / 144 合併為一筆、S-3 / 424B 增資、S-4 / 425 併購）、issuer 公告（`market/events.csv`）、
+guidance 上修 / 下修、市場（單日大漲跌、異常量、大回檔、52 週新高 / 新低、相對研究價格的大幅變動）、
+state 變化（監控規則 / thesis invalidation 新觸發或仍未處理、承諾 missed / delayed、時程延後、
+expectation gap 與歷史百分位顯著變動）。Macro 只收 `macro_links` 內、和 thesis 明確相關的主題。
+第一次掃描以「上次研究檢視日」為起點（最多回看 `first_scan_lookback_days`）；已併入 state 的
+10-Q / 10-K 不再列為事件；`--since` 可做不寫 state 的重播。Queue item 狀態：pending → processing →
+completed / dismissed / superseded；同公司有待處理的 FULL_UPDATE 時，較早的 C / D 自動 superseded。
+
+**Classifier。** A FULL_UPDATE_REQUIRED（新 10-Q / 10-K、財報、guidance 下修、thesis invalidation）
+→ `/update-stock`；B TARGETED_UPDATE（合約、產品、經營層、增資、併購、監控觸發、承諾、gap / 百分位）
+→ 擁有該 state 的 skill；C MARKET_REACTION_ONLY（無新文件的價量事件）→ `market-reaction`，除非 state 改變
+否則不重跑 DCF；D LOW_PRIORITY_INFORMATIONAL（例行 Form 4 / 144、proxy）→ 只記錄。
+
+**Priority engine。** 透明規則（見 `research_priority.py` docstring）：事件嚴重度、thesis 重要性
+（對應到 high importance component 且證據 HIGH → 升級）、證據品質（LOW → 降一級，只降信心不判偽）、
+上次檢視距今（過久 → B / C 升一級）、研究信心（tie-break）。公司層級 = 最高的未處理事件，
+有未吸收的新財報時一律 HIGH；watchlist 的 `priority_override` 最後套用並標示。跨公司只比較 state、
+趨勢、優先順序與信心，不比較跨產業的原始倍數。
+
+**KPI registry。** 三層：common → sector → company。缺資料寫 `unavailable`（不填 0）；單位不符拒收；
+RPO、backlog、ARR 是不同 concept，`backlog` concept 不能用 `rpo` metric 填。公司自訂指標保留原名與定義。
+
+**Semantic management analysis。** 不是 LLM：以結構化 claims（point / range / qualitative guidance、
+timing promise、operational milestone）逐維度比較（quantitative guidance、timing、confidence、
+bottleneck、demand、capex、margin、product launch），輸出 FACT / CHANGE / INTERPRETATION / CONFIDENCE。
+只有措辭變化 → low confidence，且不推論「基本面惡化」。「Margins should improve in H2」保持質化。
+
+**Guidance tracking。** 解析 Level 3 漏掉的條列式 guidance（例：RKLB 每季「Guidance … expects: •」）；
+每個 guided metric 必須在 `config/kpis.yaml` → `guidance_metrics` 記錄公司定義與比較口徑。
+Audit rule：公司定義與可量測的 actual 不一致或未記錄 → `not_evaluable`，不自動結案。新增狀態
+`delayed`、`not_evaluable`，以及 `metric_definition`、`comparison_basis`、`resolution_confidence`、
+`actual_source` 欄位。沒有 guidance 時明確輸出 “No explicit evaluable management guidance found.”。
+
+**Dashboard / catalyst calendar / stale research / monthly review。** Dashboard 表格欄位：Ticker、Action、
+Priority、Thesis trend、Valuation（相對自身估值地圖）、Expectation gap、Triggers、Next catalyst、Last review，
+並回答六個問題（thesis 改善 / 惡化最大、gap 縮小最多、估值相對自身變便宜、股價漲但基本面沒跟上、
+研究 stale）。Calendar 對未知日期只給月份 / 季度 / 年並標信心；法規申報期限標為 upper bound。
+Stale 門檻在 `config/research-policy.yaml`（依 research_role 調整）。Monthly review 新增第 12–22 段。
+
+**Draft 標示。** 自動產生的 thesis、估值假設、KPI mapping、promise resolution、語意解讀，只要信心不高
+就標 `draft_auto` 與 `review_required: true`，不會默默變成分析師定稿。
+
+**增量。** 每家公司的 `monitoring/scan-state.json` 記錄 `last_checked`、`last_filing`、
+`last_price_update`、`last_management_update`（與已看過的 accession、已觸發規則、承諾狀態），
+scan 只抓增量；UPDATE 仍只抓比 state 新的 SEC 文件。
+
+使用方式見 `docs/level4-operating-guide.md`；實作與驗證結果見 `docs/level4-implementation-report.md`。

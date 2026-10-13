@@ -1,0 +1,9 @@
+{
+  "ticker": "AAPL",
+  "as_of": "2026-10-13",
+  "claim_counts": {},
+  "findings": [],
+  "method": "rule-based structured comparison (no LLM); wording-only findings are low confidence",
+  "draft_auto": true,
+  "review_required": true
+}

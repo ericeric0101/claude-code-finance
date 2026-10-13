@@ -1,0 +1,703 @@
+{
+  "ticker": "PL",
+  "as_of": "2026-10-13",
+  "claim_counts": {
+    "range_guidance": 68,
+    "qualitative_guidance": 10
+  },
+  "findings": [
+    {
+      "topic": "profitability",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-03-20: adjusted_ebitda FY2026 -13.0–-7.0 USD millions",
+        "2025-06-04: adjusted_ebitda FY2026 -12.0–-7.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 -10 → -9.5）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "adjusted_ebitda",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-06-04"
+    },
+    {
+      "topic": "profitability",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-06-04: adjusted_ebitda FY2026 -12.0–-7.0 USD millions",
+        "2025-09-08: adjusted_ebitda FY2026 -7.0–0.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 -9.5 → -3.5）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "adjusted_ebitda",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-09-08"
+    },
+    {
+      "topic": "profitability",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-09-08: adjusted_ebitda FY2026 -7.0–0.0 USD millions",
+        "2025-12-10: adjusted_ebitda FY2026 6.0–8.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 -3.5 → 7）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "adjusted_ebitda",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-12-10"
+    },
+    {
+      "topic": "profitability",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-03-19: adjusted_ebitda FY2027 0.0–10.0 USD millions",
+        "2026-06-04: adjusted_ebitda FY2027 0.0–10.0 USD millions"
+      ],
+      "CHANGE": "maintained（中點 5 → 5）",
+      "INTERPRETATION": "區間中點未變；僅不確定性範圍調整。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "adjusted_ebitda",
+      "period": "FY2027",
+      "kind": "maintained",
+      "as_of": "2026-06-04"
+    },
+    {
+      "topic": "profitability",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-06-04: adjusted_ebitda FY2027 0.0–10.0 USD millions",
+        "2026-09-03: adjusted_ebitda FY2027 3.0–10.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 5 → 6.5）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "adjusted_ebitda",
+      "period": "FY2027",
+      "kind": "raised",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "capex",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-03-20: capex FY2026 50.0–65.0 USD millions",
+        "2025-06-04: capex FY2026 50.0–65.0 USD millions"
+      ],
+      "CHANGE": "maintained（中點 57.5 → 57.5）",
+      "INTERPRETATION": "區間中點未變；僅不確定性範圍調整。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "capex",
+      "period": "FY2026",
+      "kind": "maintained",
+      "as_of": "2025-06-04"
+    },
+    {
+      "topic": "capex",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-06-04: capex FY2026 50.0–65.0 USD millions",
+        "2025-09-08: capex FY2026 65.0–75.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 57.5 → 70）",
+      "INTERPRETATION": "支出計畫上調；這是投資節奏的改變，本身不代表基本面變好或變差，需搭配營收與現金流判讀。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "capex",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-09-08"
+    },
+    {
+      "topic": "capex",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-09-08: capex FY2026 65.0–75.0 USD millions",
+        "2025-12-10: capex FY2026 81.0–85.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 70 → 83）",
+      "INTERPRETATION": "支出計畫上調；這是投資節奏的改變，本身不代表基本面變好或變差，需搭配營收與現金流判讀。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "capex",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-12-10"
+    },
+    {
+      "topic": "capex",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-03-19: capex FY2027 80.0–95.0 USD millions",
+        "2026-06-04: capex FY2027 80.0–95.0 USD millions"
+      ],
+      "CHANGE": "maintained（中點 87.5 → 87.5）",
+      "INTERPRETATION": "區間中點未變；僅不確定性範圍調整。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "capex",
+      "period": "FY2027",
+      "kind": "maintained",
+      "as_of": "2026-06-04"
+    },
+    {
+      "topic": "capex",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-06-04: capex FY2027 80.0–95.0 USD millions",
+        "2026-09-03: capex FY2027 100.0–115.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 87.5 → 107.5）",
+      "INTERPRETATION": "支出計畫上調；這是投資節奏的改變，本身不代表基本面變好或變差，需搭配營收與現金流判讀。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "capex",
+      "period": "FY2027",
+      "kind": "raised",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "margins",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-03-20: non_gaap_gross_margin FY2026 55.0–57.0 %",
+        "2025-06-04: non_gaap_gross_margin FY2026 55.0–57.0 %"
+      ],
+      "CHANGE": "maintained（中點 56 → 56）",
+      "INTERPRETATION": "區間中點未變；僅不確定性範圍調整。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "non_gaap_gross_margin",
+      "period": "FY2026",
+      "kind": "maintained",
+      "as_of": "2025-06-04"
+    },
+    {
+      "topic": "margins",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-06-04: non_gaap_gross_margin FY2026 55.0–57.0 %",
+        "2025-09-08: non_gaap_gross_margin FY2026 55.0–57.0 %"
+      ],
+      "CHANGE": "maintained（中點 56 → 56）",
+      "INTERPRETATION": "區間中點未變；僅不確定性範圍調整。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "non_gaap_gross_margin",
+      "period": "FY2026",
+      "kind": "maintained",
+      "as_of": "2025-09-08"
+    },
+    {
+      "topic": "margins",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-09-08: non_gaap_gross_margin FY2026 55.0–57.0 %",
+        "2025-12-10: non_gaap_gross_margin FY2026 57.0–58.0 %"
+      ],
+      "CHANGE": "raised（中點 56 → 57.5）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "non_gaap_gross_margin",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-12-10"
+    },
+    {
+      "topic": "margins",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-03-19: non_gaap_gross_margin FY2027 50.0–52.0 %",
+        "2026-06-04: non_gaap_gross_margin FY2027 52.0–54.0 %"
+      ],
+      "CHANGE": "raised（中點 51 → 53）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "non_gaap_gross_margin",
+      "period": "FY2027",
+      "kind": "raised",
+      "as_of": "2026-06-04"
+    },
+    {
+      "topic": "margins",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-06-04: non_gaap_gross_margin FY2027 52.0–54.0 %",
+        "2026-09-03: non_gaap_gross_margin FY2027 55.0–57.0 %"
+      ],
+      "CHANGE": "raised（中點 53 → 56）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "non_gaap_gross_margin",
+      "period": "FY2027",
+      "kind": "raised",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "revenue",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-03-20: revenue FY2026 260.0–280.0 USD millions",
+        "2025-06-04: revenue FY2026 265.0–280.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 270 → 272.5）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "revenue",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-06-04"
+    },
+    {
+      "topic": "revenue",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-06-04: revenue FY2026 265.0–280.0 USD millions",
+        "2025-09-08: revenue FY2026 281.0–289.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 272.5 → 285）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "revenue",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-09-08"
+    },
+    {
+      "topic": "revenue",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2025-09-08: revenue FY2026 281.0–289.0 USD millions",
+        "2025-12-10: revenue FY2026 297.0–301.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 285 → 299）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "revenue",
+      "period": "FY2026",
+      "kind": "raised",
+      "as_of": "2025-12-10"
+    },
+    {
+      "topic": "revenue",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-03-19: revenue FY2027 415.0–440.0 USD millions",
+        "2026-06-04: revenue FY2027 425.0–441.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 427.5 → 433）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "revenue",
+      "period": "FY2027",
+      "kind": "raised",
+      "as_of": "2026-06-04"
+    },
+    {
+      "topic": "revenue",
+      "dimension": "quantitative_guidance",
+      "FACT": [
+        "2026-06-04: revenue FY2027 425.0–441.0 USD millions",
+        "2026-09-03: revenue FY2027 430.0–441.0 USD millions"
+      ],
+      "CHANGE": "raised（中點 433 → 435.5）",
+      "INTERPRETATION": "管理層對該期間的量化預期提高（官方數字）；仍需等實際數字驗證。",
+      "CONFIDENCE": "high",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": false,
+      "metric": "revenue",
+      "period": "FY2027",
+      "kind": "raised",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "bottleneck",
+      "dimension": "bottleneck",
+      "FACT": [
+        "Q1 FY2027（2026-06-04）關鍵詞：capacity",
+        "Q2 FY2027（2026-09-03）關鍵詞：capacity, supply",
+        "例句（Q2 FY2027）：“Planet's Pelican high resolution data is used to track milestones of construction for these facilities, which are strong indicators of supply chain health and computing capacity.”"
+      ],
+      "CHANGE": "新出現：supply",
+      "INTERPRETATION": "限制 / 延遲相關用語的出現或消失；需對照具體里程碑或數字，用語本身不代表營運惡化或改善。",
+      "CONFIDENCE": "low",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "period_from": "Q1 FY2027",
+      "period_to": "Q2 FY2027",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "customer_demand",
+      "dimension": "customer_demand",
+      "FACT": [
+        "Q1 FY2027（2026-06-04）關鍵詞：award, backlog, contract, customer",
+        "Q2 FY2027（2026-09-03）關鍵詞：award, backlog, contract, customer, pipeline",
+        "例句（Q2 FY2027）：“We’ve seen incredible traction in satellite services and our pipeline has continued to expand.”"
+      ],
+      "CHANGE": "新出現：pipeline",
+      "INTERPRETATION": "需求相關用語變化；以 RPO、backlog、營收等數字為準。",
+      "CONFIDENCE": "low",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "period_from": "Q1 FY2027",
+      "period_to": "Q2 FY2027",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "margin_stance",
+      "dimension": "margin_stance",
+      "FACT": [
+        "Q1 FY2027（2026-06-04）關鍵詞：無",
+        "Q2 FY2027（2026-09-03）關鍵詞：expand",
+        "例句（Q2 FY2027）：“We’ve seen incredible traction in satellite services and our pipeline has continued to expand.”"
+      ],
+      "CHANGE": "新出現：expand",
+      "INTERPRETATION": "毛利率立場用語變化；以 guidance 與實際毛利率為準。",
+      "CONFIDENCE": "low",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "period_from": "Q1 FY2027",
+      "period_to": "Q2 FY2027",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "product_launch",
+      "dimension": "product_launch",
+      "FACT": [
+        "Q1 FY2027（2026-06-04）關鍵詞：delivered, launched, successful",
+        "Q2 FY2027（2026-09-03）關鍵詞：delivered, shipped",
+        "例句（Q2 FY2027）：“Shipped Tanager-2 & SuperDove Satellites to Vandenburg for Launch”"
+      ],
+      "CHANGE": "新出現：shipped; 消失：launched, successful",
+      "INTERPRETATION": "產品 / 里程碑進度用語；已完成的事項需有日期與來源。",
+      "CONFIDENCE": "low",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "period_from": "Q1 FY2027",
+      "period_to": "Q2 FY2027",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "tone",
+      "dimension": "confidence_shift",
+      "FACT": [
+        "Q1 FY2027（2026-06-04）關鍵詞：confident, record, approximately",
+        "Q2 FY2027（2026-09-03）關鍵詞：confident, record, will, approximately",
+        "例句（Q2 FY2027）：““Planet delivered an outstanding second quarter, with record revenue of $116.1 million, representing 58% year-over-year growth and our fourth consecutive quarter of meeting or exceeding the Rule of 40”"
+      ],
+      "CHANGE": "新出現：will",
+      "INTERPRETATION": "僅為措辭差異（承諾性 vs 保留性用語），不足以推論基本面變化。",
+      "CONFIDENCE": "low",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "period_from": "Q1 FY2027",
+      "period_to": "Q2 FY2027",
+      "as_of": "2026-09-03"
+    },
+    {
+      "topic": "constraints",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2024-09-05: “The Pelican-2 satellite is expected to provide improvements in image quality, spectral bands, spatial resolution, and imaging capacity relative to its SkySat predecessors.”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "626dc218b9e9",
+      "as_of": "2024-09-05"
+    },
+    {
+      "topic": "margins",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2024-12-09: “Ashley Johnson, Planet’s President and Chief Financial Officer, added, “We saw significant improvement in the fundamentals of the business during the quarter, as evident in the year-over-year and sequential improvement i”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "79b4a148997d",
+      "as_of": "2024-12-09"
+    },
+    {
+      "topic": "demand",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2024-12-09: “The third quarter represented Planet’s largest ever quarter of ACV bookings, helping lay the foundation for future growth,\" said Will Marshall, Planet’s Co-Founder, Chief Executive Officer and Chairperson.”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "e1d122184e7b",
+      "as_of": "2024-12-09"
+    },
+    {
+      "topic": "demand",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2024-12-09: “Ultimately, we believe Planet is well positioned for growth going forward.\"”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "f4061145d859",
+      "as_of": "2024-12-09"
+    },
+    {
+      "topic": "margins",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2025-03-20: “Ashley Johnson, Planet’s President and Chief Financial Officer, added, “We delivered our first quarter of Adjusted EBITDA profitability in the Company’s history and saw further improvement in the fundamentals of the busi”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "f63f4803e06e",
+      "as_of": "2025-03-20"
+    },
+    {
+      "topic": "constraints",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2025-09-08: “This option expands the capacity of the DIU pilot announced by Planet on July 1, 2025, which is designed to deliver vital indications and warnings.”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "54dd8e3c773a",
+      "as_of": "2025-09-08"
+    },
+    {
+      "topic": "demand",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2025-12-10: “This strategic decision is intended to help Planet meet growing demand from the European market.”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "b67ef9be1cb3",
+      "as_of": "2025-12-10"
+    },
+    {
+      "topic": "demand",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2025-12-10: “We’re announcing our acquisition of Bedrock Research, an AI-enabled solutions company, to accelerate our roadmap in support of this demand,” said Will Marshall, Planet’s Co-Founder, Chief Executive Officer and Chairperso”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "ddcffece25d2",
+      "as_of": "2025-12-10"
+    },
+    {
+      "topic": "demand",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2026-06-04: “Ashley Johnson, Planet’s President and Chief Financial Officer, added, “We delivered record revenue of $94.2 million, accelerating our top-line growth to 42% year-over-year, driven by exceptional execution across our glo”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "09026b3c4dc4",
+      "as_of": "2026-06-04"
+    },
+    {
+      "topic": "demand",
+      "dimension": "qualitative_guidance",
+      "FACT": [
+        "2026-09-03: ““Planet delivered an outstanding second quarter, with record revenue of $116.1 million, representing 58% year-over-year growth and our fourth consecutive quarter of meeting or exceeding the Rule of 40,” said Will Marshal”"
+      ],
+      "CHANGE": "質化方向：up，未給時點",
+      "INTERPRETATION": "質化 guidance，不轉成數字；只能在之後以實際數字檢查方向是否成立。",
+      "CONFIDENCE": "medium",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm"
+      ],
+      "draft_auto": true,
+      "review_required": true,
+      "claim_id": "412b275b0b3d",
+      "as_of": "2026-09-03"
+    }
+  ],
+  "method": "rule-based structured comparison (no LLM); wording-only findings are low confidence",
+  "draft_auto": true,
+  "review_required": true
+}

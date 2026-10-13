@@ -1,0 +1,382 @@
+{
+  "items": [
+    {
+      "event_id": "AAPL-2026-10-13-standing_trigger-7d30545a",
+      "ticker": "AAPL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open",
+        "maps to high-importance thesis component(s): earnings_quality_working_capital",
+        "raised: high-importance component and HIGH evidence quality",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (receivables_gap)",
+      "evidence_quality": "HIGH",
+      "reason": "fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "receivables_gap",
+        "rule_type": "fundamental",
+        "value": 12.7,
+        "warning": ">10",
+        "thesis_component": null,
+        "condition": "receivable",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "earnings_quality_working_capital"
+      ],
+      "high_importance_links": [
+        "earnings_quality_working_capital"
+      ]
+    },
+    {
+      "event_id": "AAPL-2026-10-13-standing_trigger-4611d6e4",
+      "ticker": "AAPL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open",
+        "maps to high-importance thesis component(s): earnings_quality_working_capital",
+        "raised: high-importance component and HIGH evidence quality",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (receivables_inventory_build)",
+      "evidence_quality": "HIGH",
+      "reason": "invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "receivables_inventory_build",
+        "rule_type": "invalidation",
+        "value": null,
+        "warning": null,
+        "thesis_component": "earnings_quality_working_capital",
+        "condition": "receivable",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "earnings_quality_working_capital"
+      ],
+      "high_importance_links": [
+        "earnings_quality_working_capital"
+      ]
+    },
+    {
+      "event_id": "PL-2026-10-13-standing_trigger-296247dc",
+      "ticker": "PL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "multiple monitoring rules triggered (3 distinct conditions)",
+        "maps to high-importance thesis component(s): backlog_visibility",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (rpo_vs_fiscal_year_end)",
+      "evidence_quality": "HIGH",
+      "reason": "fundamental rule 'rpo_vs_fiscal_year_end' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "rpo_vs_fiscal_year_end",
+        "rule_type": "fundamental",
+        "value": -11.65,
+        "warning": "<0%",
+        "thesis_component": null,
+        "condition": "backlog/rpo",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "backlog_visibility"
+      ],
+      "high_importance_links": [
+        "backlog_visibility"
+      ]
+    },
+    {
+      "event_id": "PL-2026-10-13-standing_trigger-dd104b14",
+      "ticker": "PL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "multiple monitoring rules triggered (3 distinct conditions)",
+        "maps to high-importance thesis component(s): margin_and_cash_conversion",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (capex_intensity)",
+      "evidence_quality": "HIGH",
+      "reason": "fundamental rule 'capex_intensity' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "capex_intensity",
+        "rule_type": "fundamental",
+        "value": 25.8429,
+        "warning": ">25%",
+        "thesis_component": null,
+        "condition": "capex",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "constellation_execution",
+        "margin_and_cash_conversion"
+      ],
+      "high_importance_links": [
+        "margin_and_cash_conversion"
+      ]
+    },
+    {
+      "event_id": "PL-2026-10-13-standing_trigger-12d16898",
+      "ticker": "PL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "multiple monitoring rules triggered (3 distinct conditions)",
+        "maps to high-importance thesis component(s): per_share_value_vs_dilution",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (dilution_yoy)",
+      "evidence_quality": "HIGH",
+      "reason": "fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "dilution_yoy",
+        "rule_type": "fundamental",
+        "value": 18.2373,
+        "warning": ">5%",
+        "thesis_component": null,
+        "condition": "dilution",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "per_share_value_vs_dilution"
+      ],
+      "high_importance_links": [
+        "per_share_value_vs_dilution"
+      ]
+    },
+    {
+      "event_id": "PL-2026-10-13-standing_trigger-c20b6c47",
+      "ticker": "PL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "multiple monitoring rules triggered (3 distinct conditions)",
+        "maps to high-importance thesis component(s): margin_and_cash_conversion",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (capex_heavy_with_negative_fcf)",
+      "evidence_quality": "HIGH",
+      "reason": "invalidation rule 'capex_heavy_with_negative_fcf' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "capex_heavy_with_negative_fcf",
+        "rule_type": "invalidation",
+        "value": {
+          "capex_pct_revenue": 25.8429,
+          "fcf_ex_deferred_revenue": -25.786
+        },
+        "warning": null,
+        "thesis_component": "margin_and_cash_conversion",
+        "condition": "capex",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "margin_and_cash_conversion"
+      ],
+      "high_importance_links": [
+        "margin_and_cash_conversion"
+      ]
+    },
+    {
+      "event_id": "PL-2026-10-13-standing_trigger-def85eff",
+      "ticker": "PL",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "HIGH",
+      "priority_reasons": [
+        "multiple monitoring rules triggered (3 distinct conditions)",
+        "maps to high-importance thesis component(s): per_share_value_vs_dilution",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (dilution_above_5pct)",
+      "evidence_quality": "HIGH",
+      "reason": "invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "dilution_above_5pct",
+        "rule_type": "invalidation",
+        "value": {
+          "diluted_shares_yoy_pct": 18.2373
+        },
+        "warning": null,
+        "thesis_component": "per_share_value_vs_dilution",
+        "condition": "dilution",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "per_share_value_vs_dilution"
+      ],
+      "high_importance_links": [
+        "per_share_value_vs_dilution"
+      ]
+    },
+    {
+      "event_id": "RKLB-2026-10-13-promise_delayed-e02b11c9",
+      "ticker": "RKLB",
+      "event_type": "promise_delayed",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "MEDIUM",
+      "priority_reasons": [
+        "promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26))",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "management-change: timing slip; thesis-monitor for the affected milestone component",
+      "source": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025008658/rklb-ex99_1.htm",
+      "evidence_quality": "MEDIUM",
+      "reason": "promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26))",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "promise_id": "RKLB-milestone-neutron-first_launch-2025-02-27",
+        "rule": "target moved H2 2025 → Q4 2026 (2026-02-26)",
+        "comparison_basis": "timing claim (same subject and milestone)",
+        "spending_plan": false
+      },
+      "linked_components": [],
+      "high_importance_links": []
+    },
+    {
+      "event_id": "RKLB-2026-10-13-standing_trigger-e3245235",
+      "ticker": "RKLB",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "MEDIUM",
+      "priority_reasons": [
+        "fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (dilution_yoy)",
+      "evidence_quality": "HIGH",
+      "reason": "fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "dilution_yoy",
+        "rule_type": "fundamental",
+        "value": 22.2477,
+        "warning": ">5%",
+        "thesis_component": null,
+        "condition": "dilution",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "per_share_dilution"
+      ],
+      "high_importance_links": []
+    },
+    {
+      "event_id": "RKLB-2026-10-13-standing_trigger-d838aa5a",
+      "ticker": "RKLB",
+      "event_type": "standing_trigger",
+      "detected_at": "2026-10-13T00:06:13+00:00",
+      "timestamp": "2026-10-13",
+      "priority": "MEDIUM",
+      "priority_reasons": [
+        "invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open",
+        "current research confidence is low (tie-break)"
+      ],
+      "category": "B",
+      "category_name": "TARGETED_UPDATE",
+      "severity": "medium",
+      "required_workflow": "thesis-monitor / research-monitor: the REASSESS is still open — record the outcome (keep, change status with evidence, or adjust the rule with a stated reason)",
+      "source": "monitoring/rules.yaml / thesis/invalidation-rules.yaml (dilution_above_5pct)",
+      "evidence_quality": "HIGH",
+      "reason": "invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open",
+      "immediate_alert": false,
+      "status": "pending",
+      "details": {
+        "triggered_since": "2026-10-13",
+        "rule": "dilution_above_5pct",
+        "rule_type": "invalidation",
+        "value": {
+          "diluted_shares_yoy_pct": 22.2477
+        },
+        "warning": null,
+        "thesis_component": "per_share_dilution",
+        "condition": "dilution",
+        "meaning": "REASSESS"
+      },
+      "linked_components": [
+        "per_share_dilution"
+      ],
+      "high_importance_links": []
+    }
+  ],
+  "last_added": 2,
+  "updated_at": "2026-10-13T00:06:26+00:00",
+  "note": "Research queue: every item is a research task. Triggers mean REASSESS; nothing here is a buy / sell order."
+}

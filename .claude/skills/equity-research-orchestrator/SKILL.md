@@ -1,6 +1,6 @@
 ---
 name: equity-research-orchestrator
-description: Coordinate this repo's continuous US equity research. Use when the user asks to initialize research on a new ticker, update an existing company, deep dive a company, show what changed since the last analysis, show the current thesis or monitoring rules, or run the monthly watchlist review (including /init-stock, /update-stock, /deep-stock, /watch-stock, /monthly-research). Routes work to existing skills and updates research/<TICKER>/ state instead of writing another standalone report.
+description: Coordinate this repo's continuous US equity research. Use when the user asks to initialize research on a new ticker, update an existing company, deep dive a company, show what changed since the last analysis, show the current thesis or monitoring rules, run the monthly watchlist review, scan for new research events, show the research queue or which company to research first, show the watchlist dashboard, or find stale research (including /init-stock, /update-stock, /deep-stock, /watch-stock, /monthly-research, /scan-research, /research-queue, /research-dashboard, /stale-research). Routes work to existing skills and updates research/<TICKER>/ state instead of writing another standalone report.
 ---
 
 # Equity Research Orchestrator
@@ -91,6 +91,41 @@ next catalysts, reassessment triggers and open promises against the latest price
 **MONTHLY** — `monthly_research_review.py` across `research_state.py list`, then
 `research-review` for commentary.
 
+## Level 4 intents (research command center)
+
+Level 4 sits on top of the intents above; it never replaces INIT / UPDATE / MONTHLY and
+adds no state system of its own beyond `research/queue/`, `research/calendar/`,
+`research/dashboard/` and per-ticker `monitoring/scan-state.json`. Architecture and
+operating guide: `docs/us-equity-research-os.md` §16, `docs/level4-operating-guide.md`.
+CLI: `python3 scripts/research_command_center.py scan|queue|prioritize|dashboard|stale|calendar`.
+
+**SCAN-EVENTS** (`/scan-research`) — refresh prices, then `scan --refresh --skip-prices`:
+`research_event_detector.py` (incremental: SEC forms, issuer announcements, guidance
+changes, market moves, rule / promise / gap / percentile state changes, thesis-linked
+macro only) → `research_event_classifier.py` (A FULL_UPDATE_REQUIRED, B TARGETED_UPDATE,
+C MARKET_REACTION_ONLY, D LOW_PRIORITY_INFORMATIONAL) → `research_queue.py` →
+`research_priority.py`. Also refreshes `kpi_registry.py`, `guidance_tracker.py`,
+`catalyst_calendar.py`, `stale_research.py`.
+
+**RESEARCH-QUEUE / PRIORITIZE** (`/research-queue`) — `prioritize` then `queue`. Route
+each open item: A → UPDATE (`/update-stock TICKER`, which completes the ticker's A / B
+items); B → the owning skill named in `required_workflow`; C → `market-reaction` only
+(no full DCF unless the state changed); D → log only. Close items with
+`research_queue.py set EVENT_ID completed|dismissed --note`.
+
+**COMMAND-CENTER** (`/research-dashboard`) — `dashboard` → `research/dashboard/current.md`.
+
+**STALE-CHECK** (`/stale-research`) — `stale` → `research/dashboard/stale-research.md`.
+
+Flow examples: new 10-Q → A → HIGH → `/update-stock PL`. Large price move with no filing →
+C → MEDIUM → `price_reaction.py analyze` → no full DCF unless the state changed.
+
+Level 4 building blocks used by UPDATE as well: `kpi_registry.py` (common + sector +
+company KPIs → `financials/kpi-history.csv`), `management_semantic_diff.py`
+(structured claims, FACT / CHANGE / INTERPRETATION / CONFIDENCE), `guidance_tracker.py`
+(guidance vs actual; definition mismatch → `not_evaluable`). Optional P2:
+`tradingview_alert_export.py`, `notebooklm_export.py`.
+
 ## Rules
 
 - Report language: write all report prose (change reports, deep / full reports, monthly reviews, replies) in Traditional Chinese (繁體中文). Tickers, field names, YAML/JSON keys, section identifiers and code identifiers may stay English. Do not translate existing dated reports. `change-report` emits bilingual section headings; add any narrative in Traditional Chinese.
@@ -101,3 +136,8 @@ next catalysts, reassessment triggers and open promises against the latest price
 - Preserve prior state: upsert history by date, never delete prior snapshots or
   dated reports. Git history is the audit trail; commit after material updates.
 - Research classifications are not personalized advice or orders.
+- Automation is not trading: queue items, priorities and alerts mean "research / REASSESS";
+  never emit BUY / SELL orders or execution instructions.
+- Auto-generated thesis, valuation assumptions, KPI mappings, promise resolutions and
+  semantic interpretations stay `draft_auto` with `review_required: true` until an
+  analyst confirms them.

@@ -53,7 +53,21 @@ For each topic with at least two periods, a table with columns:
 
 Schema: `promise_id`, `topic`, `statement_date`, `management_claim`,
 `target_date`, `expected_result`, `status` (pending | delivered |
-partially_delivered | missed | superseded), `source`, `evidence[]`, `last_checked`.
+partially_delivered | missed | superseded | delayed | not_evaluable), `source`,
+`evidence[]`, `last_checked`; Level 4 adds `metric_definition`, `comparison_basis`,
+`resolution_confidence`, `actual_source`, `draft_auto`, `review_required`.
+
+Level 4 (`scripts/guidance_tracker.py`, `scripts/management_semantic_diff.py`):
+- Guided metrics need a recorded company definition in
+  `research/<T>/config/kpis.yaml` → `guidance_metrics`. If the company definition
+  differs from the measurable actual, or is not recorded, the promise is never
+  auto-resolved: `not_evaluable` with the reason (audit rule). Spending plans
+  (capex / opex) outside the range are plan deviations, not automatically negative.
+- Semantic diff writes FACT / CHANGE / INTERPRETATION / CONFIDENCE per topic; wording-only
+  changes are low confidence and never read as "fundamentals deteriorated".
+- Qualitative guidance ("margins should improve in H2") stays qualitative; never convert it
+  into numbers. Timing claims that move later make the earlier promise `delayed`.
+- No guidance → say "No explicit evaluable management guidance found."; never invent promises.
 
 - Only quantifiable or dated commitments (guidance ranges, launch dates,
   margin targets). Update status when the period is reported; cite the filing.

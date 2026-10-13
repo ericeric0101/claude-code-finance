@@ -1,0 +1,87 @@
+# PL company KPI override (layer 3). Manual values are copied from facts already
+# recorded in thesis/current.yaml and management/statements.json (each cites its
+# primary source); company-defined metrics keep their original names.
+ticker: PL
+sector: space
+draft_auto: false
+review_required: false
+kpis:
+  non_gaap_gross_margin:
+    name: Non-GAAP gross margin (company-defined)
+    original_name: Non-GAAP Gross Margin
+    definition: company-defined non-GAAP gross margin (excludes SBC and amortization of acquired intangibles per release reconciliation)
+    unit: "%"
+    required: false
+    direction: up
+    sources: [{type: reported_kpis, key: non_gaap_gross_margin}]
+  adjusted_ebitda:
+    name: Adjusted EBITDA (company-defined)
+    original_name: Adjusted EBITDA
+    definition: company-defined non-GAAP adjusted EBITDA per earnings release reconciliation
+    unit: USD millions
+    required: false
+    direction: up
+    sources: [{type: reported_kpis, key: adjusted_ebitda}]
+  rpo_12m_conversion:
+    name: RPO expected to be recognized within 12 months
+    original_name: remaining performance obligations expected to be recognized over the next 12 months
+    definition: share of RPO the company expects to recognize within 12 months (10-Q revenue note)
+    unit: "%"
+    required: false
+    direction: up
+    sources: []
+values:
+  - {kpi: backlog, period: FY2026, date: "2026-01-31", value: 900.4, original_name: Backlog,
+     definition: "company-defined backlog (includes cancellable amounts); not RPO",
+     source: "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+     source_type: "SEC 10-Q (analyst-curated in management/statements.json)", confidence: high}
+  - {kpi: backlog, period: Q2 FY2027, date: "2026-07-31", value: 814.9, original_name: Backlog,
+     definition: "company-defined backlog (includes cancellable amounts); not RPO",
+     source: "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+     source_type: "SEC 10-Q (analyst-curated in management/statements.json)", confidence: high}
+  - {kpi: rpo_12m_conversion, period: Q2 FY2027, date: "2026-07-31", value: 46,
+     source: "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+     source_type: "SEC 10-Q (analyst-curated in management/statements.json)", confidence: high}
+  - {kpi: government_mix, period: H1 FY2027, date: "2026-07-31", value: 67.7, original_name: Defense & Intelligence,
+     definition: "Defense & Intelligence customer category share of H1 FY2027 revenue (company customer categories)",
+     source: "SEC 10-Q 2026-07-31, Note 3 (recorded in thesis/current.yaml sovereign_defense_demand)",
+     source_type: "SEC 10-Q", confidence: high}
+  - {kpi: commercial_mix, period: H1 FY2027, date: "2026-07-31", value: 16.3, original_name: Commercial,
+     definition: "Commercial customer category share of H1 FY2027 revenue (company customer categories)",
+     source: "SEC 10-Q 2026-07-31 (recorded in thesis/current.yaml commercial_diversification)",
+     source_type: "SEC 10-Q", confidence: high}
+  - {kpi: satellites_deployed, period: "2026-10-01 launch", date: "2026-10-01", value: 20,
+     original_name: "20 satellites (Suncatcher demo, Tanager-2, 18 SuperDoves)",
+     source: "https://investors.planet.com/news/news-details/2026/Planet-Launches-Suncatcher-Tanager-2-and-18-SuperDove-Satellites/default.aspx",
+     source_type: "issuer press release", confidence: medium}
+  - {kpi: satellite_commissioning, period: "2026-10-01 launch", date: "2026-10-01", value: "commissioning underway",
+     source: "https://investors.planet.com/news/news-details/2026/Planet-Launches-Suncatcher-Tanager-2-and-18-SuperDove-Satellites/default.aspx",
+     source_type: "issuer press release", confidence: medium}
+# Definitions behind guided metrics, used by scripts/guidance_tracker.py. A guided
+# metric whose company definition is not recorded (or differs from the actual
+# used) is NOT auto-resolved: status not_evaluable, reason comparison_basis_mismatch.
+guidance_metrics:
+  revenue:
+    company_definition: GAAP revenue
+    actual: {type: sec_history, metric: revenue}
+    comparison_basis: gaap_match
+  capex:
+    company_definition: >-
+      "purchases of property and equipment plus capitalized internally developed
+      software development costs, which are included in our statements of cash
+      flows from investing activities" (KPI definitions section of every earnings
+      release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached
+      releases in raw/filings)
+    actual: {type: sec_history, metric: capex}
+    actual_definition: cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)
+    comparison_basis: definition_match
+    kind: spending_plan
+  non_gaap_gross_margin:
+    company_definition: company-defined non-GAAP gross margin
+    actual: {type: reported_kpis, key: non_gaap_gross_margin}
+    comparison_basis: same_company_metric
+  adjusted_ebitda:
+    company_definition: company-defined adjusted EBITDA
+    actual: {type: reported_kpis, key: adjusted_ebitda}
+    comparison_basis: same_company_metric
+milestone_subjects: [Pelican, Tanager, Suncatcher, Owl, SuperDove]

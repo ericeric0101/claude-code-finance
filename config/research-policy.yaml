@@ -1,0 +1,41 @@
+# Research policy (Level 4): thresholds used by the event detector, classifier,
+# priority engine and stale-research detector. Every threshold is an analyst
+# Assumption, not a company fact; change it here rather than in code.
+version: 1
+
+staleness:
+  default:
+    full_review_days: 100        # about one fiscal quarter plus filing lag
+    valuation_price_days: 7      # valuation/latest.json price_date vs latest close
+    thesis_evidence_days: 120    # newest thesis component last_updated
+    management_update_days: 120  # newest management statement date
+  by_research_role:              # matched as a case-insensitive substring of research_role
+    speculative:
+      full_review_days: 60
+      valuation_price_days: 5
+    core:
+      full_review_days: 100
+
+market:
+  daily_move_pct: 8.0            # |1-day close change| that counts as a major price move
+  large_move_pct: 15.0           # |move since last scan / review| that counts as a large move
+  volume_ratio: 2.5              # volume vs 50-session average
+  drawdown_pct: 25.0             # close vs trailing 252-session high
+  lookback_sessions: 252         # 52-week window
+  max_backfill_sessions: 20      # first scan only looks this far back
+
+scan:
+  first_scan_lookback_days: 45   # first scan of a ticker (no scan-state yet) only looks this far back
+  sec_forms: ["10-Q", "10-K", "8-K", "DEF 14A", "4", "144", "S-3", "S-3ASR", "S-1", "424B5", "424B3", "424B2",
+              "S-4", "425", "SC 13D", "SCHEDULE 13D"]
+
+insider:
+  routine_forms: ["4", "144"]    # Form 4 / 144 are LOW unless an analyst flags them
+
+priority:
+  stale_days_multiplier_high: 1.5  # last review older than 1.5 x full_review_days raises priority one level
+  valuation_percentile_change: 20  # percentile points between snapshots = material re-rating
+  expectation_gap_change: 0.03     # change in |market - base| (decimal) = material
+
+queue:
+  archive_after_days: 90

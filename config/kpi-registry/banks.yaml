@@ -1,0 +1,37 @@
+layer: banks
+kpis:
+  nim:
+    name: Net interest margin
+    definition: company-reported NIM (taxable-equivalent basis if stated)
+    unit: "%"
+    required: true
+    direction: up
+    sources: []
+  cet1:
+    name: CET1 ratio
+    definition: regulatory common equity tier 1 ratio as reported
+    unit: "%"
+    required: true
+    direction: up
+    sources: []
+  npl:
+    name: Non-performing loans ratio
+    definition: non-performing loans / total loans as reported
+    unit: "%"
+    required: true
+    direction: down
+    sources: []
+  provision:
+    name: Provision for credit losses
+    definition: income-statement provision for credit losses
+    unit: USD millions
+    required: true
+    direction: down
+    sources: [{type: xbrl_tag, tag: ProvisionForLoanLeaseAndOtherLosses, unit: USD, scale: 1.0e-6}]
+  deposit_growth:
+    name: Deposit growth YoY
+    definition: total deposits vs prior-year period (Calculation)
+    unit: "%"
+    required: true
+    direction: up
+    sources: []

@@ -1,0 +1,70 @@
+# Space sector KPIs (layer 2). Backlog, RPO and contract value are DIFFERENT
+# concepts and are never merged: RPO is the ASC 606 disclosure; backlog is
+# company-defined (may include unfunded / cancellable amounts).
+layer: space
+kpis:
+  rpo:
+    name: Remaining performance obligations
+    definition: ASC 606 remaining performance obligations (contracted, not yet recognized)
+    concept: rpo
+    unit: USD millions
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: rpo}]
+  backlog:
+    name: Backlog (company-defined)
+    definition: company-defined backlog; may include cancellable or unfunded amounts; NOT the same as RPO
+    concept: backlog
+    unit: USD millions
+    required: false
+    direction: up
+    sources: [{type: sec_history, metric: backlog}]
+  launch_cadence:
+    name: Launches in period
+    definition: count of launches conducted (company launch vehicles) or satellites launched (operators)
+    unit: count
+    required: false
+    direction: up
+    sources: []
+  satellites_deployed:
+    name: Satellites deployed
+    definition: satellites placed in orbit in the period (company disclosure)
+    unit: count
+    required: false
+    direction: up
+    sources: []
+  satellite_commissioning:
+    name: Satellite commissioning status
+    definition: qualitative commissioning milestone (company disclosure)
+    unit: text
+    required: false
+    sources: []
+  government_mix:
+    name: Government / defense revenue share
+    definition: share of revenue from government or defense & intelligence customers, as the company defines its customer categories
+    unit: "%"
+    required: false
+    direction: neutral
+    sources: []
+  commercial_mix:
+    name: Commercial revenue share
+    definition: share of revenue from commercial customers, as the company defines its customer categories
+    unit: "%"
+    required: false
+    direction: up
+    sources: []
+  capex_pct_revenue:
+    name: Capex / revenue
+    definition: (PP&E purchases + capitalized software) / revenue; repo accounting definition
+    unit: "%"
+    required: true
+    direction: neutral
+    sources: [{type: sec_history, metric: capex_pct_revenue}]
+  capex:
+    name: Capex (accounting)
+    definition: cash-flow statement PP&E purchases + capitalized software; may differ from company-defined capex in guidance
+    concept: capex_accounting
+    unit: USD millions
+    required: true
+    direction: neutral
+    sources: [{type: sec_history, metric: capex}]

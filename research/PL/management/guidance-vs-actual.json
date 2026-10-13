@@ -1,0 +1,1175 @@
+{
+  "ticker": "PL",
+  "as_of": "2026-10-13",
+  "guidance_added": 0,
+  "counts": {
+    "delivered": 44,
+    "missed": 6,
+    "partially_delivered": 2,
+    "superseded": 8,
+    "pending": 8
+  },
+  "guidance_promises": 68,
+  "evaluated": 52,
+  "not_evaluable": 0,
+  "message": null,
+  "caveat": "Counts only; not a credibility score.",
+  "rows": [
+    {
+      "promise_id": "PL-2024-06-06-q2-capex",
+      "status": "delivered",
+      "actual_result": 16.621,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "within guided spending range",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q2 FY2025",
+        "metric": "capex",
+        "low": 14.0,
+        "high": 17.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-06-06-q2-ebitda",
+      "status": "delivered",
+      "actual_result": -4.4,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2025",
+        "metric": "adjusted_ebitda",
+        "low": -10.0,
+        "high": -7.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-06-06-q2-gm",
+      "status": "delivered",
+      "actual_result": 58.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2025",
+        "metric": "non_gaap_gross_margin",
+        "low": 51.0,
+        "high": 53.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2024-06-06-q2-revenue",
+      "status": "delivered",
+      "actual_result": 61.092,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001836833-25-000104 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2025",
+        "metric": "revenue",
+        "low": 59.0,
+        "high": 63.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-09-05-q3-capex",
+      "status": "missed",
+      "actual_result": 8.862,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "underspent vs plan by 32%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q3 FY2025",
+        "metric": "capex",
+        "low": 13.0,
+        "high": 16.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-09-05-q3-ebitda",
+      "status": "delivered",
+      "actual_result": -0.2,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2025",
+        "metric": "adjusted_ebitda",
+        "low": -5.0,
+        "high": -2.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-09-05-q3-gm",
+      "status": "delivered",
+      "actual_result": 64.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2025",
+        "metric": "non_gaap_gross_margin",
+        "low": 59.0,
+        "high": 61.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2024-09-05-q3-revenue",
+      "status": "delivered",
+      "actual_result": 61.266,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001193125-25-314295 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2025",
+        "metric": "revenue",
+        "low": 61.0,
+        "high": 64.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-12-09-q4-capex",
+      "status": "missed",
+      "actual_result": 12.78,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "overspent vs plan by 16%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q4 FY2025",
+        "metric": "capex",
+        "low": 8.0,
+        "high": 11.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-12-09-q4-ebitda",
+      "status": "delivered",
+      "actual_result": 2.4,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q4 FY2025",
+        "metric": "adjusted_ebitda",
+        "low": 0.0,
+        "high": 2.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2024-12-09-q4-gm",
+      "status": "delivered",
+      "actual_result": 65.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q4 FY2025",
+        "metric": "non_gaap_gross_margin",
+        "low": 63.0,
+        "high": 65.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2024-12-09-q4-revenue",
+      "status": "delivered",
+      "actual_result": 61.554,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+      "review_required": true,
+      "guidance": {
+        "period": "Q4 FY2025",
+        "metric": "revenue",
+        "low": 61.0,
+        "high": 63.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-fy26-capex",
+      "status": "missed",
+      "actual_result": 81.497,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "overspent vs plan by 25%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "capex",
+        "low": 50.0,
+        "high": 65.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-fy26-ebitda",
+      "status": "delivered",
+      "actual_result": 15.5,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -13.0,
+        "high": -7.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-fy26-gm",
+      "status": "delivered",
+      "actual_result": 59.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 55.0,
+        "high": 57.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-fy26-revenue",
+      "status": "delivered",
+      "actual_result": 307.727,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "revenue",
+        "low": 260.0,
+        "high": 280.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-q1-capex",
+      "status": "missed",
+      "actual_result": 9.344,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "underspent vs plan by 15%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2026",
+        "metric": "capex",
+        "low": 11.0,
+        "high": 16.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-q1-ebitda",
+      "status": "delivered",
+      "actual_result": 1.2,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -3.0,
+        "high": -2.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-q1-gm",
+      "status": "delivered",
+      "actual_result": 59.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 58.0,
+        "high": 60.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-03-20-q1-revenue",
+      "status": "delivered",
+      "actual_result": 66.265,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001193125-26-258304 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2026",
+        "metric": "revenue",
+        "low": 61.0,
+        "high": 63.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-fy26-capex",
+      "status": "missed",
+      "actual_result": 81.497,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "overspent vs plan by 25%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "capex",
+        "low": 50.0,
+        "high": 65.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-fy26-ebitda",
+      "status": "delivered",
+      "actual_result": 15.5,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -12.0,
+        "high": -7.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-fy26-gm",
+      "status": "delivered",
+      "actual_result": 59.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 55.0,
+        "high": 57.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-fy26-revenue",
+      "status": "delivered",
+      "actual_result": 307.727,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "revenue",
+        "low": 265.0,
+        "high": 280.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-q2-capex",
+      "status": "delivered",
+      "actual_result": 21.486,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "within guided spending range",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q2 FY2026",
+        "metric": "capex",
+        "low": 17.0,
+        "high": 22.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-q2-ebitda",
+      "status": "delivered",
+      "actual_result": 6.4,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -4.0,
+        "high": -2.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-q2-gm",
+      "status": "delivered",
+      "actual_result": 61.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 56.0,
+        "high": 57.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-06-04-q2-revenue",
+      "status": "delivered",
+      "actual_result": 73.386,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001193125-26-382016 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2026",
+        "metric": "revenue",
+        "low": 65.0,
+        "high": 67.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-fy26-capex",
+      "status": "partially_delivered",
+      "actual_result": 81.497,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "overspent vs plan by 9%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "capex",
+        "low": 65.0,
+        "high": 75.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-fy26-ebitda",
+      "status": "delivered",
+      "actual_result": 15.5,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -7.0,
+        "high": 0.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-fy26-gm",
+      "status": "delivered",
+      "actual_result": 59.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 55.0,
+        "high": 57.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-fy26-revenue",
+      "status": "delivered",
+      "actual_result": 307.727,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "revenue",
+        "low": 281.0,
+        "high": 289.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-q3-capex",
+      "status": "missed",
+      "actual_result": 27.682,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "overspent vs plan by 15%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q3 FY2026",
+        "metric": "capex",
+        "low": 18.0,
+        "high": 24.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-q3-ebitda",
+      "status": "delivered",
+      "actual_result": 5.6,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -4.0,
+        "high": 0.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-q3-gm",
+      "status": "delivered",
+      "actual_result": 60.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 55.0,
+        "high": 56.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-09-08-q3-revenue",
+      "status": "delivered",
+      "actual_result": 81.254,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001193125-25-314295 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2026",
+        "metric": "revenue",
+        "low": 71.0,
+        "high": 74.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-fy26-capex",
+      "status": "delivered",
+      "actual_result": 81.497,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "within guided spending range",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "capex",
+        "low": 81.0,
+        "high": 85.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-fy26-ebitda",
+      "status": "delivered",
+      "actual_result": 15.5,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "adjusted_ebitda",
+        "low": 6.0,
+        "high": 8.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-fy26-gm",
+      "status": "delivered",
+      "actual_result": 59.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 57.0,
+        "high": 58.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-fy26-revenue",
+      "status": "delivered",
+      "actual_result": 307.727,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "FY2026",
+        "metric": "revenue",
+        "low": 297.0,
+        "high": 301.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-q4-capex",
+      "status": "delivered",
+      "actual_result": 22.985,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "within guided spending range",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q4 FY2026",
+        "metric": "capex",
+        "low": 22.0,
+        "high": 26.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-q4-ebitda",
+      "status": "delivered",
+      "actual_result": 2.3,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q4 FY2026",
+        "metric": "adjusted_ebitda",
+        "low": -7.0,
+        "high": -5.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-q4-gm",
+      "status": "delivered",
+      "actual_result": 57.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q4 FY2026",
+        "metric": "non_gaap_gross_margin",
+        "low": 50.0,
+        "high": 52.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2025-12-10-q4-revenue",
+      "status": "delivered",
+      "actual_result": 86.822,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+      "review_required": true,
+      "guidance": {
+        "period": "Q4 FY2026",
+        "metric": "revenue",
+        "low": 76.0,
+        "high": 80.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-fy27-capex",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "capex",
+        "low": 80.0,
+        "high": 95.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-fy27-ebitda",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "adjusted_ebitda",
+        "low": 0.0,
+        "high": 10.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-fy27-gm",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "non_gaap_gross_margin",
+        "low": 50.0,
+        "high": 52.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-fy27-revenue",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "revenue",
+        "low": 415.0,
+        "high": 440.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-q1-capex",
+      "status": "delivered",
+      "actual_result": 17.957,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "within guided spending range",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2027",
+        "metric": "capex",
+        "low": 17.0,
+        "high": 23.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-q1-ebitda",
+      "status": "delivered",
+      "actual_result": -1.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2027",
+        "metric": "adjusted_ebitda",
+        "low": -6.0,
+        "high": -3.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-q1-gm",
+      "status": "delivered",
+      "actual_result": 56.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2027",
+        "metric": "non_gaap_gross_margin",
+        "low": 49.0,
+        "high": 51.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2026-03-19-q1-revenue",
+      "status": "delivered",
+      "actual_result": 94.15,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001193125-26-258304 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q1 FY2027",
+        "metric": "revenue",
+        "low": 87.0,
+        "high": 91.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-fy27-capex",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "capex",
+        "low": 80.0,
+        "high": 95.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-fy27-ebitda",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "adjusted_ebitda",
+        "low": 0.0,
+        "high": 10.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-fy27-gm",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "non_gaap_gross_margin",
+        "low": 52.0,
+        "high": 54.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-fy27-revenue",
+      "status": "superseded",
+      "actual_result": null,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "revenue",
+        "low": 425.0,
+        "high": 441.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-q2-capex",
+      "status": "partially_delivered",
+      "actual_result": 29.134,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": "medium",
+      "resolution_rule": "overspent vs plan by 8%; a spending-plan deviation, not by itself a negative signal",
+      "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+      "review_required": true,
+      "guidance": {
+        "period": "Q2 FY2027",
+        "metric": "capex",
+        "low": 21.0,
+        "high": 27.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-q2-ebitda",
+      "status": "delivered",
+      "actual_result": 13.9,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2027",
+        "metric": "adjusted_ebitda",
+        "low": 0.0,
+        "high": 5.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-q2-gm",
+      "status": "delivered",
+      "actual_result": 59.0,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2027",
+        "metric": "non_gaap_gross_margin",
+        "low": 52.0,
+        "high": 55.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2026-06-04-q2-revenue",
+      "status": "delivered",
+      "actual_result": 116.052,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": "high",
+      "resolution_rule": "at or above low end of range",
+      "actual_source": "SEC 10-Q 0001193125-26-382016 (revenue)",
+      "review_required": false,
+      "guidance": {
+        "period": "Q2 FY2027",
+        "metric": "revenue",
+        "low": 102.0,
+        "high": 107.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-fy27-capex",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "capex",
+        "low": 100.0,
+        "high": 115.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-fy27-ebitda",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "adjusted_ebitda",
+        "low": 3.0,
+        "high": 10.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-fy27-gm",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "non_gaap_gross_margin",
+        "low": 55.0,
+        "high": 57.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-fy27-revenue",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "FY2027",
+        "metric": "revenue",
+        "low": 430.0,
+        "high": 441.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-q3-capex",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "definition_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2027",
+        "metric": "capex",
+        "low": 30.0,
+        "high": 37.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-q3-ebitda",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2027",
+        "metric": "adjusted_ebitda",
+        "low": -6.0,
+        "high": -1.0,
+        "unit": "USD millions"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-q3-gm",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "same_company_metric",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2027",
+        "metric": "non_gaap_gross_margin",
+        "low": 56.0,
+        "high": 58.0,
+        "unit": "%"
+      }
+    },
+    {
+      "promise_id": "PL-2026-09-03-q3-revenue",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "gaap_match",
+      "resolution_confidence": null,
+      "resolution_rule": "period not yet reported",
+      "actual_source": null,
+      "review_required": false,
+      "guidance": {
+        "period": "Q3 FY2027",
+        "metric": "revenue",
+        "low": 101.0,
+        "high": 105.0,
+        "unit": "USD millions"
+      }
+    }
+  ]
+}

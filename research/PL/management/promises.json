@@ -8,7 +8,7 @@
     "expected_result": "capex 14.0..17.0 USD millions for Q2 FY2025",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm",
     "evidence": [
-      "Actual capex 16.621 vs guided 14.0..17.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 16.621 vs guided 14.0..17.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "delivered",
     "guidance": {
@@ -19,9 +19,19 @@
       "unit": "USD millions"
     },
     "actual_result": 16.621,
-    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "within guided spending range",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2024-06-06-q2-ebitda",
@@ -45,7 +55,17 @@
     "actual_result": -4.4,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2024-09-05",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-06-06-q2-gm",
@@ -69,7 +89,17 @@
     "actual_result": 58.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2024-09-05",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-06-06-q2-revenue",
@@ -93,7 +123,17 @@
     "actual_result": 61.092,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001836833-25-000104 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-09-05-q3-capex",
@@ -104,7 +144,7 @@
     "expected_result": "capex 13.0..16.0 USD millions for Q3 FY2025",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm",
     "evidence": [
-      "Actual capex 8.862 vs guided 13.0..16.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 8.862 vs guided 13.0..16.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "missed",
     "guidance": {
@@ -115,9 +155,19 @@
       "unit": "USD millions"
     },
     "actual_result": 8.862,
-    "resolution_rule": "underspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "underspent vs plan by 32%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2024-09-05-q3-ebitda",
@@ -141,7 +191,17 @@
     "actual_result": -0.2,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2024-12-09",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-09-05-q3-gm",
@@ -165,7 +225,17 @@
     "actual_result": 64.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2024-12-09",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-09-05-q3-revenue",
@@ -189,7 +259,17 @@
     "actual_result": 61.266,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001193125-25-314295 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-12-09-q4-capex",
@@ -200,7 +280,7 @@
     "expected_result": "capex 8.0..11.0 USD millions for Q4 FY2025",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm",
     "evidence": [
-      "Actual capex 12.78 vs guided 8.0..11.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 12.78 vs guided 8.0..11.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "missed",
     "guidance": {
@@ -211,9 +291,19 @@
       "unit": "USD millions"
     },
     "actual_result": 12.78,
-    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "overspent vs plan by 16%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2024-12-09-q4-ebitda",
@@ -237,7 +327,17 @@
     "actual_result": 2.4,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-03-20",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-12-09-q4-gm",
@@ -261,7 +361,17 @@
     "actual_result": 65.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-03-20",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2024-12-09-q4-revenue",
@@ -285,7 +395,17 @@
     "actual_result": 61.554,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2025-03-20-fy26-capex",
@@ -296,7 +416,7 @@
     "expected_result": "capex 50.0..65.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 50.0..65.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 81.497 vs guided 50.0..65.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "missed",
     "guidance": {
@@ -307,10 +427,20 @@
       "unit": "USD millions"
     },
     "actual_result": 81.497,
-    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "overspent vs plan by 25%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2026-09-03",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-fy26-ebitda",
@@ -335,7 +465,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-fy26-gm",
@@ -360,7 +500,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-fy26-revenue",
@@ -385,7 +535,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-q1-capex",
@@ -396,7 +556,7 @@
     "expected_result": "capex 11.0..16.0 USD millions for Q1 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm",
     "evidence": [
-      "Actual capex 9.344 vs guided 11.0..16.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 9.344 vs guided 11.0..16.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "missed",
     "guidance": {
@@ -407,9 +567,19 @@
       "unit": "USD millions"
     },
     "actual_result": 9.344,
-    "resolution_rule": "underspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "underspent vs plan by 15%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-q1-ebitda",
@@ -433,7 +603,17 @@
     "actual_result": 1.2,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-06-04",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-q1-gm",
@@ -457,7 +637,17 @@
     "actual_result": 59.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-06-04",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-03-20-q1-revenue",
@@ -481,7 +671,17 @@
     "actual_result": 66.265,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001193125-26-258304 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-fy26-capex",
@@ -492,7 +692,7 @@
     "expected_result": "capex 50.0..65.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 50.0..65.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 81.497 vs guided 50.0..65.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "missed",
     "guidance": {
@@ -503,10 +703,20 @@
       "unit": "USD millions"
     },
     "actual_result": 81.497,
-    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "overspent vs plan by 25%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2026-09-03",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-fy26-ebitda",
@@ -531,7 +741,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-fy26-gm",
@@ -556,7 +776,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-fy26-revenue",
@@ -581,7 +811,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-q2-capex",
@@ -592,7 +832,7 @@
     "expected_result": "capex 17.0..22.0 USD millions for Q2 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
     "evidence": [
-      "Actual capex 21.486 vs guided 17.0..22.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 21.486 vs guided 17.0..22.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "delivered",
     "guidance": {
@@ -603,9 +843,19 @@
       "unit": "USD millions"
     },
     "actual_result": 21.486,
-    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "within guided spending range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2025-06-04-q2-ebitda",
@@ -629,7 +879,17 @@
     "actual_result": 6.4,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-09-08",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-q2-gm",
@@ -653,7 +913,17 @@
     "actual_result": 61.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-09-08",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-06-04-q2-revenue",
@@ -677,7 +947,17 @@
     "actual_result": 73.386,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001193125-26-382016 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-fy26-capex",
@@ -688,7 +968,7 @@
     "expected_result": "capex 65.0..75.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 65.0..75.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 81.497 vs guided 65.0..75.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "partially_delivered",
     "guidance": {
@@ -699,10 +979,20 @@
       "unit": "USD millions"
     },
     "actual_result": 81.497,
-    "resolution_rule": "overspent vs plan by <10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "overspent vs plan by 9%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2026-09-03",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-fy26-ebitda",
@@ -727,7 +1017,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-fy26-gm",
@@ -752,7 +1052,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-fy26-revenue",
@@ -777,7 +1087,17 @@
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
     "last_checked": "2026-10-13",
-    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)"
+    "superseded_by": "guidance issued 2025-12-10 (outcome still evaluated vs this range)",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-q3-capex",
@@ -788,7 +1108,7 @@
     "expected_result": "capex 18.0..24.0 USD millions for Q3 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm",
     "evidence": [
-      "Actual capex 27.682 vs guided 18.0..24.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 27.682 vs guided 18.0..24.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "missed",
     "guidance": {
@@ -799,9 +1119,19 @@
       "unit": "USD millions"
     },
     "actual_result": 27.682,
-    "resolution_rule": "overspent vs plan by >=10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "overspent vs plan by 15%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2025-09-08-q3-ebitda",
@@ -825,7 +1155,17 @@
     "actual_result": 5.6,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-q3-gm",
@@ -849,7 +1189,17 @@
     "actual_result": 60.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-09-08-q3-revenue",
@@ -873,7 +1223,17 @@
     "actual_result": 81.254,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2025-12-10",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001193125-25-314295 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-fy26-capex",
@@ -884,7 +1244,7 @@
     "expected_result": "capex 81.0..85.0 USD millions for FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 81.497 vs guided 81.0..85.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 81.497 vs guided 81.0..85.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "delivered",
     "guidance": {
@@ -895,9 +1255,19 @@
       "unit": "USD millions"
     },
     "actual_result": 81.497,
-    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "within guided spending range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-fy26-ebitda",
@@ -921,7 +1291,17 @@
     "actual_result": 15.5,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-fy26-gm",
@@ -945,7 +1325,17 @@
     "actual_result": 59.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-fy26-revenue",
@@ -969,7 +1359,17 @@
     "actual_result": 307.727,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-q4-capex",
@@ -980,7 +1380,7 @@
     "expected_result": "capex 22.0..26.0 USD millions for Q4 FY2026",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 22.985 vs guided 22.0..26.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 22.985 vs guided 22.0..26.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "delivered",
     "guidance": {
@@ -991,9 +1391,19 @@
       "unit": "USD millions"
     },
     "actual_result": 22.985,
-    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "within guided spending range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2025-12-10-q4-ebitda",
@@ -1017,7 +1427,17 @@
     "actual_result": 2.3,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-q4-gm",
@@ -1041,7 +1461,17 @@
     "actual_result": 57.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-03-19",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2025-12-10-q4-revenue",
@@ -1065,7 +1495,17 @@
     "actual_result": 86.822,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-K 0001193125-26-119957 (revenue)",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2026-03-19-fy27-capex",
@@ -1087,7 +1527,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-fy27-ebitda",
@@ -1109,7 +1560,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-fy27-gm",
@@ -1131,7 +1593,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-fy27-revenue",
@@ -1153,7 +1626,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-q1-capex",
@@ -1164,7 +1648,7 @@
     "expected_result": "capex 17.0..23.0 USD millions for Q1 FY2027",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 17.957 vs guided 17.0..23.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 17.957 vs guided 17.0..23.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "delivered",
     "guidance": {
@@ -1175,9 +1659,19 @@
       "unit": "USD millions"
     },
     "actual_result": 17.957,
-    "resolution_rule": "within guided spending range (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "within guided spending range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-q1-ebitda",
@@ -1201,7 +1695,17 @@
     "actual_result": -1.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-06-04",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-q1-gm",
@@ -1225,7 +1729,17 @@
     "actual_result": 56.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-06-04",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-03-19-q1-revenue",
@@ -1249,7 +1763,17 @@
     "actual_result": 94.15,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001193125-26-258304 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-fy27-capex",
@@ -1271,7 +1795,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-fy27-ebitda",
@@ -1293,7 +1828,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-fy27-gm",
@@ -1315,7 +1861,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-fy27-revenue",
@@ -1337,7 +1894,18 @@
     "superseded_by": "guidance issued 2026-09-03",
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported; guidance issued 2026-09-03",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-q2-capex",
@@ -1348,7 +1916,7 @@
     "expected_result": "capex 21.0..27.0 USD millions for Q2 FY2027",
     "source": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
     "evidence": [
-      "Actual capex 29.134 vs guided 21.0..27.0 (SEC cash flow: PP&E purchases + capitalized software (financials/history.json))"
+      "Actual capex 29.134 vs guided 21.0..27.0 (financials/history.json capex = capex_ppe + capitalized_software)"
     ],
     "status": "partially_delivered",
     "guidance": {
@@ -1359,9 +1927,19 @@
       "unit": "USD millions"
     },
     "actual_result": 29.134,
-    "resolution_rule": "overspent vs plan by <10% (capex = PP&E purchases + capitalized software; company definition may differ)",
+    "resolution_rule": "overspent vs plan by 8%; a spending-plan deviation, not by itself a negative signal",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": "financials/history.json capex = capex_ppe + capitalized_software",
+    "resolution_confidence": "medium",
+    "review_required": true
   },
   {
     "promise_id": "PL-2026-06-04-q2-ebitda",
@@ -1385,7 +1963,17 @@
     "actual_result": 13.9,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-q2-gm",
@@ -1409,7 +1997,17 @@
     "actual_result": 59.0,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": "company earnings release https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-06-04-q2-revenue",
@@ -1433,7 +2031,17 @@
     "actual_result": 116.052,
     "resolution_rule": "at or above low end of range",
     "resolved_date": "2026-09-03",
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": "SEC 10-Q 0001193125-26-382016 (revenue)",
+    "resolution_confidence": "high",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-fy27-capex",
@@ -1454,7 +2062,18 @@
       "unit": "USD millions"
     },
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-fy27-ebitda",
@@ -1475,7 +2094,18 @@
       "unit": "USD millions"
     },
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-fy27-gm",
@@ -1496,7 +2126,18 @@
       "unit": "%"
     },
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-fy27-revenue",
@@ -1517,7 +2158,18 @@
       "unit": "USD millions"
     },
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-q3-capex",
@@ -1538,7 +2190,18 @@
     },
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "\"purchases of property and equipment plus capitalized internally developed software development costs, which are included in our statements of cash flows from investing activities\" (KPI definitions section of every earnings release 2024-06-06 .. 2026-09-03; checked 2026-10-13 against the 10 cached releases in raw/filings)",
+      "actual": "cash-flow statement PaymentsToAcquirePropertyPlantAndEquipment + capitalized internal-use software (financials/history.json)"
+    },
+    "comparison_basis": "definition_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-q3-ebitda",
@@ -1559,7 +2222,18 @@
       "unit": "USD millions"
     },
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined adjusted EBITDA",
+      "actual": "company-defined adjusted EBITDA"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-q3-gm",
@@ -1580,7 +2254,18 @@
     },
     "actual_result": null,
     "resolved_date": null,
-    "last_checked": "2026-10-13"
+    "last_checked": "2026-10-13",
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "company-defined non-GAAP gross margin",
+      "actual": "company-defined non-GAAP gross margin"
+    },
+    "comparison_basis": "same_company_metric",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   },
   {
     "promise_id": "PL-2026-09-03-q3-revenue",
@@ -1601,6 +2286,17 @@
       "unit": "USD millions"
     },
     "actual_result": null,
-    "resolved_date": null
+    "resolved_date": null,
+    "evaluated_by": "guidance_tracker.py",
+    "draft_auto": true,
+    "metric_definition": {
+      "company": "GAAP revenue",
+      "actual": "GAAP revenue"
+    },
+    "comparison_basis": "gaap_match",
+    "actual_source": null,
+    "resolution_confidence": null,
+    "resolution_rule": "period not yet reported",
+    "review_required": false
   }
 ]

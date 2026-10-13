@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-10-13",
+  "companies": [
+    {
+      "ticker": "PL",
+      "as_of": "2026-10-13",
+      "stale": false,
+      "severity": null,
+      "reasons": [],
+      "last_review": "2026-10-13",
+      "last_full_review": "2026-10-11",
+      "days_since_review": 0,
+      "days_since_full_review": 2,
+      "new_filing_unprocessed": false,
+      "latest_periodic_filing": {
+        "form": "10-Q",
+        "filed": "2026-09-03",
+        "report_date": "2026-07-31"
+      },
+      "state_latest_filed": "2026-09-03",
+      "valuation_price_age_days": 3,
+      "thesis_evidence_age_days": 2,
+      "management_age_days": 40,
+      "limits": {
+        "full_review_days": 60,
+        "valuation_price_days": 5,
+        "thesis_evidence_days": 120,
+        "management_update_days": 120
+      }
+    },
+    {
+      "ticker": "RKLB",
+      "as_of": "2026-10-13",
+      "stale": false,
+      "severity": null,
+      "reasons": [],
+      "last_review": "2026-10-13",
+      "last_full_review": "2026-10-13",
+      "days_since_review": 0,
+      "days_since_full_review": 0,
+      "new_filing_unprocessed": false,
+      "latest_periodic_filing": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "report_date": "2026-06-30"
+      },
+      "state_latest_filed": "2026-08-10",
+      "valuation_price_age_days": 3,
+      "thesis_evidence_age_days": 0,
+      "management_age_days": 64,
+      "limits": {
+        "full_review_days": 100,
+        "valuation_price_days": 7,
+        "thesis_evidence_days": 120,
+        "management_update_days": 120
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "as_of": "2026-10-13",
+      "stale": false,
+      "severity": null,
+      "reasons": [],
+      "last_review": "2026-10-13",
+      "last_full_review": "2026-10-11",
+      "days_since_review": 0,
+      "days_since_full_review": 2,
+      "new_filing_unprocessed": false,
+      "latest_periodic_filing": {
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "report_date": "2026-06-27"
+      },
+      "state_latest_filed": "2026-07-31",
+      "valuation_price_age_days": 3,
+      "thesis_evidence_age_days": 2,
+      "management_age_days": 74,
+      "limits": {
+        "full_review_days": 100,
+        "valuation_price_days": 7,
+        "thesis_evidence_days": 120,
+        "management_update_days": 120
+      }
+    }
+  ]
+}

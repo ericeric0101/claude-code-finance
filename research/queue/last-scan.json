@@ -1,0 +1,134 @@
+{
+  "as_of": "2026-10-13",
+  "tickers": {
+    "PL": {
+      "kpi": {
+        "required_unavailable": [],
+        "errors": []
+      },
+      "guidance": {
+        "added": 0,
+        "counts": {
+          "delivered": 44,
+          "missed": 6,
+          "partially_delivered": 2,
+          "superseded": 8,
+          "pending": 8
+        },
+        "message": null
+      },
+      "since": "2026-10-13",
+      "first_scan": true,
+      "events": 5,
+      "by_category": {
+        "A": 0,
+        "B": 5,
+        "C": 0,
+        "D": 0
+      }
+    },
+    "RKLB": {
+      "kpi": {
+        "required_unavailable": [],
+        "errors": []
+      },
+      "guidance": {
+        "added": 83,
+        "counts": {
+          "not_evaluable": 50,
+          "delivered": 19,
+          "partially_delivered": 5,
+          "pending": 10,
+          "delayed": 1
+        },
+        "message": null
+      },
+      "since": "2026-10-13",
+      "first_scan": true,
+      "events": 3,
+      "by_category": {
+        "A": 0,
+        "B": 3,
+        "C": 0,
+        "D": 0
+      }
+    },
+    "AAPL": {
+      "kpi": {
+        "required_unavailable": [],
+        "errors": []
+      },
+      "guidance": {
+        "added": 0,
+        "counts": {
+          "delivered": 1,
+          "pending": 1
+        },
+        "message": "No explicit evaluable management guidance found."
+      },
+      "since": "2026-10-13",
+      "first_scan": true,
+      "events": 2,
+      "by_category": {
+        "A": 0,
+        "B": 2,
+        "C": 0,
+        "D": 0
+      }
+    }
+  },
+  "priorities": [
+    {
+      "ticker": "PL",
+      "priority": "HIGH",
+      "reasons": [
+        "standing_trigger: multiple monitoring rules triggered (3 distinct conditions)"
+      ],
+      "open_items": 5,
+      "high_items": 5,
+      "high_importance_links": [
+        "backlog_visibility",
+        "margin_and_cash_conversion",
+        "per_share_value_vs_dilution"
+      ],
+      "days_since_review": 0,
+      "research_confidence": "low",
+      "immediate_alerts": [],
+      "rank": 1
+    },
+    {
+      "ticker": "AAPL",
+      "priority": "HIGH",
+      "reasons": [
+        "standing_trigger: fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open",
+        "standing_trigger: invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open"
+      ],
+      "open_items": 2,
+      "high_items": 2,
+      "high_importance_links": [
+        "earnings_quality_working_capital"
+      ],
+      "days_since_review": 0,
+      "research_confidence": "low",
+      "immediate_alerts": [],
+      "rank": 2
+    },
+    {
+      "ticker": "RKLB",
+      "priority": "MEDIUM",
+      "reasons": [
+        "promise_delayed: promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26))",
+        "standing_trigger: fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open",
+        "standing_trigger: invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open"
+      ],
+      "open_items": 3,
+      "high_items": 0,
+      "high_importance_links": [],
+      "days_since_review": 0,
+      "research_confidence": "low",
+      "immediate_alerts": [],
+      "rank": 3
+    }
+  ],
+  "open_items": 10
+}

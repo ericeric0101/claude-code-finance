@@ -1,0 +1,39 @@
+# Consumer / mature-company KPIs (layer 2): cash generation and capital return
+# matter more than growth KPIs. Company overrides add segment metrics (e.g. Services).
+layer: consumer
+kpis:
+  buybacks:
+    name: Share repurchases
+    definition: cash paid for repurchases of common stock (cash-flow statement)
+    unit: USD millions
+    required: false
+    direction: neutral
+    sources: [{type: xbrl_tag, tag: PaymentsForRepurchaseOfCommonStock, unit: USD, scale: 1.0e-6}]
+  dividends:
+    name: Dividends paid
+    definition: cash dividends paid (cash-flow statement)
+    unit: USD millions
+    required: false
+    direction: neutral
+    sources: [{type: xbrl_tag, tag: PaymentsOfDividends, unit: USD, scale: 1.0e-6}]
+  cfo:
+    name: Operating cash flow
+    definition: GAAP cash from operations
+    unit: USD millions
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: cfo}]
+  net_margin:
+    name: Net margin
+    definition: GAAP net income / revenue
+    unit: "%"
+    required: false
+    direction: up
+    sources: [{type: sec_history, metric: net_margin_pct}]
+  same_store_sales:
+    name: Comparable sales growth
+    definition: company-defined comparable / same-store sales growth (retail only)
+    unit: "%"
+    required: false
+    direction: up
+    sources: []

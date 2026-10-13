@@ -1,0 +1,474 @@
+{
+  "as_of": "2026-10-13",
+  "generated_at": "2026-10-13T00:06:26+00:00",
+  "companies": [
+    {
+      "ticker": "PL",
+      "action": "WATCH",
+      "draft_auto": false,
+      "priority": "HIGH",
+      "priority_reasons": [
+        "standing_trigger: multiple monitoring rules triggered (3 distinct conditions)"
+      ],
+      "rank": 1,
+      "thesis_trend": {
+        "label": "Stable",
+        "net": 0,
+        "positive": 0,
+        "negative": 0,
+        "changes": [],
+        "window": "2026-10-12 → 2026-10-13"
+      },
+      "valuation": {
+        "label": "Demanding（介於 base 與 bull）",
+        "position": "between base and bull estimates",
+        "latest_close": 15.96,
+        "latest_close_date": "2026-10-12",
+        "research_price": 17.18,
+        "research_price_date": "2026-10-09 NYSE close",
+        "move_since_research_pct": -7.1,
+        "valuation_confidence": "low"
+      },
+      "expectation_gap": {
+        "label": "Wide（market 36.1% vs base 25.0%，stable）",
+        "metric": "revenue_cagr_5y",
+        "gap_vs_base": 0.111,
+        "delta_abs_gap": 0.0,
+        "direction": "stable",
+        "date": "2026-10-13"
+      },
+      "triggers": [
+        "rpo_vs_fiscal_year_end",
+        "capex_intensity",
+        "dilution_yoy",
+        "capex_heavy_with_negative_fcf",
+        "dilution_above_5pct"
+      ],
+      "next_catalyst": {
+        "ticker": "PL",
+        "event": "Convertible note conversion window 2026-08-01 to 2026-10-31 (SEC 10-Q).",
+        "expected_date": "2026-10-31",
+        "date_precision": "window end (stated)",
+        "window_start": "2026-08-01",
+        "window_end": "2026-10-31",
+        "source": "thesis/current.yaml next_catalysts (cites its source)",
+        "confidence": "high",
+        "importance": "medium",
+        "status": "upcoming",
+        "notes": ""
+      },
+      "last_review": "2026-10-13",
+      "days_since_review": 0,
+      "stale": {
+        "ticker": "PL",
+        "as_of": "2026-10-13",
+        "stale": false,
+        "severity": null,
+        "reasons": [],
+        "last_review": "2026-10-13",
+        "last_full_review": "2026-10-11",
+        "days_since_review": 0,
+        "days_since_full_review": 2,
+        "new_filing_unprocessed": false,
+        "latest_periodic_filing": {
+          "form": "10-Q",
+          "filed": "2026-09-03",
+          "report_date": "2026-07-31"
+        },
+        "state_latest_filed": "2026-09-03",
+        "valuation_price_age_days": 3,
+        "thesis_evidence_age_days": 2,
+        "management_age_days": 40,
+        "limits": {
+          "full_review_days": 60,
+          "valuation_price_days": 5,
+          "thesis_evidence_days": 120,
+          "management_update_days": 120
+        }
+      },
+      "confidence": {
+        "overall": "medium",
+        "reasons": [
+          "strong financial history (6 FY, 12 quarters from SEC filings)",
+          "management history over 10 periods with 68 guidance records",
+          "all required KPIs available; company-defined KPIs: non_gaap_gross_margin, adjusted_ebitda, rpo_12m_conversion",
+          "single valuation method; reverse DCF illustrative (low confidence) → high valuation uncertainty",
+          "14 of 16 thesis evidence lines are labelled Fact with sources",
+          "52 promises resolved, 8 open",
+          "state is current"
+        ],
+        "components": {
+          "financial_history": {
+            "grade": "strong",
+            "reason": "strong financial history (6 FY, 12 quarters from SEC filings)"
+          },
+          "management_history": {
+            "grade": "strong",
+            "reason": "management history over 10 periods with 68 guidance records"
+          },
+          "kpi_coverage": {
+            "grade": "strong",
+            "reason": "all required KPIs available; company-defined KPIs: non_gaap_gross_margin, adjusted_ebitda, rpo_12m_conversion"
+          },
+          "valuation_agreement": {
+            "grade": "weak",
+            "reason": "single valuation method; reverse DCF illustrative (low confidence) → high valuation uncertainty"
+          },
+          "evidence_quality": {
+            "grade": "strong",
+            "reason": "14 of 16 thesis evidence lines are labelled Fact with sources"
+          },
+          "unresolved_promises": {
+            "grade": "strong",
+            "reason": "52 promises resolved, 8 open"
+          },
+          "stale_data": {
+            "grade": "strong",
+            "reason": "state is current"
+          }
+        },
+        "note": "Explainable research confidence, not a company score; no percentages."
+      },
+      "price_move_since_full_review_pct": -7.1,
+      "price_move_3m_pct": -37.6,
+      "open_queue_items": 5,
+      "immediate_alerts": [],
+      "guidance": {
+        "counts": {
+          "delivered": 44,
+          "missed": 6,
+          "partially_delivered": 2,
+          "superseded": 8,
+          "pending": 8
+        },
+        "evaluated": 52,
+        "not_evaluable": 0,
+        "message": null
+      },
+      "kpi": {
+        "sector": "space",
+        "required_unavailable": [],
+        "optional_available": [
+          "adjusted_ebitda",
+          "backlog",
+          "commercial_mix",
+          "government_mix",
+          "non_gaap_gross_margin",
+          "rpo_12m_conversion",
+          "satellite_commissioning",
+          "satellites_deployed"
+        ]
+      }
+    },
+    {
+      "ticker": "RKLB",
+      "action": "WATCH",
+      "draft_auto": true,
+      "priority": "MEDIUM",
+      "priority_reasons": [
+        "promise_delayed: promise RKLB-milestone-neutron-first_launch-2025-02-27 delayed (target moved H2 2025 → Q4 2026 (2026-02-26))",
+        "standing_trigger: fundamental rule 'dilution_yoy' still triggered since 2026-10-13 → REASSESS still open",
+        "standing_trigger: invalidation rule 'dilution_above_5pct' still triggered since 2026-10-13 → REASSESS still open"
+      ],
+      "rank": 3,
+      "thesis_trend": {
+        "label": "Baseline（無前期）",
+        "net": 0,
+        "changes": []
+      },
+      "valuation": {
+        "label": "Expensive（高於所有 bull 值）",
+        "position": "above all modeled bull values",
+        "latest_close": 65.71,
+        "latest_close_date": "2026-10-12",
+        "research_price": 68.21,
+        "research_price_date": "2026-10-09 close",
+        "move_since_research_pct": -3.67,
+        "valuation_confidence": "low"
+      },
+      "expectation_gap": {
+        "label": "Wide（market 108.9% vs base 40.0%，no prior state）",
+        "metric": "revenue_cagr_5y",
+        "gap_vs_base": 0.6891,
+        "delta_abs_gap": null,
+        "direction": "no prior state",
+        "date": "2026-10-13"
+      },
+      "triggers": [
+        "dilution_yoy",
+        "dilution_above_5pct"
+      ],
+      "next_catalyst": {
+        "ticker": "RKLB",
+        "event": "Company target: Neutron first launch by end of Q4 2026",
+        "expected_date": "Q4 2026",
+        "date_precision": "quarter",
+        "window_start": "2026-10-01",
+        "window_end": "2026-12-31",
+        "source": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000012/rklb-02262026ex991.htm",
+        "confidence": "medium",
+        "importance": "high",
+        "status": "upcoming",
+        "notes": "management timing promise; not a confirmed date"
+      },
+      "last_review": "2026-10-13",
+      "days_since_review": 0,
+      "stale": {
+        "ticker": "RKLB",
+        "as_of": "2026-10-13",
+        "stale": false,
+        "severity": null,
+        "reasons": [],
+        "last_review": "2026-10-13",
+        "last_full_review": "2026-10-13",
+        "days_since_review": 0,
+        "days_since_full_review": 0,
+        "new_filing_unprocessed": false,
+        "latest_periodic_filing": {
+          "form": "10-Q",
+          "filed": "2026-08-10",
+          "report_date": "2026-06-30"
+        },
+        "state_latest_filed": "2026-08-10",
+        "valuation_price_age_days": 3,
+        "thesis_evidence_age_days": 0,
+        "management_age_days": 64,
+        "limits": {
+          "full_review_days": 100,
+          "valuation_price_days": 7,
+          "thesis_evidence_days": 120,
+          "management_update_days": 120
+        }
+      },
+      "confidence": {
+        "overall": "low",
+        "reasons": [
+          "strong financial history (6 FY, 12 quarters from SEC filings)",
+          "management history over 9 periods with 83 guidance records",
+          "all required KPIs available; company-defined KPIs: launch_cadence",
+          "valuation is an auto-draft (history-anchored assumptions)",
+          "thesis is an auto-draft (draft_auto); evidence not analyst-reviewed",
+          "25 promises resolved, 60 open (50 not evaluable: definition / actual-basis gaps)",
+          "state is current"
+        ],
+        "components": {
+          "financial_history": {
+            "grade": "strong",
+            "reason": "strong financial history (6 FY, 12 quarters from SEC filings)"
+          },
+          "management_history": {
+            "grade": "strong",
+            "reason": "management history over 9 periods with 83 guidance records"
+          },
+          "kpi_coverage": {
+            "grade": "strong",
+            "reason": "all required KPIs available; company-defined KPIs: launch_cadence"
+          },
+          "valuation_agreement": {
+            "grade": "weak",
+            "reason": "valuation is an auto-draft (history-anchored assumptions)"
+          },
+          "evidence_quality": {
+            "grade": "weak",
+            "reason": "thesis is an auto-draft (draft_auto); evidence not analyst-reviewed"
+          },
+          "unresolved_promises": {
+            "grade": "adequate",
+            "reason": "25 promises resolved, 60 open (50 not evaluable: definition / actual-basis gaps)"
+          },
+          "stale_data": {
+            "grade": "strong",
+            "reason": "state is current"
+          }
+        },
+        "note": "Explainable research confidence, not a company score; no percentages."
+      },
+      "price_move_since_full_review_pct": 0.0,
+      "price_move_3m_pct": -16.6,
+      "open_queue_items": 3,
+      "immediate_alerts": [],
+      "guidance": {
+        "counts": {
+          "not_evaluable": 50,
+          "delivered": 19,
+          "partially_delivered": 5,
+          "pending": 10,
+          "delayed": 1
+        },
+        "evaluated": 24,
+        "not_evaluable": 50,
+        "message": null
+      },
+      "kpi": {
+        "sector": "space",
+        "required_unavailable": [],
+        "optional_available": [
+          "backlog",
+          "launch_cadence"
+        ]
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "action": "WATCH",
+      "draft_auto": false,
+      "priority": "HIGH",
+      "priority_reasons": [
+        "standing_trigger: fundamental rule 'receivables_gap' still triggered since 2026-10-13 → REASSESS still open",
+        "standing_trigger: invalidation rule 'receivables_inventory_build' still triggered since 2026-10-13 → REASSESS still open"
+      ],
+      "rank": 2,
+      "thesis_trend": {
+        "label": "Stable",
+        "net": 0,
+        "positive": 0,
+        "negative": 0,
+        "changes": [],
+        "window": "2026-10-11 → 2026-10-13"
+      },
+      "valuation": {
+        "label": "Expensive（高於所有 bull 值）",
+        "position": "above all modeled bull values",
+        "latest_close": 340.97,
+        "latest_close_date": "2026-10-12",
+        "research_price": 336.64,
+        "research_price_date": "2026-10-09 close",
+        "move_since_research_pct": 1.29,
+        "valuation_confidence": "low"
+      },
+      "expectation_gap": {
+        "label": "Wide（market 14.8% vs base 8.0%，no prior state）",
+        "metric": "nopat_growth_10y",
+        "gap_vs_base": 0.0681,
+        "delta_abs_gap": null,
+        "direction": "no prior state",
+        "date": "2026-10-13"
+      },
+      "triggers": [
+        "receivables_gap",
+        "receivables_inventory_build"
+      ],
+      "next_catalyst": {
+        "ticker": "AAPL",
+        "event": "iPhone Duo preorders 2026-10-16 and availability 2026-10-23 (Apple announcement).",
+        "expected_date": "2026-10-23",
+        "date_precision": "window end (stated)",
+        "window_start": "2026-10-16",
+        "window_end": "2026-10-23",
+        "source": "thesis/current.yaml next_catalysts (cites its source)",
+        "confidence": "high",
+        "importance": "medium",
+        "status": "upcoming",
+        "notes": ""
+      },
+      "last_review": "2026-10-13",
+      "days_since_review": 0,
+      "stale": {
+        "ticker": "AAPL",
+        "as_of": "2026-10-13",
+        "stale": false,
+        "severity": null,
+        "reasons": [],
+        "last_review": "2026-10-13",
+        "last_full_review": "2026-10-11",
+        "days_since_review": 0,
+        "days_since_full_review": 2,
+        "new_filing_unprocessed": false,
+        "latest_periodic_filing": {
+          "form": "10-Q",
+          "filed": "2026-07-31",
+          "report_date": "2026-06-27"
+        },
+        "state_latest_filed": "2026-07-31",
+        "valuation_price_age_days": 3,
+        "thesis_evidence_age_days": 2,
+        "management_age_days": 74,
+        "limits": {
+          "full_review_days": 100,
+          "valuation_price_days": 7,
+          "thesis_evidence_days": 120,
+          "management_update_days": 120
+        }
+      },
+      "confidence": {
+        "overall": "medium",
+        "reasons": [
+          "strong financial history (6 FY, 12 quarters from SEC filings)",
+          "management statements over 9 periods; limited guidance history",
+          "all required KPIs available; company-defined KPIs: services_revenue, services_mix, capex",
+          "2 methods, base values 194–242; methods broadly agree; but the analyst's valuation confidence is low",
+          "8 of 13 thesis evidence lines are labelled Fact with sources",
+          "1 promises resolved, 1 open",
+          "state is current"
+        ],
+        "components": {
+          "financial_history": {
+            "grade": "strong",
+            "reason": "strong financial history (6 FY, 12 quarters from SEC filings)"
+          },
+          "management_history": {
+            "grade": "adequate",
+            "reason": "management statements over 9 periods; limited guidance history"
+          },
+          "kpi_coverage": {
+            "grade": "strong",
+            "reason": "all required KPIs available; company-defined KPIs: services_revenue, services_mix, capex"
+          },
+          "valuation_agreement": {
+            "grade": "adequate",
+            "reason": "2 methods, base values 194–242; methods broadly agree; but the analyst's valuation confidence is low"
+          },
+          "evidence_quality": {
+            "grade": "strong",
+            "reason": "8 of 13 thesis evidence lines are labelled Fact with sources"
+          },
+          "unresolved_promises": {
+            "grade": "adequate",
+            "reason": "1 promises resolved, 1 open"
+          },
+          "stale_data": {
+            "grade": "strong",
+            "reason": "state is current"
+          }
+        },
+        "note": "Explainable research confidence, not a company score; no percentages."
+      },
+      "price_move_since_full_review_pct": 1.3,
+      "price_move_3m_pct": 8.3,
+      "open_queue_items": 2,
+      "immediate_alerts": [],
+      "guidance": {
+        "counts": {
+          "delivered": 1,
+          "pending": 1
+        },
+        "evaluated": 0,
+        "not_evaluable": 0,
+        "message": "No explicit evaluable management guidance found."
+      },
+      "kpi": {
+        "sector": "consumer",
+        "required_unavailable": [],
+        "optional_available": [
+          "buybacks",
+          "capex",
+          "dividends",
+          "net_margin",
+          "services_mix"
+        ]
+      }
+    }
+  ],
+  "answers": {
+    "thesis_improved_most": [],
+    "thesis_deteriorated_most": [],
+    "expectation_gap_narrowed_most": [],
+    "valuation_cheaper": [
+      "PL（最新收盤較研究價格 -7.1%，相對自身估值地圖：Demanding（介於 base 與 bull））",
+      "RKLB（最新收盤較研究價格 -3.7%，相對自身估值地圖：Expensive（高於所有 bull 值））"
+    ],
+    "price_up_fundamentals_lagging": [],
+    "stale_research": []
+  },
+  "note": "Command center compares relative state, trend, priority and confidence only; raw multiples are not compared across sectors. Not a buy / sell list."
+}

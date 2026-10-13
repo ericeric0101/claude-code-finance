@@ -1,0 +1,40 @@
+# AAPL company KPI override (layer 3): mature-company set. Space / software KPIs
+# are not applied. Services revenue is a product/service disclosure that SEC
+# companyfacts (no XBRL dimensions) does not carry, so values come from the
+# analyst-curated 10-K facts already in thesis/current.yaml.
+ticker: AAPL
+sector: consumer
+draft_auto: false
+review_required: false
+kpis:
+  services_revenue:
+    name: Services net sales
+    original_name: Services
+    definition: Apple "Services" net sales category (10-K net sales by category)
+    unit: USD millions
+    required: true
+    direction: up
+    sources: []
+  services_mix:
+    name: Services share of net sales
+    definition: Services net sales / total net sales (Calculation)
+    unit: "%"
+    required: false
+    direction: up
+    sources: []
+  capex:
+    name: Capex (accounting)
+    definition: PP&E purchases (cash-flow statement)
+    concept: capex_accounting
+    unit: USD millions
+    required: false
+    direction: neutral
+    sources: [{type: sec_history, metric: capex}]
+values:
+  - {kpi: services_revenue, period: FY2025, date: "2025-09-27", value: 109200, original_name: Services,
+     source: "AAPL FY2025 10-K net sales by category (recorded in thesis/current.yaml services_monetization)",
+     source_type: "SEC 10-K", confidence: high, notes: "stated as $109.2bn"}
+  - {kpi: services_mix, period: FY2025, date: "2025-09-27", value: 26.2,
+     source: "AAPL FY2025 10-K (recorded in thesis/current.yaml services_monetization)",
+     source_type: "SEC 10-K", confidence: high, notes: "Calculation: Services / total net sales"}
+guidance_metrics: {}

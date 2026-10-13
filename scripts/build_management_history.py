@@ -233,7 +233,8 @@ def promise_id(ticker: str, g: Dict[str, Any]) -> str:
         per = per.split("-")[0]  # existing ids use "q3"
     else:
         per = "fy" + per[-2:]
-    short = {"revenue": "revenue", "non_gaap_gross_margin": "gm", "gross_margin": "gm",
+    # GAAP and non-GAAP gross margin need distinct ids when both are guided (e.g. RKLB)
+    short = {"revenue": "revenue", "non_gaap_gross_margin": "gm", "gross_margin": "gaapgm",
              "adjusted_ebitda": "ebitda", "capex": "capex"}.get(g["metric"], g["metric"])
     return f"{ticker}-{g['issued']}-{per}-{short}"
 

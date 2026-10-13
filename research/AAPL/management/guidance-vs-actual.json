@@ -1,0 +1,38 @@
+{
+  "ticker": "AAPL",
+  "as_of": "2026-10-13",
+  "guidance_added": 0,
+  "counts": {
+    "delivered": 1,
+    "pending": 1
+  },
+  "guidance_promises": 0,
+  "evaluated": 0,
+  "not_evaluable": 0,
+  "message": "No explicit evaluable management guidance found.",
+  "caveat": "Counts only; not a credibility score.",
+  "rows": [
+    {
+      "promise_id": "AAPL-2026-04-20-ceo-transition",
+      "status": "delivered",
+      "actual_result": null,
+      "comparison_basis": "qualitative / milestone (analyst-resolved)",
+      "resolution_confidence": "analyst",
+      "resolution_rule": null,
+      "actual_source": null,
+      "review_required": null,
+      "guidance": null
+    },
+    {
+      "promise_id": "AAPL-2026-09-09-iphone-duo",
+      "status": "pending",
+      "actual_result": null,
+      "comparison_basis": "qualitative / milestone (analyst-resolved)",
+      "resolution_confidence": null,
+      "resolution_rule": null,
+      "actual_source": null,
+      "review_required": null,
+      "guidance": null
+    }
+  ]
+}

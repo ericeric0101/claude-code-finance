@@ -19,6 +19,11 @@ Priority framework (transparent rules):
   Low    : no meaningful state change
 Price outcomes are never used to grade whether an earlier thesis was right.
 
+Level 4 adds sections 12-22 from the command-center state: research priority changes,
+thesis improvements / deteriorations, expectation-gap changes, guidance delivered / missed,
+new monitoring triggers, valuation re-rating, research staleness, next-month calendar,
+top 5 research tasks (research queue) and deprioritized names.
+
 Output: research/reviews/YYYY-MM-monthly-review.md (Traditional Chinese prose).
 """
 from __future__ import annotations
@@ -143,11 +148,104 @@ def render(month: str, results: List[Dict[str, Any]]) -> str:
     return "\n".join(L)
 
 
+def _next_month(month: str) -> str:
+    y, m = int(month[:4]), int(month[5:7])
+    return f"{y + (m == 12)}-{m % 12 + 1:02d}"
+
+
+def level4_sections(month: str, root: Path, results: List[Dict[str, Any]]) -> str:
+    """Level 4 command-center sections (12-22). Every line cites the state file it comes from."""
+    import level4_common as l4
+    import research_dashboard as dash
+    import stale_research as sr
+    month_start, month_end = f"{month}-01", f"{_next_month(month)}-01"
+    tickers = [r["ticker"] for r in results]
+    L = ["", "# Level 4 Research Command Center review", "",
+         "> 以下段落引用 state 變化（檔案路徑附在每段），不是摘要報告；優先順序 = 先研究誰，不是買賣建議。",
+         "> 口徑：第 1–11 段的 High / Medium / Low 只看本月 snapshot diff；第 12 段起的 HIGH / MEDIUM / LOW 是 Level 4 "
+         "研究佇列優先順序，也包含仍未處理的 REASSESS、staleness 與 thesis 重要性，所以兩者可能不同。", ""]
+    hist = l4.read_csv(root / "research/queue/priority-history.csv")
+    cur_p = {r["ticker"]: r for r in (l4.read_json(root / "research/queue/priorities.json", {}) or {}).get("tickers", [])}
+    before = sorted({h["date"] for h in hist if h["date"] < month_start})
+    prev_p = {h["ticker"]: h["priority"] for h in hist if before and h["date"] == before[-1]}
+    L += ["## 12. Research Priority Changes 研究優先順序變化（research/queue/priority-history.csv）"]
+    for t in tickers:
+        c = (cur_p.get(t) or {}).get("priority", "n/a")
+        p = prev_p.get(t, "（無前期紀錄）")
+        L.append(f"- {t}: {p} → {c}" + (f"；{'; '.join((cur_p.get(t) or {}).get('reasons', [])[:2])}" if t in cur_p else ""))
+    trends = {t: dash.thesis_trend(t, root) for t in tickers}
+    L += ["", "## 13. Thesis Improvements 論點改善（thesis/history.json）"]
+    L += [f"- {t}: {'; '.join(v['changes'])}（{v['window']}）" for t, v in trends.items() if v.get("positive")] or ["- 無"]
+    L += ["", "## 14. Thesis Deteriorations 論點惡化（thesis/history.json）"]
+    L += [f"- {t}: {'; '.join(v['changes'])}（{v['window']}）" for t, v in trends.items() if v.get("negative")] or ["- 無"]
+    L += ["", "## 15. Expectation Gap Changes 預期落差變化（valuation/expectation-gap-history.csv）"]
+    for t in tickers:
+        g = dash.gap_view(t, root)
+        L.append(f"- {t}: {g['label']}" + (f"；|gap| 變化 {g['delta_abs_gap']:+.3f}" if g.get("delta_abs_gap") is not None else ""))
+    L += ["", "## 16. Guidance Delivered / Missed（management/promises.json，guidance_tracker.py）"]
+    for t in tickers:
+        prom = l4.read_json(l4.company_dir(t, root) / "management/promises.json", []) or []
+        res = [p for p in prom if month_start <= str(p.get("resolved_date") or "") < month_end
+               or month_start <= str(p.get("last_checked") or "") < month_end and p.get("status") in ("delayed", "not_evaluable")]
+        cnt: Dict[str, int] = {}
+        for p in res:
+            cnt[p["status"]] = cnt.get(p["status"], 0) + 1
+        if not any(p.get("guidance") for p in prom):
+            L.append(f"- {t}: No explicit evaluable management guidance found."
+                     + (f"（另有 {len(prom)} 個非 guidance 承諾，見 promises.json）" if prom else ""))
+        else:
+            L.append(f"- {t}: 本月結案 / 檢查 " + (", ".join(f"{k} {v}" for k, v in sorted(cnt.items())) or "無"))
+            for p in [p for p in res if p.get("status") in ("missed", "delayed")][:4]:
+                L.append(f"  - {p['promise_id']}: {p['status']}（{(p.get('resolution_rule') or '')[:100]}；"
+                         f"basis {p.get('comparison_basis')}）")
+    q = l4.read_json(root / "research/queue/current.json", {}) or {}
+    trig = [i for i in q.get("items", []) if i["event_type"] in ("monitoring_trigger", "thesis_invalidation", "standing_trigger")
+            and month_start <= str(i.get("timestamp") or "") < month_end]
+    L += ["", "## 17. New Monitoring Triggers 新監控觸發（research/queue/current.json；REASSESS）"]
+    L += [f"- {i['ticker']}: {'仍未處理' if i['event_type'] == 'standing_trigger' else '新觸發'}｜{i['reason']}（{i['status']}）"
+          for i in trig] or ["- 無"]
+    L += ["", "## 18. Valuation Re-Rating 估值重評（snapshots / valuation/historical-percentiles.json）"]
+    for r in results:
+        d = r["diff"]
+        moves = [x for x in d.get("valuation", []) if "percentile" in x or "map" in x.lower() or "區位" in x]
+        v = dash.valuation_view(r["ticker"], root)
+        L.append(f"- {r['ticker']}: 目前 {v['label']}；最新收盤 {v['latest_close']}（{v['latest_close_date']}），"
+                 f"研究價格 {v['research_price']}（{v['research_price_date']}）"
+                 + (f"；{'; '.join(moves[:2])}" if moves else ""))
+    L += ["", "## 19. Research Staleness 研究過期（stale_research.py）"]
+    for x in sr.run(root, write=False, tickers=tickers):
+        L.append(f"- {x['ticker']}: {x['severity'] or 'not stale'}" + (f"；{'; '.join(x['reasons'][:2])}" if x["reasons"] else ""))
+    nm_start, nm_end = month_end, f"{_next_month(_next_month(month))}-01"
+    cal_rows = [r for r in l4.read_csv(root / "research/calendar/upcoming.csv")
+                if r.get("status") == "upcoming" and r.get("window_start") and r["window_start"] < nm_end
+                and (r.get("window_end") or r["window_start"]) >= nm_start]
+    L += ["", "## 20. Next Month Calendar 下月行事曆（research/calendar/upcoming.csv）"]
+    L += [f"- {r['ticker']}: {r['event'][:90]}（{r['expected_date']}，{r['date_precision']}，信心 {r['confidence']}）"
+          for r in cal_rows] or ["- 無已知事件"]
+    open_items = [i for i in q.get("items", []) if i["status"] in ("pending", "processing")]
+    order = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
+    open_items.sort(key=lambda i: (order.get(i.get("priority"), 3), (cur_p.get(i["ticker"]) or {}).get("rank", 99),
+                                   i.get("category", "Z")))
+    L += ["", "## 21. Top 5 Research Tasks 五項最重要研究任務（research queue）"]
+    picked, per = [], {}
+    for i in open_items:  # at most two tasks per company so one name cannot fill the list
+        if per.get(i["ticker"], 0) < 2:
+            picked.append(i)
+            per[i["ticker"]] = per.get(i["ticker"], 0) + 1
+    L += [f"{n}. {i['ticker']}（{i['priority']}）{i['reason'][:110]} → {i['required_workflow'][:90]}"
+          for n, i in enumerate(picked[:5], 1)] or ["1. 佇列無待辦（見第 11 段）"]
+    low = [t for t, r in cur_p.items() if r.get("priority") == "LOW"]
+    L += ["", "## 22. Deprioritized Names 可降低優先（research/queue/priorities.json）"]
+    L += [f"- {t}: {'; '.join(cur_p[t].get('reasons', [])[:2])}" for t in low] or ["- 無"]
+    return "\n".join(L) + "\n"
+
+
 def run(month: Optional[str] = None, root: Path = ROOT, write: bool = True) -> Dict[str, Any]:
     month = month or date.today().strftime("%Y-%m")
     month_start = f"{month}-01"
     results = [review_company(t, root, month_start) for t in rs.tracked_companies(root)]
     text = render(month, results)
+    text += level4_sections(month, root, results)
     out = root / "research/reviews" / f"{month}-monthly-review.md"
     if write:
         out.parent.mkdir(parents=True, exist_ok=True)

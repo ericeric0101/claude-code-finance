@@ -1,0 +1,33 @@
+layer: biotech
+kpis:
+  cash_runway:
+    name: Cash runway
+    definition: company-stated runway, or cash / trailing operating cash burn (Calculation, labelled)
+    unit: months
+    required: true
+    direction: up
+    sources: []
+  enrollment:
+    name: Trial enrollment
+    definition: enrolled patients vs target for named trials (company disclosure)
+    unit: count
+    required: false
+    sources: []
+  trial_milestones:
+    name: Trial milestones
+    definition: named trial milestone and status (company disclosure)
+    unit: text
+    required: false
+    sources: []
+  readout_dates:
+    name: Readout dates
+    definition: company-guided readout timing; month / quarter / half precision as stated
+    unit: date
+    required: false
+    sources: []
+  regulatory_milestones:
+    name: Regulatory milestones
+    definition: PDUFA, filing acceptance, advisory committee dates as disclosed
+    unit: date
+    required: false
+    sources: []

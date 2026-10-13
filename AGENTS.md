@@ -10,6 +10,9 @@ Project-level skills are under `.agents/skills/`:
   `management-change`, `thesis-monitor`, `valuation-monitor`,
   `market-reaction`, `research-monitor` and `research-review`.
   See `docs/us-equity-research-os.md` and `docs/dual-codex-claude-usage.md`.
+  Level 4 command center (event queue, priorities, dashboard, staleness, calendar):
+  `python3 scripts/research_command_center.py scan|queue|dashboard|stale` — see
+  `docs/level4-operating-guide.md`. Codex runs the same scripts the slash commands call.
 
 Read the selected skill and relevant references before using it. Preserve
 upstream source folders; custom requirements belong in my-equity-research.

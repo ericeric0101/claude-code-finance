@@ -1,0 +1,39 @@
+layer: software
+kpis:
+  arr:
+    name: Annual recurring revenue (company-defined)
+    definition: company-defined ARR; definitions differ between companies; NOT revenue and NOT RPO
+    concept: arr
+    unit: USD millions
+    required: false
+    direction: up
+    sources: [{type: sec_history, metric: arr}]
+  nrr:
+    name: Net revenue retention (company-defined)
+    definition: company-defined net dollar retention
+    unit: "%"
+    required: false
+    direction: up
+    sources: []
+  rpo:
+    name: Remaining performance obligations
+    definition: ASC 606 remaining performance obligations
+    concept: rpo
+    unit: USD millions
+    required: true
+    direction: up
+    sources: [{type: sec_history, metric: rpo}]
+  billings:
+    name: Billings (calculated)
+    definition: revenue + change in deferred revenue (Calculation; company may define differently)
+    unit: USD millions
+    required: false
+    direction: up
+    sources: []
+  customer_count:
+    name: Customer count (company-defined)
+    definition: company-defined customer count / threshold customers
+    unit: count
+    required: false
+    direction: up
+    sources: [{type: sec_history, metric: subscribers}]

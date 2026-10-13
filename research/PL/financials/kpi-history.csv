@@ -1,0 +1,236 @@
+date,period,kpi,value,unit,source,source_type,confidence,notes
+2024-06-06,Q1 FY2025,adjusted_ebitda,-8.4,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2024-09-05,Q2 FY2025,adjusted_ebitda,-4.4,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2024-12-09,Q3 FY2025,adjusted_ebitda,-0.2,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2025-03-20,FY2025,adjusted_ebitda,-10.6,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2025-03-20,Q4 FY2025,adjusted_ebitda,2.4,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2025-06-04,Q1 FY2026,adjusted_ebitda,1.2,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2025-09-08,Q2 FY2026,adjusted_ebitda,6.4,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2025-12-10,Q3 FY2026,adjusted_ebitda,5.6,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2026-03-19,FY2026,adjusted_ebitda,15.5,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2026-03-19,Q4 FY2026,adjusted_ebitda,2.3,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2026-06-04,Q1 FY2027,adjusted_ebitda,-1.0,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2026-09-03,Q2 FY2027,adjusted_ebitda,13.9,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Adjusted EBITDA; date = release date
+2026-01-31,FY2026,backlog,900.4,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm,SEC 10-Q (analyst-curated in management/statements.json),high,original name: Backlog; definition: company-defined backlog (includes cancellable amounts); not RPO
+2026-07-31,Q2 FY2027,backlog,814.9,USD millions,https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm,SEC 10-Q (analyst-curated in management/statements.json),high,original name: Backlog; definition: company-defined backlog (includes cancellable amounts); not RPO
+2021-01-31,FY2021,capex,30.126,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2022-01-31,FY2022,capex,14.931,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2023-01-31,FY2023,capex,12.76,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2023-10-31,Q3 FY2024,capex,8.645,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2024-01-31,FY2024,capex,42.41,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2024-01-31,Q4 FY2024,capex,10.058,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2024-04-30,Q1 FY2025,capex,11.356,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2024-07-31,Q2 FY2025,capex,16.621,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2024-10-31,Q3 FY2025,capex,8.862,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2025-01-31,FY2025,capex,49.619,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2025-01-31,Q4 FY2025,capex,12.78,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2025-04-30,Q1 FY2026,capex,9.344,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2025-07-31,Q2 FY2026,capex,21.486,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2025-10-31,Q3 FY2026,capex,27.682,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2026-01-31,FY2026,capex,81.497,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2026-01-31,Q4 FY2026,capex,22.985,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2026-04-30,Q1 FY2027,capex,17.957,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2026-07-31,Q2 FY2027,capex,29.134,USD millions,financials/history.json (capex),SEC XBRL (10-Q / 10-K),high,Calculation: capex_ppe + capitalized_software
+2021-01-31,FY2021,capex_pct_revenue,26.6206,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2022-01-31,FY2022,capex_pct_revenue,11.3796,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2023-01-31,FY2023,capex_pct_revenue,6.6717,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2023-10-31,Q3 FY2024,capex_pct_revenue,15.6103,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2024-01-31,FY2024,capex_pct_revenue,19.2165,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2024-01-31,Q4 FY2024,capex_pct_revenue,17.0903,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2024-04-30,Q1 FY2025,capex_pct_revenue,18.7889,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2024-07-31,Q2 FY2025,capex_pct_revenue,27.2065,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2024-10-31,Q3 FY2025,capex_pct_revenue,14.4648,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2025-01-31,FY2025,capex_pct_revenue,20.3064,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2025-01-31,Q4 FY2025,capex_pct_revenue,20.7623,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2025-04-30,Q1 FY2026,capex_pct_revenue,14.101,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2025-07-31,Q2 FY2026,capex_pct_revenue,29.2781,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2025-10-31,Q3 FY2026,capex_pct_revenue,34.0685,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2026-01-31,FY2026,capex_pct_revenue,26.4835,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2026-01-31,Q4 FY2026,capex_pct_revenue,26.4737,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2026-04-30,Q1 FY2027,capex_pct_revenue,19.0728,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2026-07-31,Q2 FY2027,capex_pct_revenue,25.1043,%,financials/history.json (capex_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: capex / revenue
+2021-01-31,FY2021,cash,71.183,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash
+2022-01-31,FY2022,cash,490.762,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2023-01-31,FY2023,cash,408.76,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2023-10-31,Q3 FY2024,cash,314.894,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2024-01-31,FY2024,cash,298.907,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2024-01-31,Q4 FY2024,cash,298.907,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2024-04-30,Q1 FY2025,cash,275.585,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2024-07-31,Q2 FY2025,cash,249.39,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2024-10-31,Q3 FY2025,cash,242.224,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2025-01-31,FY2025,cash,222.075,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2025-01-31,Q4 FY2025,cash,222.075,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2025-04-30,Q1 FY2026,cash,226.095,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2025-07-31,Q2 FY2026,cash,271.537,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2025-10-31,Q3 FY2026,cash,677.324,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2026-01-31,FY2026,cash,640.09,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2026-01-31,Q4 FY2026,cash,640.09,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2026-04-30,Q1 FY2027,cash,730.835,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2026-07-31,Q2 FY2027,cash,865.418,USD millions,financials/history.json (cash_and_investments),SEC XBRL (10-Q / 10-K),high,Calculation: cash + short_term_investments
+2026-07-31,H1 FY2027,commercial_mix,16.3,%,SEC 10-Q 2026-07-31 (recorded in thesis/current.yaml commercial_diversification),SEC 10-Q,high,original name: Commercial; definition: Commercial customer category share of H1 FY2027 revenue (company customer categories)
+2021-01-31,FY2021,debt,8.244,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_current
+2022-01-31,FY2022,debt,0.0,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_current
+2025-01-31,FY2025,debt,0.0,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2025-01-31,Q4 FY2025,debt,0.0,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2025-10-31,Q3 FY2026,debt,446.201,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2026-01-31,FY2026,debt,446.884,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2026-01-31,Q4 FY2026,debt,446.884,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2026-04-30,Q1 FY2027,debt,447.569,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2026-07-31,Q2 FY2027,debt,448.255,USD millions,financials/history.json (debt),SEC XBRL (10-Q / 10-K),high,Calculation: debt_noncurrent
+2021-01-31,FY2021,diluted_share_growth,3.1514,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2022-01-31,FY2022,diluted_share_growth,80.0566,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2023-01-31,FY2023,diluted_share_growth,235.5403,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2023-10-31,Q3 FY2024,diluted_share_growth,6.0646,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2024-01-31,FY2024,diluted_share_growth,4.664,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2024-04-30,Q1 FY2025,diluted_share_growth,5.8457,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2024-07-31,Q2 FY2025,diluted_share_growth,5.5666,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2024-10-31,Q3 FY2025,diluted_share_growth,3.2163,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2025-01-31,FY2025,diluted_share_growth,4.4847,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2025-04-30,Q1 FY2026,diluted_share_growth,4.1625,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2025-07-31,Q2 FY2026,diluted_share_growth,4.7406,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2025-10-31,Q3 FY2026,diluted_share_growth,5.4237,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2026-01-31,FY2026,diluted_share_growth,5.3659,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2026-04-30,Q1 FY2027,diluted_share_growth,15.072,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2026-07-31,Q2 FY2027,diluted_share_growth,18.2373,%,financials/history.json (diluted_shares_yoy_pct),SEC XBRL (10-Q / 10-K),high,Calculation: diluted_shares vs same period prior year
+2021-01-31,FY2021,fcf,-34.153,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2022-01-31,FY2022,fcf,-57.142,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2023-01-31,FY2023,fcf,-86.693,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2023-10-31,Q3 FY2024,fcf,-31.515,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2024-01-31,FY2024,fcf,-93.121,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2024-01-31,Q4 FY2024,fcf,-16.895,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2024-04-30,Q1 FY2025,fcf,-15.653,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2024-07-31,Q2 FY2025,fcf,-24.479,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2024-10-31,Q3 FY2025,fcf,-4.786,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2025-01-31,FY2025,fcf,-63.993,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2025-01-31,Q4 FY2025,fcf,-19.075,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2025-04-30,Q1 FY2026,fcf,8.002,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2025-07-31,Q2 FY2026,fcf,46.288,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2025-10-31,Q3 FY2026,fcf,0.911,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2026-01-31,FY2026,fcf,52.865,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2026-01-31,Q4 FY2026,fcf,-2.336,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2026-04-30,Q1 FY2027,fcf,-2.517,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2026-07-31,Q2 FY2027,fcf,23.814,USD millions,financials/history.json (fcf),SEC XBRL (10-Q / 10-K),high,Calculation: cfo - capex
+2021-01-31,FY2021,fcf_margin,-30.179,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2022-01-31,FY2022,fcf_margin,-43.5504,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2023-01-31,FY2023,fcf_margin,-45.3283,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2023-10-31,Q3 FY2024,fcf_margin,-56.9068,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2024-01-31,FY2024,fcf_margin,-42.1942,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2024-01-31,Q4 FY2024,fcf_margin,-28.7076,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2024-04-30,Q1 FY2025,fcf_margin,-25.8984,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2024-07-31,Q2 FY2025,fcf_margin,-40.0691,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2024-10-31,Q3 FY2025,fcf_margin,-7.8118,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2025-01-31,FY2025,fcf_margin,-26.1889,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2025-01-31,Q4 FY2025,fcf_margin,-30.989,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2025-04-30,Q1 FY2026,fcf_margin,12.0758,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2025-07-31,Q2 FY2026,fcf_margin,63.0747,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2025-10-31,Q3 FY2026,fcf_margin,1.1212,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2026-01-31,FY2026,fcf_margin,17.1792,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2026-01-31,Q4 FY2026,fcf_margin,-2.6906,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2026-04-30,Q1 FY2027,fcf_margin,-2.6734,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2026-07-31,Q2 FY2027,fcf_margin,20.5201,%,financials/history.json (fcf_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: fcf / revenue
+2026-07-31,H1 FY2027,government_mix,67.7,%,"SEC 10-Q 2026-07-31, Note 3 (recorded in thesis/current.yaml sovereign_defense_demand)",SEC 10-Q,high,original name: Defense & Intelligence; definition: Defense & Intelligence customer category share of H1 FY2027 revenue (company customer categories)
+2021-01-31,FY2021,gross_margin,22.7847,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2022-01-31,FY2022,gross_margin,36.7521,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2023-01-31,FY2023,gross_margin,49.153,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2023-10-31,Q3 FY2024,gross_margin,47.0025,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2024-01-31,FY2024,gross_margin,51.179,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2024-01-31,Q4 FY2024,gross_margin,55.191,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2024-04-30,Q1 FY2025,gross_margin,52.4206,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2024-07-31,Q2 FY2025,gross_margin,52.8874,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2024-10-31,Q3 FY2025,gross_margin,61.2362,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2025-01-31,FY2025,gross_margin,57.1819,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2025-01-31,Q4 FY2025,gross_margin,62.0837,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2025-04-30,Q1 FY2026,gross_margin,55.2373,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2025-07-31,Q2 FY2026,gross_margin,57.5968,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2025-10-31,Q3 FY2026,gross_margin,57.3313,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2026-01-31,FY2026,gross_margin,56.0513,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2026-01-31,Q4 FY2026,gross_margin,54.1683,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2026-04-30,Q1 FY2027,gross_margin,53.5327,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2026-07-31,Q2 FY2027,gross_margin,56.554,%,financials/history.json (gross_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: gross_profit / revenue
+2026-10-13,latest,launch_cadence,unavailable,count,,,n/a,optional KPI not disclosed in local state; not filled with 0
+2024-06-06,Q1 FY2025,non_gaap_gross_margin,55.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683324000061/exhibit991q12025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2024-09-05,Q2 FY2025,non_gaap_gross_margin,58.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683324000101/exhibit991q22025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2024-12-09,Q3 FY2025,non_gaap_gross_margin,64.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683324000117/exhibit991q32025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2025-03-20,FY2025,non_gaap_gross_margin,60.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2025-03-20,Q4 FY2025,non_gaap_gross_margin,65.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000039/exhibit991q42025.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2025-06-04,Q1 FY2026,non_gaap_gross_margin,59.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2025-09-08,Q2 FY2026,non_gaap_gross_margin,61.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000183683325000103/exhibit991q22026.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2025-12-10,Q3 FY2026,non_gaap_gross_margin,60.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2026-03-19,FY2026,non_gaap_gross_margin,59.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2026-03-19,Q4 FY2026,non_gaap_gross_margin,57.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2026-06-04,Q1 FY2027,non_gaap_gross_margin,56.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2026-09-03,Q2 FY2027,non_gaap_gross_margin,59.0,%,https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm,"issuer earnings release (8-K Item 2.02, non-GAAP)",medium,company-defined: Non-GAAP Gross Margin; date = release date
+2021-01-31,FY2021,operating_margin,-77.2674,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2022-01-31,FY2022,operating_margin,-97.5932,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2023-01-31,FY2023,operating_margin,-91.8533,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2023-10-31,Q3 FY2024,operating_margin,-86.4175,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2024-01-31,FY2024,operating_margin,-76.9149,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2024-01-31,Q4 FY2024,operating_margin,-57.6327,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2024-04-30,Q1 FY2025,operating_margin,-57.1989,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2024-07-31,Q2 FY2025,operating_margin,-64.7826,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2024-10-31,Q3 FY2025,operating_margin,-36.9014,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2025-01-31,FY2025,operating_margin,-47.5224,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2025-01-31,Q4 FY2025,operating_margin,-31.4618,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2025-04-30,Q1 FY2026,operating_margin,-34.3635,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2025-07-31,Q2 FY2026,operating_margin,-24.4733,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2025-10-31,Q3 FY2026,operating_margin,-22.5712,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2026-01-31,FY2026,operating_margin,-30.8952,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2026-01-31,Q4 FY2026,operating_margin,-41.4664,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2026-04-30,Q1 FY2027,operating_margin,-37.0558,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2026-07-31,Q2 FY2027,operating_margin,-11.6405,%,financials/history.json (operating_margin_pct),SEC XBRL (10-Q / 10-K),high,Calculation: operating_income / revenue
+2021-01-31,FY2021,revenue,113.168,USD millions,SEC 10-K 0001836833-23-000014 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2022-01-31,FY2022,revenue,131.209,USD millions,SEC 10-K 0001836833-24-000037 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2023-01-31,FY2023,revenue,191.256,USD millions,SEC 10-K 0001836833-25-000050 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2023-10-31,Q3 FY2024,revenue,55.38,USD millions,SEC 10-Q 0001836833-24-000118 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2024-01-31,FY2024,revenue,220.696,USD millions,SEC 10-K 0001193125-26-119957 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2024-01-31,Q4 FY2024,revenue,58.852,USD millions,SEC 10-K 0001193125-26-119957 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),medium,derived: RevenueFromContractWithCustomerExcludingAssessedTax 2023-02-01..2024-01-31 minus 2023-02-01..2023-10-31
+2024-04-30,Q1 FY2025,revenue,60.44,USD millions,SEC 10-Q 0001836833-25-000063 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2024-07-31,Q2 FY2025,revenue,61.092,USD millions,SEC 10-Q 0001836833-25-000104 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2024-10-31,Q3 FY2025,revenue,61.266,USD millions,SEC 10-Q 0001193125-25-314295 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2025-01-31,FY2025,revenue,244.352,USD millions,SEC 10-K 0001193125-26-119957 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2025-01-31,Q4 FY2025,revenue,61.554,USD millions,SEC 10-K 0001193125-26-119957 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),medium,derived: RevenueFromContractWithCustomerExcludingAssessedTax 2024-02-01..2025-01-31 minus 2024-02-01..2024-10-31
+2025-04-30,Q1 FY2026,revenue,66.265,USD millions,SEC 10-Q 0001193125-26-258304 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2025-07-31,Q2 FY2026,revenue,73.386,USD millions,SEC 10-Q 0001193125-26-382016 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2025-10-31,Q3 FY2026,revenue,81.254,USD millions,SEC 10-Q 0001193125-25-314295 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2026-01-31,FY2026,revenue,307.727,USD millions,SEC 10-K 0001193125-26-119957 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2026-01-31,Q4 FY2026,revenue,86.822,USD millions,SEC 10-K 0001193125-26-119957 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),medium,derived: RevenueFromContractWithCustomerExcludingAssessedTax 2025-02-01..2026-01-31 minus 2025-02-01..2025-10-31
+2026-04-30,Q1 FY2027,revenue,94.15,USD millions,SEC 10-Q 0001193125-26-258304 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2026-07-31,Q2 FY2027,revenue,116.052,USD millions,SEC 10-Q 0001193125-26-382016 (RevenueFromContractWithCustomerExcludingAssessedTax),SEC XBRL (10-Q / 10-K),high,
+2022-01-31,FY2022,rpo,153.4,USD millions,SEC 10-K 0001836833-22-000018 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2023-01-31,FY2023,rpo,152.0,USD millions,SEC 10-K 0001836833-23-000014 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2023-10-31,Q3 FY2024,rpo,152.9,USD millions,SEC 10-Q 0001836833-23-000110 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2024-01-31,FY2024,rpo,132.6,USD millions,SEC 10-K 0001836833-24-000037 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2024-01-31,Q4 FY2024,rpo,132.6,USD millions,SEC 10-K 0001836833-24-000037 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2024-04-30,Q1 FY2025,rpo,124.9,USD millions,SEC 10-Q 0001836833-24-000062 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2024-07-31,Q2 FY2025,rpo,112.1,USD millions,SEC 10-Q 0001836833-24-000102 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2024-10-31,Q3 FY2025,rpo,145.9,USD millions,SEC 10-Q 0001836833-24-000118 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2025-01-31,FY2025,rpo,412.8,USD millions,SEC 10-K 0001836833-25-000050 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2025-01-31,Q4 FY2025,rpo,412.8,USD millions,SEC 10-K 0001836833-25-000050 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2025-04-30,Q1 FY2026,rpo,451.9,USD millions,SEC 10-Q 0001836833-25-000063 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2025-07-31,Q2 FY2026,rpo,690.1,USD millions,SEC 10-Q 0001836833-25-000104 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2025-10-31,Q3 FY2026,rpo,672.5,USD millions,SEC 10-Q 0001193125-25-314295 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2026-01-31,FY2026,rpo,852.4,USD millions,SEC 10-K 0001193125-26-119957 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2026-01-31,Q4 FY2026,rpo,852.4,USD millions,SEC 10-K 0001193125-26-119957 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2026-04-30,Q1 FY2027,rpo,816.0,USD millions,SEC 10-Q 0001193125-26-258304 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2026-07-31,Q2 FY2027,rpo,753.1,USD millions,SEC 10-Q 0001193125-26-382016 (RevenueRemainingPerformanceObligation),SEC XBRL (10-Q / 10-K),high,
+2026-07-31,Q2 FY2027,rpo_12m_conversion,46,%,https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm,SEC 10-Q (analyst-curated in management/statements.json),high,original name: remaining performance obligations expected to be recognized over the next 12 months; definition: share of RPO the company expects to recognize within 12 months (10-Q revenue note)
+2026-10-01,2026-10-01 launch,satellite_commissioning,commissioning underway,text,https://investors.planet.com/news/news-details/2026/Planet-Launches-Suncatcher-Tanager-2-and-18-SuperDove-Satellites/default.aspx,issuer press release,medium,original name: Satellite commissioning status; definition: qualitative commissioning milestone (company disclosure)
+2026-10-01,2026-10-01 launch,satellites_deployed,20,count,https://investors.planet.com/news/news-details/2026/Planet-Launches-Suncatcher-Tanager-2-and-18-SuperDove-Satellites/default.aspx,issuer press release,medium,"original name: 20 satellites (Suncatcher demo, Tanager-2, 18 SuperDoves); definition: satellites placed in orbit in the period (company disclosure)"
+2021-01-31,FY2021,sbc_pct_revenue,12.3816,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2022-01-31,FY2022,sbc_pct_revenue,31.9765,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2023-01-31,FY2023,sbc_pct_revenue,39.4989,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2023-10-31,Q3 FY2024,sbc_pct_revenue,22.7483,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2024-01-31,FY2024,sbc_pct_revenue,25.8872,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2024-01-31,Q4 FY2024,sbc_pct_revenue,21.2754,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2024-04-30,Q1 FY2025,sbc_pct_revenue,21.6281,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2024-07-31,Q2 FY2025,sbc_pct_revenue,18.9321,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2024-10-31,Q3 FY2025,sbc_pct_revenue,19.3076,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2025-01-31,FY2025,sbc_pct_revenue,19.8423,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2025-01-31,Q4 FY2025,sbc_pct_revenue,19.5243,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2025-04-30,Q1 FY2026,sbc_pct_revenue,18.927,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2025-07-31,Q2 FY2026,sbc_pct_revenue,18.3359,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2025-10-31,Q3 FY2026,sbc_pct_revenue,16.5813,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2026-01-31,FY2026,sbc_pct_revenue,17.8714,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2026-01-31,Q4 FY2026,sbc_pct_revenue,17.8803,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2026-04-30,Q1 FY2027,sbc_pct_revenue,17.4838,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
+2026-07-31,Q2 FY2027,sbc_pct_revenue,14.7003,%,financials/history.json (sbc_pct_revenue),SEC XBRL (10-Q / 10-K),high,Calculation: sbc / revenue
